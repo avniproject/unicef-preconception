@@ -1,0 +1,13 @@
+[
+    {
+      "uuid": "38d4ba1a-0055-4f5a-9808-d0d0553be2b7",
+      "name": "admin@unicef",
+      "password": "password",
+      "email": "openchssupport+unicef+admin@samanvayfoundation.org",
+      "phoneNumber": "+919999999999",
+      "organisationUUID": "9f2f61e8-7559-4613-b490-f9b4f0eb5c03",
+      "operatingIndividualScope": "None",
+      "admin": false,
+      "orgAdmin": true
+    }
+  ]

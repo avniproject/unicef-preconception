@@ -1,0 +1,19 @@
+{
+    "organisation": "UNICEF",
+    "catchments": [
+      {
+        "name": "1",
+        "uuid": "9815f0a5-2af0-4d3a-bbc7-7e754512278c",
+        "type": "Area",
+        "locations": [
+          {
+            "uuid": "8c00bf9a-3ea0-4a64-bf01-159a5fde67bc",
+            "comment": "1"
+          }
+        ]
+      }
+    ]
+  }
+  
+
+  
