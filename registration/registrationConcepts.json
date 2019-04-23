@@ -36,7 +36,7 @@
       },
       {
         "name": "Other",
-        "uuid": "bc9fef27-b611-4f3d-8fb6-4d7dbc173fc1",
+        "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538",
         "dataType": "NA"
       },      
     {
@@ -54,78 +54,10 @@
           } ,
           {
             "name": "Other",
-            "uuid": "bc9fef27-b611-4f3d-8fb6-4d7dbc173fc1"
+            "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538"
           }       
         ]
-      },
-      {
-        "name": "Post-graduate/professional degree",
-        "uuid": "33a0ff0e-db90-40cf-b33c-58aeb3129618",
-        "dataType": "NA"
-      },
-      {
-        "name": "Graduate degree",
-        "uuid": "702017b9-b611-4da7-be84-06ba73c2fdbd",
-        "dataType": "NA"
-      },
-      {
-        "comment": "HSC (12th)/ITI",
-        "uuid": "b5cf65ce-f263-456b-92d6-fcd860db7035",
-        "dataType": "NA"        
-      },
-      {
-        "comment": "SSC (10th)",
-        "uuid": "fcd54f75-f492-4131-b0fb-68865a6eca30",
-        "dataType": "NA"
-      },
-      {
-        "comment": "Seventh pass",
-        "uuid": "0788973d-003d-4cfb-a7a4-fea1c0458b62",
-        "dataType": "NA"        
-      },
-      {
-        "comment": "less than 7th,",
-        "uuid": "6da6c49f-86b0-4bc9-a5db-1d166a6d201c",
-        "dataType": "NA"        
-      },
-      {
-        "comment": "Illiterate",
-        "uuid": "033e8d7c-a8b0-4d42-8723-22e93ca24898",
-        "dataType": "NA"
-      },      
-      {
-        "name": "What is level of your education?",
-        "uuid": "b5c3cdfe-c0aa-4fae-8784-a576924e56e9",
-        "dataType": "Coded",
-        "answers": [
-            {
-                "name": "Post-graduate/professional degree",
-                "uuid": "33a0ff0e-db90-40cf-b33c-58aeb3129618"             
-              },
-              {
-                "name": "Graduate degree",
-                "uuid": "702017b9-b611-4da7-be84-06ba73c2fdbd"               
-              },
-              {
-                "uuid": "b5cf65ce-f263-456b-92d6-fcd860db7035"          
-             },
-              {
-                "uuid": "fcd54f75-f492-4131-b0fb-68865a6eca30"
-              },
-              {
-                "comment": "Seventh pass",
-                "uuid": "0788973d-003d-4cfb-a7a4-fea1c0458b62"
-              },
-              {
-                "comment": "less than 7th,",
-                "uuid": "6da6c49f-86b0-4bc9-a5db-1d166a6d201c"
-              },
-              {
-                "comment": "Illiterate",
-                "uuid": "033e8d7c-a8b0-4d42-8723-22e93ca24898"
-              }
-        ]
-      },     
+      }, 
       {
         "name": "Professionals",
         "uuid": "29261d34-550a-4de1-bf7f-81c556028444",
@@ -137,41 +69,37 @@
         "dataType": "NA"
       },
       {
-        "comment": "Clerical",
+        "name": "Clerical",
         "uuid": "aaceb6ad-80c6-4fc1-8a95-36e4058c15fd",
-        "dataType": "NA"
-        
+        "dataType": "NA"        
       },
       {
-        "comment": "Shop owner",
+        "name": "Shop owner",
         "uuid": "9c7f4424-2cc3-48dd-b76e-34686a4e2301",
-        "dataType": "NA"
-        
+        "dataType": "NA"        
       },
       {
-        "comment": "Farmer",
-        "uuid": "027d47a9-09a5-419c-a352-da26f7122df4",
-        "dataType": "NA"
-        
+        "name": "Farmer",
+        "uuid": "114c7f99-add9-492b-affc-f30265fdc433",
+        "dataType": "NA"        
       },
       {
-        "comment": "Skilled worker",
+        "name": "Skilled worker",
         "uuid": "8aef6fe2-ba39-4147-a665-b5dc741bc33d",
-        "dataType": "NA"
-        
+        "dataType": "NA"        
       },
       {
-        "comment": "Semiskilled worker",
+        "name": "Semiskilled worker",
         "uuid": "3ce0b6c7-4d6b-4ab2-a513-f58e36d1504d",
         "dataType": "NA"
       },
       {
-        "comment": "Unskilled worker",
+        "name": "Unskilled worker",
         "uuid": "033e8d7c-a8b0-4d42-8723-22e93ca24898",
         "dataType": "NA"
       },
       {
-        "comment": "Unemployed/ Household",
+        "name": "Unemployed/ Household",
         "uuid": "d3261b69-0712-4302-9283-34904faa9689",
         "dataType": "NA"
       },
@@ -189,31 +117,31 @@
             "uuid": "d76144ae-a6c5-4524-bab4-2e2cb01d17c9"
           },
           {
-            "comment": "Clerical",
+            "name": "Clerical",
             "uuid": "aaceb6ad-80c6-4fc1-8a95-36e4058c15fd"
           },
           {
-            "comment": "Shop owner",
+            "name": "Shop owner",
             "uuid": "9c7f4424-2cc3-48dd-b76e-34686a4e2301"
           },
           {
-            "comment": "Farmer",
-            "uuid": "027d47a9-09a5-419c-a352-da26f7122df4"
+            "name": "Farmer",
+            "uuid": "114c7f99-add9-492b-affc-f30265fdc433"
           },
           {
-            "comment": "Skilled worker",
+            "name": "Skilled worker",
             "uuid": "8aef6fe2-ba39-4147-a665-b5dc741bc33d"
           },
           {
-            "comment": "Semiskilled worker",
+            "name": "Semiskilled worker",
             "uuid": "3ce0b6c7-4d6b-4ab2-a513-f58e36d1504d"
           },
           {
-            "comment": "Unskilled worker",
+            "name": "Unskilled worker",
             "uuid": "033e8d7c-a8b0-4d42-8723-22e93ca24898"
           },
           {
-            "comment": "Unemployed/ Household",
+            "name": "Unemployed/ Household",
             "uuid": "d3261b69-0712-4302-9283-34904faa9689"
           }
         ]
@@ -237,6 +165,76 @@
                 "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
             }
           ]
-      }
+      },
+      {
+        "name": "Post-graduate/professional degree",
+        "uuid": "33a0ff0e-db90-40cf-b33c-58aeb3129618",
+        "dataType": "NA"
+      },
+      {
+        "name": "Graduate degree",
+        "uuid": "702017b9-b611-4da7-be84-06ba73c2fdbd",
+        "dataType": "NA"
+      },
+      {
+        "name": "HSC (12th)/ITI",
+        "uuid": "b5cf65ce-f263-456b-92d6-fcd860db7035"    ,
+        "dataType": "NA"        
+      },
+      {
+        "name": "SSC (10th)",
+        "uuid": "fcd54f75-f492-4131-b0fb-68865a6eca30",
+        "dataType": "NA"
+      },
+      {
+        "name": "Seventh pass",
+        "uuid": "0788973d-003d-4cfb-a7a4-fea1c0458b62",
+        "dataType": "NA"        
+      },
+      {
+        "name": "less than 7th,",
+        "uuid": "6da6c49f-86b0-4bc9-a5db-1d166a6d201c",
+        "dataType": "NA"        
+      },
+      {
+        "name": "Illiterate",
+        "uuid": "e7116c89-7fc5-406c-b2ab-c022fd84fb1a",
+        "dataType": "NA"
+      } ,
+      {
+        "name": "What is level of your education?",
+        "uuid": "b5c3cdfe-c0aa-4fae-8784-a576924e56e9",
+        "dataType": "Coded",
+        "answers": [
+            {
+                "name": "Post-graduate/professional degree",
+                "uuid": "33a0ff0e-db90-40cf-b33c-58aeb3129618"             
+              },
+              {
+                "name": "Graduate degree",
+                "uuid": "702017b9-b611-4da7-be84-06ba73c2fdbd"               
+              },
+              {
+                "name": "HSC (12th)/ITI",
+                "uuid": "b5cf65ce-f263-456b-92d6-fcd860db7035"          
+             },
+              {
+                "name": "SSC (10th)",
+                "uuid": "fcd54f75-f492-4131-b0fb-68865a6eca30"
+              },
+              {
+                "name": "Seventh pass",
+                "uuid": "0788973d-003d-4cfb-a7a4-fea1c0458b62"
+              },
+              {
+                "name": "less than 7th,",
+                "uuid": "6da6c49f-86b0-4bc9-a5db-1d166a6d201c"
+              },
+              {
+                "name": "Illiterate",
+                "uuid": "e7116c89-7fc5-406c-b2ab-c022fd84fb1a"
+              }
+        ]
+      }  
 
   ]

@@ -61,7 +61,7 @@
             "name": "Age at marriage",
             "uuid": "28609b74-71d7-48c8-aa3c-805288fe065f",
             "keyValues": [],
-            "type": "Numeric",
+            "dataType": "Numeric",
             "concept": {
               "name": "What was your age at marriage?",
               "uuid": "986269ea-e6e6-4938-ba55-1febe578d805"
