@@ -69,7 +69,7 @@ create_org:
 # </create_org>
 
 # <deploy>
-deploy: deploy_org_data  create_admin_user_dev deploy_refdata create_users_dev
+deploy: deploy_org_data  create_admin_user_dev deploy_refdata deploy_rules create_users_dev 
 
 deploy_org_data:
 	$(call _curl,POST,locations,@locations.json)
@@ -87,6 +87,16 @@ deploy_subjects:
 deploy_refdata: deploy_subjects
 	$(call _curl,POST,concepts,@registration/registrationConcepts.json)
 	$(call _curl,POST,forms,@registration/registrationForm.json)
+	$(call _curl,POST,programs,@programs.json)
+	$(call _curl,POST,operationalPrograms,@operationalModules/operationalPrograms.json)
+	$(call _curl,POST,concepts,@mother/motherConcepts.json)
+	$(call _curl,POST,forms,@mother/motherProgramEnrolmentNullForm.json)
+	$(call _curl,POST,formMappings,@formMappings.json)
+
+
+
+deploy_rules:
+	node index.js "$(server_url)" "$(token)" "$(username)"
 # </deploy>
 
 deps:

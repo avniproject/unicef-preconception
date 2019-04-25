@@ -75,7 +75,7 @@
             "keyValues": [],
             "type": "SingleSelect",
             "concept": {
-              "name": "Did you marry within relation? ",
+              "name": "Did you marry within relation?",
               "uuid": "2f7912a6-719e-47cc-99f1-f11131ebb2e0"
             },
             "displayOrder": 6,

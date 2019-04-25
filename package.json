@@ -1,22 +1,27 @@
 {
   "name": "unicef-preconception",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "0.0.1",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nupoorkhandelwal/unicef-preconception.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nupoorkhandelwal/unicef-preconception/issues"
+  "license": "AGPL-3.0",
+  "scripts": {
+    "test": "jest"
   },
-  "homepage": "https://github.com/nupoorkhandelwal/unicef-preconception#readme",
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!openchs-models)/"
+    ]
+  },
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "openchs-health-modules": "0.0.2",
+    "openchs-models": "0.0.2",
+    "rules-config": "github:openchs/rules-config#30bc80c"
   }
 }

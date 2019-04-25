@@ -1,0 +1,13 @@
+{
+    "organisationName": "UNICEF",
+    "operationalPrograms": [
+      {
+        "uuid": "74cdd696-838c-4c2d-99ad-a756cb463d90",
+        "name": "Preconception-Mother",
+        "program": {
+          "comment": "Preconception-Mother",
+          "uuid": "aedaf231-a9cb-4116-a356-eac4e862480c"
+        }
+      }
+    ]
+  }
