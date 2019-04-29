@@ -10,79 +10,124 @@
         "displayOrder": 1,
         "formElements": [
           {
-            "name": "Wish to conceive",
+            "name": "Do you want to conceive?",           
             "uuid": "1f629866-ddee-4a01-b864-8fa271538eb9",
             "type": "SingleSelect",
             "keyValues": [],
             "concept": {
-              "name": "Do you want to conceive?",
+              "name": "Wish to conceive",
               "uuid": "2fcaca8b-d075-4bf3-bc05-92eb4cdf98fb"
             },
             "displayOrder": 1,
             "mandatory": true
           },
           {
-            "name": "Family type",
+            "name": "What type of family do you stay in?",
             "uuid": "3c002928-5998-4486-856d-0245e413fc84",
             "keyValues": [],
             "type": "SingleSelect",
             "concept": {
-              "name": "What type of family do you stay in?",
+              "name": "Family type",              
               "uuid": "6c213204-8ad7-4a6e-8734-33f6dc61bd2b"
             },
             "displayOrder": 2,
             "mandatory": true
           },
           {
-            "name": "Education Level",
+            "name": "What is level of your education?",
             "uuid": "0b7472e0-3b2b-451e-b090-636361a2de2d",
             "keyValues": [],
             "type": "SingleSelect",
             "concept": {
-              "name": "What is level of your education?",
+              "name": "Education Level",
               "uuid": "b5c3cdfe-c0aa-4fae-8784-a576924e56e9"
             },
             "displayOrder": 3,
             "mandatory": true
           },
           {
-            "name": "Occupation",
+            "name": "What is your occupation?",            
             "uuid": "50f99f43-9326-404e-b278-0843462c9d7e",
             "keyValues": [],
             "type": "SingleSelect",
             "concept": {
-              "name": "What is your occupation?",
+              "name": "Occupation",
               "uuid": "01b43c1f-2cf6-4d94-8878-01efc7d68c8c"
             },
             "displayOrder": 4,
             "mandatory": true
           },
           {
-            "name": "Age at marriage",
+            "name": "What was your age at marriage?",
             "uuid": "28609b74-71d7-48c8-aa3c-805288fe065f",
             "keyValues": [],
             "dataType": "Numeric",
             "concept": {
-              "name": "What was your age at marriage?",
+              "name": "Age at marriage",
               "uuid": "986269ea-e6e6-4938-ba55-1febe578d805"
             },
             "displayOrder": 5,
             "mandatory": true
           },
           {
-            "name": "Consanguineous marriage",
+            "name": "Did you marry within relation?",
             "uuid": "d38d2ecb-cb62-4dff-970a-1af9b618e690",
             "keyValues": [],
             "type": "SingleSelect",
             "concept": {
-              "name": "Did you marry within relation?",
+              "name": "Consanguineous marriage",
               "uuid": "2f7912a6-719e-47cc-99f1-f11131ebb2e0"
             },
             "displayOrder": 6,
             "mandatory": true
           }
         ]
+      },
+      {
+        "uuid": "cdd27a69-715f-435f-ab65-a49cb4902584",
+        "name": "Counselling",
+        "display": "Counselling",
+        "displayOrder": 7,
+        "formElements": [
+          {
+            "name": "Counsel her about effects of consanguenous marrriage and congenital anomalies",
+            "uuid": "058f7d78-352f-46a0-a868-490f04c6c380",
+            "keyValues": [],
+            "type": "SingleSelect",
+            "concept": {
+              "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+              "comment": "Placeholder for counselling form element"
+            },
+            "displayOrder": 1,
+            "mandatory": false
+          },
+          {
+            "name": "Counsel her to delay pregnancy by using contraceptives as age is less than 20",
+            "uuid": "8973e7e1-fe69-42b7-8204-00f73fa91e38",
+            "keyValues": [],
+            "type": "SingleSelect",
+            "concept": {
+              "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+              "comment": "Placeholder for counselling form element"
+            },
+            "displayOrder": 2,
+            "mandatory": false
+          },
+          {
+            "name": "Counsel her to as age is greater than 30",
+            "uuid": "7b825712-3c33-4185-9f25-a58ce218a329",
+            "keyValues": [],
+            "type": "SingleSelect",
+            "concept": {
+              "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+              "comment": "Placeholder for counselling form element"
+            },
+            "displayOrder": 3,
+            "mandatory": false
+          }
+        ]
       }
+  
     ]
   }
   
