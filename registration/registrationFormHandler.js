@@ -33,17 +33,17 @@ class PreconceptionRegistrationViewHandler {
     }
 
     @WithRegistrationStatusBuilder
-    counselHerAboutEffectsOfConsanguenousMarrriageAndCongenitalAnomalies([], statusBuilder) {
+    unicefPreconceptionCounsellingForConsanguineousMarriage([], statusBuilder) {
         statusBuilder.show().when.valueInRegistration("Consanguineous marriage").is.yes;
         }
 
     @WithRegistrationStatusBuilder
-    counselHerToDelayPregnancyByUsingContraceptivesAsAgeIsLessThan20([], statusBuilder) {
+    unicefPreconceptionCounsellingForAgeLessThan20([], statusBuilder) {
         statusBuilder.show().when.ageInYears.is.lessThan(20);
         }
 
     @WithRegistrationStatusBuilder
-    counselHerAndReferHerToPhcRhChForFurtherInvestigationsAndTreatmentAsAgeIsGreaterThan30([], statusBuilder) {
+    unicefPreconceptionCounsellingForAgeGreaterThan30([], statusBuilder) {
         statusBuilder.show().when.ageInYears.is.greaterThan(30);
         }
 

@@ -70,33 +70,7 @@
           "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538"
         }
       ]
-    }, 
-    {
-      "name": "General",
-      "uuid": "cae99772-b389-4baf-849b-9c7c2b06c951",
-      "dataType": "NA"
-    },
-    {
-      "name": "ST",
-      "uuid": "dd076e03-68ae-4b53-adf6-641c69b9a518",
-      "dataType": "NA"
-    },
-    {
-      "name": "OBC",
-      "uuid": "e92925ed-4a15-40c0-a0a7-a21c965dad48",
-      "dataType": "NA"
-    },
-    {
-      "name": "SC",
-      "uuid": "a3519a96-350e-4da4-90d9-827c0ff15538",
-      "dataType": "NA"
-    },
-    {
-      "name": "Open",
-      "uuid": "0b5d4506-329b-4a0d-9ed0-472c21b4d015",
-      "dataType": "NA"
-    }, 
-     
+    },      
     {
       "name": "Nuclear",
       "uuid": "fa2bcb1f-f77f-4b72-8a19-f0674b67b324",
@@ -331,7 +305,7 @@
       },
       {
         "name": "Age > 30",
-        "uuid": "1cc17027-322b-459a-981c-8c1071977032",
+        "uuid": "9e66cbbd-3b24-4578-b423-6f3022298be6",
         "dataType": "NA"
       }     
 
