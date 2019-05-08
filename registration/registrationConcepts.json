@@ -1,16 +1,17 @@
 [   
+ 
      {
     "name": "Yes",
     "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70",
     "dataType":"NA"
-},
-{
+    },
+    {
     "name": "No",
     "uuid": "e7b50c78-3d90-484d-a224-9887887780dc",
     "dataType":"NA"
-},    
+    },    
     {
-      "name": "Do you want to conceive?",
+      "name": "Wish to conceive",
       "uuid": "2fcaca8b-d075-4bf3-bc05-92eb4cdf98fb",
       "dataType": "Coded",
       "answers": [
@@ -23,41 +24,128 @@
             "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
         }
       ]
+    },  
+    {
+      "name": "Hindu",
+      "uuid": "5f1f8a86-478b-4e7b-ae5e-ac7b207e65b8",
+      "dataType": "NA"
+    },
+    {
+      "name": "Muslim",
+      "uuid": "2e41ff7c-13ad-4bb3-964a-29f098691a7d",
+      "dataType": "NA"
+    },
+    {
+      "name": "Bauddha",
+      "uuid": "e15162d7-c340-4106-92f2-97ba6e5d3833",
+      "dataType": "NA"
+    },
+    {
+      "name": "Christian",
+      "uuid": "48daa405-dcdb-4706-9dbd-a54562012331",
+      "dataType": "NA"
+    },
+    {
+      "name": "Religion",
+      "uuid": "c922c13c-1fa2-42dd-a7e8-d234b0324870",
+      "dataType": "Coded",
+      "answers": [
+        {
+          "name": "Hindu",
+          "uuid": "5f1f8a86-478b-4e7b-ae5e-ac7b207e65b8"
+        },
+        {
+          "name": "Muslim",
+          "uuid": "2e41ff7c-13ad-4bb3-964a-29f098691a7d"
+        },
+        {
+          "name": "Bauddha",
+          "uuid": "e15162d7-c340-4106-92f2-97ba6e5d3833"
+        },
+        {
+          "name": "Christian",
+          "uuid": "48daa405-dcdb-4706-9dbd-a54562012331"
+        },
+        {
+          "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538"
+        }
+      ]
+    }, 
+    {
+      "name": "General",
+      "uuid": "cae99772-b389-4baf-849b-9c7c2b06c951",
+      "dataType": "NA"
+    },
+    {
+      "name": "ST",
+      "uuid": "dd076e03-68ae-4b53-adf6-641c69b9a518",
+      "dataType": "NA"
+    },
+    {
+      "name": "OBC",
+      "uuid": "e92925ed-4a15-40c0-a0a7-a21c965dad48",
+      "dataType": "NA"
+    },
+    {
+      "name": "SC",
+      "uuid": "a3519a96-350e-4da4-90d9-827c0ff15538",
+      "dataType": "NA"
+    },
+    {
+      "name": "Open",
+      "uuid": "0b5d4506-329b-4a0d-9ed0-472c21b4d015",
+      "dataType": "NA"
+    }, 
+     
+    {
+      "name": "Nuclear",
+      "uuid": "fa2bcb1f-f77f-4b72-8a19-f0674b67b324",
+      "dataType": "NA"
+    },
+    {
+      "name": "Joint",
+      "uuid": "1cce864c-b3a9-45a8-a9c6-8a280cc66dc7",
+      "dataType": "NA"
+    },
+    {
+      "name": "Other",
+      "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538",
+      "dataType": "NA"
+    },      
+  {
+      "name": "Family type",
+      "uuid": "2421c62c-751e-406d-9027-7aca3fe3ed37",
+      "dataType": "Coded",
+      "answers": [
+        {
+          "name": "Nuclear",
+          "uuid": "fa2bcb1f-f77f-4b72-8a19-f0674b67b324"
+        },
+        {
+          "name": "Joint",
+          "uuid": "1cce864c-b3a9-45a8-a9c6-8a280cc66dc7"
+        } ,
+        {
+          "name": "Other",
+          "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538"
+        }       
+      ]
     },   
-    {
-        "name": "Nuclear",
-        "uuid": "fa2bcb1f-f77f-4b72-8a19-f0674b67b324",
-        "dataType": "NA"
+         {
+        "name": "Cell Number",
+        "uuid": "86384d48-6897-438a-9cab-a803c21c2a2a",
+        "dataType": "Numeric"
       },
       {
-        "name": "Joint",
-        "uuid": "1cce864c-b3a9-45a8-a9c6-8a280cc66dc7",
-        "dataType": "NA"
+        "name": "Total members in the family",
+        "uuid": "708d8355-91a5-4d18-a207-ec58e778f91e",
+        "dataType": "Numeric"
       },
       {
-        "name": "Other",
-        "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538",
-        "dataType": "NA"
-      },      
-    {
-        "name": "What type of family do you stay in?",
-        "uuid": "6c213204-8ad7-4a6e-8734-33f6dc61bd2b",
-        "dataType": "Coded",
-        "answers": [
-          {
-            "name": "Nuclear",
-            "uuid": "fa2bcb1f-f77f-4b72-8a19-f0674b67b324"
-          },
-          {
-            "name": "Joint",
-            "uuid": "1cce864c-b3a9-45a8-a9c6-8a280cc66dc7"
-          } ,
-          {
-            "name": "Other",
-            "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538"
-          }       
-        ]
-      }, 
+        "name": "Family Income (in Rs.)",
+        "uuid": "37ad1c37-6234-4308-98a7-075af289e610",
+        "dataType": "Numeric"
+      },
       {
         "name": "Professionals",
         "uuid": "29261d34-550a-4de1-bf7f-81c556028444",
@@ -104,8 +192,8 @@
         "dataType": "NA"
       },
       {
-        "name": "What is your occupation?",
-        "uuid": "01b43c1f-2cf6-4d94-8878-01efc7d68c8c",
+        "name": "Occupation",
+        "uuid": "cd83afec-d147-42b2-bd50-0ca460dbd55f",
         "dataType": "Coded",
         "answers": [
           {
@@ -147,12 +235,12 @@
         ]
     },
      {
-        "name": "What was your age at marriage?",
+        "name": "Age at marriage",
         "uuid": "986269ea-e6e6-4938-ba55-1febe578d805",
         "dataType": "Numeric"
       },
       {
-        "name": "Did you marry within relation?",
+        "name": "Consanguineous marriage",
         "uuid": "2f7912a6-719e-47cc-99f1-f11131ebb2e0",
         "dataType": "Coded",
         "answers": [
@@ -202,7 +290,7 @@
         "dataType": "NA"
       } ,
       {
-        "name": "What is level of your education?",
+        "name": "Education Level",
         "uuid": "b5c3cdfe-c0aa-4fae-8784-a576924e56e9",
         "dataType": "Coded",
         "answers": [
@@ -235,6 +323,16 @@
                 "uuid": "e7116c89-7fc5-406c-b2ab-c022fd84fb1a"
               }
         ]
-      }  
+      }  ,
+      {
+        "name": "Age < 20",
+        "uuid": "556ecf51-c2a1-4075-b706-4a47c3595ba7",
+        "dataType": "NA"
+      },
+      {
+        "name": "Age > 30",
+        "uuid": "1cc17027-322b-459a-981c-8c1071977032",
+        "dataType": "NA"
+      }     
 
   ]

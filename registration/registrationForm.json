@@ -22,15 +22,79 @@
             "mandatory": true
           },
           {
+            "name": "Religion",
+            "uuid": "8b119d96-5978-4e0c-98bd-cc1ca7696357",
+            "type": "SingleSelect",
+            "keyValues": [],
+            "concept": {
+              "uuid": "c922c13c-1fa2-42dd-a7e8-d234b0324870",
+              "comment": "Religion"
+            },
+            "displayOrder": 2,
+            "mandatory": true
+          },
+          {
+            "name": "Caste",
+            "uuid": "3d02f8f9-fae1-4d80-8f48-1d8bf3c5ab3e",
+            "type": "SingleSelect",
+            "concept": {
+              "uuid": "61ab6413-5c6a-4512-ab6e-7d5cd1439569",
+              "comment": "Caste"
+            },
+            "displayOrder": 3,
+            "mandatory": true
+          },
+          
+          {
             "name": "What type of family do you stay in?",
             "uuid": "3c002928-5998-4486-856d-0245e413fc84",
             "keyValues": [],
             "type": "SingleSelect",
             "concept": {
               "name": "Family type",              
-              "uuid": "6c213204-8ad7-4a6e-8734-33f6dc61bd2b"
+              "uuid": "2421c62c-751e-406d-9027-7aca3fe3ed37"
             },
-            "displayOrder": 2,
+            "displayOrder": 4,
+            "mandatory": true
+          },
+          {
+            "name": "Cell Number",
+            "uuid": "e4de1434-a311-40d2-94c8-29f2f116b12d",
+            "keyValues": [],
+            "dataType": "Numeric",
+            "concept": {
+              "name": "Cell Number",
+              "uuid": "86384d48-6897-438a-9cab-a803c21c2a2a"
+            },
+            "validFormat": {
+              "regex": "^[0-9]{10}$",
+              "descriptionKey": "Required10Digits"
+            },
+            "displayOrder": 5,
+            "mandatory": true
+          },
+          {
+            "name": "Total members in the family",
+            "uuid": "985e8d66-f7c0-45e8-a9f7-2f281edb3cc4",
+            "keyValues": [],
+            "dataType": "Numeric",
+            "concept": {
+              "name": "Total members in the family",
+              "uuid": "708d8355-91a5-4d18-a207-ec58e778f91e"
+            },
+            "displayOrder": 6,
+            "mandatory": true
+          },
+          {
+            "name": "Family Income (in Rs.)",
+            "uuid": "10abc148-7bcd-416c-8092-17f54fef1fa1",
+            "keyValues": [],
+            "dataType": "Numeric",
+            "concept": {
+              "name": "Family Income (in Rs.)",
+              "uuid": "37ad1c37-6234-4308-98a7-075af289e610"
+            },
+            "displayOrder": 7,
             "mandatory": true
           },
           {
@@ -42,7 +106,7 @@
               "name": "Education Level",
               "uuid": "b5c3cdfe-c0aa-4fae-8784-a576924e56e9"
             },
-            "displayOrder": 3,
+            "displayOrder": 8,
             "mandatory": true
           },
           {
@@ -52,9 +116,9 @@
             "type": "SingleSelect",
             "concept": {
               "name": "Occupation",
-              "uuid": "01b43c1f-2cf6-4d94-8878-01efc7d68c8c"
+              "uuid": "cd83afec-d147-42b2-bd50-0ca460dbd55f"
             },
-            "displayOrder": 4,
+            "displayOrder": 9,
             "mandatory": true
           },
           {
@@ -66,7 +130,7 @@
               "name": "Age at marriage",
               "uuid": "986269ea-e6e6-4938-ba55-1febe578d805"
             },
-            "displayOrder": 5,
+            "displayOrder": 10,
             "mandatory": true
           },
           {
@@ -78,7 +142,7 @@
               "name": "Consanguineous marriage",
               "uuid": "2f7912a6-719e-47cc-99f1-f11131ebb2e0"
             },
-            "displayOrder": 6,
+            "displayOrder": 11,
             "mandatory": true
           }
         ]
@@ -87,7 +151,7 @@
         "uuid": "cdd27a69-715f-435f-ab65-a49cb4902584",
         "name": "Counselling",
         "display": "Counselling",
-        "displayOrder": 7,
+        "displayOrder": 12,
         "formElements": [
           {
             "name": "Counsel her about effects of consanguenous marrriage and congenital anomalies",
@@ -109,12 +173,12 @@
             "concept": {
               "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
               "comment": "Placeholder for counselling form element"
-            },
+             },
             "displayOrder": 2,
             "mandatory": false
           },
           {
-            "name": "Counsel her to as age is greater than 30",
+            "name": "Counsel her and refer her to PHC RH CH for further investigations and treatment as age is greater than 30",
             "uuid": "7b825712-3c33-4185-9f25-a58ce218a329",
             "keyValues": [],
             "type": "SingleSelect",
