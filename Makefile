@@ -87,13 +87,20 @@ deploy_subjects:
 deploy_refdata: deploy_subjects
 	$(call _curl,POST,concepts,@registration/registrationConcepts.json)
 	$(call _curl,POST,forms,@registration/registrationForm.json)
-	$(call _curl,POST,programs,@programs.json)
+
+	$(call _curl,POST,concepts,@baseline/baselineConcepts.json)
+	$(call _curl,POST,forms,@baseline/baselineForm.json)
+	
+	$(call _curl,POST,concepts,@preconception/preconceptionConcepts.json)
+	$(call _curl,POST,forms,@preconception/preconceptionProgramEnrolmentNullForm.json)
+
+	$(call _curl,POST,programs,@programs.json)	
+	$(call _curl,POST,encounterTypes,@encounterTypes.json)
+
 	$(call _curl,POST,operationalPrograms,@operationalModules/operationalPrograms.json)
-	$(call _curl,POST,concepts,@mother/motherConcepts.json)
-	$(call _curl,POST,forms,@mother/motherProgramEnrolmentNullForm.json)
+	$(call _curl,POST,operationalEncounterTypes,@operationalModules/operationalEncounterTypes.json)
+	
 	$(call _curl,POST,formMappings,@formMappings.json)
-
-
 
 deploy_rules:
 	node index.js "$(server_url)" "$(token)" "$(username)"

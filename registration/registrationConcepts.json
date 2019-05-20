@@ -1,16 +1,6 @@
 [   
  
-     {
-    "name": "Yes",
-    "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70",
-    "dataType":"NA"
-    },
-    {
-    "name": "No",
-    "uuid": "e7b50c78-3d90-484d-a224-9887887780dc",
-    "dataType":"NA"
-    },    
-    {
+   {
       "name": "Wish to conceive",
       "uuid": "2fcaca8b-d075-4bf3-bc05-92eb4cdf98fb",
       "dataType": "Coded",
@@ -26,23 +16,8 @@
       ]
     },  
     {
-      "name": "Hindu",
-      "uuid": "5f1f8a86-478b-4e7b-ae5e-ac7b207e65b8",
-      "dataType": "NA"
-    },
-    {
-      "name": "Muslim",
-      "uuid": "2e41ff7c-13ad-4bb3-964a-29f098691a7d",
-      "dataType": "NA"
-    },
-    {
       "name": "Bauddha",
       "uuid": "e15162d7-c340-4106-92f2-97ba6e5d3833",
-      "dataType": "NA"
-    },
-    {
-      "name": "Christian",
-      "uuid": "48daa405-dcdb-4706-9dbd-a54562012331",
       "dataType": "NA"
     },
     {
@@ -80,12 +55,7 @@
       "name": "Joint",
       "uuid": "1cce864c-b3a9-45a8-a9c6-8a280cc66dc7",
       "dataType": "NA"
-    },
-    {
-      "name": "Other",
-      "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538",
-      "dataType": "NA"
-    },      
+    },   
   {
       "name": "Family type",
       "uuid": "2421c62c-751e-406d-9027-7aca3fe3ed37",
@@ -122,7 +92,7 @@
       },
       {
         "name": "Professionals",
-        "uuid": "29261d34-550a-4de1-bf7f-81c556028444",
+        "uuid": "f609f227-6bec-440e-adcb-e07b54ab0c31",
         "dataType": "NA"
       },
       {
@@ -140,11 +110,7 @@
         "uuid": "9c7f4424-2cc3-48dd-b76e-34686a4e2301",
         "dataType": "NA"        
       },
-      {
-        "name": "Farmer",
-        "uuid": "114c7f99-add9-492b-affc-f30265fdc433",
-        "dataType": "NA"        
-      },
+     
       {
         "name": "Skilled worker",
         "uuid": "8aef6fe2-ba39-4147-a665-b5dc741bc33d",
@@ -172,7 +138,7 @@
         "answers": [
           {
             "name": "Professionals",
-            "uuid": "29261d34-550a-4de1-bf7f-81c556028444"
+            "uuid": "f609f227-6bec-440e-adcb-e07b54ab0c31"
           },
           {
             "name": "Semi professional",
@@ -254,15 +220,10 @@
         "dataType": "NA"        
       },
       {
-        "name": "less than 7th,",
+        "name": "less than 7th",
         "uuid": "6da6c49f-86b0-4bc9-a5db-1d166a6d201c",
         "dataType": "NA"        
-      },
-      {
-        "name": "Illiterate",
-        "uuid": "e7116c89-7fc5-406c-b2ab-c022fd84fb1a",
-        "dataType": "NA"
-      } ,
+      },     
       {
         "name": "Education Level",
         "uuid": "b5c3cdfe-c0aa-4fae-8784-a576924e56e9",

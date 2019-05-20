@@ -1,0 +1,317 @@
+[
+    { 
+        "name": "Total number of conceptions",
+        "uuid": "4eb1d3b1-8fae-46c7-8fb8-76ac32bb914b",
+        "dataType": "Numeric"
+    },
+  {
+    "name": "Total number of deliveries undergone",
+    "uuid": "495b3004-6664-4016-82de-4f053991957c",
+    "dataType": "Numeric"
+  },
+  {
+
+    "name": "Date of last pregnancy outcome",
+    "uuid": "7e81ff1e-4d84-4900-9b05-c4d757dba73f",
+    "dataType": "Date"
+
+  },
+
+  {
+    "name": "Last pregnancy outcome",
+    "uuid": "2d43aed4-4ede-4ef7-952c-07b3d6103588",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "e3999b21-821c-4c6e-9953-156e70b9217c",
+        "name": "Live Birth"
+
+      },
+      {
+        "uuid": "231982cb-bacc-4d8b-8ee7-be47bdd4d47e",
+        "name": "Still Birth"
+      },
+      {
+        "name": "Abortion",
+        "uuid": "03dddd29-c1bb-4231-a17b-55445e247e7d"
+
+      },
+      {
+        "name": "Early Neonatal death within first 24 Hours of birth",
+        "uuid": "63c6e46e-77ea-44d7-bb46-ae4f16acb399"
+      }
+    ]
+  },
+  {
+    "name": "Live birth- birth weight in kg",
+    "uuid": "99007f28-a4c2-484f-bf12-e2e9a5976be5",
+    "dataType": "Numeric",
+    "lowAbsolute": 1,
+    "lowNormal": 1,
+    "highNormal": 5,
+    "highAbsolute": 5,
+    "unit": "kg"
+  },
+  {
+    "name": "In which month was the foetus aborted/ child delivered?",
+    "uuid": "7b52e244-64c0-4264-bfa2-ede332e32634",
+    "dataType": "Numeric",
+    "lowAbsolute": 2,
+    "lowNormal": 2,
+    "highNormal": 9,
+    "highAbsolute":9,
+    "unit": "months"
+  },
+  {
+    "name": "Does child have or had congenital  anomaly?",
+    "uuid": "126e6174-875e-43bc-834c-aebc9044443d",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+
+      }
+    ]
+  },
+  {
+    "name": "Do you consume tobacco (more than thrice a week)?",
+    "uuid": "84127cee-ae0a-4f22-ab0e-f21cd7742d9e",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+
+      }
+    ]
+  },
+
+  {
+    "uuid": "b8c2e3a8-940d-4adc-a1af-de549abaf0f1",
+    "name": "Smoking -cigarette/Bidi"
+  },
+  {
+    "uuid": "f1ea02fb-64a0-4d91-9f9d-5c303578eeed",
+    "name": "Guthka"
+  },
+  {
+    "uuid": "f10b296c-554b-4201-b733-4f64024d206b",
+    "name": "Snuff"
+  },
+  {
+    "uuid": "ac7e309d-11ad-4012-beeb-334e1d1379e5",
+    "name": "Mishri"
+  },
+  {
+    "uuid": "379ca0eb-f4c3-4d0e-a8d8-070814ffd176",
+    "name": "Indoor smoking by another family member"
+  },
+
+  {
+    "name": "If yes, specify the type of tabacco",
+    "uuid": "716ce33f-ccae-4192-8edc-0130fe43149b",
+    "dataType": "Coded",
+    "answers": [
+        {
+            "uuid": "b8c2e3a8-940d-4adc-a1af-de549abaf0f1",
+            "name": "Smoking -cigarette/Bidi"
+          },
+          {
+            "uuid": "f1ea02fb-64a0-4d91-9f9d-5c303578eeed",
+            "name": "Guthka"
+          },
+          {
+            "uuid": "f10b296c-554b-4201-b733-4f64024d206b",
+            "name": "Snuff"
+          },
+          {
+            "uuid": "ac7e309d-11ad-4012-beeb-334e1d1379e5",
+            "name": "Mishri"
+          },
+          {
+            "uuid": "379ca0eb-f4c3-4d0e-a8d8-070814ffd176",
+            "name": "Indoor smoking by another family member"
+          }
+    ]
+  },
+  {
+    "name": "Do you consume alcohol?",
+    "uuid": "c15969af-d766-4e89-aa55-4c18c75d9236",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+
+      }
+    ]
+  },
+  {
+    "uuid": "29dd354f-478c-4e26-861a-cf208e5bd5a1",
+    "name": "Country"
+  },
+  {
+    "uuid": "a3dc28b8-1744-48db-aa85-67e4f74adb73",
+    "name": "Tadi/ Madi"
+  },
+  {
+    "uuid": "40adddd0-614b-419b-b38d-22e3ebc61ecd",
+    "name": "Branded"
+  },  
+  {
+    "name": "If yes, specify the type of alochol",
+    "uuid": "907a4369-ba5e-4220-a988-1e759f83b722",
+    "dataType": "Coded",
+    "answers": [
+        {
+            "uuid": "29dd354f-478c-4e26-861a-cf208e5bd5a1",
+            "name": "Country"
+          },
+          {
+            "uuid": "a3dc28b8-1744-48db-aa85-67e4f74adb73" ,
+            "name": "Tadi/ Madi"
+          },
+          {
+            "uuid": "40adddd0-614b-419b-b38d-22e3ebc61ecd",
+            "name": "Branded"
+          }
+    ]
+  },
+  {
+    "uuid": "2532c9a6-e19e-4232-9e0f-c89f15c4313f",
+    "name": "With husband"
+  },
+  {
+    "uuid": "54ccc670-4f92-464f-b9f1-1efc9cfd5eec",
+    "name": "With family members"
+  },
+  {
+    "uuid": "7b896115-c231-421c-8e52-84b31e15420c",
+    "name": "After men"
+  },
+  {
+    "uuid": "7c5e0c82-8150-4e3a-ad2b-e840b52317a6",
+    "name": "Last"
+  }, 
+  
+  {
+    "name": "Generally when do you have meal?",
+    "uuid": "d9786f0d-9a20-40c2-8374-0598c1b1f0af",
+    "dataType": "Coded",
+    "answers": [
+        {
+            "uuid": "2532c9a6-e19e-4232-9e0f-c89f15c4313f",
+            "name": "With husband"
+          },
+          {
+            "uuid": "54ccc670-4f92-464f-b9f1-1efc9cfd5eec",
+            "name": "With family members"
+          },
+          {
+            "uuid": "7b896115-c231-421c-8e52-84b31e15420c",
+            "name": "After men"
+          },
+          {
+            "uuid": "7c5e0c82-8150-4e3a-ad2b-e840b52317a6",
+            "name": "Last"
+          }
+    ]
+  },
+  {
+    "uuid": "041f7d16-b169-41e2-9ed4-e28200ea920e",
+    "name": "Abundant"
+  },
+  {
+    "uuid": "9136fae7-db98-494b-b638-27f60ef49503",
+    "name": "Enough"
+  },
+  {
+    "uuid": "90309c38-2d30-4b28-a83f-c3e453d4f39d",
+    "name": "Lesser"
+  },
+  {
+    "uuid": "ec5f386d-c3fe-4fd6-8ead-6d901ca927cf",
+    "name": "Remaining"
+  },  
+  {
+    "name": "Average food quantity",
+    "uuid": "b081b5c4-957e-46fa-8b9c-5a08ca375c0a",
+    "dataType": "Coded",
+    "answers": [
+        {
+            "uuid": "041f7d16-b169-41e2-9ed4-e28200ea920e",
+            "name": "Abundant"
+          },
+          {
+            "uuid": "9136fae7-db98-494b-b638-27f60ef49503",
+            "name": "Enough"
+          },
+          {
+            "uuid": "90309c38-2d30-4b28-a83f-c3e453d4f39d",
+            "name": "Lesser"
+          },
+          {
+            "uuid": "ec5f386d-c3fe-4fd6-8ead-6d901ca927cf",
+            "name": "Remaining"
+          }
+    ]
+  },
+  {
+    "uuid": "2601a2e2-b9c7-4120-a3e3-7da7e1691e39",
+    "name": "Vegetarian"
+  },
+  {
+    "uuid": "bd41caec-2fed-49a2-bb77-8c0b3e8ca298",
+    "name": "Non-vegetarian (regular: at least twice a week)"
+  },
+  {
+    "uuid": "491741bb-6c30-4abd-a0b9-5c5747fb5217",
+    "name": "Sometimes non-vegetarian"
+  },
+  {
+    "name": "Food groups",
+    "uuid": "bd6b4e7a-5f82-4222-8a09-db405a715165",
+    "dataType": "Coded",
+    "answers": [
+        {
+            "uuid": "2601a2e2-b9c7-4120-a3e3-7da7e1691e39",
+            "name": "Vegetarian"
+          },
+          {
+            "uuid": "bd41caec-2fed-49a2-bb77-8c0b3e8ca298",
+            "name": "Non-vegetarian (regular: at least twice a week)"
+          },
+          {
+            "uuid": "491741bb-6c30-4abd-a0b9-5c5747fb5217",
+            "name": "Sometimes non-vegetarian"
+          }
+    ]
+  },
+  {
+    "uuid": "17492114-719c-4a3a-b948-2936d8f950e2",
+    "name": "Calorie intake"
+  },
+  {
+    "uuid": "4ecfbbd6-4e4b-492c-9462-2c317318ed80",
+    "name": "Calorie- %RDA"
+  },
+  {
+    "uuid": "2b57306a-28b8-42f7-96bc-aa6290d473d3",
+    "name": "Protein intake"
+  },
+  {
+    "uuid": "12bd1b00-3164-4f66-88ef-8ce02cdd5492",
+    "name": "Protein - % RDA"
+  }
+
+]

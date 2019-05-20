@@ -1,0 +1,13 @@
+{
+    "organisationName": "UNICEF",
+    "operationalEncounterTypes": [
+        {
+            "uuid": "76c917b7-2469-490b-88b1-6db5162521e1",
+            "name": "Preconception Baseline Form",
+            "encounterType": {
+              "uuid": "c0385d6e-cab1-4ebb-9f43-59d328d2cf70",
+              "comment": "Preconception Baseline Form"
+            }
+          }
+    ]
+  }
