@@ -1,22 +1,12 @@
 [
-    { 
-        "name": "Total number of conceptions",
-        "uuid": "4eb1d3b1-8fae-46c7-8fb8-76ac32bb914b",
-        "dataType": "Numeric"
-    },
-  {
-    "name": "Total number of deliveries undergone",
-    "uuid": "495b3004-6664-4016-82de-4f053991957c",
-    "dataType": "Numeric"
-  },
-  {
+    
+   {
 
     "name": "Date of last pregnancy outcome",
     "uuid": "7e81ff1e-4d84-4900-9b05-c4d757dba73f",
     "dataType": "Date"
 
   },
-
   {
     "name": "Last pregnancy outcome",
     "uuid": "2d43aed4-4ede-4ef7-952c-07b3d6103588",
@@ -43,7 +33,7 @@
     ]
   },
   {
-    "name": "Live birth- birth weight in kg",
+    "name": "Live birth birth weight in kg",
     "uuid": "99007f28-a4c2-484f-bf12-e2e9a5976be5",
     "dataType": "Numeric",
     "lowAbsolute": 1,
@@ -63,7 +53,7 @@
     "unit": "months"
   },
   {
-    "name": "Does child have or had congenital  anomaly?",
+    "name": "Congenital anomalies",
     "uuid": "126e6174-875e-43bc-834c-aebc9044443d",
     "dataType": "Coded",
     "answers": [
@@ -78,7 +68,7 @@
     ]
   },
   {
-    "name": "Do you consume tobacco (more than thrice a week)?",
+    "name": "Tobacco consumption",
     "uuid": "84127cee-ae0a-4f22-ab0e-f21cd7742d9e",
     "dataType": "Coded",
     "answers": [
@@ -115,7 +105,7 @@
   },
 
   {
-    "name": "If yes, specify the type of tabacco",
+    "name": "Type of tobacco consumption",
     "uuid": "716ce33f-ccae-4192-8edc-0130fe43149b",
     "dataType": "Coded",
     "answers": [
@@ -142,7 +132,7 @@
     ]
   },
   {
-    "name": "Do you consume alcohol?",
+    "name": "Alcohol consumption",
     "uuid": "c15969af-d766-4e89-aa55-4c18c75d9236",
     "dataType": "Coded",
     "answers": [
@@ -169,7 +159,7 @@
     "name": "Branded"
   },  
   {
-    "name": "If yes, specify the type of alochol",
+    "name": "Type of alcohol consumption",
     "uuid": "907a4369-ba5e-4220-a988-1e759f83b722",
     "dataType": "Coded",
     "answers": [
@@ -205,7 +195,7 @@
   }, 
   
   {
-    "name": "Generally when do you have meal?",
+    "name": "Meal consumption practice",
     "uuid": "d9786f0d-9a20-40c2-8374-0598c1b1f0af",
     "dataType": "Coded",
     "answers": [
@@ -299,19 +289,24 @@
   },
   {
     "uuid": "17492114-719c-4a3a-b948-2936d8f950e2",
-    "name": "Calorie intake"
+    "name": "Calorie intake",
+    "dataType":"Numeric"
   },
   {
     "uuid": "4ecfbbd6-4e4b-492c-9462-2c317318ed80",
-    "name": "Calorie- %RDA"
+    "name": "Calorie RDA",
+    "dataType":"Numeric"
   },
+  
   {
     "uuid": "2b57306a-28b8-42f7-96bc-aa6290d473d3",
-    "name": "Protein intake"
+    "name": "Protein intake",
+    "dataType":"Numeric"
   },
   {
-    "uuid": "12bd1b00-3164-4f66-88ef-8ce02cdd5492",
-    "name": "Protein - % RDA"
+    "uuid": "d15f50bf-1415-471e-ad8f-cece27f9b446",
+    "name": "Protein RDA",
+    "dataType":"Numeric"
   }
 
 ]

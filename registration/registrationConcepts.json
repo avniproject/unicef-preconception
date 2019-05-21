@@ -1,4 +1,14 @@
 [   
+  {
+    "name": "Age < 20",
+    "uuid": "556ecf51-c2a1-4075-b706-4a47c3595ba7",
+    "dataType": "NA"
+  },
+  {
+    "name": "Age > 30",
+    "uuid": "9e66cbbd-3b24-4578-b423-6f3022298be6",
+    "dataType": "NA"
+  }  ,
  
    {
       "name": "Wish to conceive",
@@ -258,16 +268,7 @@
                 "uuid": "e7116c89-7fc5-406c-b2ab-c022fd84fb1a"
               }
         ]
-      }  ,
-      {
-        "name": "Age < 20",
-        "uuid": "556ecf51-c2a1-4075-b706-4a47c3595ba7",
-        "dataType": "NA"
-      },
-      {
-        "name": "Age > 30",
-        "uuid": "9e66cbbd-3b24-4578-b423-6f3022298be6",
-        "dataType": "NA"
-      }     
+      }  
+         
 
   ]
