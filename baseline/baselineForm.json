@@ -108,7 +108,7 @@
           "mandatory": true
         },
         {
-          "name": "Live birth birth weight in kg",
+          "name": "Live birth- birth weight in kg",
           "uuid": "3f041dd4-2bbf-4bca-925a-65a10621d708",
           "keyValues": [],
           "concept": {
@@ -165,7 +165,7 @@
           "name": "If yes, specify the type of tabacco",
           "uuid": "d689a052-bafa-4764-856a-e42ffd16fcc7",
           "keyValues": [],
-          "type": "SingleSelect",
+          "type": "MultiSelect",
           "concept": {
             "comment" : "Type of tobacco consumption",
             "uuid": "716ce33f-ccae-4192-8edc-0130fe43149b"
@@ -277,7 +277,7 @@
           "mandatory": true
         },
         {
-          "name": "Protein % intake",
+          "name": "Protein intake",
           "uuid": "67cb1a0b-789d-4b7a-9973-f70957a7e485",
           "keyValues": [],
           "concept": {

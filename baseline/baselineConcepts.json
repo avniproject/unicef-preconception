@@ -308,16 +308,62 @@
     "name": "Protein % RDA",
     "dataType":"Numeric"
   },
+ 
   {
-    "uuid": "5549b00c-d38a-4d9e-a5e4-2538c9feef72",
-    "name": " High Risk Mother",
+    "uuid": "47cd1912-8930-444f-95f5-39e326234fa7",
+    "name": "Low Calorie intake",
     "dataType":"NA"
    
-  },  
+  },
+  {
+    "uuid": "33ca26f8-4ee2-4d2c-989d-96c04d752262",
+    "name": "Low Protein intake",
+    "dataType":"NA"
+   
+  },
   {
     "uuid": "b4f3f337-f899-48c1-991f-08046c9fbb80",
     "name": "Child born after March 2016",
     "dataType":"NA"
    
+  },
+  
+  {
+    "uuid": "5549b00c-d38a-4d9e-a5e4-2538c9feef72",
+    "name": "High Risk Mother",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "47cd1912-8930-444f-95f5-39e326234fa7",
+        "name": "Low Calorie intake",
+        "abnormal":true
+      },
+      {
+        "uuid": "33ca26f8-4ee2-4d2c-989d-96c04d752262",
+        "name": "Low Protein intake",
+        "abnormal":true
+      },
+        {
+          "uuid": "b4f3f337-f899-48c1-991f-08046c9fbb80",
+          "name": "Child born after March 2016",
+          "abnormal": true
+        },
+        {
+          "comment": "Low BMI",
+          "uuid": "1faa1253-e4dd-48f1-aea2-c231390f9530",
+          "abnormal": true
+        },
+        {
+          "comment": "High BMI",
+          "uuid": "f58ed8eb-1873-4cea-aab2-09cb8b48ada2",
+          "abnormal": true
+        },
+        { "name": "Alcohol consumption",
+         "uuid": "c15969af-d766-4e89-aa55-4c18c75d9236",
+         "abnormal": true
+}
+
+    ]   
   }
+  
 ]

@@ -60,7 +60,8 @@ class BaselineFormHandler {
     @WithStatusBuilder
     inWhichMonthWasTheFoetusAbortedOrChildDelivered([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('Last pregnancy outcome')
-            .containsAnyAnswerConceptName('Live Birth','Early Neonatal death within first 24 Hours of birth');
+            .containsAnyAnswerConceptName('Live Birth',
+            'Early Neonatal death within first 24 Hours of birth');
     }
 
     @WithStatusBuilder
@@ -182,11 +183,13 @@ class BaselineDecision {
             complicationsConcept: 'High Risk Mother'
         });
 
-        complicationsBuilder.addComplication("BMI")
-        .when.valueInEncounter("BMI").lessThan(18.5)
-        .or.when.valueInEncounter("BMI").greaterThan(25);
+        complicationsBuilder.addComplication("Low BMI")
+        .when.valueInEncounter("BMI").lessThan(18.5);
+
+        complicationsBuilder.addComplication("High BMI")
+        .when.valueInEncounter("BMI").greaterThan(25);
  
-        complicationsBuilder.addComplication("Parity")
+        complicationsBuilder.addComplication("Parity > 4")
             .when.valueInEncounter("Parity").greaterThan(4);
 
         complicationsBuilder.addComplication("Parity")
@@ -211,11 +214,11 @@ class BaselineDecision {
             .when.valueInEncounter('Alcohol consumption')
             .containsAnyAnswerConceptName("Yes");
 
-        complicationsBuilder.addComplication('Calorie % RDA')
+        complicationsBuilder.addComplication('Low Calorie intake')
             .when.valueInEncounter('Calorie % RDA')
             .lessThan(70);
 
-        complicationsBuilder.addComplication('Protein % RDA')
+        complicationsBuilder.addComplication('Low Protein intake')
             .when.valueInEncounter('Protein % RDA')
             .lessThan(70);
             
