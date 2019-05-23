@@ -43,8 +43,8 @@
     "unit": "kg"
   },
   {
-    "name": "In which month was the foetus aborted/ child delivered?",
-    "uuid": "7b52e244-64c0-4264-bfa2-ede332e32634",
+    "name": "Gestational age in months for live/ Still birth/ abortion",
+    "uuid": "c0b0a7d5-ca8f-4474-84d7-f9beafef7e09",
     "dataType": "Numeric",
     "lowAbsolute": 2,
     "lowNormal": 2,
@@ -294,7 +294,7 @@
   },
   {
     "uuid": "4ecfbbd6-4e4b-492c-9462-2c317318ed80",
-    "name": "Calorie RDA",
+    "name": "Calorie % RDA",
     "dataType":"Numeric"
   },
   
@@ -305,8 +305,19 @@
   },
   {
     "uuid": "d15f50bf-1415-471e-ad8f-cece27f9b446",
-    "name": "Protein RDA",
+    "name": "Protein % RDA",
     "dataType":"Numeric"
+  },
+  {
+    "uuid": "5549b00c-d38a-4d9e-a5e4-2538c9feef72",
+    "name": " High Risk Mother",
+    "dataType":"NA"
+   
+  },  
+  {
+    "uuid": "b4f3f337-f899-48c1-991f-08046c9fbb80",
+    "name": "Child born after March 2016",
+    "dataType":"NA"
+   
   }
-
 ]
