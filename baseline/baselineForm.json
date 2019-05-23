@@ -14,7 +14,8 @@
           "uuid": "ff4e1833-242d-4073-9e7a-38c2560f76a4",
           "keyValues": [],
           "concept": {
-            "uuid": "d883d5fe-e17d-4136-b989-089fa0295e34"
+            "comment":"Preconception Height",
+            "uuid": "60bb28f5-96a5-4ace-877b-cfb330505e27"
           },
           "displayOrder": 1,
           "mandatory": true
@@ -24,7 +25,8 @@
           "uuid": "f4b86a4f-95ea-4ada-8294-d08fe813795f",
           "keyValues": [],
           "concept": {
-            "uuid": "75b1656e-2777-4753-9612-ce03a766a5e1"
+            "comment":"Preconception Weight",
+            "uuid": "902100eb-e799-41b9-be73-3844952bcdc7"
           },
           "displayOrder": 2,
           "mandatory": true

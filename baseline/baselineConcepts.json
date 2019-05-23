@@ -8,6 +8,26 @@
 
   },
   {
+    "name": "Preconception Height",
+    "uuid": "60bb28f5-96a5-4ace-877b-cfb330505e27",
+    "dataType": "Numeric",
+    "lowAbsolute": 100,
+    "highAbsolute": 200,
+    "lowNormal": 100,
+    "highNormal": 200,
+    "unit": "cm"
+  },
+  {
+    "name": "Preconception Weight",
+    "uuid": "902100eb-e799-41b9-be73-3844952bcdc7",
+    "dataType": "Numeric",
+    "lowAbsolute": 25,
+    "highAbsolute": 100,
+    "lowNormal": 25,
+    "highNormal": 100,
+    "unit": "kg"
+  },
+  {
     "name": "Last pregnancy outcome",
     "uuid": "2d43aed4-4ede-4ef7-952c-07b3d6103588",
     "dataType": "Coded",

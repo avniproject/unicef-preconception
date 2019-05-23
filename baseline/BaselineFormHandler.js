@@ -21,8 +21,8 @@ class BaselineFormHandler {
     }
 
     bmi(programEncounter, formElement) {
-        let height = programEncounter.findObservation("Height", programEncounter);
-        let weight = programEncounter.findObservation("Weight");
+        let height = programEncounter.findObservation("Preconception Height", programEncounter);
+        let weight = programEncounter.findObservation("Preconception Weight");
         return RuleHelper.createBMIFormElementStatus(height, weight, formElement);
     } 
 
@@ -151,8 +151,8 @@ class BaselineFormHandler {
 class BaselineValidationHandler {
     validate(programEncounter) {
         const validationResults = [];
-        let height = programEncounter.findObservation("Height", programEncounter);
-        let weight = programEncounter.findObservation("Weight");
+        let height = programEncounter.findObservation("Preconception Height", programEncounter);
+        let weight = programEncounter.findObservation("Preconception Weight");
 
         if (height.getValue() >200 ||  height.getValue() < 100){
             validationResults.push(lib.C.createValidationError('Height should be within 100-200 cms'));
