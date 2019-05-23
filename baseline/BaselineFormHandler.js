@@ -59,9 +59,7 @@ class BaselineFormHandler {
 
     @WithStatusBuilder
     inWhichMonthWasTheFoetusAbortedOrChildDelivered([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter('Last pregnancy outcome')
-            .containsAnyAnswerConceptName('Live Birth',
-            'Early Neonatal death within first 24 Hours of birth');
+        statusBuilder.show().when.valueInEncounter('Gravida').greaterThan(0);
     }
 
     @WithStatusBuilder
@@ -192,7 +190,7 @@ class BaselineDecision {
         complicationsBuilder.addComplication("Parity > 4")
             .when.valueInEncounter("Parity").greaterThan(4);
 
-        complicationsBuilder.addComplication("Parity")
+        complicationsBuilder.addComplication("Parity is 0 & age> 35")
             .when.valueInEncounter("Parity").lessThan(1)
             .and.when.ageInMonths.greaterThan(35);
 

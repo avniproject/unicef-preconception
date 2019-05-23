@@ -321,13 +321,23 @@
     "dataType":"NA"
    
   },
+  
   {
-    "uuid": "b4f3f337-f899-48c1-991f-08046c9fbb80",
-    "name": "Child born after March 2016",
+    "uuid": "07ec8488-1f4d-426e-9588-172d6eaf2229",
+    "name": "Parity > 4",
     "dataType":"NA"
    
   },
-  
+  {
+    "uuid": "07ec8488-1f4d-426e-9588-172d6eaf2229",
+    "name": "Parity is 0 & age> 35",
+    "dataType":"NA"   
+  },
+  {
+    "uuid": "b4f3f337-f899-48c1-991f-08046c9fbb80",
+    "name": "Child born after March 2016",
+    "dataType":"NA"   
+  },  
   {
     "uuid": "5549b00c-d38a-4d9e-a5e4-2538c9feef72",
     "name": "High Risk Mother",
@@ -349,19 +359,30 @@
           "abnormal": true
         },
         {
-          "comment": "Low BMI",
+          "name": "Low BMI",
           "uuid": "1faa1253-e4dd-48f1-aea2-c231390f9530",
           "abnormal": true
         },
         {
-          "comment": "High BMI",
+          "name": "High BMI",
           "uuid": "f58ed8eb-1873-4cea-aab2-09cb8b48ada2",
           "abnormal": true
         },
-        { "name": "Alcohol consumption",
+        { 
+         "name": "Alcohol consumption",
          "uuid": "c15969af-d766-4e89-aa55-4c18c75d9236",
          "abnormal": true
-}
+        },
+        {
+          "name": "Tobacco consumption",
+          "uuid": "84127cee-ae0a-4f22-ab0e-f21cd7742d9e",
+          "abnormal": true
+        },
+        {
+          "name": "Congenital anomalies",
+          "uuid": "126e6174-875e-43bc-834c-aebc9044443d",
+          "abnormal": true
+        }
 
     ]   
   }
