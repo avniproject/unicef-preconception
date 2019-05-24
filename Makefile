@@ -69,7 +69,7 @@ create_org:
 # </create_org>
 
 # <deploy>
-deploy: create_users_dev deploy_org_data  create_admin_user_dev deploy_refdata deploy_rules  
+deploy: create_users_dev create_admin_user_dev deploy_org_data deploy_refdata deploy_rules  
 
 deploy_org_data:
 	$(call _curl,POST,locations,@locations.json)
