@@ -5,12 +5,6 @@
     "dataType": "NA"
   },
   {
-    "name": "Age > 30",
-    "uuid": "9e66cbbd-3b24-4578-b423-6f3022298be6",
-    "dataType": "NA"
-  }  ,
- 
-   {
       "name": "Wish to conceive",
       "uuid": "2fcaca8b-d075-4bf3-bc05-92eb4cdf98fb",
       "dataType": "Coded",

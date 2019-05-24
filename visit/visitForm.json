@@ -1,0 +1,469 @@
+{
+  "name": "Visit 1",
+  "uuid": "744f0d21-267f-4705-a0a8-32a78e513c03",
+  "formType": "ProgramEncounter",
+  "formElementGroups": [
+    {
+      "uuid": "22d15366-2ffa-4aad-9cd9-ee763ce1263b",
+      "name": "Vitals And Examination",
+      "display": "Vitals And Examination",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Height",
+          "uuid": "77d15546-3c1d-43c4-ad24-c7f58f8d6af2",
+          "keyValues": [],
+          "concept": {
+            "uuid": "60bb28f5-96a5-4ace-877b-cfb330505e27"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+        {
+          "name": "Weight",
+          "uuid": "21587398-4989-452f-8002-7a475384d9b3",
+          "keyValues": [],
+          "concept": {
+            "uuid": "902100eb-e799-41b9-be73-3844952bcdc7"
+          },
+          "displayOrder": 3,
+          "mandatory": true
+        },
+        {
+          "name": "BMI",
+          "uuid": "f6679302-a05d-4d65-b308-895376e4db15",
+          "keyValues": [
+            {
+            "key": "editable",
+            "value": false
+            }
+          ],
+          "concept": {
+            "uuid": "7ac0d759-c50d-4971-88e0-84274224c839"
+          },
+          "displayOrder": 4,
+          "mandatory": true
+        },
+        {
+          "name": "Haemoglobin",
+          "uuid": "013808f2-23f6-4b8b-a043-a907adb306eb",
+          "keyValues": [],
+          "concept": {
+            "name":"Preconception Hb",
+            "uuid": "470551a0-69ad-49ef-81fd-663c13c1004e"
+          },
+          "displayOrder": 5,
+          "mandatory": false
+        },
+        {
+          "name": "IFA - Iron and Folic Acid",
+          "uuid": "ecfb7427-1b80-4f19-a46b-750b83766ea2",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "IFA - Iron and Folic Acid",
+            "uuid": "8c595024-f5fa-4b22-9b93-3c31ffd4966a"
+          },
+          "displayOrder": 6,
+          "mandatory": true
+        },
+        {
+          "name": "FA",
+          "uuid": "8c16f90a-d4b5-4424-9c99-8754f98e60d2",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "FA",
+            "uuid": "ca73834a-42d9-4abb-8168-a3a708d3de94"
+          },
+          "displayOrder": 7 ,
+          "mandatory": true
+        },
+        {
+          "name": "Hypertension",
+          "uuid": "c507893e-0e65-4518-bc96-e04759dfeef1",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Preconception Hypertension",
+            "uuid": "327d6282-5812-472d-af91-77d2d628ce75"
+          },
+          "displayOrder": 8 ,
+          "mandatory": true
+        },
+        {
+          "name": "Hypertension treatment",
+          "uuid": "e7ee6505-a5bb-4d30-b67c-a98f0ab42565",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Hypertension treatment",
+            "uuid": "9a5ca71b-738e-48ae-a77c-fa611948e344"
+          },
+          "displayOrder": 9,
+          "mandatory": true
+        },
+        {
+          "name": "Blood Group",
+          "uuid": "69236ec4-d242-4c19-8f1e-5a4243dba73b",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "3493c80a-8af5-40e6-b598-8385c4db2bd7"
+          },
+          "displayOrder": 10,
+          "mandatory": true
+        },
+        {
+          "name": "Husband's blood group",
+          "uuid": "33537056-72ed-4561-9b38-10d13d3ad360",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Husband's blood group",
+            "uuid": "b9958dfd-ab4e-4b6d-9962-7c096772f695"
+          },
+          "displayOrder": 11 ,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "1c0f3ce0-33f5-4de4-ad70-ffe41ba5516f",
+      "name": "Medical problems- Sickle cell disease",
+      "display": "Medical problems- Sickle cell disease",
+      "displayOrder": 2 ,
+      "formElements": [
+        {
+          "name": "Sickle cell anaemia- Solubility test",
+          "uuid": "22b6a0bf-25db-4003-9bff-bff0b724792c",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Sickle cell anaemia- Solubility test",
+            "uuid": "f017b391-eae3-4be4-8305-80da311ff6a1"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Sickle cell anaemia- electrophoresis",
+          "uuid": "08ed548a-bf5e-4709-af2c-70c50cb20129",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Sickle cell anaemia- electrophoresis",
+            "uuid": "e5034fc3-0b54-4663-b091-416beab9d099"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+        {
+          "name": "Sickle cell anaemia treatment",
+          "uuid": "75fc78cd-8a0f-43fa-bbb0-009d5d8e64a1",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Sickle cell anaemia treatment",
+            "uuid": "fe44f0b9-098f-4fa2-907f-50b68db384b5"
+          },
+          "displayOrder":3 ,
+          "mandatory": true
+        }    
+      ]
+    },
+    {
+      "uuid": "328eec35-11db-469e-b669-fb3aca272cc0",
+      "name": "Medical Problems - Diabetes",
+      "display": "Medical Problems - Diabetes",
+      "displayOrder":3 ,
+      "formElements": [
+        {
+          "name": "Blood Sugar Level (BSL)-Random by Glucometer",
+          "uuid": "68f25a90-157d-462c-9d34-28017bafb177",
+          "keyValues": [],
+          "concept": {
+            "name": "Preconception Blood Sugar Random",
+            "uuid": "d6bfbe2e-c301-4a26-8893-5236fd20f661"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Blood Sugar Level (BSL)-Oral Glucose Tolerance  (OGT) Test",
+          "uuid": "8b193336-1a36-4c0e-b0bf-7e5e27ddd00d",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Preconception Blood Sugar OGT",
+            "uuid": "a3263d84-06a9-487b-9c9b-cdd1022d7b8d"
+          },
+          "displayOrder":2,
+          "mandatory": true
+        },{
+          "name": "Diabetes treatment",
+          "uuid": "c9a7e2b9-2538-416c-b0cd-3dba88c1b6bd",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Diabetes treatment",
+            "uuid": "e90bfb6e-b1cd-429e-a508-42f6f1834aa6"
+          },
+          "displayOrder":3,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "45cfad01-5dc0-46e9-aa76-fee1fe58d518",
+      "name": "Medical Problems - HIV",
+      "display": "Medical Problems - HIV",
+      "displayOrder":4 ,
+      "formElements": [
+        {
+          "name": "HIV",
+          "uuid": "d0c07a27-48ff-4836-a2f6-f859a7afb048",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "HIV",
+            "uuid": "81621c54-b555-42ca-935f-c7d109434b24"
+          },
+          "displayOrder":1 ,
+          "mandatory": true
+        },
+        {
+          "name": "HIV Treatment Taken",
+          "uuid": "d1beb127-15e2-4c54-806d-bf53e9689c8f",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "HIV Treatment Taken",
+            "uuid": "392c8284-7ecd-4f84-85f9-e89dde4580f1"
+          },
+          "displayOrder":2,
+          "mandatory": true
+        },
+        {
+          "name": "Husband's HIV",
+          "uuid": "9e8cd52d-3eb3-4dd6-9fa9-63cab7f5e2f6",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Husband's HIV",
+            "uuid": "f88ef69b-9584-41cc-abbb-f1f9485695d4"
+          },
+          "displayOrder":3,
+          "mandatory":true
+        },
+        {
+          "name": "HIV Treatment (Husband)",
+          "uuid": "bd39cd5a-1931-489f-9535-b716c2bcd31f",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "HIV Treatment (Husband)",
+            "uuid": "1ebd4184-c77c-4e5f-b955-a9281568dd3e"
+          },
+          "displayOrder": 4,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "3ccc8635-8ec8-4d6c-9fdb-772f221f4e9e",
+      "name": "Medical Problems - VDRL",
+      "display": "Medical Problems - VDRL",
+      "displayOrder": 5,
+      "formElements": [
+        {
+          "name": "Venereal Disease Research Laboratory test (VDRL)",
+          "uuid": "81a40a8d-bdaf-4ebb-b4fe-d4b18b236c7a",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "VDRL test Result",
+            "uuid": "8b78de52-c179-4ba9-90df-094e5df70198"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "VDRL Treatment",
+          "uuid": "8c39e378-9f5b-469c-bab2-e7277ab73bad",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "VDRL Treatment",
+            "uuid": "d135bc4e-dd6e-4857-998b-b7739b86d1f6"
+          },
+          "displayOrder": 2,
+          "mandatory":true
+        },
+        {
+          "name": "Husband's VDRL",
+          "uuid": "114741fa-a844-49eb-b6f7-c6d446a8cbe3",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Husband's VDRL",
+            "uuid": "30421183-afda-4687-aba5-44fe0139dc25"
+          },
+          "displayOrder":3 ,
+          "mandatory": true
+        },
+        {
+          "name": "VDRL Treatment (Husband)",
+          "uuid": "d70da3ec-3a09-4428-97ff-63d7c207b2a5",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "VDRL Treatment (Husband)",
+            "uuid": "d39ba1d1-b5ec-4026-8fd1-96056ce2a4ed"
+          },
+          "displayOrder":4 ,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "4f7385d3-2dac-47dd-af12-08e49aec0c68",
+      "name": "Medical Problems - RTI",
+      "display": "Medical Problems - RTI",
+      "displayOrder":6 ,
+      "formElements": [
+        {
+          "name": "RTI Symptoms",
+          "uuid": "de8f0f78-3439-463d-8cce-7a0c45b99902",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "RTI Symptoms",
+            "uuid": "7265348b-218f-44f9-82c3-0e2d69f7169f"
+          },
+          "displayOrder":1,
+          "mandatory": true
+        },
+        {
+          "name": "RTI Treatment",
+          "uuid": "14b7a776-bf55-4084-b7fd-d67efec9ffc1",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "RTI Treatment",
+            "uuid": "b8fb9472-af51-4faa-ae47-300d4ffda836"
+          },
+          "displayOrder":2,
+          "mandatory": true
+        },
+        {
+          "name": "RTI Symptoms- Husband's",
+          "uuid": "8956ba59-b45d-4358-8bd3-1dcf48e34b97",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "RTI Symptoms- Husband's",
+            "uuid": "798f5330-499e-4b35-b462-424e783c09ce"
+          },
+          "displayOrder":3,
+          "mandatory": true
+        },
+        {
+          "name": "RTI Treatment (Husband)",
+          "uuid": "08411fc3-3f49-49ad-b557-1be6da1a8ef1",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "RTI Treatment (Husband)",
+            "uuid": "20762dab-9351-4740-a386-cc1b3dffaa2c"
+          },
+          "displayOrder":4,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "fdd6e1e4-bd7e-4df4-9faf-b11c22ba644d",
+      "name": "Medical Problems - Thyroid",
+      "display": "Medical Problems - Thyroid",
+      "displayOrder": 7,
+      "formElements": [
+        {
+          "name": "Thyroid-stimulating hormone (TSH)",
+          "uuid": "f438ef78-8d0b-4d59-b15e-6c1652479dae",
+          "keyValues": [],
+          "concept": {
+            "name": "TSH",
+            "uuid": "1a512b73-3c11-4a4e-8c6c-fb6f625121f2"
+          },
+          "displayOrder": 19,
+          "mandatory": true
+        },
+        {
+          "name": "TSH treatment",
+          "uuid": "d0f71004-2ced-4eef-aae6-fa565f85ffa0",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "4c21f917-0c8b-4547-9127-8c4c80df8254"
+          },
+          "displayOrder": 20,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "dc88e91b-58e5-491d-9e0b-f8fd6532c194",
+      "name": "Medical Problems - Others",
+      "display": "Medical Problems - Others",
+      "displayOrder":8 ,
+      "formElements": [
+        {
+          "name": "Any other illness",
+          "uuid": "98f91409-2204-4aa2-a160-80ce63e4b736",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "e14149e2-4d8e-4eb3-aed2-2ee835b80b66"
+          },
+          "displayOrder": 21,
+          "mandatory": true
+        },
+        {
+          "name": "Any other illness treatment",
+          "uuid": "40f45f71-9928-4f82-a5b1-496ccef89900",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "2832937f-8558-4954-9359-6bf0eaed8714"
+          },
+          "displayOrder":22 ,
+          "mandatory": true
+        },
+        {
+          "name": "Deworming received- Albendazole",
+          "uuid": "92a5056e-c2f0-493b-8b02-92389e5c05d8",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "a5b1ca59-7b79-4ebe-a0f4-1899b86b2d80"
+          },
+          "displayOrder": 23,
+          "mandatory": true
+        }      
+      ]
+    },
+    {
+      "uuid": "99c22f02-5455-4875-a7de-96039203d4c1",
+      "name": "Visit 1 Counselling",
+      "display": "Visit 1 Counselling",
+      "displayOrder": 9,
+      "formElements": [
+        {
+        }
+
+        
+      ]
+    }
+  ]
+}

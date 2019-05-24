@@ -1,0 +1,407 @@
+[
+  {
+    "name":"Preconception Hb",
+    "uuid": "470551a0-69ad-49ef-81fd-663c13c1004e",
+    "dataType": "Numeric",
+    "lowAbsolute": 3,
+    "highAbsolute": 20,
+    "lowNormal": 12,
+    "highNormal": 15.5,
+    "unit": "gm %"
+  },
+  {
+    "name": "IFA - Iron and Folic Acid",
+    "uuid": "8c595024-f5fa-4b22-9b93-3c31ffd4966a",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      },
+      {
+        "uuid":"4d476011-7fc4-432b-98c0-9f6f1847cf39"
+      }
+    ]
+  },
+  {
+    "name": "FA",
+    "uuid": "ca73834a-42d9-4abb-8168-a3a708d3de94",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      },
+      {
+        "uuid":"4d476011-7fc4-432b-98c0-9f6f1847cf39"
+      }
+    ]
+  },
+  {
+    "name": "Preconception Hypertension",
+    "uuid": "327d6282-5812-472d-af91-77d2d628ce75",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Hypertension treatment",
+    "uuid": "9a5ca71b-738e-48ae-a77c-fa611948e344",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Husband's blood group",
+    "uuid": "b9958dfd-ab4e-4b6d-9962-7c096772f695",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "name": "B+",
+        "uuid": "be517796-a3ea-4feb-ae1f-bdf6ef06f22b"
+      },
+      {
+        "name": "AB-",
+        "uuid": "a68bc952-8abc-44d6-a12b-76e8fdbc3ed3"
+      },
+      {
+        "name": "A+",
+        "uuid": "da859a32-2850-4376-8f14-f49392f8e8cb"
+      },
+      {
+        "name": "O-",
+        "uuid": "2870bad6-c36a-4054-84f4-5c2314fe8c23"
+      },
+      {
+        "name": "AB+",
+        "uuid": "3293d4f4-15e9-4fbe-8cad-d966a9a90385"
+      },
+      {
+        "name": "A-",
+        "uuid": "69e4b4dc-be2d-476b-8ea5-567c71f57526"
+      },
+      {
+        "name": "O+",
+        "uuid": "23629c90-8071-47b8-86c8-f060e03b8722"
+      },
+      {
+        "name": "B-",
+        "uuid": "345712f0-1437-490e-a0d0-6ab6f795f2c6"
+      }
+    ]
+  },
+  {
+    "name": "Sickle cell anaemia- Solubility test",
+    "uuid": "f017b391-eae3-4be4-8305-80da311ff6a1",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "479cd95a-54ef-4818-b84a-09b478fc68b8"
+      },
+      {
+        "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
+      }
+    ]
+  },
+  {
+    "name": "Sickle cell anaemia- electrophoresis",
+    "uuid": "e5034fc3-0b54-4663-b091-416beab9d099",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "479cd95a-54ef-4818-b84a-09b478fc68b8"
+      },
+      {
+        "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
+      }
+    ]
+  },
+  {
+    "name": "Sickle cell anaemia treatment",
+    "uuid": "fe44f0b9-098f-4fa2-907f-50b68db384b5",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Preconception Blood Sugar Random",
+    "uuid": "d6bfbe2e-c301-4a26-8893-5236fd20f661",
+    "dataType": "Numeric",
+    "lowNormal": 0,
+    "highNormal": 500
+  },
+  
+  {
+    "name": "Preconception Blood Sugar OGT",
+    "uuid": "a3263d84-06a9-487b-9c9b-cdd1022d7b8d",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "479cd95a-54ef-4818-b84a-09b478fc68b8"
+      },
+      {
+        "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
+      }
+    ]
+  },
+  {
+    "name": "Diabetes treatment",
+    "uuid": "e90bfb6e-b1cd-429e-a508-42f6f1834aa6",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "HIV",
+    "uuid": "81621c54-b555-42ca-935f-c7d109434b24",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "479cd95a-54ef-4818-b84a-09b478fc68b8"
+      },
+      {
+        "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
+      }
+    ]
+  },
+  {
+    "name": "HIV Treatment Taken",
+    "uuid": "392c8284-7ecd-4f84-85f9-e89dde4580f1",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Husband's HIV",
+    "uuid": "f88ef69b-9584-41cc-abbb-f1f9485695d4",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "479cd95a-54ef-4818-b84a-09b478fc68b8"
+      },
+      {
+        "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
+      }
+    ]
+  },
+  {
+    "name": "HIV Treatment (Husband)",
+    "uuid": "1ebd4184-c77c-4e5f-b955-a9281568dd3e",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "VDRL test Result",
+    "uuid": "8b78de52-c179-4ba9-90df-094e5df70198",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "479cd95a-54ef-4818-b84a-09b478fc68b8"
+      },
+      {
+        "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
+      }
+    ]
+  },
+  {
+    "name": "VDRL Treatment",
+    "uuid": "d135bc4e-dd6e-4857-998b-b7739b86d1f6",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Husband's VDRL",
+    "uuid": "30421183-afda-4687-aba5-44fe0139dc25",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "479cd95a-54ef-4818-b84a-09b478fc68b8"
+      },
+      {
+        "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
+      }
+    ]
+  },
+  {
+    "name": "VDRL Treatment (Husband)",
+    "uuid": "d70da3ec-3a09-4428-97ff-63d7c207b2a5",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "RTI Symptoms",
+    "uuid": "7265348b-218f-44f9-82c3-0e2d69f7169f",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "RTI Treatment",
+    "uuid": "b8fb9472-af51-4faa-ae47-300d4ffda836",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "RTI Symptoms- Husband's",
+    "uuid": "798f5330-499e-4b35-b462-424e783c09ce",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "RTI Treatment (Husband)",
+    "uuid": "20762dab-9351-4740-a386-cc1b3dffaa2c",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "TSH",
+    "uuid": "",
+    "dataType": "Numeric",
+    "lowNormal": 0.00,
+    "highNormal": 50.00
+  },
+  {
+    "name": "TSH treatment",
+    "uuid": "",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Any other illness",
+    "uuid": "",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "uuid": "",
+    "name": "Details of other illness"
+  },
+  {
+    "name": "Any other illness treatment",
+    "uuid": "",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  }
+  
+  {
+    "name": "Deworming received- Albendazole",
+    "uuid": "",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  }
+ 
+
+
+
+ 
+]

@@ -7,9 +7,7 @@ import {
 import lib from '../lib';
 const RuleHelper = require('../general/RuleHelper');
 
-
 const filter = RuleFactory('6d83cdef-02dc-4f9f-bc8a-9e3375fb2ded', 'ViewFilter');
-const BaseLineValidation = RuleFactory('6d83cdef-02dc-4f9f-bc8a-9e3375fb2ded', 'Validation');
 const WithStatusBuilder = StatusBuilderAnnotationFactory('programEncounter', 'formElement');
 const baselineDecision = RuleFactory("6d83cdef-02dc-4f9f-bc8a-9e3375fb2ded", "Decision");
 
@@ -145,29 +143,6 @@ class BaselineFormHandler {
     // lastPregnancyOutcome([], statusBuilder){
     //     statusBuilder.skipAnswers('Live Birth and Still Birth');
     // }
-}
-
-@BaseLineValidation("0c1347c6-f9cc-44dc-98de-fbf3f25d0211", "Baseline Form Validation", 100.0)
-class BaselineValidationHandler {
-    validate(programEncounter) {
-        const validationResults = [];
-        let height = programEncounter.findObservation("Preconception Height", programEncounter);
-        let weight = programEncounter.findObservation("Preconception Weight");
-
-        if (height.getValue() >200 ||  height.getValue() < 100){
-            validationResults.push(lib.C.createValidationError('Height should be within 100-200 cms'));
-        }
-
-        if (weight.getValue() < 25 ||  weight.getValue() > 100){
-            validationResults.push(lib.C.createValidationError('Weight should be within 25-100 kg'));
-        }
-
-
-        return validationResults;
-    }
-    static exec(programEncounter, validationErrors) {
-        return new BaselineValidationHandler().validate(programEncounter);
-    }
 }
 
 @baselineDecision("79ccee95-0c94-41f9-8fff-8f26bf14eddc", "Baseline Form decisions", 100.0, {})
