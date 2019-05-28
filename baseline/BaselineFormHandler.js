@@ -210,4 +210,4 @@ class BaselineDecision {
 
 
 
-module.exports = {BaselineFormHandler, BaselineValidationHandler, BaselineDecision};
+module.exports = {BaselineFormHandler,  BaselineDecision};

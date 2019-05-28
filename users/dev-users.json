@@ -8,8 +8,8 @@
       "organisationUUID": "9f2f61e8-7559-4613-b490-f9b4f0eb5c03",
       "catchmentUUID": "9815f0a5-2af0-4d3a-bbc7-7e754512278c",
       "operatingIndividualScope": "ByCatchment",
-      "isAdmin": "false",
-      "isOrgAdmin": "false",
+      "isAdmin": false,
+      "isOrgAdmin": false,
       "settings": {
         "trackLocation": false,
         "locale": "en"
