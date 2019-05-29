@@ -69,7 +69,7 @@ create_org:
 # </create_org>
 
 # <deploy>
-deploy: create_admin_user_dev deploy_org_data deploy_refdata deploy_rules  create_users_dev
+deploy: create_admin_user_dev deploy_org_data  deploy_refdata create_users_dev deploy_rules
 
 deploy_org_data:
 	$(call _curl,POST,locations,@locations.json)
@@ -95,8 +95,8 @@ deploy_refdata: deploy_subjects
 	$(call _curl,POST,forms,@visit1/visitForm.json)
 
 
-	$(call _curl,POST,concepts,@preconception/preconceptionConcepts.json)
-	$(call _curl,POST,forms,@preconception/preconceptionProgramEnrolmentNullForm.json)
+	$(call _curl,POST,concepts,@preconception/concepts.json)
+	$(call _curl,POST,forms,@preconception/programEnrolmentNullForm.json)
 
 	$(call _curl,POST,programs,@programs.json)	
 	$(call _curl,POST,encounterTypes,@encounterTypes.json)
