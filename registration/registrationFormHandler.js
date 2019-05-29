@@ -34,17 +34,17 @@ class PreconceptionRegistrationViewHandler {
     @WithRegistrationStatusBuilder
     unicefPreconceptionCounsellingForConsanguineousMarriage([], statusBuilder) {
         statusBuilder.show().when.valueInRegistration("Consanguineous marriage").is.yes;
-        }
+    }
 
     @WithRegistrationStatusBuilder
     unicefPreconceptionCounsellingForAgeLessThan20([], statusBuilder) {
         statusBuilder.show().when.ageInYears.is.lessThan(20);
-        }
+    }
 
     @WithRegistrationStatusBuilder
     unicefPreconceptionCounsellingForAgeGreaterThan30([], statusBuilder) {
         statusBuilder.show().when.ageInYears.is.greaterThan(30);
-        }
+    }
 
    
 }

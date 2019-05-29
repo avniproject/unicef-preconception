@@ -309,8 +309,8 @@
     },
     {
       "uuid": "a5d1e064-7ef7-45aa-8fea-30734aaea559",
-      "name": "Baseline Form Counselling",
-      "display": "Baseline Form Counselling",
+      "name": "Baseline Counselling",
+      "display": "Counselling",
       "displayOrder": 6,
       "formElements": [
         {

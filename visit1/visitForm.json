@@ -103,7 +103,7 @@
         },  
         
         {
-          "name": "Hypertension",
+          "name": "Is woman suffering from Hypertension?(Diagnosed by MO)",
           "uuid": "c507893e-0e65-4518-bc96-e04759dfeef1",
           "keyValues": [],
           "type": "SingleSelect",
@@ -336,7 +336,7 @@
           "mandatory": true
         },
         {
-          "name": "VDRL Treatment (Husband)",
+          "name": "VDRL Treatment for Husband",
           "uuid": "d70da3ec-3a09-4428-97ff-63d7c207b2a5",
           "keyValues": [],
           "type": "SingleSelect",
@@ -374,31 +374,31 @@
           "type": "SingleSelect",
           "concept": {
             "name": "RTI Treatment",
-            "uuid": "b8fb9472-af51-4faa-ae47-300d4ffda836"
+            "uuid": "e732012f-1896-4ecb-b01f-70d91d096830"
           },
           "displayOrder":2,
           "mandatory": true
         },
         {
-          "name": "RTI Symptoms- Husband's",
+          "name": "RTI Symptoms for Husband",
           "uuid": "8956ba59-b45d-4358-8bd3-1dcf48e34b97",
           "keyValues": [],
           "type": "SingleSelect",
           "concept": {
-            "name": "RTI Symptoms- Husband's",
-            "uuid": "798f5330-499e-4b35-b462-424e783c09ce"
+            "name": "RTI Symptoms for Husband",
+            "uuid": "ade5064c-f21d-468f-817b-de4216e6a9a6"
           },
           "displayOrder":3,
           "mandatory": true
         },
         {
-          "name": "RTI Treatment (Husband)",
+          "name": "RTI Treatment for Husband",
           "uuid": "08411fc3-3f49-49ad-b557-1be6da1a8ef1",
           "keyValues": [],
           "type": "SingleSelect",
           "concept": {
-            "name": "RTI Treatment (Husband)",
-            "uuid": "20762dab-9351-4740-a386-cc1b3dffaa2c"
+            "name": "RTI Treatment for Husband",
+            "uuid": "80f2c5d1-3a04-48b7-825a-ae95e94c9aa1"
           },
           "displayOrder":4,
           "mandatory": true
@@ -483,13 +483,14 @@
     {
       "uuid": "99c22f02-5455-4875-a7de-96039203d4c1",
       "name": "Visit 1 Counselling",
-      "display": "Visit 1 Counselling",
+      "display": "Counselling",
       "displayOrder": 9,
       "formElements": [
         {
           "name": "BCC-1- Flip book",
           "uuid": "dd4072c3-ca24-4fca-8e8d-efcd44b1980e",
           "keyValues": [],
+          "type": "SingleSelect",
           "concept": {
             "name": "Flip book",
             "uuid": "5c434867-dddd-4d77-b7cb-91008084bcd0"
@@ -501,6 +502,7 @@
           "name": "BCC-2- Documentary film",
           "uuid": "1185a260-91a9-4a8d-89f0-a64df0da94be",
           "keyValues": [],
+          "type": "SingleSelect",
           "concept": {
             "name": "Documentary film",
             "uuid": "dc646457-2de9-45be-8a40-c25308c27460"
@@ -512,6 +514,7 @@
           "name": "BCC-3- Voice and text messages",
           "uuid": "332ec82c-c586-47aa-9e6f-8f7d8c2fcaa6",
           "keyValues": [],
+          "type": "SingleSelect",
           "concept": {
             "name": "Voice and text messages",
             "uuid": "edad8e40-41e7-4621-bc5a-8dea68152831"
@@ -520,6 +523,162 @@
           "mandatory": false
         }
      ]
+    },
+    {
+      "uuid": "b2c0d457-eaa8-4fbb-9ebd-9c230708253b",
+      "name": "Counselling",
+      "display": "Advice",
+      "displayOrder": 12,
+      "formElements": [
+        {
+          "name": "Preconception Diet advice",
+          "uuid": "051162d9-a327-4fd1-9bb4-a28fa3af8e92",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 1,
+          "mandatory": false
+        },
+        {
+          "name": "Preconception Counselling for anaemia treatment",
+          "uuid": "5626ace1-190c-4718-90f9-54037c1293d9",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+           },
+          "displayOrder": 2,
+          "mandatory": false
+        },
+        {
+          "name": "Preconception Counselling for hypertension treatment",
+          "uuid": "3c1f996c-4885-4dbc-bdf0-4a3786b1c0bf",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 3,
+          "mandatory": false
+        },
+        {
+          "name": "Preconception Counselling regarding Anti D injection",
+          "uuid": "cd44bee9-5138-484e-91e2-5650838f1abf",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 4,
+          "mandatory": false
+        },
+        {
+          "name": "Preconception Counselling for sickle cell anaemia treatment",
+          "uuid": "3cc84fd6-018e-4921-b168-2b7cfb34df1a",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 5,
+          "mandatory": false
+        },
+        {
+          "name": "Preconception Counselling for diabetes treatment",
+          "uuid": "6cf5bcfc-5dd5-4757-8d9e-67ada5ceb928",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 6,
+          "mandatory": false
+        },
+        {
+          "name": "Preconception Counselling her for HIV treatment",
+          "uuid": "77cd8e3c-670a-42dc-9106-fcc43d535a00",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 7,
+          "mandatory": false
+        },
+        {
+          "name": "Preconception Counselling husband for HIV treatment",
+          "uuid": "83fc90d9-1b05-4b9a-a094-4f1476eb8427",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 8,
+          "mandatory": false
+        },
+        {
+          "name": "Preconception Counselling both for VDRL infection treatment",
+          "uuid": "92134791-088a-4480-b6ba-8616e3bbdb5e",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 9,
+          "mandatory": false
+        },
+        {
+          "name": "Preconception Counselling her for RTI treatment",
+          "uuid": "70e6a9e7-fda5-4930-b7ef-5855ef838df8",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 10,
+          "mandatory": false
+        },
+        {
+          "name": "Preconception Counselling husband for RTI treatment",
+          "uuid": "08a7c1da-a536-4881-b08d-d6f14e86b541",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 11,
+          "mandatory": false
+        },
+        {
+          "name": "Preconception Counselling for hypothyroidism treatment",
+          "uuid": "bf8c132f-0b81-41be-86f5-a4dea05fcc90",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder":12 ,
+          "mandatory": false
+        },
+        {
+          "name": "Preconception Counselling for other illness treatment",
+          "uuid": "9e1b1c06-3b40-473e-b1eb-160f867d0674",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 13,
+          "mandatory": false
+        }
+      ]
     }
+
   ]
 }
