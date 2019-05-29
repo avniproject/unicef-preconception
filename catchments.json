@@ -3,11 +3,11 @@
     "catchments": [
       {
         "name": "1",
-        "uuid": "9815f0a5-2af0-4d3a-bbc7-7e754512278c",
+        "uuid": "0219e75b-14da-4ad6-8813-08bd424d11e6",
         "type": "Area",
         "locations": [
           {
-            "uuid": "8c00bf9a-3ea0-4a64-bf01-159a5fde67bc",
+            "uuid": "5d6cd0cc-bdf5-479e-9570-1117bfaf6f27",
             "comment": "Sinur"
           }
         ]
