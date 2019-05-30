@@ -343,19 +343,6 @@
     ]
   },
   {
-    "name": "RTI Treatment",
-    "uuid": "b8fb9472-af51-4faa-ae47-300d4ffda836",
-    "dataType": "Coded",
-    "answers": [
-      {
-        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-      },
-      {
-        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-      }
-    ]
-  },
-  {
     "name": "RTI Symptoms for Husband",
     "uuid": "ade5064c-f21d-468f-817b-de4216e6a9a6",
     "dataType": "Coded",

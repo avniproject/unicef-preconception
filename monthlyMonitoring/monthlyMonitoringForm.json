@@ -1,0 +1,483 @@
+{
+  "name": "Monthly Monitoring",
+  "uuid": "3462178e-94e5-43d9-bc17-6cddad05c265",
+  "formType": "ProgramEncounter",
+  "formElementGroups": [
+    {
+      "uuid": "40608963-a16c-46ab-91dd-8cae50448f7d",
+      "name": "High risk woman (For last followup)",
+      "display": "High risk woman (For last followup)",
+      "displayOrder":1 ,
+      "formElements": [
+        {
+          "name": "Counsel her to delay pregnancy by using contraceptives",
+          "uuid": "eb6a0ef6-5c76-40ab-bbb2-16cae3288ffd",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 1,
+          "mandatory": false
+        },
+        {
+          "name": "Cousel her to visit PHC/RH/CH for further investigations and treatment",
+          "uuid": "4678d583-aca0-4110-886a-37f99071edcb",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 2,
+          "mandatory": false
+        },{
+          "name": "Diet advice to increase or increase weight respectively as per diet chart",
+          "uuid": "d4336d75-5321-4bc1-a050-c30942c222e7",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 3,
+          "mandatory": false
+        },{
+          "name": "Counsel her to quit tobacco consumption",
+          "uuid": "db151e3f-494f-4219-970e-5167804da632",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 4,
+          "mandatory": false
+        },{
+          "name": "Counsel her to quit alcohol consumption",
+          "uuid": "5dea91d2-1b65-4583-bdd5-660f836b6db9",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 5,
+          "mandatory": false
+        },{
+          "name": "Counsel her to increase whole cereals in diet",
+          "uuid": "c2978ada-fa8c-48e1-aa95-61546f88396c",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 6,
+          "mandatory": false
+        },{
+          "name": "Counsel her to increase proteins- pulses, fruits, vegetables, soya, egg in diet",
+          "uuid": "b556c207-1414-4976-9998-6518051bf6c0",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 7,
+          "mandatory": false
+        },{
+          "name": "Counsel her for anaemia treatment",
+          "uuid": "6cf01fd3-1a2e-4302-8a1d-86c1f7c4c921",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 8,
+          "mandatory": false
+        },{
+          "name": "Counsel woman to take Anti-D injection after delivery",
+          "uuid": "bd682d8d-6c44-4a27-b493-dbd01ff3469f",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 9,
+          "mandatory": false
+        },{
+          "name": "Counsel her for hypertension treatment",
+          "uuid": "816b7019-1055-49e1-b191-9381434072e4",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 10,
+          "mandatory": false
+        },{
+          "name": "Counsel her for diabetes treatment",
+          "uuid": "d4b738ce-c672-423c-a815-8f3c8dacd8fd",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 11,
+          "mandatory": false
+        },{
+          "name": "Counsel her for sickle cell anaemia treatment",
+          "uuid": "f4548eb4-c5f5-432a-bac6-e0dd2c47972b",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 12,
+          "mandatory": false
+        },{
+          "name": "Counsel her for HIV treatment",
+          "uuid": "c08819fb-cad5-45ca-b728-d80e81bfb64c",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 13,
+          "mandatory": false
+        },{
+          "name": "Counsel her for VDRL / infection treatment",
+          "uuid": "4b242f15-e7f7-4c8d-a756-82448602d9d9",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 14,
+          "mandatory": false
+        },{
+          "name": "Counsel her for RTI/STI treatment",
+          "uuid": "c13459dc-2f02-4126-8d7b-d61395fb86e2",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 15,
+          "mandatory": false
+        },{
+          "name": "Counsel her for TSH treatment",
+          "uuid": "94531384-8e43-49cc-ab94-aa266c57ab43",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 16,
+          "mandatory": false
+        },{
+          "name": "Counsel her for other illness treatment",
+          "uuid": "fcf81023-a1d2-495c-b85f-e608fac7cfe9",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 17,
+          "mandatory": false
+        },{
+          "name": "Counselling of high risk factors",
+          "uuid": "233129b1-e2a6-404a-8385-b9766b51682c",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Counselling of high risk factors",
+            "uuid": "d41b1f5e-9cc4-4053-8bae-a89e38806bd6"
+          },
+          "displayOrder": 18,
+          "mandatory": true
+        },{
+          "name": "Advice followed",
+          "uuid": "f54776d0-5974-4a47-a64b-80620573c372",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Advice followed",
+            "uuid": "902a129a-abf8-4a97-ad19-be8798bcdae0"
+          },
+          "displayOrder": 19,
+          "mandatory": true
+        },{
+          "name": "Treatment of high risk illnesses",
+          "uuid": "154a8f11-f469-4e00-851d-df027f5c4b9d",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Treatment of high risk illnesses",
+            "uuid": "5a0986e4-9157-4c7e-870a-0488fd51ff7d"
+          },
+          "displayOrder": 20,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "bb3d8212-da95-46a5-b2ac-bed39bea74e3",
+      "name": "MENSTRUAL SURVEILLANCE",
+      "display": "MENSTRUAL SURVEILLANCE",
+      "displayOrder": 2,
+      "formElements": [
+        {
+          "name": "Missed period",
+          "uuid": "c24fd95e-8e95-4b0c-a0a9-9077ff544746",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Missed period",
+            "uuid": "6ceba6ea-75ce-45cf-bc68-a37c3b1d2400"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "UPT done if period missed",
+          "uuid": "fec0bd07-aa58-44b1-899a-4af9d1e05e70",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "UPT done if period missed",
+            "uuid": "f475f6c0-d99c-419d-ba58-a49c92bebcef"
+          },
+          "displayOrder": 2 ,
+          "mandatory": true
+        },
+        {
+          "name": "Whether pregnancy continued",
+          "uuid": "43095092-6808-48a6-8d71-537b51d8cfc1",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Whether pregnancy continued",
+            "uuid": "cbee5452-d353-4332-8850-d01f37133230"
+          },
+          "displayOrder": 3,
+          "mandatory": true
+        }        
+      ]
+    },
+    {
+      "uuid": "2898ec69-005c-489b-9ebc-3d1505cac7c7",
+      "name": "VITALS AND SYMPTOMS",
+      "display": "VITALS AND SYMPTOMS",
+      "displayOrder": 3,
+      "formElements": [
+        {
+          "name": "Haemoglobin (gm %)",
+          "uuid": "b09d87ca-e74f-4437-9803-09a9d993a548",
+          "keyValues": [],
+          "concept": {
+            "name":"Preconception Hb",
+            "uuid": "470551a0-69ad-49ef-81fd-663c13c1004e"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Weight in kg",
+          "uuid": "4bc8f8e6-dd90-49ae-a8d4-7e9339815f6b",
+          "keyValues": [],
+          "concept": {
+            "uuid": "902100eb-e799-41b9-be73-3844952bcdc7"
+          },
+          "displayOrder": 2,
+          "mandatory":true 
+        },
+        {
+          "name": "BMI",
+          "uuid": "a4537334-8e07-4623-a245-37ffb4f4f41d",
+          "keyValues": [
+            {
+              "key": "editable",
+              "value": false
+              }
+          ],
+          "concept": {
+            "uuid": "7ac0d759-c50d-4971-88e0-84274224c839"
+          },
+          "displayOrder": 3,
+          "mandatory": true
+        },
+        {
+          "name": "Any RTI Symptoms",
+          "uuid": "af6871be-0eef-4921-b33e-249982fedf6b",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "RTI Symptoms",
+            "uuid": "7265348b-218f-44f9-82c3-0e2d69f7169f"
+          },
+          "displayOrder": 4,
+          "mandatory": true
+        },
+        {
+          "name": "Whether RTI Treatment taken",
+          "uuid": "e8854635-40c7-4708-b165-09674bf0b24b",
+          "keyValues": [],  
+          "type": "SingleSelect",
+          "concept": {
+            "name": "RTI Treatment",
+            "uuid": "e732012f-1896-4ecb-b01f-70d91d096830"
+          },
+          "displayOrder":5 ,
+          "mandatory": true
+        },
+        {
+          "name": "Any other illness",
+          "uuid": "53908eca-3846-4815-a8c8-172dac507f21",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Any other illness",
+            "uuid": "e14149e2-4d8e-4eb3-aed2-2ee835b80b66"
+          },
+          "displayOrder":6 ,
+          "mandatory": true
+        },
+        {
+          "name": "Specify",
+          "uuid": "486b0696-540a-458f-bff2-25c25ef5d90a",
+          "keyValues": [],
+          "concept": {
+            "uuid": "d50896a7-b395-46c0-a976-f2b60fd645a6",
+            "name": "Specify"
+          },
+          "displayOrder": 7,
+          "mandatory": true
+        },
+        {
+          "name": "Any other illness treatment",
+          "uuid": "3975dde1-0baa-48ef-8f12-01c485d939be",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Any other illness treatment",
+            "uuid": "2832937f-8558-4954-9359-6bf0eaed8714"
+          },
+          "displayOrder": 8,
+          "mandatory": true
+        }  
+      ]
+    },
+    {
+      "uuid": "ead53cdb-550c-46e6-b3cd-147ff8cfda8a",
+      "name": "SERVICE PROVIDED",
+      "display": "SERVICE PROVIDED",
+      "displayOrder": 4,
+      "formElements": [
+        {
+          "name": "Deworming tablet received- Albendazole",
+          "uuid": "8b2a6023-d5bb-4948-b5c2-d97568ff2573",
+          "keyValues": [],
+          "concept": {
+            "name": "Deworming received- Albendazole",
+            "uuid": "a5b1ca59-7b79-4ebe-a0f4-1899b86b2d80"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "IFA - Iron and Folic Acid",
+          "uuid": "02139afa-45d3-42a5-96f9-f683bbe9167b",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Iron and folic acid",
+            "uuid": "8d91a9a1-0f69-46c1-99e8-6510caad9d8f"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+        {
+          "name": "FA",
+          "uuid": "d1c39a89-3c08-439f-8978-dc0c6983cf89",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Folic acid",
+            "uuid": "99cde825-5bc7-4a8d-9394-954d27df7c6d"
+          },
+          "displayOrder": 3,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "e4e7e399-366c-4a1f-868e-acfc8da71b88",
+      "name": "FOLLOWUP DATE",
+      "display": "FOLLOWUP DATE",
+      "displayOrder": 5,
+      "formElements": [
+        {
+          "name": "Next monthly Visit Date",
+          "uuid": "046cc583-873b-4724-9848-93bb7838c56c",
+          "keyValues": [],
+          "concept": {
+            "uuid": "130f0152-a428-499f-b675-470faf7510a9",
+            "name": "Next monthly Visit Date"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "d4781888-fcc6-4a74-82c7-64c4980435e4",
+      "name": "Counselling and Recommendation",
+      "display": "Counselling and Recommendation",
+      "displayOrder": 6,
+      "formElements": [
+        {
+          "name": "Counsel her for anaemia treatment",
+          "uuid": "49bb7455-8dde-495a-95b4-f419b56bb046",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 1,
+          "mandatory": false
+        },
+        {
+          "name": "Ask her to follow diet advice given to her to decrease or increase weight",
+          "uuid": "11be51a4-70ab-4b67-85cd-15b3360c5f9c",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 2,
+          "mandatory": false
+        },
+        {
+          "name": "Counsel her for RTI treatment",
+          "uuid": "b6dd9d62-cf98-4202-9c19-154aad46e660",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 3,
+          "mandatory": false
+        },
+        {
+          "name": "Counsel her for other illnes treatment",
+          "uuid": "4aee19c3-736c-4f9a-8ca8-91033e520b4e",
+          "keyValues": [],
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 4,
+          "mandatory": false
+        }        
+      ]
+    }
+  ]
+}

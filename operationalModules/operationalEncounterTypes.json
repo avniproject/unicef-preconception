@@ -16,6 +16,14 @@
               "uuid": "4e14f25b-cfa5-4b66-8c68-f5e116f05f39",
               "comment": "Visit 1"
         }
+      },
+      {
+           "uuid": "a688684a-2a81-4ee8-86e8-a5580def91a8",
+           "name": "Monthly Monitoring",
+           "encounterType": {
+              "uuid": "c6342de2-7931-4f48-a25c-c40a94b4c5b4",
+              "name": "Monthly Monitoring"
+        } 
       }
     ]
 }

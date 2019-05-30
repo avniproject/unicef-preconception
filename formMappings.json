@@ -19,5 +19,13 @@
         "encounterTypeUUID": "4e14f25b-cfa5-4b66-8c68-f5e116f05f39",
         "programUUID": "aedaf231-a9cb-4116-a356-eac4e862480c",
         "comment": "Visit 1"
+      },
+      {
+        "uuid": "93610cda-ad02-4909-a845-f824bce43ed8",
+        "formUUID": "3462178e-94e5-43d9-bc17-6cddad05c265",
+        "encounterTypeUUID": "c6342de2-7931-4f48-a25c-c40a94b4c5b4",
+        "programUUID": "aedaf231-a9cb-4116-a356-eac4e862480c",
+        "comment": "Visit 1"
       }
+
 ]

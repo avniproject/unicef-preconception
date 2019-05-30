@@ -1,0 +1,140 @@
+[
+  {
+    "uuid": "1a8ff5a6-a014-4f71-8801-336320b1f319",
+    "name": "No/ Not given for each high risk criteria"
+  },
+  {
+    "uuid": "63c8ee7e-e878-4da3-aa0d-24b7a890563d",
+    "name": "Not done"
+  },
+  {
+    "uuid": "e9cd2edf-d831-407c-b162-3c4c256cb25d",
+    "name": "Partial"
+  },
+  {
+    "uuid": "88c4715e-68fe-48a3-a7c6-0d4f4c007d2a",
+    "name": "Taking treatment/ advice"
+  },
+  {
+    "uuid": "00795336-d422-4e66-975b-9d173498766f",
+    "name": "Not taking treatment/ advice at all"
+  },
+  {
+    "uuid": "c0377e70-e992-4a69-880a-fab86f697160",
+    "name": "Was taking treatment/ advice but now stopped"
+  },
+  {
+    "uuid": "3e92eadf-f92d-4568-a626-13c1459b3b2d",
+    "name": "Condition treated"
+  },
+  {
+    "name": "Counselling of high risk factors",
+    "uuid": "d41b1f5e-9cc4-4053-8bae-a89e38806bd6",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "95ce02f2-5442-4d6b-98c9-fae37846ff9b",
+        "name": "Yes/ Given"
+      },
+      {
+        "uuid": "1a8ff5a6-a014-4f71-8801-336320b1f319",
+        "name": "No/ Not given for each high risk criteria"
+      }
+    ]
+  },
+  {
+    "name": "Advice followed",
+    "uuid": "902a129a-abf8-4a97-ad19-be8798bcdae0",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      },
+      {
+        "uuid": "e9cd2edf-d831-407c-b162-3c4c256cb25d",
+        "name": "Partial"
+      }
+    ]
+  },
+  {
+    "name": "Treatment of high risk illnesses",
+    "uuid": "5a0986e4-9157-4c7e-870a-0488fd51ff7d",
+    "dataType": "Coded",
+    "answers": [
+        {
+            "uuid": "88c4715e-68fe-48a3-a7c6-0d4f4c007d2a",
+            "name": "Taking treatment/ advice"
+          },
+          {
+            "uuid": "00795336-d422-4e66-975b-9d173498766f",
+            "name": "Not taking treatment/ advice at all"
+          },
+          {
+            "uuid": "c0377e70-e992-4a69-880a-fab86f697160",
+            "name": "Was taking treatment/ advice but now stopped"
+          },
+          {
+            "uuid": "3e92eadf-f92d-4568-a626-13c1459b3b2d",
+            "name": "Condition treated"
+          }
+    ]
+  },
+  {
+    "name": "Missed period",
+    "uuid": "6ceba6ea-75ce-45cf-bc68-a37c3b1d2400",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "UPT done if period missed",
+    "uuid": "f475f6c0-d99c-419d-ba58-a49c92bebcef",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "479cd95a-54ef-4818-b84a-09b478fc68b8"
+      },
+      {
+        "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
+      },
+      {
+        "uuid": "63c8ee7e-e878-4da3-aa0d-24b7a890563d",
+        "name": "Not done"
+      },
+      {
+        "uuid": "a032ffce-c9f5-46f8-b89d-f82d5e91fc45"
+      }
+    ]
+  },
+  {
+    "name": "Whether pregnancy continued",
+    "uuid": "cbee5452-d353-4332-8850-d01f37133230",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "uuid": "130f0152-a428-499f-b675-470faf7510a9",
+    "name": "Next monthly Visit Date",
+    "dataType": "Date"
+  },
+  {
+    "uuid": "d50896a7-b395-46c0-a976-f2b60fd645a6",
+    "name": "Specify"
+  }
+]
