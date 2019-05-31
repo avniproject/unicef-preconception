@@ -22,6 +22,7 @@
   "devDependencies": {
     "openchs-health-modules": "0.0.2",
     "openchs-models": "0.0.2",
+    "openchs-idi": "github:openchs/openchs-idi#a05bfbd6acf55bcc878023e154c96d9ac72e61d9",
     "rules-config": "github:openchs/rules-config#30bc80c"
   }
 }
