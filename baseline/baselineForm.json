@@ -1,7 +1,7 @@
 {
   "name": "Baseline",
   "uuid": "6d83cdef-02dc-4f9f-bc8a-9e3375fb2ded",
-  "formType": "ProgramEncounter",
+  "formType": "ProgramEnrolment",
   "formElementGroups": [
     {
       "uuid": "7e91d74c-647f-4d1e-8586-ffcede4917c7",

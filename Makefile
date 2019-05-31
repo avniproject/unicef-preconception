@@ -97,9 +97,6 @@ deploy_refdata: deploy_subjects
 	$(call _curl,POST,concepts,@monthlyMonitoring/monthlyMonitoringConcepts.json)
 	$(call _curl,POST,forms,@monthlyMonitoring/monthlyMonitoringForm.json)
 
-	$(call _curl,POST,concepts,@preconception/concepts.json)
-	$(call _curl,POST,forms,@preconception/programEnrolmentNullForm.json)
-
 	$(call _curl,POST,programs,@programs.json)	
 	$(call _curl,POST,encounterTypes,@encounterTypes.json)
 

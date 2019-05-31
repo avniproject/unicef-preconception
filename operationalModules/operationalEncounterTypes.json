@@ -2,14 +2,6 @@
     "organisationName": "UNICEF Preconception Nashik",
     "operationalEncounterTypes": [
         {
-            "uuid": "76c917b7-2469-490b-88b1-6db5162521e1",
-            "name": "Baseline",
-            "encounterType": {
-              "uuid": "c0385d6e-cab1-4ebb-9f43-59d328d2cf70",
-              "comment": "Baseline"
-            }
-          },
-        {
             "uuid": "9ec62138-d99a-4a12-b2c3-60e8d6c94f5b",
             "name": "Visit 1",
             "encounterType": {

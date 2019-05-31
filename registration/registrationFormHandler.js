@@ -44,9 +44,7 @@ class PreconceptionRegistrationViewHandler {
     @WithRegistrationStatusBuilder
     unicefPreconceptionCounsellingForAgeGreaterThan30([], statusBuilder) {
         statusBuilder.show().when.ageInYears.is.greaterThan(30);
-    }
-
-   
+    }   
 }
 
 

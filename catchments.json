@@ -2,16 +2,17 @@
     "organisation": "UNICEF Preconception Nashik",
     "catchments": [
       {
-        "name": "Sinur",
-        "uuid": "dbb4bbc4-6350-43db-8950-818aa40ca370",
-        "type": "Village",
+        "name": "1",
+        "uuid": "145e5bc0-150c-486e-95b7-061e0266d5b6",
+        "type": "Area",
         "locations": [
-          {
-            "uuid": "795a5840-a417-462a-911b-c3b88332f92f",
-            "name": "Sinur"
-          }
-        ]
+        {
+          "uuid": "fae64c9f-93db-4b68-b2e2-9209160a5ec1",
+          "comment": "Sinur"
+        }
+      ]
       }
     ]
+
 }
   

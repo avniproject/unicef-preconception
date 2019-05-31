@@ -71,7 +71,7 @@
           "displayOrder": 6,
           "mandatory": false
         },{
-          "name": "Counsel her to increase proteins- pulses, fruits, vegetables, soya, egg in diet",
+          "name": "Counsel her to increase proteins in diet",
           "uuid": "b556c207-1414-4976-9998-6518051bf6c0",
           "keyValues": [],
           "concept": {
@@ -91,7 +91,7 @@
           "displayOrder": 8,
           "mandatory": false
         },{
-          "name": "Counsel woman to take Anti-D injection after delivery",
+          "name": "Counsel woman to take Anti D injection",
           "uuid": "bd682d8d-6c44-4a27-b493-dbd01ff3469f",
           "keyValues": [],
           "concept": {
@@ -141,7 +141,7 @@
           "displayOrder": 13,
           "mandatory": false
         },{
-          "name": "Counsel her for VDRL / infection treatment",
+          "name": "Counsel her for VDRL infection treatment",
           "uuid": "4b242f15-e7f7-4c8d-a756-82448602d9d9",
           "keyValues": [],
           "concept": {
@@ -151,7 +151,7 @@
           "displayOrder": 14,
           "mandatory": false
         },{
-          "name": "Counsel her for RTI/STI treatment",
+          "name": "Counsel her for RTI STI treatment",
           "uuid": "c13459dc-2f02-4126-8d7b-d61395fb86e2",
           "keyValues": [],
           "concept": {
