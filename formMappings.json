@@ -1,5 +1,10 @@
 [
-     {
+      {
+        "uuid": "beb83218-ab34-4e4b-8e0d-c821348f0971",
+        "formUUID": "173abccc-2c3e-451e-a77e-524b28c4a224",
+        "comment": "Individual Registration",
+        "subjectTypeUUID": "9f2af1f9-e150-4f8e-aad3-40bb7eb05aa3"
+      },{
         "uuid": "43d4ff32-0459-4a2b-8ee4-b83589e9d001",
         "formUUID": "6d83cdef-02dc-4f9f-bc8a-9e3375fb2ded",
         "encounterTypeUUID": null,
@@ -21,4 +26,4 @@
         "comment": "Monthly Monitoring"
       }
 
-]
+    ]
