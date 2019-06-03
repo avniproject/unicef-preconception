@@ -4,7 +4,7 @@
     "formType": "IndividualProfile",
     "formElementGroups": [
       {
-        "uuid": "379d2491-16b9-4599-80d5-a49463e1b4ee",
+        "uuid": "43912f63-7b9c-4e17-b8f0-e4a3eb6933db",
         "name": "Details",
         "display": "Details",
         "displayOrder": 1,
@@ -23,7 +23,7 @@
           },
           {
             "name": "Religion",
-            "uuid": "8b119d96-5978-4e0c-98bd-cc1ca7696357",
+            "uuid": "06ad82b5-aa83-4bee-9208-8d1f48d5c91e",
             "type": "SingleSelect",
             "keyValues": [],
             "concept": {
@@ -35,7 +35,7 @@
           },
           {
             "name": "Caste",
-            "uuid": "3d02f8f9-fae1-4d80-8f48-1d8bf3c5ab3e",
+            "uuid": "bb67227c-87d9-4e7c-b68e-bb27a0101221",
             "type": "SingleSelect",
             "concept": {
               "uuid": "61ab6413-5c6a-4512-ab6e-7d5cd1439569",
@@ -194,4 +194,3 @@
   
     ]
   }
-  

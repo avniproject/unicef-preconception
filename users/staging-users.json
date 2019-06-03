@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "a1adf47a-b41e-4971-a015-501cccf7de48",
+    "name": "precon-staging",
+    "password": "password",
+    "email": "openchssupport+unicef+staging+1@samanvayfoundation.org",
+    "phoneNumber": "+919999999999",
+    "organisationUUID": "9f2f61e8-7559-4613-b490-f9b4f0eb5c03",
+    "catchmentUUID": "145e5bc0-150c-486e-95b7-061e0266d5b6",
+    "operatingIndividualScope": "ByCatchment",
+    "isAdmin": false,
+    "isOrgAdmin": false,
+    "settings": {
+      "trackLocation": false,
+      "locale": "en"
+    }
+  }
+]
