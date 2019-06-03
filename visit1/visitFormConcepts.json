@@ -330,6 +330,19 @@
     ]
   },
   {
+    "name": "RTI Symptoms",
+    "uuid": "6191e403-24d6-4a63-b20f-1f22858336d7",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "479cd95a-54ef-4818-b84a-09b478fc68b8"
+      },
+      {
+        "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
+      }
+    ]
+  },
+  {
     "name": "RTI Treatment",
     "uuid": "e732012f-1896-4ecb-b01f-70d91d096830",
     "dataType": "Coded",
@@ -348,10 +361,10 @@
     "dataType": "Coded",
     "answers": [
       {
-        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+        "uuid": "479cd95a-54ef-4818-b84a-09b478fc68b8"
       },
       {
-        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+        "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
       }
     ]
   },

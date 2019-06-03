@@ -267,7 +267,7 @@
       "displayOrder": 3,
       "formElements": [
         {
-          "name": "Haemoglobin (gm %)",
+          "name": "Haemoglobin",
           "uuid": "b09d87ca-e74f-4437-9803-09a9d993a548",
           "keyValues": [],
           "concept": {
@@ -278,7 +278,7 @@
           "mandatory": true
         },
         {
-          "name": "Weight in kg",
+          "name": "Weight",
           "uuid": "4bc8f8e6-dd90-49ae-a8d4-7e9339815f6b",
           "keyValues": [],
           "concept": {
@@ -309,7 +309,7 @@
           "type": "SingleSelect",
           "concept": {
             "name": "RTI Symptoms",
-            "uuid": "7265348b-218f-44f9-82c3-0e2d69f7169f"
+            "uuid": "6191e403-24d6-4a63-b20f-1f22858336d7"
           },
           "displayOrder": 4,
           "mandatory": true
@@ -441,10 +441,10 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 1,
-          "mandatory": false
+          "mandatory": true
         },
         {
-          "name": "Ask her to follow diet advice given to her to decrease or increase weight",
+          "name": "Ask her to follow diet advice",
           "uuid": "11be51a4-70ab-4b67-85cd-15b3360c5f9c",
           "keyValues": [],
           "type": "SingleSelect",
@@ -453,7 +453,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 2,
-          "mandatory": false
+          "mandatory": true
         },
         {
           "name": "Counsel her for RTI treatment",
@@ -464,10 +464,10 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 3,
-          "mandatory": false
+          "mandatory": true
         },
         {
-          "name": "Counsel her for other illnes treatment",
+          "name": "Counsel her for other illness treatment",
           "uuid": "4aee19c3-736c-4f9a-8ca8-91033e520b4e",
           "keyValues": [],
           "concept": {
@@ -475,7 +475,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 4,
-          "mandatory": false
+          "mandatory": true
         }        
       ]
     }
