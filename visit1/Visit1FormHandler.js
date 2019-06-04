@@ -19,7 +19,7 @@ class Visit1FormHandler {
     }
 
     bmi(programEncounter, formElement) {
-        let height = programEncounter.findObservation("Preconception Height", programEncounter);
+        let height = programEncounter.programEnrolment.getObservationReadableValueInEntireEnrolment("Preconception Height", programEncounter);
         let weight = programEncounter.findObservation("Preconception Weight");
         return RuleHelper.createBMIFormElementStatus(height, weight, formElement);
     } 

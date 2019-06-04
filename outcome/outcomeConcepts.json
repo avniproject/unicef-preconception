@@ -1,0 +1,88 @@
+[
+  {
+    "uuid": "",
+    "name": "Outcome Date"
+  },
+  {
+    "name": "Abortion",
+    "uuid": "",
+    "dataType": "Coded",
+    "answers": [
+      
+    ]
+  },
+  {
+    "uuid": "",
+    "name": "Still Birth with Congenital Anomaly"
+  },
+  {
+    "uuid": "",
+    "name": "Still Birth without Congenital Anomaly"
+  },
+  {
+    "name": "Type of Still Birth",
+    "uuid": "",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "",
+        "name": "Still Birth with Congenital Anomaly"
+      },
+      {
+        "uuid": "",
+        "name": "Still Birth without Congenital Anomaly"
+      }
+      {
+        "uuid": "",
+        "name": NA
+      }
+    ]
+  },
+  {
+    "name": "Length",
+    "uuid": "",
+    "dataType": "Numeric",
+    "unit": 
+  },
+  {
+    "name": "Gestational age in months",
+    "uuid": "",
+    "dataType": "Numeric",
+    "unit": 
+  },
+  {
+    "name": "Congenital anomaly",
+    "uuid": "",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Follow-up of neonatal period",
+    "uuid": "",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "uuid": "",
+    "name": "Neonatal death"
+  },
+
+  
+  
+  
+
+]

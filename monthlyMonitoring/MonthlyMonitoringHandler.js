@@ -8,7 +8,6 @@ import moment from 'moment';
 const RuleHelper = require('../general/RuleHelper');
 
 const filter = RuleFactory('3462178e-94e5-43d9-bc17-6cddad05c265', 'ViewFilter');
-const monthlyMonitoringDecision = RuleFactory("3462178e-94e5-43d9-bc17-6cddad05c265", "Decision");
 const WithStatusBuilder = StatusBuilderAnnotationFactory('programEncounter', 'formElement');
 
 @filter('5a5fcbfe-f3b3-4e69-8f5d-2855c373bb95', 'MonthlyMonitoringHandler', 100.0)

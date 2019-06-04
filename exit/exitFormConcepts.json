@@ -1,0 +1,78 @@
+[
+  {
+    "uuid": "059fde36-ffcb-45dc-9625-ef926ba20623",
+    "name": "Loss to follow-up"
+  },
+  {
+    "name": "Reason for exit",
+    "uuid": "9f815b72-4b4a-4210-a69f-a925d2baae1d",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "e3999b21-821c-4c6e-9953-156e70b9217c"
+      },
+      {
+        "uuid": "059fde36-ffcb-45dc-9625-ef926ba20623",
+        "name": "Loss to follow-up"
+      }
+
+    ]
+  },
+  {
+    "uuid": "61e35ee5-76e3-41fb-bad1-ffd1cdb35ae5",
+    "name": "Permanent migration"
+  },
+  {
+    "uuid": "7919d0cb-bde3-4ee1-8218-4d7f9a7acdef",
+    "name": "Permanent sterilization"
+  },
+  {
+    "uuid": "22f24f48-97d5-4fb2-95cc-45091b235782",
+    "name": "Not interested"
+  },
+  {
+    "uuid": "8332dde9-4d80-4c5d-acf2-ca3901efeba1",
+    "name": "Death of woman"
+  },
+  {
+    "uuid": "1849bb1b-eaaf-48cf-9324-32f1daa63f77",
+    "name": "Death of spouse"
+  },  
+  {
+    "name": "Reason for loss to followup",
+    "uuid": "1a0a8afe-e535-4c8b-8ec4-0dc4b70b90d1",
+    "dataType": "Coded",
+    "answers": [
+        {
+            "uuid": "61e35ee5-76e3-41fb-bad1-ffd1cdb35ae5",
+            "name": "Permanent migration"
+          },
+          {
+            "uuid": "7919d0cb-bde3-4ee1-8218-4d7f9a7acdef",
+            "name": "Permanent sterilization"
+          },
+          {
+            "uuid": "22f24f48-97d5-4fb2-95cc-45091b235782",
+            "name": "Not interested"
+          },
+         {
+            "uuid": "00f2eb9a-94c6-48eb-bfad-0b93784d3cb9"
+            },
+         {
+            "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538"
+            },
+        {
+            "uuid": "8332dde9-4d80-4c5d-acf2-ca3901efeba1",
+            "name": "Death of woman"
+          },
+         {
+            "uuid": "1849bb1b-eaaf-48cf-9324-32f1daa63f77",
+            "name": "Death of spouse"
+        }      
+    ]
+  },
+  {
+    "uuid": "cc521e92-09ca-4ec9-bb1c-7f7d6c46a901",
+    "name": "If any other, specify"
+  }
+]
