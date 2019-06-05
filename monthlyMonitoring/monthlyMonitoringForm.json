@@ -245,19 +245,7 @@
           },
           "displayOrder": 2 ,
           "mandatory": true
-        },
-        {
-          "name": "Whether pregnancy continued",
-          "uuid": "43095092-6808-48a6-8d71-537b51d8cfc1",
-          "keyValues": [],
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Whether pregnancy continued",
-            "uuid": "cbee5452-d353-4332-8850-d01f37133230"
-          },
-          "displayOrder": 3,
-          "mandatory": true
-        }        
+        }       
       ]
     },
     {
@@ -275,17 +263,18 @@
             "uuid": "470551a0-69ad-49ef-81fd-663c13c1004e"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Weight",
           "uuid": "4bc8f8e6-dd90-49ae-a8d4-7e9339815f6b",
           "keyValues": [],
           "concept": {
+            "name": "Preconception Weight",
             "uuid": "902100eb-e799-41b9-be73-3844952bcdc7"
           },
           "displayOrder": 2,
-          "mandatory":true 
+          "mandatory":false 
         },
         {
           "name": "BMI",
@@ -300,7 +289,7 @@
             "uuid": "7ac0d759-c50d-4971-88e0-84274224c839"
           },
           "displayOrder": 3,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Any RTI Symptoms",

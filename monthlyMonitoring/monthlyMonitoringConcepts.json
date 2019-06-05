@@ -111,20 +111,7 @@
         "name": "Not done"
       },
       {
-        "uuid": "a032ffce-c9f5-46f8-b89d-f82d5e91fc45"
-      }
-    ]
-  },
-  {
-    "name": "Whether pregnancy continued",
-    "uuid": "cbee5452-d353-4332-8850-d01f37133230",
-    "dataType": "Coded",
-    "answers": [
-      {
-        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-      },
-      {
-        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+        "uuid": "4d476011-7fc4-432b-98c0-9f6f1847cf39"
       }
     ]
   },

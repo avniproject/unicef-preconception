@@ -18,10 +18,14 @@ class Visit1FormHandler {
             .getFormElementsStatusesWithoutDefaults(new Visit1FormHandler(), programEncounter, formElementGroup, today);
     }
 
+    getObservationValueFromEntireEnrolment(conceptName,programEncounter) {
+        return programEncounter.programEnrolment.getObservationReadableValueInEntireEnrolment(conceptName, programEncounter);
+    }
+
     bmi(programEncounter, formElement) {
-        let height = programEncounter.programEnrolment.getObservationReadableValueInEntireEnrolment("Preconception Height", programEncounter);
+        let height = this.getObservationValueFromEntireEnrolment("Preconception Height", programEncounter);
         let weight = programEncounter.findObservation("Preconception Weight");
-        return RuleHelper.createBMIFormElementStatus(height, weight, formElement);
+        return RuleHelper.createBMIFormElementStatusEnrolment(height, weight, formElement);
     } 
 
     @WithStatusBuilder
@@ -107,19 +111,19 @@ class Visit1FormHandler {
     @WithStatusBuilder
     rtiTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("RTI Symptoms")
-        .containsAnyAnswerConceptName("Yes");
+        .containsAnyAnswerConceptName("Positive");
     }
 
     @WithStatusBuilder
     rtiSymptomsForHusband([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("RTI Symptoms")
-        .containsAnyAnswerConceptName("Yes");
+        .containsAnyAnswerConceptName("Positive");
     }
 
     @WithStatusBuilder
     rtiTreatmentForHusband([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("RTI Symptoms for Husband")
-        .containsAnyAnswerConceptName("Yes");
+        .containsAnyAnswerConceptName("Positive");
     }
 
     @WithStatusBuilder
@@ -132,28 +136,25 @@ class Visit1FormHandler {
         statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
     }
 
-    //isWomanSufferingFromHypertensionDiagnosedByMo preconceptionHypertension
     @WithStatusBuilder
     isWomanSufferingFromHypertensionDiagnosedByMo([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("Blood pressure systolic").is.greaterThan(120)
         .or.when.valueInEncounter("Blood pressure diastolic").is.greaterThan(80);
     }
 
-    // @WithStatusBuilder
-    // preconceptionHypertension([], statusBuilder) {
-    //     statusBuilder.show().when.valueInEncounter("Blood pressure diastolic").is.greaterThan(80);
-    // }
-
-    
     @WithStatusBuilder
     preconceptionDietAdvice([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter('BMI')
-        .is.greaterThan(25).or.is.lessThan(18);
+        statusBuilder.show().when.valueInEncounter('BMI').is.greaterThan(25).or.is.lessThan(18);
     }
    
     @WithStatusBuilder
+    preconceptionCounsellingForAnaemiaTreatment([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter('Preconception Hb').is.lessThan(12);
+    }
+
+    @WithStatusBuilder
     preconceptionCounsellingForSickleCellAnaemiaTreatment([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter('Sickle cell anaemia solubility test')
+        statusBuilder.show().when.valueInEncounter("Sickle cell anaemia solubility test")
         .containsAnyAnswerConceptName("Positive");
     }
    
@@ -164,7 +165,7 @@ class Visit1FormHandler {
    
     @WithStatusBuilder
     preconceptionCounsellingRegardingAntiDInjection([], statusBuilder) {
-        statusBuilder.show() .when.valueInEncounter("Blood group").containsAnyAnswerConceptName("AB-", "O-", "A-", "B-")
+        statusBuilder.show().when.valueInEncounter("Blood group").containsAnyAnswerConceptName("AB-", "O-", "A-", "B-")
         .and.when.valueInEncounter("Husband blood group").containsAnyAnswerConceptName("AB+", "O+", "A+", "B+");
     }
    
@@ -196,13 +197,13 @@ class Visit1FormHandler {
     @WithStatusBuilder
     preconceptionCounsellingHerForRtiTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('RTI Symptoms')
-        .containsAnyAnswerConceptName("Yes");
+        .containsAnyAnswerConceptName("Positive");
     }
    
     @WithStatusBuilder
     preconceptionCounsellingHusbandForRtiTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('RTI Symptoms for Husband')
-        .containsAnyAnswerConceptName("Yes");
+        .containsAnyAnswerConceptName("Positive");
     }
     
     @WithStatusBuilder
@@ -264,11 +265,11 @@ class Visit1Decision {
             
         complicationsBuilder.addComplication('RTI Symptoms positive')
             .when.valueInEncounter('RTI Symptoms')
-            .containsAnyAnswerConceptName("Yes");
+            .containsAnyAnswerConceptName("Positive");
             
         complicationsBuilder.addComplication('RTI Symptoms for Husband positive')
             .when.valueInEncounter('RTI Symptoms for Husband')
-            .containsAnyAnswerConceptName("Yes");
+            .containsAnyAnswerConceptName("Positive");
 
         complicationsBuilder.addComplication("TSH > 12")
              .when.valueInEncounter("TSH").greaterThan(12);

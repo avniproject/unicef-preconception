@@ -95,11 +95,6 @@
         "dataType": "Numeric"
       },
       {
-        "name": "Professionals",
-        "uuid": "0ce08352-ff89-4a0b-8758-3b4804981b95",
-        "dataType": "NA"
-      },
-      {
         "name": "Semi professional",
         "uuid": "d76144ae-a6c5-4524-bab4-2e2cb01d17c9",
         "dataType": "NA"
@@ -133,6 +128,11 @@
       {
         "name": "Unemployed/ Household",
         "uuid": "d3261b69-0712-4302-9283-34904faa9689",
+        "dataType": "NA"
+      },
+      {
+        "name": "Professionals",
+        "uuid": "0ce08352-ff89-4a0b-8758-3b4804981b95",
         "dataType": "NA"
       },
       {

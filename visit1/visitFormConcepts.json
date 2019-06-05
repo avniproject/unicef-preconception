@@ -386,7 +386,10 @@
     "uuid": "1a512b73-3c11-4a4e-8c6c-fb6f625121f2",
     "dataType": "Numeric",
     "lowNormal": 0.00,
-    "highNormal": 5.00
+    "lowAbsolute" : 0.00,
+    "highAbsolute" : 5.00,
+    "highNormal": 5.00,
+    "abnormal":false
   },
   {
     "name": "TSH treatment",
@@ -505,7 +508,7 @@
     },
     {
     "name": "RTI Symptoms for Husband positive",
-    "uuid": "ade5064c-f21d-468f-817b-de4216e6a9a6"   
+    "uuid": "ce83ceaa-548c-4790-bd91-81b2d87861fd"   
     },
   {
     "uuid": "616a35fd-255d-4f84-9430-6e3b18e3265e",
@@ -585,7 +588,7 @@
         },
         {
         "name": "RTI Symptoms for Husband positive",
-        "uuid": "ade5064c-f21d-468f-817b-de4216e6a9a6",
+        "uuid": "ce83ceaa-548c-4790-bd91-81b2d87861fd",
         "abnormal": true
         },
         {

@@ -1,58 +1,79 @@
 [
   {
-    "uuid": "",
-    "name": "Outcome Date"
+    "uuid": "a4c364d4-6d26-4552-8e3d-e011855ed3a9",
+    "name": "Outcome Date",
+    "dataType": "Date"
   },
   {
-    "name": "Abortion",
-    "uuid": "",
+    "name": "Last pregnancy outcome",
+    "uuid": "2d43aed4-4ede-4ef7-952c-07b3d6103588",
     "dataType": "Coded",
     "answers": [
-      
+      {
+        "uuid": "797c7923-1993-49d9-b759-1706aae62ae9",
+        "name": "Still Birth"
+      }
     ]
   },
-  {
-    "uuid": "",
+   {
+    "uuid": "d3066e68-7b1c-4632-a4e7-1990799574d2",
     "name": "Still Birth with Congenital Anomaly"
   },
   {
-    "uuid": "",
+    "uuid": "9f761154-38b0-426c-adf9-24fc99f6d5c8",
     "name": "Still Birth without Congenital Anomaly"
   },
   {
-    "name": "Type of Still Birth",
-    "uuid": "",
+    "name": "Last pregnancy outcome",
+    "uuid": "2d43aed4-4ede-4ef7-952c-07b3d6103588",
     "dataType": "Coded",
     "answers": [
       {
-        "uuid": "",
+        "uuid": "a032ffce-c9f5-46f8-b89d-f82d5e91fc45"
+      }
+    ]
+  },
+  {
+    "name": "Type of Still Birth",
+    "uuid": "b3e16e8b-a4d2-4627-a28d-de9b5db6e09e",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "d3066e68-7b1c-4632-a4e7-1990799574d2",
         "name": "Still Birth with Congenital Anomaly"
       },
       {
-        "uuid": "",
+        "uuid": "9f761154-38b0-426c-adf9-24fc99f6d5c8",
         "name": "Still Birth without Congenital Anomaly"
-      }
+      },
       {
-        "uuid": "",
-        "name": NA
+        "uuid": "4d476011-7fc4-432b-98c0-9f6f1847cf39"
       }
     ]
   },
   {
     "name": "Length",
-    "uuid": "",
+    "uuid": "18bf0f09-30e0-4bf3-8f7c-57c4067e559d",
     "dataType": "Numeric",
-    "unit": 
+    "lowAbsolute": 10.00,
+    "lowNormal": 10.00,
+    "highNormal": 100.0,
+    "highAbsolute":100.0,
+    "unit": "cm"
   },
   {
-    "name": "Gestational age in months",
-    "uuid": "",
+    "name": "Preconception Gestational age",
+    "uuid": "003a0e06-1f23-41a7-a228-0da38efb42f3",
     "dataType": "Numeric",
-    "unit": 
+    "lowAbsolute": 4,
+    "lowNormal": 4,
+    "highNormal": 10,
+    "highAbsolute":10,
+    "unit": "months"
   },
   {
-    "name": "Congenital anomaly",
-    "uuid": "",
+    "name": "Preconception Congenital anomaly",
+    "uuid": "0762aa1a-26a7-439c-9cbc-07589cfd3942",
     "dataType": "Coded",
     "answers": [
       {
@@ -65,7 +86,7 @@
   },
   {
     "name": "Follow-up of neonatal period",
-    "uuid": "",
+    "uuid": "2c58412f-c2d1-4fb8-a8ac-261c0fc5e441",
     "dataType": "Coded",
     "answers": [
       {
@@ -77,12 +98,9 @@
     ]
   },
   {
-    "uuid": "",
-    "name": "Neonatal death"
-  },
-
-  
-  
-  
-
+    "uuid": "2b74fc55-4484-4af4-86f7-d44af246b0e8",
+    "name": "Neonatal death",
+    "dataType": "Numeric",
+    "unit": "days"
+  }
 ]

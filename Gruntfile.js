@@ -19,6 +19,9 @@ module.exports = IDI.configure({
             "./baseline/baselineForm.json",
             "./visit1/visitForm.json",
             "./monthlyMonitoring/monthlyMonitoringForm.json",
+            "./outcome/outcomeForm.json",
+            "./cancel/preconceptionCancelForm.json",
+            "./exit/exitForm.json"
         ],
         "formMappings": ["./formMappings.json"],
         "formDeletions": [],
@@ -30,6 +33,9 @@ module.exports = IDI.configure({
             "./baseline/baselineConcepts.json",
             "./visit1/visitFormConcepts.json",
             "./monthlyMonitoring/monthlyMonitoringConcepts.json",
+            "./outcome/outcomeConcepts.json",
+            "./cancel/preconceptionCancelConcepts.json",
+            "./exit/exitFormConcepts.json"
         ],
         "locations": [
             "./locations.json",

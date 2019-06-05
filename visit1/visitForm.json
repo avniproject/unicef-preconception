@@ -39,8 +39,8 @@
           "uuid": "013808f2-23f6-4b8b-a043-a907adb306eb",
           "keyValues": [],
           "concept": {
-            "name": "Preconception blood sugar random",
-            "uuid": "7da7f02a-74ba-4da1-9e56-d5121f77e185"
+            "name":"Preconception Hb",
+            "uuid": "470551a0-69ad-49ef-81fd-663c13c1004e"
           },
           "displayOrder": 3,
           "mandatory": false
@@ -441,7 +441,7 @@
             "name": "Any other illness",
             "uuid": "e14149e2-4d8e-4eb3-aed2-2ee835b80b66"
           },
-          "displayOrder": 3,
+          "displayOrder": 1,
           "mandatory": true
         },
         {
@@ -453,7 +453,7 @@
             "name": "Any other illness treatment",
             "uuid": "2832937f-8558-4954-9359-6bf0eaed8714"
           },
-          "displayOrder":4 ,
+          "displayOrder":2 ,
           "mandatory": true
         },
         {
@@ -465,7 +465,7 @@
             "name": "Deworming tablet received- Albendazole",
             "uuid": "a5b1ca59-7b79-4ebe-a0f4-1899b86b2d80"
           },
-          "displayOrder": 5,
+          "displayOrder": 3,
           "mandatory": true
         }      
       ]
@@ -518,7 +518,7 @@
       "uuid": "b2c0d457-eaa8-4fbb-9ebd-9c230708253b",
       "name": "Counselling",
       "display": "Advice",
-      "displayOrder": 12,
+      "displayOrder": 10,
       "formElements": [
         {
           "name": "Preconception Diet advice",

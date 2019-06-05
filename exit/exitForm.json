@@ -1,18 +1,19 @@
 {
-  "name": "Exit",
-  "uuid": "faa2020a-2554-46bb-a217-3fb30cd1f5c1",
-  "formType": "ProgramEncounter",
+  "name": "Preconception Exit",
+  "uuid": "c2efa6fd-32a4-49de-8d5a-c2bd3db43789",
+  "formType": "ProgramExit",
   "formElementGroups": [
     {
       "uuid": "80077572-48ca-45aa-bab4-34c18b41692e",
-      "name": "Exit Details",
-      "display": "Exit Details",
+      "name": "Loss to follow-up",
+      "display": "Loss to follow-up",
       "displayOrder": 1,
       "formElements": [
         {
           "name": "Reason for exit",
           "uuid": "852cec9b-11f1-443d-af63-f29d67125e87",
           "keyValues": [],
+          "type": "SingleSelect",
           "concept": {
             "uuid": "9f815b72-4b4a-4210-a69f-a925d2baae1d"
           },
@@ -23,6 +24,7 @@
           "name": "Reason for loss to follow-up",
           "uuid": "bc3b7071-f861-469d-a3c2-e2b5d382b3f0",
           "keyValues": [],
+          "type": "SingleSelect",
           "concept": {
             "name": "Reason for loss to followup",
             "uuid": "1a0a8afe-e535-4c8b-8ec4-0dc4b70b90d1"
@@ -31,12 +33,12 @@
           "mandatory": true
         },
         {
-          "name": "If any other, specify",
+          "name": "If any other reason, specify",
           "uuid": "3dabd7a5-1fee-4372-9eb3-10cb5a68a214",
           "keyValues": [],
           "concept": {
-            "uuid": "cc521e92-09ca-4ec9-bb1c-7f7d6c46a901",
-            "name": "If any other, specify"
+            "uuid": "d91a3041-3c1b-440d-9c54-a3c40b6dbff5",
+            "name": "Other reason for Program exit"
           },
           "displayOrder": 3,
           "mandatory": true

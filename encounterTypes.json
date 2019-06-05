@@ -6,6 +6,10 @@
    {
       "uuid": "c6342de2-7931-4f48-a25c-c40a94b4c5b4",
       "name": "Monthly Monitoring"
+    },
+    {
+      "uuid": "bc03a02d-86c7-4d17-a0ee-44408fd1ed6d",
+      "name": "Outcome"
     }
 
 ]

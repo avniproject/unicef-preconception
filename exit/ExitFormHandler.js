@@ -1,31 +1,44 @@
 const _ = require("lodash");
 import {
-    StatusBuilderAnnotationFactory, 
     RuleFactory,  
     FormElementsStatusHelper,
-    complicationsBuilder as ComplicationsBuilder
+    FormElementStatusBuilder
 } from 'rules-config/rules';
 
-const WithRegistrationStatusBuilder = StatusBuilderAnnotationFactory('programEncounter', 'formElement');
-const ExitViewFilter = RuleFactory("faa2020a-2554-46bb-a217-3fb30cd1f5c1", "ViewFilter");
+const ExitViewFilter = RuleFactory("c2efa6fd-32a4-49de-8d5a-c2bd3db43789", "ViewFilter");
 
 @ExitViewFilter("8c6d6669-5a87-4539-bc2c-db200a54900c", "ExitFormHandler", 100.0, {})
 class ExitFormHandler {
-    static exec(programEncounter, formElementGroup, today) {
+    static exec(programEnrolment, formElementGroup, today) {
         return FormElementsStatusHelper
-            .getFormElementsStatusesWithoutDefaults(new ExitFormHandler(), programEncounter, formElementGroup, today);
+        .getFormElementsStatuses(new ExitFormHandler(), programEnrolment, formElementGroup)
     }
 
-    @WithRegistrationStatusBuilder
-    reasonForLossToFollowup([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Reason for exit")
-        .containsAnyAnswerConceptName("Loss to follow-up");
+    _getStatusBuilder(programExit, formElement) {
+        return new FormElementStatusBuilder({
+            programEnrolment: programExit,
+            formElement
+        });
     }
-
-    @WithRegistrationStatusBuilder
-    ifAnyOtherSpecify([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Reason for loss to followup")
-        .containsAnyAnswerConceptName("Other");
+    
+    reasonForExit(programExit, formElement) {
+        const statusBuilder = this._getStatusBuilder(programExit, formElement);
+        statusBuilder.skipAnswers('Shifted to other geographical area','Death','Completion','Other');
+        return statusBuilder.build();
+    }
+    
+    reasonForLossToFollowUp(programExit, formElement) {
+        const statusBuilder = this._getStatusBuilder(programExit, formElement);
+        statusBuilder.show().when.valueInExit("Reason for exit")
+        .containsAnyAnswerConceptName("Loss to follow-up");       
+        return statusBuilder.build();
+    }
+    
+    ifAnyOtherReasonSpecify(programExit, formElement) {
+        const statusBuilder = this._getStatusBuilder(programExit, formElement);
+        statusBuilder.show().when.valueInExit("Reason for loss to followup")
+        .containsAnyAnswerConceptName("Other");        
+        return statusBuilder.build();
     }
    
 }

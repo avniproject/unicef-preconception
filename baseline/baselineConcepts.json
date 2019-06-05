@@ -38,7 +38,7 @@
 
       },
       {
-        "uuid": "231982cb-bacc-4d8b-8ee7-be47bdd4d47e",
+        "uuid": "797c7923-1993-49d9-b759-1706aae62ae9",
         "name": "Still Birth"
       },
       {
@@ -53,7 +53,7 @@
     ]
   },
   {
-    "name": "Live birth birth weight in kg",
+    "name": "Live birth weight in kg",
     "uuid": "99007f28-a4c2-484f-bf12-e2e9a5976be5",
     "dataType": "Numeric",
     "lowAbsolute": 1,

@@ -16,6 +16,14 @@
               "uuid": "c6342de2-7931-4f48-a25c-c40a94b4c5b4",
               "name": "Monthly Monitoring"
         } 
+      },
+      {
+           "uuid": "803974bb-9831-464b-8c34-9a42d2b97fac",
+           "name": "Preconception Outcome",
+           "encounterType": {
+             "uuid": "bc03a02d-86c7-4d17-a0ee-44408fd1ed6d",
+             "name": "Outcome"
+            } 
       }
     ]
 }
