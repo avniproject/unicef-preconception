@@ -46,6 +46,7 @@ class BaselineFormHandler {
 
     @WithStatusBuilder
     lastPregnancyOutcome([], statusBuilder) {
+        statusBuilder.skipAnswers("Don't know","Live birth and Still birth");
         statusBuilder.show().when.valueInEnrolment('Gravida').greaterThan(0);
     }
 
@@ -140,9 +141,9 @@ class BaselineFormHandler {
     }
 
     // @WithStatusBuilder
-    // lastPregnancyOutcome([], statusBuilder){
-    //     statusBuilder.skipAnswers('Live Birth and Still Birth');
-    // }
+    // resultOfLastPregnancyOutcome([], statusBuilder) {
+    //     statusBuilder.skipAnswers("Don't know","Live birth and Still birth");
+    // } 
 }
 
 @baselineDecision("79ccee95-0c94-41f9-8fff-8f26bf14eddc", "Baseline Form decisions", 100.0, {})
@@ -195,7 +196,7 @@ class BaselineDecision {
             .when.valueInEnrolment('Protein % RDA')
             .lessThan(70);
             
-        complicationsBuilder.addComplication('Child born after March 2016')
+        complicationsBuilder.addComplication('Last Outcome after March 2016')
              .whenItem(RuleHelper.dateAIsAfterB(lastPregnancyOutcomeDate, validationDate)).is.truthy;
  
   

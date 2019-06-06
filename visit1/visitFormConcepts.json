@@ -387,8 +387,8 @@
     "dataType": "Numeric",
     "lowNormal": 0.00,
     "lowAbsolute" : 0.00,
-    "highAbsolute" : 5.00,
-    "highNormal": 5.00,
+    "highAbsolute" : 50.00,
+    "highNormal": 50.00,
     "abnormal":false
   },
   {
@@ -416,6 +416,11 @@
         "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
       }
     ]
+  },
+  {
+    "name": "If any other illness, specify",
+    "uuid": "69a49d42-4f23-4adb-85ab-7ca6f3c26056",
+    "dataType": "Text"
   },
   {
     "name": "Any other illness treatment",

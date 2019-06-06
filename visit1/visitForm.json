@@ -445,6 +445,17 @@
           "mandatory": true
         },
         {
+          "name": "If any other illness, specify",
+          "uuid": "5919e108-6864-4dee-b70d-590c07cc77ba",
+          "keyValues": [],
+          "concept": {
+            "name": "If any other illness, specify",
+            "uuid": "69a49d42-4f23-4adb-85ab-7ca6f3c26056"
+          },
+          "displayOrder": 1.2,
+          "mandatory": true
+        },
+        {
           "name": "Any other illness treatment",
           "uuid": "40f45f71-9928-4f82-a5b1-496ccef89900",
           "keyValues": [],

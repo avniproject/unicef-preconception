@@ -130,6 +130,11 @@ class Visit1FormHandler {
     tshTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("TSH").greaterThan(10);
     }
+    
+    @WithStatusBuilder
+    ifAnyOtherIllnessSpecify([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
+    }
 
     @WithStatusBuilder
     anyOtherIllnessTreatment([], statusBuilder) {

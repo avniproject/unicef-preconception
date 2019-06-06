@@ -15,6 +15,7 @@
       }
     ]
   },
+  
    {
     "uuid": "d3066e68-7b1c-4632-a4e7-1990799574d2",
     "name": "Still Birth with Congenital Anomaly"
@@ -60,6 +61,16 @@
     "highNormal": 100.0,
     "highAbsolute":100.0,
     "unit": "cm"
+  },
+  {
+    "name": "Preconception Outcome Weight",
+    "uuid": "fa5e2794-ba56-4208-82be-d70862233954",
+    "dataType": "Numeric",
+    "lowAbsolute": 0,
+    "highAbsolute": 5000,
+    "lowNormal": 0,
+    "highNormal": 5000,
+    "unit": "gm"
   },
   {
     "name": "Preconception Gestational age",
