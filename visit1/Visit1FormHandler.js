@@ -132,12 +132,12 @@ class Visit1FormHandler {
     }
     
     @WithStatusBuilder
-    ifAnyOtherIllnessSpecify([], statusBuilder) {
+    anyOtherIllnessTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
     }
 
     @WithStatusBuilder
-    anyOtherIllnessTreatment([], statusBuilder) {
+    ifAnyOtherIllnessSpecify([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
     }
 

@@ -419,8 +419,7 @@
   },
   {
     "name": "If any other illness, specify",
-    "uuid": "69a49d42-4f23-4adb-85ab-7ca6f3c26056",
-    "dataType": "Text"
+    "uuid": "69a49d42-4f23-4adb-85ab-7ca6f3c26056"
   },
   {
     "name": "Any other illness treatment",
