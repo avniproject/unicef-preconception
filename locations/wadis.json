@@ -1,0 +1,4097 @@
+[
+  {
+    "uuid": "69694669-081f-4e64-bf14-b455a5cc8a2f",
+    "name": "Savari pada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "19bc59b3-4b21-40fb-b6fd-061966d632ef"
+    }
+  },
+  {
+    "uuid": "0065c0d6-1989-4d71-b04a-0ad5649ac2e1",
+    "name": "Ukhalimal",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "19bc59b3-4b21-40fb-b6fd-061966d632ef"
+    }
+  },
+  {
+    "uuid": "50986af3-9b9d-452f-ae76-e5140c2b77f2",
+    "name": "Chaukada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "21571794-2fba-4dfd-b863-5c57dbb74fc8"
+    }
+  },
+  {
+    "uuid": "710cc9ad-af2b-496a-9977-6967f7024562",
+    "name": "Vadapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "21571794-2fba-4dfd-b863-5c57dbb74fc8"
+    }
+  },
+  {
+    "uuid": "997023ec-8b91-448f-aa02-a204d4323323",
+    "name": "Holmari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "21571794-2fba-4dfd-b863-5c57dbb74fc8"
+    }
+  },
+  {
+    "uuid": "dde5e535-318d-4ee8-ab9c-64fcb66e3f36",
+    "name": "Mohadand",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "344f0d32-2186-470f-8880-e2457336e48c"
+    }
+  },
+  {
+    "uuid": "a950bf10-ae37-4db4-bec1-288d21871ab9",
+    "name": "Shivshet",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b999585f-af85-4adb-94c3-57e425ae2a9a"
+    }
+  },
+  {
+    "uuid": "80685e21-cc4b-4966-a85f-a039e08f7277",
+    "name": "Jamabulpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a2bebb53-aeea-47ee-8670-e34dc2effbd4"
+    }
+  },
+  {
+    "uuid": "8c3859b5-70ff-4c34-8013-63e6924d5d1e",
+    "name": "Kalune",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7eda7f51-8eb6-4dd3-9420-b67af7e1c054"
+    }
+  },
+  {
+    "uuid": "4241acec-5dcd-4e41-bd34-0c06bb2499ea",
+    "name": "Nishankhadak",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b239cc83-5b59-49ae-a944-c6f6bb604971"
+    }
+  },
+  {
+    "uuid": "64816124-340b-4c01-9565-0e45a2aec544",
+    "name": "Vakharpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0056015d-2209-4fc1-886a-557f7d3fa4ce"
+    }
+  },
+  {
+    "uuid": "6f56f99e-b20d-4997-8ed2-bd1082fcdaca",
+    "name": "Dukkarbhuji",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0056015d-2209-4fc1-886a-557f7d3fa4ce"
+    }
+  },
+  {
+    "uuid": "450d7a09-fd94-4ba0-8d03-cf3edc41b353",
+    "name": "Asdanpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0056015d-2209-4fc1-886a-557f7d3fa4ce"
+    }
+  },
+  {
+    "uuid": "67987012-da6c-4308-88c6-3a20214a8215",
+    "name": "Umbarpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0056015d-2209-4fc1-886a-557f7d3fa4ce"
+    }
+  },
+  {
+    "uuid": "95573a6c-012e-4986-9323-661ba4dd2fe5",
+    "name": "Maharvihir",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0056015d-2209-4fc1-886a-557f7d3fa4ce"
+    }
+  },
+  {
+    "uuid": "eb6cd759-e532-4820-b6c8-0fa557c06682",
+    "name": "Kalambari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5cb1ebb9-9c51-4aa7-8432-bb237ed0a0c4"
+    }
+  },
+  {
+    "uuid": "ed6af63f-be73-4bc5-a1c4-4fd4c8b1ea60",
+    "name": "Amdongra",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b0be685f-de5d-4a88-b19d-036e73fb5edf"
+    }
+  },
+  {
+    "uuid": "e577acbe-8894-4d7a-962f-6ec410b6d8fd",
+    "name": "Dabdari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c124ceb4-2401-42d5-b81d-387dfa5024dd"
+    }
+  },
+  {
+    "uuid": "13c1950a-7627-442f-b326-d15af77a9a89",
+    "name": "Ranpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a64fc670-c494-4304-9563-d7bbae6cd317"
+    }
+  },
+  {
+    "uuid": "cd2d7c9b-0d66-486a-a60e-d73994c4b38b",
+    "name": "Karanj Khed",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "dea00bca-0418-4026-ad72-22290d65f3cf"
+    }
+  },
+  {
+    "uuid": "c8f371f9-63ed-4f0c-8cdb-9696e6f35de7",
+    "name": "Toranmal",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b9a4ffd3-edef-4e6e-8d87-06755fc9222d"
+    }
+  },
+  {
+    "uuid": "3b4c760b-1c7c-4738-82d6-1a4f5e52620b",
+    "name": "Diksal",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "99caecf9-6a33-4d09-89b6-c71995660aa8"
+    }
+  },
+  {
+    "uuid": "4f49a83c-d6bf-4d69-b12c-dd84a20692f7",
+    "name": "Adgoan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "50ab6c90-2e34-4c29-ad01-7f43d6b54ddf"
+    }
+  },
+  {
+    "uuid": "48f61838-ff1a-47db-b3a1-492ecdb9ec22",
+    "name": "Ambapani",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a01f8009-7265-405b-b0d8-2ec134235c8f"
+    }
+  },
+  {
+    "uuid": "dab2a0f2-af29-44d7-8774-8fd7de29e4a1",
+    "name": "Bhuvan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e527b699-d715-4193-a7f3-df1592ce01ec"
+    }
+  },
+  {
+    "uuid": "aa6c644c-154e-4254-b17f-d4a241de7eea",
+    "name": "Borpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f9c08b7a-3356-40cd-a90d-5e6a8c4fd51a"
+    }
+  },
+  {
+    "uuid": "6164fa4b-c839-42bf-8346-3afe865c0a65",
+    "name": "Bilkas",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a1544b3e-12c5-4725-8d36-e76035469e5f"
+    }
+  },
+  {
+    "uuid": "5680d950-e8e1-4a42-99b8-d323a01da45e",
+    "name": "Khamshet",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "aaa08dfc-d383-4145-8fb3-8b75eda5a96c"
+    }
+  },
+  {
+    "uuid": "62c07d79-20e1-437e-b633-505142886463",
+    "name": "Borpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "aaa08dfc-d383-4145-8fb3-8b75eda5a96c"
+    }
+  },
+  {
+    "uuid": "a73ad4a0-85a6-4ea5-b73d-b78c9ec6931f",
+    "name": "Hanumant Pada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "036b5643-4774-433d-bdb6-872d0d0582b0"
+    }
+  },
+  {
+    "uuid": "7da9f365-db14-438e-9f60-01d35241272a",
+    "name": "Shingadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0dd7387e-bc70-4735-99ac-a69f6c8d3e36"
+    }
+  },
+  {
+    "uuid": "fe000b73-8852-482c-a057-347165b0d593",
+    "name": "Khamshet",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "6a56785e-943d-4d49-931c-6ecec2aea0e7"
+    }
+  },
+  {
+    "uuid": "625c7c64-e660-44cc-83cd-36770b1b25fe",
+    "name": "Umbarpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7a8ec752-d556-4c68-9ee6-34166525229b"
+    }
+  },
+  {
+    "uuid": "9f5b1621-3823-48c1-9851-6fbb497d00cd",
+    "name": "Mahalachapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5ba1419e-ab34-47e9-9b4b-30ed4fa64b9d"
+    }
+  },
+  {
+    "uuid": "6c95a293-7446-4fb0-97b8-e603fe2bc5e3",
+    "name": "Vaitakpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5ba1419e-ab34-47e9-9b4b-30ed4fa64b9d"
+    }
+  },
+  {
+    "uuid": "09bb6d18-bd00-4d5e-9223-9a85f9d08a69",
+    "name": "Pimpalpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "da2f8884-ca19-486a-adc1-876a132b7769"
+    }
+  },
+  {
+    "uuid": "47644e8f-d56c-4f27-8f00-2c80a93725fd",
+    "name": "Chaphyacha pada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f475e4c9-61f2-4b75-8dd6-fa0da0f79ac4"
+    }
+  },
+  {
+    "uuid": "d7d6e258-b366-4ffd-a0c3-2e8f393e5a9c",
+    "name": "Shetmal",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "752f759e-37bb-4916-8c16-d84bcf544d15"
+    }
+  },
+  {
+    "uuid": "1227c2ba-8e9a-4666-8f6e-3df60ea75162",
+    "name": "Pondyachamal",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "752f759e-37bb-4916-8c16-d84bcf544d15"
+    }
+  },
+  {
+    "uuid": "4da4ed11-1341-4e5f-9965-98a949a383ac",
+    "name": "Devalapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "752f759e-37bb-4916-8c16-d84bcf544d15"
+    }
+  },
+  {
+    "uuid": "778fd758-c91a-410c-9ee8-afea78e50954",
+    "name": "Shitmal",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "752f759e-37bb-4916-8c16-d84bcf544d15"
+    }
+  },
+  {
+    "uuid": "27931b19-1ef8-406f-b268-b27ec7a42b6d",
+    "name": "Bodarmal",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1b89b6e6-c2a1-4005-a7c7-2b9b04ba69b4"
+    }
+  },
+  {
+    "uuid": "b4e78da1-16ed-44dd-8f40-77714cdc89de",
+    "name": "Ranvihir",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "37866e10-0dc0-441d-acbc-0c55d9f13613"
+    }
+  },
+  {
+    "uuid": "5701be02-176f-4550-a477-4cc5215ef09e",
+    "name": "Belpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "6560f2c8-3756-47b2-9a9f-a67fb60a7ae8"
+    }
+  },
+  {
+    "uuid": "7ff14d4b-b463-4d05-a64c-9a328163541a",
+    "name": "Gaidhond",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5dc4b069-478d-4e62-be9f-d5bcca96219c"
+    }
+  },
+  {
+    "uuid": "381f8d8e-ca37-4690-8751-e73e3d6d5429",
+    "name": "Garmal",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "3937e184-b1ec-49ce-957f-d75d6fae0b1d"
+    }
+  },
+  {
+    "uuid": "19679a06-5d5c-4dae-b6f4-008481976624",
+    "name": "Kalampada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7a1ce0f1-a968-4d1f-9019-6a238969d0a1"
+    }
+  },
+  {
+    "uuid": "0282d68c-8596-4927-8849-ece6b869e7c1",
+    "name": "Kelvihir",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "58c154c1-ed12-4421-8219-190489f07648"
+    }
+  },
+  {
+    "uuid": "53bcca5f-f9f6-46ba-a6d1-2a377a907558",
+    "name": "Lalhali",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "9a49b06f-8bdf-480f-91b4-59f85666f9c5"
+    }
+  },
+  {
+    "uuid": "7926ee7d-c234-4b2a-84c7-ed747fdbb69d",
+    "name": "Sadadpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "275aaabf-a8fb-490e-b12a-fcb85df20a4d"
+    }
+  },
+  {
+    "uuid": "f81405a8-6a4e-41e8-b6da-8cc489dedf32",
+    "name": "Bhitdar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "cc942fb5-a373-4f3e-894e-1a2a089f2df3"
+    }
+  },
+  {
+    "uuid": "f04ba740-7f1f-49de-805a-f3df28d4c5e3",
+    "name": "Baravpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "9f7c9756-ff3e-4fdf-bc3c-48a3a4bbfb65"
+    }
+  },
+  {
+    "uuid": "3950ead3-26a8-4131-8fe0-b1fb105ebcc0",
+    "name": "Nadakdari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "327907e4-5e3e-47a1-b039-5235be741ce4"
+    }
+  },
+  {
+    "uuid": "29a2517e-b99f-4721-8bef-24132f1902ca",
+    "name": "Pimpalpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "6f2a6ce4-5584-4eb4-8348-e75a1d0dbac5"
+    }
+  },
+  {
+    "uuid": "ae5ce6f9-5afa-4859-b47b-475e65bd3259",
+    "name": "Kudalipada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "849af33f-a6e6-4ec8-94c1-a87a79a7a818"
+    }
+  },
+  {
+    "uuid": "f0730d1d-2abe-4549-8f69-99c5f3d3a7a6",
+    "name": "Vadbari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b6b76bea-fef8-4098-91d4-603e2ec65917"
+    }
+  },
+  {
+    "uuid": "084d5423-87fa-4f91-ae43-0b04980a44af",
+    "name": "Kapurli Kh",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b4b8fedb-da11-41da-ae8e-dd4d0fe32773"
+    }
+  },
+  {
+    "uuid": "c25a15a8-69b8-40f5-8b28-37051526fdf4",
+    "name": "Domkhadak",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "8497514e-5cf2-4d60-99a0-cea76b594634"
+    }
+  },
+  {
+    "uuid": "c6983d2d-49bc-46de-b943-8bc08f19079b",
+    "name": "Dabhadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "596ac07b-e81a-4ea8-8a99-7b5901f26983"
+    }
+  },
+  {
+    "uuid": "b19a625e-b260-4c45-bef6-ac54f1ffc16c",
+    "name": "Tirde",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e41e67ae-5845-4243-aafb-90b27011905c"
+    }
+  },
+  {
+    "uuid": "9fd9c623-de2d-44df-af6f-c0730b8c2abb",
+    "name": "Khirkade",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "89c728ef-661e-4963-b9ed-ef358a0cde66"
+    }
+  },
+  {
+    "uuid": "f2b7f451-6394-4334-a746-4d15de9cd0df",
+    "name": "Phanaspada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "950a58ba-428b-48d0-a731-e788c353bf34"
+    }
+  },
+  {
+    "uuid": "21fdae85-020e-47c2-bbe1-a5f462ee1b84",
+    "name": "Bagachapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "950a58ba-428b-48d0-a731-e788c353bf34"
+    }
+  },
+  {
+    "uuid": "634b8fa8-e7a9-4896-ad28-6d7ed2466a77",
+    "name": "Panghurnepada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "558bd39b-6530-4beb-a40e-bc710892dac6"
+    }
+  },
+  {
+    "uuid": "a077fc27-3c65-42f6-82b0-8ce530c93751",
+    "name": "Tungarpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "16397a13-5e7e-43c5-a6fa-e2f111f40cf0"
+    }
+  },
+  {
+    "uuid": "62ba3a8a-1f53-447e-a14a-e06229d578b9",
+    "name": "Seharipada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "16397a13-5e7e-43c5-a6fa-e2f111f40cf0"
+    }
+  },
+  {
+    "uuid": "db162176-8f89-47ba-ad2b-99f0fbf9c607",
+    "name": "Mohalipada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "16397a13-5e7e-43c5-a6fa-e2f111f40cf0"
+    }
+  },
+  {
+    "uuid": "91770d6e-13f8-43f5-b83f-80f5b52357fd",
+    "name": "Sadadpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "275aaabf-a8fb-490e-b12a-fcb85df20a4d"
+    }
+  },
+  {
+    "uuid": "5f2b772d-a924-494e-8447-390ff95cfd14",
+    "name": "Ghotpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "15eb2e5a-2e6e-4e80-bf25-f354848ebb33"
+    }
+  },
+  {
+    "uuid": "baaa2ae1-8a07-47c6-a3db-9d23bba435d2",
+    "name": "Bhatvihir",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d1727705-2091-4758-8377-17f6173855f2"
+    }
+  },
+  {
+    "uuid": "ce9409b1-106c-4171-827e-84b911c53226",
+    "name": "Navapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1cfc8df3-ff99-4f5d-a975-cf076ce0c56e"
+    }
+  },
+  {
+    "uuid": "1654e4c8-14af-445a-a800-8faa96fd2d4f",
+    "name": "Chikhali",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7fcb032b-97f2-479a-8800-0c4c0c7939a5"
+    }
+  },
+  {
+    "uuid": "0a4c7744-4a5d-48fe-aad5-bd0b1cc2f162",
+    "name": "Hachanpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e02e3be0-a727-4539-ad55-1cbd216d9a55"
+    }
+  },
+  {
+    "uuid": "7e23f033-a083-4848-ade3-c39cf5510096",
+    "name": "Borda",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "8bd42787-f5d6-403a-aff5-8e2c62d47b35"
+    }
+  },
+  {
+    "uuid": "f1a50eeb-f337-4cb0-bf04-09d9be035324",
+    "name": "Gawandpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "fa577992-4703-4851-902c-0d399f7ccc7e"
+    }
+  },
+  {
+    "uuid": "c21c6d6e-2d16-4d76-9a5b-1114bd3ede48",
+    "name": "Pawarpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "fa577992-4703-4851-902c-0d399f7ccc7e"
+    }
+  },
+  {
+    "uuid": "5e258ac7-9cb0-4b9d-899c-f5006f5674a3",
+    "name": "Hanambari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "68c7ecf6-7ab7-432c-acf9-4c0ed9b77bbb"
+    }
+  },
+  {
+    "uuid": "89c03bea-566c-4643-8412-2ad8ffbf4e0a",
+    "name": "Jambvihir",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d02892bc-5849-41af-a698-b36eb438db81"
+    }
+  },
+  {
+    "uuid": "05809c35-ff63-4ac0-9c65-195d31094bea",
+    "name": "Patli",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d02892bc-5849-41af-a698-b36eb438db81"
+    }
+  },
+  {
+    "uuid": "fc9920e7-4948-4f86-9c9d-383d0716dea9",
+    "name": "Umbarpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7a8ec752-d556-4c68-9ee6-34166525229b"
+    }
+  },
+  {
+    "uuid": "be8cf685-cad6-4de8-af48-ad85e21f8cd6",
+    "name": "Mangone",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "81b9a508-caef-40b4-be4b-63029eb88181"
+    }
+  },
+  {
+    "uuid": "6021bb93-fc6c-4912-a068-c7f3dbbf2e8c",
+    "name": "Ubhidhond",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "50bc14f6-a507-419a-8fe8-755ea2a7bb58"
+    }
+  },
+  {
+    "uuid": "91dc5492-0101-45c7-9510-b6279554a3c6",
+    "name": "Nirgude",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0d9e0b4a-b857-46c0-805a-36668cbc5fda"
+    }
+  },
+  {
+    "uuid": "95ceee7c-2623-489c-a723-dfeb6576d1af",
+    "name": "Devgaon",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "52592e74-91b6-4da4-9eb6-35e7e8f0514d"
+    }
+  },
+  {
+    "uuid": "2836ba5e-76d7-44f0-99f6-ef7972ce3d5a",
+    "name": "Devalapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "273feb21-b80e-4ff4-9b36-20baa26d7521"
+    }
+  },
+  {
+    "uuid": "dd5dbff1-3423-4109-881f-926975a2e2ab",
+    "name": "Mathanche aavan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "273feb21-b80e-4ff4-9b36-20baa26d7521"
+    }
+  },
+  {
+    "uuid": "c271a98a-f2fb-41cf-b6ca-8590e699aa48",
+    "name": "Hattipada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a2876297-2427-4ac4-85dc-df8edc59bcd0"
+    }
+  },
+  {
+    "uuid": "2a0980f9-d5e7-4789-8de8-04501f2f7ec3",
+    "name": "Dhabyachapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f765ca84-6421-4bc7-9e12-30725f1075cd"
+    }
+  },
+  {
+    "uuid": "5395e651-769d-486b-8f1f-242f70e84404",
+    "name": "Gangodbari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "6ec38b78-4121-4a46-9d1c-ff96dcc5f1f1"
+    }
+  },
+  {
+    "uuid": "96e24851-d8fd-4e52-a56d-146da7d9bf00",
+    "name": "Tilbhat",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "aac8d9e2-75ab-49d4-96d7-29292ccf4b7d"
+    }
+  },
+  {
+    "uuid": "36f519d8-9a5a-4170-bfcf-9a7571cee07c",
+    "name": "Sambarpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "97e8fc7c-dcd0-4879-9b6f-576b9b7fda34"
+    }
+  },
+  {
+    "uuid": "1d5f8c1b-8c78-4773-8ca6-6f14de35c52b",
+    "name": "Sawalghat",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d059e0b8-fce1-4dc3-bc69-56b47695a204"
+    }
+  },
+  {
+    "uuid": "e674fbd0-ec39-4a92-bdc6-cdb8a9068522",
+    "name": "Phanaspada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d183afc7-29f4-4e85-9386-93cbc98a96c8"
+    }
+  },
+  {
+    "uuid": "6c4291f7-d98d-49c4-b742-c8d818ac6eac",
+    "name": "Nimonipada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d183afc7-29f4-4e85-9386-93cbc98a96c8"
+    }
+  },
+  {
+    "uuid": "51cc832e-e729-46d9-b361-0c872b2f5ca2",
+    "name": "Vadpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d183afc7-29f4-4e85-9386-93cbc98a96c8"
+    }
+  },
+  {
+    "uuid": "099e2218-a396-4c0f-b66a-9f3a27f10d7a",
+    "name": "Kelpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d183afc7-29f4-4e85-9386-93cbc98a96c8"
+    }
+  },
+  {
+    "uuid": "f5fadd83-fe5b-4fc4-9daa-df51aabdce49",
+    "name": "Mhasanvihir",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d183afc7-29f4-4e85-9386-93cbc98a96c8"
+    }
+  },
+  {
+    "uuid": "2b2dac59-268c-415d-ba35-5483d9e7a2a9",
+    "name": "Payripada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d183afc7-29f4-4e85-9386-93cbc98a96c8"
+    }
+  },
+  {
+    "uuid": "a5151b11-52d0-44bc-9bb1-de94e875d208",
+    "name": "Gaddune",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d183afc7-29f4-4e85-9386-93cbc98a96c8"
+    }
+  },
+  {
+    "uuid": "8992fd58-405b-432f-b754-3552e266fe19",
+    "name": "Bhorhapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "ec315283-37e3-4dc0-9719-8c41508013e1"
+    }
+  },
+  {
+    "uuid": "5a022bcf-44c1-4aa3-85d4-31fa6d1f2b40",
+    "name": "Hedpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "cbea68c9-80ff-4cb0-940b-3f53e42a5364"
+    }
+  },
+  {
+    "uuid": "828c0a64-a019-4d8f-bd42-a0e9dae685c5",
+    "name": "Bardpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a947b7c1-0efe-48df-b9f8-84a75e28b5b0"
+    }
+  },
+  {
+    "uuid": "ce0d33cc-8fca-4831-a1dd-060df507620d",
+    "name": "Behedmal",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "9243ea64-63ed-4db4-8bfd-ba6e841a309c"
+    }
+  },
+  {
+    "uuid": "732a49b0-691d-45cb-bc94-767ebb1248a4",
+    "name": "Jambhulmal",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f8e7b91c-fc1e-4f28-a3c2-468053b768ff"
+    }
+  },
+  {
+    "uuid": "624ec4d1-0eb9-4a73-ad92-20fcc20c2176",
+    "name": "Borwanpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5e42b3bd-5d58-49ec-bb7b-c1269596f838"
+    }
+  },
+  {
+    "uuid": "3951f80c-49a5-4457-886d-cd6de94cd43a",
+    "name": "Lingavne",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d4c491b6-3aa9-4e6e-a269-2821df14aa55"
+    }
+  },
+  {
+    "uuid": "ce7e0eae-cee0-4bc5-b256-273e93d3e9ec",
+    "name": "Hanumannager",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "cdf4b2e8-3708-48d5-862d-6d522c9062d1"
+    }
+  },
+  {
+    "uuid": "491cbed1-62f1-46be-8860-e16b5bc0286a",
+    "name": "Ruipetha",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5511ae64-5b9c-48bf-acfe-7df261146df2"
+    }
+  },
+  {
+    "uuid": "13ca0bcd-59c8-4a1c-8a16-a71201bddc65",
+    "name": "Chaphyacha pada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "9f202485-f00c-4d3b-833d-467a811b1265"
+    }
+  },
+  {
+    "uuid": "69e74a3c-0421-402a-b1ed-de4a2c952484",
+    "name": "Nadicha pada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "9f202485-f00c-4d3b-833d-467a811b1265"
+    }
+  },
+  {
+    "uuid": "09b83c2a-0c83-4a9d-a779-632fb468c8ce",
+    "name": "Aad BK",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "58c1d947-9991-4d10-a9fa-a4634d357a6f"
+    }
+  },
+  {
+    "uuid": "0818b68e-a3ea-4c50-8800-34dd64030cea",
+    "name": "Aad KH",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "527b516a-da39-4105-ab72-9c03f1dde315"
+    }
+  },
+  {
+    "uuid": "a7d904bd-7015-405a-8de7-ae5b8f1193dd",
+    "name": "Khironipada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "9e7f4093-6e99-4d41-8fcd-e325a4208f78"
+    }
+  },
+  {
+    "uuid": "bb5b7434-a058-48c2-a3be-6c94a9b8bd25",
+    "name": "Donawade",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "3c24ff01-cfd3-4695-9aa5-a6e43ee7edbc"
+    }
+  },
+  {
+    "uuid": "df71a7f1-4100-4726-ba54-ccca89f8effa",
+    "name": "Dhulgat",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "49e1a81a-bb01-425f-aebe-ecdc6a4ebd61"
+    }
+  },
+  {
+    "uuid": "51b57084-91e9-4d03-91e5-a2b38d7e4d12",
+    "name": "Umardahad",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "96e80480-b32d-463a-93c2-de4d119b8d99"
+    }
+  },
+  {
+    "uuid": "1b2b3b71-3c64-49cb-a593-c360bbc880d6",
+    "name": "Waghyachibari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "03ead09d-10e3-40ae-bdf9-3dbb3ad398db"
+    }
+  },
+  {
+    "uuid": "df782a28-a383-48bd-80a7-3570079c64c0",
+    "name": "Mankapur",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c082680f-15e8-4142-aaa6-efd9d7261608"
+    }
+  },
+  {
+    "uuid": "5aded70b-63d7-48e0-a220-afe857203886",
+    "name": "Chirapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "956b0fa0-6e72-4e69-b476-724ae3c9cc83"
+    }
+  },
+  {
+    "uuid": "b8b1c4b0-e824-4890-ae6b-7f4da1cd779a",
+    "name": "Mohapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "956b0fa0-6e72-4e69-b476-724ae3c9cc83"
+    }
+  },
+  {
+    "uuid": "ba09efa8-c42f-4e20-aa1b-62e8f54ad019",
+    "name": "Karanjpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0e230411-0bbc-41c8-9949-0f19ed401157"
+    }
+  },
+  {
+    "uuid": "48539c3b-2fb1-40a8-9eeb-a5029c0870fe",
+    "name": "Ghosali",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "10a1bb96-2de0-4a5f-a7cb-9f36f4421b05"
+    }
+  },
+  {
+    "uuid": "1b782eb0-add2-4718-92ce-47c1bbd9a200",
+    "name": "Raitale",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "2ffdccb8-8596-4934-8538-0bb4d9b90234"
+    }
+  },
+  {
+    "uuid": "c5aee244-29ab-4dd1-b40f-d1fb7eb52d0f",
+    "name": "Tandalachibari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "62e0cb3e-bf37-4550-8d2d-f0e4f3c36c31"
+    }
+  },
+  {
+    "uuid": "e75b7081-10fb-4275-853e-09b107b8345c",
+    "name": "Kharadipada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0127002d-9697-4169-948b-210be5af150a"
+    }
+  },
+  {
+    "uuid": "1dbf7797-2d17-447d-b1df-33b036812c0a",
+    "name": "Kadawarhapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0127002d-9697-4169-948b-210be5af150a"
+    }
+  },
+  {
+    "uuid": "a409dec9-0ce6-42bd-b953-91a8ad075660",
+    "name": "Sasune",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d209f818-b05b-4fcf-95a9-6d204b1211d8"
+    }
+  },
+  {
+    "uuid": "cf7cdaff-5f37-4fc7-b5e6-5e28b1a5c1d6",
+    "name": "Amlon",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0fda21bf-c5e2-4fbc-ba26-3c90f7277c88"
+    }
+  },
+  {
+    "uuid": "2893b8d3-731b-494c-8bc8-e0fbf1c74bdb",
+    "name": "Savarichapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1fe58606-b2b0-4a59-a806-cbeae6f7601f"
+    }
+  },
+  {
+    "uuid": "bae6e02e-5ca6-4ea5-a823-b97ad113c26c",
+    "name": "Palsi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "76df23d4-2a6a-4c8d-beb0-1b8054c9d1a1"
+    }
+  },
+  {
+    "uuid": "7fe7d43a-4ade-433b-8a41-43cadddb7cf9",
+    "name": "Hattipada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "2d0f99a4-26c8-482f-9164-f5315f6e21d7"
+    }
+  },
+  {
+    "uuid": "1e4a5d5e-3017-4e37-b71d-11b6a5d2aefa",
+    "name": "Nimonipada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "2d0f99a4-26c8-482f-9164-f5315f6e21d7"
+    }
+  },
+  {
+    "uuid": "37ec3750-e265-46fa-8119-3663a3c65601",
+    "name": "Khokaripada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "abaffcc0-f2bd-433a-a8b7-fa3c891ef85a"
+    }
+  },
+  {
+    "uuid": "d4aa49dc-3ce9-4bfe-9ba7-f6f6c6e72bc3",
+    "name": "Bardapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "04ebac53-8710-406c-8f2f-d5bbd8ae4b37"
+    }
+  },
+  {
+    "uuid": "452c3aab-76d1-43e7-b289-d3c5d53344d9",
+    "name": "Phanaspada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "68357534-102e-42a1-84b8-158b8919bccf"
+    }
+  },
+  {
+    "uuid": "defe2b83-3a0f-46d4-bf3d-942d86062899",
+    "name": "Khotarepada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "68357534-102e-42a1-84b8-158b8919bccf"
+    }
+  },
+  {
+    "uuid": "e7b06ba3-c730-4aa3-8c9c-824eaa5cea01",
+    "name": "Pate",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b3cbdefa-a4cc-4d3f-ad91-189c3b36aeb9"
+    }
+  },
+  {
+    "uuid": "f9bc4228-ee9f-48ba-8466-2e90caa8467a",
+    "name": "Phanaspada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0080d764-b4a0-4404-83c8-8a3b34defd4a"
+    }
+  },
+  {
+    "uuid": "c7b1dbc8-58c0-44ab-a119-17796a2091da",
+    "name": "Cholmukh",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "146bc1f7-3a3e-4316-a445-e135d3ca1576"
+    }
+  },
+  {
+    "uuid": "2d52a983-56be-47a5-86d7-be9f0949cc3a",
+    "name": "Abyachapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "46cbf63e-cf60-4d39-9343-335d890388a8"
+    }
+  },
+  {
+    "uuid": "924bd77c-5374-420b-9818-4c3f3d0ac4a0",
+    "name": "Dhamanchond",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "46cbf63e-cf60-4d39-9343-335d890388a8"
+    }
+  },
+  {
+    "uuid": "a4a6f4f6-150b-41d0-ab4c-cb933912e212",
+    "name": "Chinchapada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0b5a51a5-080c-418b-b04a-06ab6bb1da1c"
+    }
+  },
+  {
+    "uuid": "37d7d211-ffda-403b-b8ac-95558a426a96",
+    "name": "Bondarmal",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0b5a51a5-080c-418b-b04a-06ab6bb1da1c"
+    }
+  },
+  {
+    "uuid": "45647660-a24d-4cb0-99cb-fda2f256919f",
+    "name": "Nimpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0b5a51a5-080c-418b-b04a-06ab6bb1da1c"
+    }
+  },
+  {
+    "uuid": "4220f552-ac62-4289-a6a2-c51b169e2a32",
+    "name": "Payarpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b64dc8e9-af66-4acb-93d7-26b3e515f9f6"
+    }
+  },
+  {
+    "uuid": "df089a3d-dc56-4a99-9deb-b9168e8337e1",
+    "name": "Hanumantpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5870243b-5dd4-4e26-a8d9-7170909ed9d6"
+    }
+  },
+  {
+    "uuid": "5ea21e0a-9b8a-4f2b-873b-8da228009004",
+    "name": "Phanaspada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5870243b-5dd4-4e26-a8d9-7170909ed9d6"
+    }
+  },
+  {
+    "uuid": "5bd81d28-799c-47c2-895a-5ddf6e3a6c3a",
+    "name": "Devichamal",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "8ad3eeb1-cf42-4a0e-b20b-2dbbbb8a476b"
+    }
+  },
+  {
+    "uuid": "890ddb21-fee1-459f-9e31-fdf61ded69fb",
+    "name": "Karvalpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5b18d759-e8b9-4305-a4c4-fffb44a80c1f"
+    }
+  },
+  {
+    "uuid": "8f2ed954-5fd9-4c5a-b8bc-e1653d139034",
+    "name": "Kolushti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5b18d759-e8b9-4305-a4c4-fffb44a80c1f"
+    }
+  },
+  {
+    "uuid": "66476988-6c9e-4962-8dbb-e81992fc3f30",
+    "name": "Kelbari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b20cce35-7206-4c84-86ae-f6c2602ace33"
+    }
+  },
+  {
+    "uuid": "532398b7-bd30-4394-9d6f-161211aff253",
+    "name": "Wajwad",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "9b632a71-bb43-4379-9661-532418c95f3d"
+    }
+  },
+  {
+    "uuid": "d5bbac4b-7345-4b7e-b6b7-8df371de1ab2",
+    "name": "Kharpadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "8f2ea415-2f2c-4d4f-9d04-288d1197bd5a"
+    }
+  },
+  {
+    "uuid": "be4236bd-8b9d-4bc9-a80c-82194b446296",
+    "name": "Phanaspada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0080d764-b4a0-4404-83c8-8a3b34defd4a"
+    }
+  },
+  {
+    "uuid": "3827dfd8-6dcf-4ea3-a46e-94eb2675c196",
+    "name": "Khadaki",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7cdfe80e-3d02-459c-aba9-8cdd7f007b17"
+    }
+  },
+  {
+    "uuid": "6c5a355a-7185-4b2d-9aeb-a71eedf5b4f4",
+    "name": "Mohpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7cdfe80e-3d02-459c-aba9-8cdd7f007b17"
+    }
+  },
+  {
+    "uuid": "78209b65-61e4-45f2-bc7b-a826b96d2e9f",
+    "name": "Borichibari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a2181c64-8781-4f3a-a9ca-dda2de72004b"
+    }
+  },
+  {
+    "uuid": "4060f5ef-1700-443e-be4d-c8a9684a6d2a",
+    "name": "Golaspada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "46ba11d2-c804-4dd2-b147-5b02f3260bdc"
+    }
+  },
+  {
+    "uuid": "a55b1952-9ccf-4668-af53-1ca56696b094",
+    "name": "Kayre",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "6f222bb4-c295-46d0-b481-aa2204fac32b"
+    }
+  },
+  {
+    "uuid": "cf180d7b-0e5c-49b3-b2b2-e7ce47c9c1d8",
+    "name": "Zari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "858683e1-34c9-4c22-b191-5e47b7171d0a"
+    }
+  },
+  {
+    "uuid": "a2d8aa9b-2a9b-4648-af7b-9d7a817a0503",
+    "name": "Behadpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "858683e1-34c9-4c22-b191-5e47b7171d0a"
+    }
+  },
+  {
+    "uuid": "1ee8fdaf-613f-4ae3-aa9b-f4e1b5fd7bfe",
+    "name": "Rajbari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f078e276-573e-4fc6-a257-6d2e0a3b6dee"
+    }
+  },
+  {
+    "uuid": "bbb893d4-ed46-4630-8dac-48db207d423e",
+    "name": "Nalshet",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "9078d886-90f1-4d8a-9c18-83ecdf7ba0f5"
+    }
+  },
+  {
+    "uuid": "27b2dfb1-c5d3-4895-a407-54aeafd91762",
+    "name": "Bordingpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c2f07d1e-c055-4a75-866b-0c70170d1506"
+    }
+  },
+  {
+    "uuid": "54d76515-fc2a-47d8-a97d-3a378ff6004b",
+    "name": "Kashtichiaali",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c2f07d1e-c055-4a75-866b-0c70170d1506"
+    }
+  },
+  {
+    "uuid": "9ce0947e-2dc0-4f42-8802-b5bd4b74a755",
+    "name": "Balsadroad",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c2f07d1e-c055-4a75-866b-0c70170d1506"
+    }
+  },
+  {
+    "uuid": "adfa7780-3931-4374-851a-2e51cf240168",
+    "name": "Pimpalachiaali",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c2f07d1e-c055-4a75-866b-0c70170d1506"
+    }
+  },
+  {
+    "uuid": "e4cc3b40-f126-4375-b96e-bdaadc097ffb",
+    "name": "Kavalbari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "13c6fe77-ea77-4477-996a-36de05f83f7f"
+    }
+  },
+  {
+    "uuid": "a8fa9354-2ee7-4cc6-9620-810b39be80e5",
+    "name": "Bharuna",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "13c6fe77-ea77-4477-996a-36de05f83f7f"
+    }
+  },
+  {
+    "uuid": "8f9400b9-cd11-419a-9b0c-e48383a4d07e",
+    "name": "Bhatadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "13c6fe77-ea77-4477-996a-36de05f83f7f"
+    }
+  },
+  {
+    "uuid": "3f71952a-f30d-47be-951f-0c51fdc37de3",
+    "name": "Saptashringinagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c2f07d1e-c055-4a75-866b-0c70170d1506"
+    }
+  },
+  {
+    "uuid": "7414221a-01dc-48f8-9ab7-cbe698ee1abb",
+    "name": "Sulbhanagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c2f07d1e-c055-4a75-866b-0c70170d1506"
+    }
+  },
+  {
+    "uuid": "612fa646-3d9b-4303-882b-9b75813eab22",
+    "name": "Bajarpeth",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c2f07d1e-c055-4a75-866b-0c70170d1506"
+    }
+  },
+  {
+    "uuid": "72023cee-180a-4602-8d6e-462e24880cc8",
+    "name": "Rajwada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c2f07d1e-c055-4a75-866b-0c70170d1506"
+    }
+  },
+  {
+    "uuid": "00855ccd-a835-4d62-9e56-f50e9be5d323",
+    "name": "Navanagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c2f07d1e-c055-4a75-866b-0c70170d1506"
+    }
+  },
+  {
+    "uuid": "e771ff20-08a4-481e-a891-4be8cfd24c6a",
+    "name": "Hattipda",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c2f07d1e-c055-4a75-866b-0c70170d1506"
+    }
+  },
+  {
+    "uuid": "b5879833-8712-4390-92d4-cd5f26a7c2fe",
+    "name": "Mandarpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "da16ccec-ae68-4af3-826a-e25ff7178a6a"
+    }
+  },
+  {
+    "uuid": "6d76536d-7d78-4e10-a0f7-b20c3c02745a",
+    "name": "Dagalevasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "da16ccec-ae68-4af3-826a-e25ff7178a6a"
+    }
+  },
+  {
+    "uuid": "ab87439a-6d6d-49fa-adc8-95cbe743b144",
+    "name": "Gadharpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "507f68a9-ad9d-45d4-bd82-82aafa2a8d41"
+    }
+  },
+  {
+    "uuid": "44f9ae4e-55a2-43cf-8e99-2b36c788a15e",
+    "name": "Jadhavpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "507f68a9-ad9d-45d4-bd82-82aafa2a8d41"
+    }
+  },
+  {
+    "uuid": "ef1057f9-cc47-40fb-a590-ebf24a6e5adc",
+    "name": "Kapurzira",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "507f68a9-ad9d-45d4-bd82-82aafa2a8d41"
+    }
+  },
+  {
+    "uuid": "7556f5d9-b7ba-4b56-b47f-1c87d64961b5",
+    "name": "Shanidevpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "507f68a9-ad9d-45d4-bd82-82aafa2a8d41"
+    }
+  },
+  {
+    "uuid": "d82925d4-b40f-4f94-aa15-c05361a099fe",
+    "name": "Ambapur",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f657c28b-bddb-419f-ad90-8756ce59301c"
+    }
+  },
+  {
+    "uuid": "4438a9e7-a2be-4f62-a22d-e8e2b91518d1",
+    "name": "Khambale",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5ae60b8f-8393-4030-88ab-4b7d1901c712"
+    }
+  },
+  {
+    "uuid": "66990e64-e422-464c-bbaa-98444657fa21",
+    "name": "Badgi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e8c2c3eb-aad2-47a8-b4e2-cbb6ed9a1710"
+    }
+  },
+  {
+    "uuid": "9cc75bb0-1e43-44fd-b79e-b1ba6399fa31",
+    "name": "Kengpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "10dde14b-5588-470e-9315-da4ccd75e338"
+    }
+  },
+  {
+    "uuid": "76d439d2-9d68-4374-b0ea-a8f07d7172fd",
+    "name": "Zadipada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "10dde14b-5588-470e-9315-da4ccd75e338"
+    }
+  },
+  {
+    "uuid": "fccae523-3d0c-49c7-8aaa-653958db3b04",
+    "name": "Shiral",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0596f12d-d61e-4f8e-94e1-5a9f0005989d"
+    }
+  },
+  {
+    "uuid": "bded1ba2-dc70-49e3-913e-362febe202e3",
+    "name": "Palishi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "2e4175ef-946e-49c7-9b3d-1ae6af79a6c0"
+    }
+  },
+  {
+    "uuid": "b3196f5d-381b-4ab5-8227-e78908af69e1",
+    "name": "Kahandolpada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5038b37d-74e3-4347-a3d6-f578a5ebdb5d"
+    }
+  },
+  {
+    "uuid": "18f73d10-ba41-4ea8-900e-8cbf0e3d4e83",
+    "name": "Nimonipada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5038b37d-74e3-4347-a3d6-f578a5ebdb5d"
+    }
+  },
+  {
+    "uuid": "6fa917d4-9d55-4fee-98b3-19b4f1fab595",
+    "name": "Patalipad",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5038b37d-74e3-4347-a3d6-f578a5ebdb5d"
+    }
+  },
+  {
+    "uuid": "01df66e7-7406-4033-bfd1-0df22157c534",
+    "name": "Satputepada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5038b37d-74e3-4347-a3d6-f578a5ebdb5d"
+    }
+  },
+  {
+    "uuid": "fd0652f0-acac-4f46-aa91-ba503f9bbd0f",
+    "name": "Junothi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d48765ad-81a3-40a6-8d72-867453cde236"
+    }
+  },
+  {
+    "uuid": "2f9a1547-f042-4c72-bdea-8eaf19a42f16",
+    "name": "Jamle",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7ff09403-3a9f-4845-8b82-239662b7175e"
+    }
+  },
+  {
+    "uuid": "c57f710d-4e1a-4584-8d3f-1e34513e400a",
+    "name": "Gawthan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "633e83cb-87c4-49a4-91aa-779a8750650d"
+    }
+  },
+  {
+    "uuid": "254b6237-518c-48e0-84fd-11eab0537850",
+    "name": "Telmatha",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "633e83cb-87c4-49a4-91aa-779a8750650d"
+    }
+  },
+  {
+    "uuid": "77ea5b5a-3708-43d0-80a6-9477430780f3",
+    "name": "Karawandra",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "633e83cb-87c4-49a4-91aa-779a8750650d"
+    }
+  },
+  {
+    "uuid": "bc9158ef-4dc5-4260-95e1-c97ff53bd53a",
+    "name": "Neherwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "633e83cb-87c4-49a4-91aa-779a8750650d"
+    }
+  },
+  {
+    "uuid": "a00686be-c282-44f2-9ab0-01a07d86bc29",
+    "name": "Begewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1ee34e16-ac30-4438-9dc1-666d43c81bb3"
+    }
+  },
+  {
+    "uuid": "def04609-1bb3-46f8-afa3-3706b6cfc363",
+    "name": "Sabalewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1ee34e16-ac30-4438-9dc1-666d43c81bb3"
+    }
+  },
+  {
+    "uuid": "fd75ad1c-d9ab-4e3d-9dd1-953f4a1151cc",
+    "name": "Shingewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1ee34e16-ac30-4438-9dc1-666d43c81bb3"
+    }
+  },
+  {
+    "uuid": "9ee3dd67-ed24-4c29-8f14-445fc42a3560",
+    "name": "Khurdewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1ee34e16-ac30-4438-9dc1-666d43c81bb3"
+    }
+  },
+  {
+    "uuid": "e2faa286-6d9f-46db-990b-3dc778df225c",
+    "name": "Palawewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1b466b38-ac96-4e34-88b5-964e6f83b8b7"
+    }
+  },
+  {
+    "uuid": "03e7828c-36b0-4660-86e0-d334dae53b26",
+    "name": "Ramoshewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1b466b38-ac96-4e34-88b5-964e6f83b8b7"
+    }
+  },
+  {
+    "uuid": "07ec6340-6cb4-4db0-8845-d75bc573a571",
+    "name": "Barbatewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1b466b38-ac96-4e34-88b5-964e6f83b8b7"
+    }
+  },
+  {
+    "uuid": "d2cca4da-f2f4-4cb6-b2d6-b13356e23ca6",
+    "name": "Gawthan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a1673353-ac30-44e4-8802-7bdcd0a59601"
+    }
+  },
+  {
+    "uuid": "56ff0a6d-3b48-4024-aa6a-9caeac4c683f",
+    "name": "Kedarwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a1673353-ac30-44e4-8802-7bdcd0a59601"
+    }
+  },
+  {
+    "uuid": "470e85fe-748c-49df-a09b-4536a11eba61",
+    "name": "Dattawadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a1673353-ac30-44e4-8802-7bdcd0a59601"
+    }
+  },
+  {
+    "uuid": "4b68d934-dbcc-4ec0-b076-be813c2736f1",
+    "name": "Mhalobavasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a1673353-ac30-44e4-8802-7bdcd0a59601"
+    }
+  },
+  {
+    "uuid": "4cf5ff20-389d-4a8d-945e-c4ec2535d5c8",
+    "name": "Gawthan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a6f30e04-f9c7-4b24-95d2-0e065b4278e6"
+    }
+  },
+  {
+    "uuid": "30eba387-6efe-45db-b4af-8c5c69c3e66f",
+    "name": "Ramoshewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a6f30e04-f9c7-4b24-95d2-0e065b4278e6"
+    }
+  },
+  {
+    "uuid": "2dc01b0e-e8d3-4363-b3cb-0aff5e243f14",
+    "name": "Gawthan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5ae60b8f-8393-4030-88ab-4b7d1901c712"
+    }
+  },
+  {
+    "uuid": "fa088fd6-e1c5-4ac3-9334-b402cf713a73",
+    "name": "Tekadevasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5ae60b8f-8393-4030-88ab-4b7d1901c712"
+    }
+  },
+  {
+    "uuid": "a44f9116-d2d4-4bee-96bf-1aa4b3b1e9c4",
+    "name": "Wakchaurevasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5ae60b8f-8393-4030-88ab-4b7d1901c712"
+    }
+  },
+  {
+    "uuid": "29e3e352-4775-43be-a7e8-c0814aef2d30",
+    "name": "Andhalevasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5ae60b8f-8393-4030-88ab-4b7d1901c712"
+    }
+  },
+  {
+    "uuid": "6d6d9102-40da-41cc-ba88-9336471d6a9c",
+    "name": "Jibhacha mla",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5ae60b8f-8393-4030-88ab-4b7d1901c712"
+    }
+  },
+  {
+    "uuid": "c4c030f7-3e44-4a18-9910-d29c16ba88cc",
+    "name": "Gawthan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c07911a9-5b9d-4898-8c8e-a58ffe7e5e9f"
+    }
+  },
+  {
+    "uuid": "1fb6c5ee-9a79-4f4f-8eed-dfa25ff3aedb",
+    "name": "Bogadewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c07911a9-5b9d-4898-8c8e-a58ffe7e5e9f"
+    }
+  },
+  {
+    "uuid": "00a3631a-3064-4fa8-8a6a-7cecc9a9ddb3",
+    "name": "Eklavyanagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c07911a9-5b9d-4898-8c8e-a58ffe7e5e9f"
+    }
+  },
+  {
+    "uuid": "8fa42372-522c-4f06-bb96-b46ac826aae3",
+    "name": "Gawthan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "292069d0-282c-453b-91a9-e483280ab070"
+    }
+  },
+  {
+    "uuid": "f38522e8-6bfa-4294-bb80-b23a132ee27e",
+    "name": "Maalvasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "292069d0-282c-453b-91a9-e483280ab070"
+    }
+  },
+  {
+    "uuid": "6c4b19a5-9ccf-42dd-ab4b-b9f752d9b82c",
+    "name": "Gawthan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c2f9879a-8b5d-4dcd-938c-1df3dd4858c5"
+    }
+  },
+  {
+    "uuid": "7f43f836-4643-4a02-a55c-dab13a75903a",
+    "name": "Sangalewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c2f9879a-8b5d-4dcd-938c-1df3dd4858c5"
+    }
+  },
+  {
+    "uuid": "432387ea-f8b3-4e1f-9d85-2c561a6b6b0c",
+    "name": "Gawthan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c1baf5d1-51ba-4a6f-b509-338fef002bd2"
+    }
+  },
+  {
+    "uuid": "e829135a-c998-4b50-bfe2-0abd2ce320f6",
+    "name": "Banawate vasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c1baf5d1-51ba-4a6f-b509-338fef002bd2"
+    }
+  },
+  {
+    "uuid": "6886c071-ee3f-4e79-a3ee-b07a2d93f97d",
+    "name": "Karawandara",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c1baf5d1-51ba-4a6f-b509-338fef002bd2"
+    }
+  },
+  {
+    "uuid": "83b5831d-3cb6-4c17-9919-c223e3969578",
+    "name": "Kamaluchi wadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c1baf5d1-51ba-4a6f-b509-338fef002bd2"
+    }
+  },
+  {
+    "uuid": "abf0dd94-e1eb-48a9-b824-ae81bbbed993",
+    "name": "Ramwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c1baf5d1-51ba-4a6f-b509-338fef002bd2"
+    }
+  },
+  {
+    "uuid": "553861b2-8d30-4099-90dd-67f341653933",
+    "name": "Saradwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c885548a-676f-473d-8c78-10c2738fe98b"
+    }
+  },
+  {
+    "uuid": "d5e398c5-2d09-4e25-b98e-231512994bb7",
+    "name": "Ganeshkhind",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c885548a-676f-473d-8c78-10c2738fe98b"
+    }
+  },
+  {
+    "uuid": "a085432d-05e2-44d6-abac-1442e6af3bd1",
+    "name": "Madhevasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c885548a-676f-473d-8c78-10c2738fe98b"
+    }
+  },
+  {
+    "uuid": "50ef2eb0-397c-495c-adb6-38e0b0f419d5",
+    "name": "Ghugevasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c885548a-676f-473d-8c78-10c2738fe98b"
+    }
+  },
+  {
+    "uuid": "d738c94d-2c7b-4081-bcad-ae98b4e01803",
+    "name": "Kadalwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c885548a-676f-473d-8c78-10c2738fe98b"
+    }
+  },
+  {
+    "uuid": "c9f6b9b4-4e24-44ae-b503-ad0f374cd748",
+    "name": "Gawthan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "77820063-25c7-4d20-ba14-dca152f65d87"
+    }
+  },
+  {
+    "uuid": "5e8ebe43-ebdb-48dc-9b0a-18a7ecec0592",
+    "name": "Junawanevasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "77820063-25c7-4d20-ba14-dca152f65d87"
+    }
+  },
+  {
+    "uuid": "afffe9a1-8b87-4f26-a7f6-6c1779f5277d",
+    "name": "Pandharevasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "77820063-25c7-4d20-ba14-dca152f65d87"
+    }
+  },
+  {
+    "uuid": "a3e71990-3373-419e-b13b-ce6849ff6466",
+    "name": "Gawthan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b9773934-6847-45a3-a21e-c8274b06ee66"
+    }
+  },
+  {
+    "uuid": "cb362ed5-1494-458b-8f20-6f5e27bd6311",
+    "name": "Patildara",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b9773934-6847-45a3-a21e-c8274b06ee66"
+    }
+  },
+  {
+    "uuid": "7e6eb710-0b07-4d0d-8864-883b7ce366b3",
+    "name": "Kalamkhadakwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b9773934-6847-45a3-a21e-c8274b06ee66"
+    }
+  },
+  {
+    "uuid": "fab81f2c-0d51-4f2a-86bf-e545d38df4e3",
+    "name": "Gawthan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "65fed46b-1d59-4c66-85fb-92e5589f81d1"
+    }
+  },
+  {
+    "uuid": "a1c22127-ab2f-4a56-9587-e57c7efe4e1f",
+    "name": "Sheri",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "65fed46b-1d59-4c66-85fb-92e5589f81d1"
+    }
+  },
+  {
+    "uuid": "749d76e0-8e73-499b-8bc6-315f0e74f877",
+    "name": "Khadyachiwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "65fed46b-1d59-4c66-85fb-92e5589f81d1"
+    }
+  },
+  {
+    "uuid": "090d5668-36b4-4925-b997-067691f45d58",
+    "name": "Kagdara",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "65fed46b-1d59-4c66-85fb-92e5589f81d1"
+    }
+  },
+  {
+    "uuid": "9886bc7d-a6c4-4b94-a248-7a405fdadb2c",
+    "name": "Gawthan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e62b8e5c-b287-4a37-bc8a-031235f2f24e"
+    }
+  },
+  {
+    "uuid": "e51ecc9b-b9d1-4b06-8e4e-4470d28f7690",
+    "name": "Ramoshewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e62b8e5c-b287-4a37-bc8a-031235f2f24e"
+    }
+  },
+  {
+    "uuid": "17eb8ace-8cfa-4997-90bb-ada2a5a5b2fa",
+    "name": "Janbhalivasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e62b8e5c-b287-4a37-bc8a-031235f2f24e"
+    }
+  },
+  {
+    "uuid": "a1a56583-51f1-4de9-821b-ada5c30a9dd3",
+    "name": "Ramoshewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "bcede3fa-d5d7-47eb-931d-0a01a020e4bc"
+    }
+  },
+  {
+    "uuid": "4828b5fe-15ee-4fca-9b74-dd06cdb6df23",
+    "name": "Damber",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d60c89e7-a8b3-4cd6-836c-00918fb36dad"
+    }
+  },
+  {
+    "uuid": "baf56f71-2bf4-43e2-8a65-782d3ae38671",
+    "name": "Naikwasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d60c89e7-a8b3-4cd6-836c-00918fb36dad"
+    }
+  },
+  {
+    "uuid": "da351900-579d-48f6-a91a-e4ea61ba1598",
+    "name": "Nimgaonpati",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d60c89e7-a8b3-4cd6-836c-00918fb36dad"
+    }
+  },
+  {
+    "uuid": "b3e88879-7bb9-40ae-a659-1f645e65c4a7",
+    "name": "Narode wasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d60c89e7-a8b3-4cd6-836c-00918fb36dad"
+    }
+  },
+  {
+    "uuid": "ba2f206e-2985-41be-8747-8a62bb8920e2",
+    "name": "Walekar wasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "3d7fa7bb-8db5-4583-87e8-d35e1528c1da"
+    }
+  },
+  {
+    "uuid": "b20bb8f2-305e-4545-8662-bd612dbf53c1",
+    "name": "Kalewasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "3d7fa7bb-8db5-4583-87e8-d35e1528c1da"
+    }
+  },
+  {
+    "uuid": "d28bdefc-9acd-4465-b1aa-343d94839a97",
+    "name": "kharatwasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "776c0114-f3a6-48cc-9dc2-9ce9ed90f175"
+    }
+  },
+  {
+    "uuid": "9286028e-2152-411f-aabe-5d438b1ee291",
+    "name": "Devpur road",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "eafab884-9641-4c8a-a957-83a643c647e3"
+    }
+  },
+  {
+    "uuid": "ddcf99cb-f5ce-45fd-b77c-0d61dee02bea",
+    "name": "Dhangarwasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "53c7c30e-e638-4825-a195-3ecfcb0cac15"
+    }
+  },
+  {
+    "uuid": "b4f07d4c-dfea-4fcf-91d8-49f9aaabefd9",
+    "name": "Gayran",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "53c7c30e-e638-4825-a195-3ecfcb0cac15"
+    }
+  },
+  {
+    "uuid": "21a27b14-727a-4fb1-8ad8-7c25139eb192",
+    "name": "Galandewasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "53c7c30e-e638-4825-a195-3ecfcb0cac15"
+    }
+  },
+  {
+    "uuid": "091eca87-b343-41de-9435-27e8d33f6efb",
+    "name": "Karwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "45fd584a-88dd-431f-91aa-a4bb3b15c8d7"
+    }
+  },
+  {
+    "uuid": "af63e60f-e5d7-442f-b1a7-df98b4623aad",
+    "name": "Pawarwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "148a831e-ed95-49c1-827a-81cacf7c4914"
+    }
+  },
+  {
+    "uuid": "2b8a665f-b59b-48ce-800d-4273f86657de",
+    "name": "Bhillawadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "63bfdf50-0172-4e99-9b4a-52c264c03056"
+    }
+  },
+  {
+    "uuid": "d4c163c8-88c9-4a4b-944a-69e1dd6d51b3",
+    "name": "Kolapewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "fd12b1fa-deb7-403b-bad2-2dc5e1b970d9"
+    }
+  },
+  {
+    "uuid": "30bc5940-160b-4995-9259-8221566bdccf",
+    "name": "Dattanagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "013e817e-2c55-4f33-9f64-fa24c23c1df0"
+    }
+  },
+  {
+    "uuid": "1124d156-5bee-4c8b-87ca-d23da3fd4ff2",
+    "name": "Dambernala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "013e817e-2c55-4f33-9f64-fa24c23c1df0"
+    }
+  },
+  {
+    "uuid": "1e571f63-301f-4bdd-b14f-ca6458d84759",
+    "name": "Thoratwasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "013e817e-2c55-4f33-9f64-fa24c23c1df0"
+    }
+  },
+  {
+    "uuid": "438fd900-78f2-450e-83fa-68bfac0ba1cc",
+    "name": "Bhillawadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a6995d64-9aa2-40bf-a45c-fda1c4fd3d87"
+    }
+  },
+  {
+    "uuid": "fae6254d-e4c4-44dc-8edf-c83810d66e17",
+    "name": "Kankusewasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "23c0a8b8-14c3-4b29-9acf-ac5efddb83c4"
+    }
+  },
+  {
+    "uuid": "85371601-74f1-44d1-90bc-ad1dc461b0a5",
+    "name": "Bhillawadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b45ccb0e-8f2d-4bf1-b4c4-abb86e6a0b63"
+    }
+  },
+  {
+    "uuid": "f8e0fe43-db27-493e-98f8-1f5f06ed553f",
+    "name": "Mahajanpur",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b45ccb0e-8f2d-4bf1-b4c4-abb86e6a0b63"
+    }
+  },
+  {
+    "uuid": "f5768250-6bb3-42bd-abaf-bdcf59bf0103",
+    "name": "Gadewasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b45ccb0e-8f2d-4bf1-b4c4-abb86e6a0b63"
+    }
+  },
+  {
+    "uuid": "753ca465-2a60-49a6-8059-c4eb42e2e579",
+    "name": "Jagdalewasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b45ccb0e-8f2d-4bf1-b4c4-abb86e6a0b63"
+    }
+  },
+  {
+    "uuid": "1a121f48-8440-4e66-a7c9-eed8e5cb49f4",
+    "name": "Bhillahari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b349ec11-5596-4715-ab74-214627e5be63"
+    }
+  },
+  {
+    "uuid": "dd14052b-d5c4-4479-86fc-1c3584860669",
+    "name": "Bhillahari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0db74f92-d75b-4104-b805-c80f2de16b6e"
+    }
+  },
+  {
+    "uuid": "157e1ff3-1df8-4b40-bb00-df59912eadfe",
+    "name": "Beldarwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5384206a-8c4c-43bf-9e13-4145fe9a356b"
+    }
+  },
+  {
+    "uuid": "953116c6-7bc8-44dd-a708-40b8e99bc81f",
+    "name": "Achanaknagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5384206a-8c4c-43bf-9e13-4145fe9a356b"
+    }
+  },
+  {
+    "uuid": "72268b88-3b3c-404d-a070-45fe9aa6fea8",
+    "name": "Kadamnagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5384206a-8c4c-43bf-9e13-4145fe9a356b"
+    }
+  },
+  {
+    "uuid": "f507e2f6-5f47-460f-aa5c-3470eb4b8031",
+    "name": "Dattawadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "9bbf211d-4d55-4b0c-8135-1489297f8dc1"
+    }
+  },
+  {
+    "uuid": "3dd10860-09e5-4ca9-9bb7-4deed8b6e297",
+    "name": "Chimaniroad",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "9bbf211d-4d55-4b0c-8135-1489297f8dc1"
+    }
+  },
+  {
+    "uuid": "42b44037-1729-449c-96fa-f71a7b0fe748",
+    "name": "Bhowada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "da97cfe1-73f4-46a1-aeaa-84319e0f9d15"
+    }
+  },
+  {
+    "uuid": "5747d426-bf41-4710-88ec-7bcdf36affc6",
+    "name": "Chondhipul",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "60921d17-b482-4978-b961-2624ad1b7b88"
+    }
+  },
+  {
+    "uuid": "d3f821d9-7a58-4335-ae76-b1c387703aa0",
+    "name": "Bhillahati",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "33cc3af7-058e-409b-ae6b-c2cab8ef3c31"
+    }
+  },
+  {
+    "uuid": "1b093c7d-c451-40c9-ad7c-0d393e9dd5c9",
+    "name": "Bajajnagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "33cc3af7-058e-409b-ae6b-c2cab8ef3c31"
+    }
+  },
+  {
+    "uuid": "f5056241-9fc0-4747-869b-9801d5a4f68f",
+    "name": "Aganmala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "dd84c884-5da2-42e5-b22f-161547485333"
+    }
+  },
+  {
+    "uuid": "3b5ce976-a278-4dab-870f-db6c8cb9bbaa",
+    "name": "Chinchechamala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "dd84c884-5da2-42e5-b22f-161547485333"
+    }
+  },
+  {
+    "uuid": "f741f6bc-c0c5-474c-a934-0cf0c30fdcea",
+    "name": "Kasarinala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "dd84c884-5da2-42e5-b22f-161547485333"
+    }
+  },
+  {
+    "uuid": "a4a50829-f128-47b0-9b4d-90215cf7e7ff",
+    "name": "Vitbhattiwasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "ddc298d8-eb0e-40a4-8d5e-fa41edae73b5"
+    }
+  },
+  {
+    "uuid": "0f115e61-b378-4315-bcf4-632a99e009c0",
+    "name": "Nimgaonroad",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "ddc298d8-eb0e-40a4-8d5e-fa41edae73b5"
+    }
+  },
+  {
+    "uuid": "ec5fe076-b69d-4c4b-8e0c-c947fd6e893f",
+    "name": "Khangalemala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "ddc298d8-eb0e-40a4-8d5e-fa41edae73b5"
+    }
+  },
+  {
+    "uuid": "d91b6314-0e74-49df-a380-3023199a2d03",
+    "name": "Shivajimala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5604e173-f699-4166-b44a-71bef61c33ce"
+    }
+  },
+  {
+    "uuid": "c6f50ebe-b1d2-4a44-8dd2-680655d62e29",
+    "name": "Dattanagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5604e173-f699-4166-b44a-71bef61c33ce"
+    }
+  },
+  {
+    "uuid": "8c0d681c-3a2c-440e-96a3-a5d3d1615faa",
+    "name": "Wastishala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5604e173-f699-4166-b44a-71bef61c33ce"
+    }
+  },
+  {
+    "uuid": "37e79709-f53d-4428-985a-20f9c8b7caef",
+    "name": "Dhulewasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0362f186-88cb-45cc-ba86-7a8a2571880f"
+    }
+  },
+  {
+    "uuid": "d9f2a265-8793-4c5c-865a-0f9795e27711",
+    "name": "Mamaswadiroad",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0362f186-88cb-45cc-ba86-7a8a2571880f"
+    }
+  },
+  {
+    "uuid": "60e6ffc3-60f0-4e06-b51d-4d9f8a79e6be",
+    "name": "Jayogeshwarnagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e30dd82b-7949-4579-acb8-137d81106f2f"
+    }
+  },
+  {
+    "uuid": "a9fa5dd0-107b-4908-824e-5517fe540b0e",
+    "name": "Swamisamarth",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e30dd82b-7949-4579-acb8-137d81106f2f"
+    }
+  },
+  {
+    "uuid": "55cee5d2-9c40-425e-88d8-89c8dfded985",
+    "name": "Sayaadwasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e30dd82b-7949-4579-acb8-137d81106f2f"
+    }
+  },
+  {
+    "uuid": "ec7ee44b-4ac8-47b6-bb8e-7759253530ad",
+    "name": "Avhad vasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "2873687e-dd13-462f-8795-eb091757b4d0"
+    }
+  },
+  {
+    "uuid": "da33b9f0-6fe0-43c5-988c-1471f96164ee",
+    "name": "Shahapur",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c28e1cfe-c024-4e75-8d8e-77529332b2e5"
+    }
+  },
+  {
+    "uuid": "a7c78e1b-d422-42d3-b91c-5cfa84c36b1b",
+    "name": "Devpur road",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5cc3739d-f787-4caf-b928-37289a2d7a2b"
+    }
+  },
+  {
+    "uuid": "835cdf40-a226-423f-8886-b49479db6104",
+    "name": "Dattamandir",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7b09c02f-4a71-40eb-b679-adda344eb55e"
+    }
+  },
+  {
+    "uuid": "5ef8a19e-ac48-4acc-98ce-6a22d695de08",
+    "name": "Khalwegaon",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5bb67abd-2c5a-4b01-adfc-904f4430a358"
+    }
+  },
+  {
+    "uuid": "61a222a6-4d64-4e5c-aa90-b963acffccf1",
+    "name": "Madhalegaon",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5bb67abd-2c5a-4b01-adfc-904f4430a358"
+    }
+  },
+  {
+    "uuid": "50e7f572-5b0a-4bbd-9f5a-282408d770c3",
+    "name": "Patilmala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5bb67abd-2c5a-4b01-adfc-904f4430a358"
+    }
+  },
+  {
+    "uuid": "3608460e-19fb-4175-bfb2-73291a0e675c",
+    "name": "Laxminagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5bb67abd-2c5a-4b01-adfc-904f4430a358"
+    }
+  },
+  {
+    "uuid": "0cb4a7e5-a234-4006-ab06-0d6641ffb49e",
+    "name": "Naygaon",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "47274f63-a438-4e8c-984a-ed08cea51934"
+    }
+  },
+  {
+    "uuid": "6680e125-7a37-46c5-bc78-c88fc5b2fe33",
+    "name": "Chawhan mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "47274f63-a438-4e8c-984a-ed08cea51934"
+    }
+  },
+  {
+    "uuid": "e62bc9fb-69a0-4f77-ad9a-17cfeccbbdf1",
+    "name": "Pansare mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "31105cf6-223d-4715-ac7a-1045a811efd6"
+    }
+  },
+  {
+    "uuid": "6a88c84d-f44a-44de-9333-0657b58a2595",
+    "name": "Mahadev Wasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f37061ea-32bc-46fb-9a44-ba24abcb4e4e"
+    }
+  },
+  {
+    "uuid": "5e1f14a3-8fab-4a67-b413-7f7cf72d126b",
+    "name": "Sanapwasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "6613b2d3-0e2a-44fe-b90d-cca43344353e"
+    }
+  },
+  {
+    "uuid": "d18324da-5637-41ae-9171-a61895347634",
+    "name": "Dagadwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "89d53443-bc22-4409-9786-a3061d379735"
+    }
+  },
+  {
+    "uuid": "26d79601-dcc6-4d57-8f3c-5c8c12128d04",
+    "name": "Komalwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7494c7f9-261d-4261-939a-64455b7b5ba4"
+    }
+  },
+  {
+    "uuid": "ca6c13cf-3eb5-455e-aa93-cab6fb9bb019",
+    "name": "Ghangalwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "47ebb1f5-944b-495b-94b3-3aa6b83cf0ab"
+    }
+  },
+  {
+    "uuid": "75286de7-ba2a-4c4b-a1fd-42617eb76441",
+    "name": "Rokadoba mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a0cdd67a-b2cd-412e-95eb-199906b2769e"
+    }
+  },
+  {
+    "uuid": "b7c08a05-09af-4939-819d-d1d3a5a98553",
+    "name": "Dattamandir",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a0cdd67a-b2cd-412e-95eb-199906b2769e"
+    }
+  },
+  {
+    "uuid": "59e1226c-974c-42fa-9c84-60d4eb4bf44e",
+    "name": "Dhangarwasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b33e26cb-391f-4eb6-9780-336dacd43b54"
+    }
+  },
+  {
+    "uuid": "8ece87b7-49d9-4dcf-9761-8f9c9a2d5d5a",
+    "name": "Patpimpari",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0cdc58e3-efd5-4dc9-83c0-7cb84d6e67c6"
+    }
+  },
+  {
+    "uuid": "f9d639fc-ce5c-4765-babb-aaa3eedbf27b",
+    "name": "Kundewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "58c0406b-5f74-496e-82a0-a39c6f0f184c"
+    }
+  },
+  {
+    "uuid": "a403bb10-b95d-42b6-8fb4-23b17c7638b0",
+    "name": "Kundewadi Mauje",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1b7e976f-09c7-4f31-9352-2caf0ee6d053"
+    }
+  },
+  {
+    "uuid": "1237fd8e-be4c-4cf2-9db3-a436ed4e4552",
+    "name": "Lonarwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "58306d27-d415-4a3b-b1e7-06a5580ead88"
+    }
+  },
+  {
+    "uuid": "bab72fb1-29f0-46cc-ab29-f6187f41d111",
+    "name": "Bhatwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "aa7c3ba8-451d-4ae4-b830-3dc4da2f1feb"
+    }
+  },
+  {
+    "uuid": "db1465db-97bc-4f35-9f7f-0c4e0bec0765",
+    "name": "Mul maparwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5d9bb3a7-9306-4578-a405-d25330f88a57"
+    }
+  },
+  {
+    "uuid": "5609aeb0-d0b1-4cd3-9565-96176898e02b",
+    "name": "Khadicrasher",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a35fb44d-b92e-4890-85b8-869b78101d23"
+    }
+  },
+  {
+    "uuid": "3d1ee963-3615-4bb1-aafd-9e3078f8a240",
+    "name": "Holgirwasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "4adf2679-f468-447d-b4b4-2d9a92b92f53"
+    }
+  },
+  {
+    "uuid": "b9d17aa5-01c9-4eb6-b29a-15544be4f120",
+    "name": "Khadicrasher",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "00600ba6-c4af-4df6-82bc-f57c253b44ee"
+    }
+  },
+  {
+    "uuid": "37662b41-d003-4098-ae1c-a7dc4da405b8",
+    "name": "MIDC",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0056015d-2209-4fc1-886a-557f7d3fa4ce"
+    }
+  },
+  {
+    "uuid": "b3126b41-f194-4785-8d5e-000c1df275c1",
+    "name": "Bharmhanwade",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f0e7641f-63a1-48f0-9aec-63e40bc43bd2"
+    }
+  },
+  {
+    "uuid": "a0851736-7d42-489d-8527-23d9ae9215e0",
+    "name": "Dhabawasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f97c8be4-40db-43a5-aefd-ef8c5bcfb44d"
+    }
+  },
+  {
+    "uuid": "e4387fb1-10d6-4156-831a-65a6b52eea9e",
+    "name": "Dattamandir",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "8ca2b260-cbfe-43f8-9d52-b78981412d49"
+    }
+  },
+  {
+    "uuid": "53ee55c5-0d5c-49b2-ad6a-85d873d47989",
+    "name": "Jogaltembhi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "bc810d9a-6d4d-441c-a2e2-85f7715abef1"
+    }
+  },
+  {
+    "uuid": "a3a99afd-2e20-4ec2-b66c-ebb7365db98e",
+    "name": "Rajwada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "3b1eda30-9a00-468e-a261-58faa1cbdd1e"
+    }
+  },
+  {
+    "uuid": "427b1a96-954c-4d79-a3a7-fad377a1f259",
+    "name": "Waje mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "3b1eda30-9a00-468e-a261-58faa1cbdd1e"
+    }
+  },
+  {
+    "uuid": "a3a5bb6d-e831-46b0-afb0-ff22a1b42502",
+    "name": "Bhillhati",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "3b1eda30-9a00-468e-a261-58faa1cbdd1e"
+    }
+  },
+  {
+    "uuid": "000b99e3-51b4-429d-96ff-6974a877d258",
+    "name": "Thakurwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e4ac0412-7d49-4005-abf9-feac4020528c"
+    }
+  },
+  {
+    "uuid": "5cf4e61e-f431-41d2-b175-51b3ac4fe7d8",
+    "name": "Amrai mla",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "98ec03f6-d390-436a-9899-8f54d4b660d5"
+    }
+  },
+  {
+    "uuid": "4a0d0d6a-c313-4c9a-af4a-5a150b12b04a",
+    "name": "Wagh mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "3d159e79-483d-4403-9872-cee378613d4b"
+    }
+  },
+  {
+    "uuid": "aff605da-4b58-4ae8-aa76-5082222e7240",
+    "name": "Bhillhatti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "3d159e79-483d-4403-9872-cee378613d4b"
+    }
+  },
+  {
+    "uuid": "8a6f5bcc-99dd-4816-bdc5-7acac5100a6a",
+    "name": "Rajwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "3d159e79-483d-4403-9872-cee378613d4b"
+    }
+  },
+  {
+    "uuid": "9dc20498-655f-4a10-a27a-eb8b349f0237",
+    "name": "Muthal mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b6b03df4-bb89-4948-86de-c165ba034c2a"
+    }
+  },
+  {
+    "uuid": "8ce206d2-a4c0-4e8a-8aa8-7f5b324a44c4",
+    "name": "Vinchu mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b6b03df4-bb89-4948-86de-c165ba034c2a"
+    }
+  },
+  {
+    "uuid": "e1735edc-ddd7-40d3-ab8e-73e60bfa7789",
+    "name": "Bhavdev wadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "02b0133c-bb3a-402e-80a0-e5c47cd8b9ab"
+    }
+  },
+  {
+    "uuid": "4a5456b4-a624-40e1-9fe2-79d4d0ea6120",
+    "name": "Chandre mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "02b0133c-bb3a-402e-80a0-e5c47cd8b9ab"
+    }
+  },
+  {
+    "uuid": "0a09a5b6-a1b4-4546-8bfe-735cbaa1ecba",
+    "name": "Tasdara",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "6098ed1e-2d0b-4126-af33-4992008a1559"
+    }
+  },
+  {
+    "uuid": "e13a21f9-5f02-4b74-b59f-695c405c3612",
+    "name": "Baldara",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "6098ed1e-2d0b-4126-af33-4992008a1559"
+    }
+  },
+  {
+    "uuid": "1f5be16d-7dfc-4119-8f25-7b15efb2b41b",
+    "name": "Bhilhati",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "6098ed1e-2d0b-4126-af33-4992008a1559"
+    }
+  },
+  {
+    "uuid": "f6128299-47b5-46c8-9df6-6e1b90a87eab",
+    "name": "Kavte vasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0ef8e00d-9ec5-4230-8ece-52f5cb1662e2"
+    }
+  },
+  {
+    "uuid": "05ac8025-c95d-4753-854b-bfef74f63f51",
+    "name": "Katode vasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0ef8e00d-9ec5-4230-8ece-52f5cb1662e2"
+    }
+  },
+  {
+    "uuid": "03579017-4d97-4c92-8d25-f01beb2c5557",
+    "name": "Mhasal wadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "529c1abd-6044-4f95-a481-780067bafc16"
+    }
+  },
+  {
+    "uuid": "63467f37-280a-4a72-b6a4-871c5147bf09",
+    "name": "Ghorvad khind",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "529c1abd-6044-4f95-a481-780067bafc16"
+    }
+  },
+  {
+    "uuid": "078e74d6-25c8-4539-b1e7-b7104fead1f2",
+    "name": "Bend wadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "dd1e73e5-9b3b-4254-a146-8a4789ed06f5"
+    }
+  },
+  {
+    "uuid": "c68bc4b3-dc6f-4eaf-9eee-5da9973e216b",
+    "name": "Bodke mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "dd1e73e5-9b3b-4254-a146-8a4789ed06f5"
+    }
+  },
+  {
+    "uuid": "c9d46c90-47c9-4da7-a93f-14feea5a3c29",
+    "name": "Chika vasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "dd1e73e5-9b3b-4254-a146-8a4789ed06f5"
+    }
+  },
+  {
+    "uuid": "515c1ee9-3fa5-493e-9537-5ac300a15fa5",
+    "name": "Kalunge mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "2957dfa3-000a-4a4b-8121-f577c77d5883"
+    }
+  },
+  {
+    "uuid": "b15ab01c-1f88-466c-a79a-a06a27827728",
+    "name": "Shinde mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "2957dfa3-000a-4a4b-8121-f577c77d5883"
+    }
+  },
+  {
+    "uuid": "b66200aa-fb3b-41d2-8cf7-e769af34cbbc",
+    "name": "Sabarwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "bd273046-d4db-42ab-a6c9-c366c8fd20da"
+    }
+  },
+  {
+    "uuid": "4781f337-8324-4773-b60e-92efaf1e802a",
+    "name": "Gav",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7ee44f73-d9c6-4bfd-ade1-dd35e807dd1e"
+    }
+  },
+  {
+    "uuid": "ebb01dac-5bac-4efb-82a0-754d1a513242",
+    "name": "Harsulemale",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7ee44f73-d9c6-4bfd-ade1-dd35e807dd1e"
+    }
+  },
+  {
+    "uuid": "23257438-1ffd-4fae-aab3-c38fad3041e5",
+    "name": "Dawre mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a17f9af8-9a85-4214-b380-88be29f56a37"
+    }
+  },
+  {
+    "uuid": "f59f073a-f099-4b46-b0b8-770ca5c8efb0",
+    "name": "Thakurwadi wagh dara",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a17f9af8-9a85-4214-b380-88be29f56a37"
+    }
+  },
+  {
+    "uuid": "72e580e6-feee-4bac-97f9-0da8453ddb5e",
+    "name": "Borichi pain",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "a17f9af8-9a85-4214-b380-88be29f56a37"
+    }
+  },
+  {
+    "uuid": "40844754-b8da-400a-96d8-f1c8d0795a2f",
+    "name": "Khetade vasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0cf9e51d-0bd5-4705-99d4-986a8c43f787"
+    }
+  },
+  {
+    "uuid": "6c99dd5f-72d4-48be-a25d-e92237252c40",
+    "name": "Kavte vasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0cf9e51d-0bd5-4705-99d4-986a8c43f787"
+    }
+  },
+  {
+    "uuid": "452237b6-0d5b-46af-95ec-d075470893dd",
+    "name": "Madage vasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "0cf9e51d-0bd5-4705-99d4-986a8c43f787"
+    }
+  },
+  {
+    "uuid": "c6bd8e69-ef43-47f7-9be3-667db79f9d3c",
+    "name": "Aundhe wadi gavdha",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "be0c666a-aa5d-4285-b573-1bd9784e404b"
+    }
+  },
+  {
+    "uuid": "c179c1fa-a5cd-425c-8548-a6b9f5e6292b",
+    "name": "Gadhav male",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "be0c666a-aa5d-4285-b573-1bd9784e404b"
+    }
+  },
+  {
+    "uuid": "d67a06a8-9c54-4a1c-964c-d9b779beed82",
+    "name": "Kajikhori",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "13700951-4acc-4bda-9d65-82a6ee25a812"
+    }
+  },
+  {
+    "uuid": "7a392217-150f-470c-8a9b-2e267d15edb1",
+    "name": "Chiman khori",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "13700951-4acc-4bda-9d65-82a6ee25a812"
+    }
+  },
+  {
+    "uuid": "542abb57-1f32-400c-a9e8-93256f092667",
+    "name": "Rajwada",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "13700951-4acc-4bda-9d65-82a6ee25a812"
+    }
+  },
+  {
+    "uuid": "073b72ed-4800-4384-b2e3-a1a15f7c1591",
+    "name": "Bhilahati",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "13700951-4acc-4bda-9d65-82a6ee25a812"
+    }
+  },
+  {
+    "uuid": "2ddd85a8-e505-4c7d-80b9-1e6ac340098b",
+    "name": "Bhilahati",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "6c146385-5aae-40fe-8764-a071962a0d34"
+    }
+  },
+  {
+    "uuid": "b9ff19f8-9061-43ff-9af6-93523cd0f1dd",
+    "name": "Rajwada ghatakadil male",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "6c146385-5aae-40fe-8764-a071962a0d34"
+    }
+  },
+  {
+    "uuid": "49006f4b-e214-4e56-89cd-1e11225b3d19",
+    "name": "Gav",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "360080c5-a9fc-4a0c-bff2-ac17e01c37c2"
+    }
+  },
+  {
+    "uuid": "56ad7163-7fe4-4ff5-aea5-a747fe8540fd",
+    "name": "Chandrapurmale",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "360080c5-a9fc-4a0c-bff2-ac17e01c37c2"
+    }
+  },
+  {
+    "uuid": "9042fe10-2d06-4770-86f3-1bc871df5c17",
+    "name": "Gav",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f2f81887-f7bb-48d1-a097-8543f5e74c11"
+    }
+  },
+  {
+    "uuid": "45339b9f-a59a-4143-978c-7a70a9a389cd",
+    "name": "Male",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f2f81887-f7bb-48d1-a097-8543f5e74c11"
+    }
+  },
+  {
+    "uuid": "b75aef8a-de86-4763-989a-be9d4b43a0a5",
+    "name": "Pangar wadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "ddc202e5-2a7c-4d5d-880e-671a7431016e"
+    }
+  },
+  {
+    "uuid": "ee28d786-dff4-4449-a19b-ac3e4eb6fac8",
+    "name": "Zagade mla",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "ddc202e5-2a7c-4d5d-880e-671a7431016e"
+    }
+  },
+  {
+    "uuid": "aca06f6f-2f09-4a24-9d20-3648de9516cd",
+    "name": "Avhad vasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "944e58e3-b951-4616-a510-58eb3810edce"
+    }
+  },
+  {
+    "uuid": "947e4c82-c61f-4058-bfc8-41e84d5b0a85",
+    "name": "Shinde mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "944e58e3-b951-4616-a510-58eb3810edce"
+    }
+  },
+  {
+    "uuid": "a0f5f3dc-1254-46b2-a745-94a6bc1b08b6",
+    "name": "Lokhndwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "944e58e3-b951-4616-a510-58eb3810edce"
+    }
+  },
+  {
+    "uuid": "37838cf6-e5fd-4475-a5cc-9c1c2b3cc6a1",
+    "name": "Thangaon",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5eb2a8fe-aeb7-428e-9b29-ee32ba72858e"
+    }
+  },
+  {
+    "uuid": "9c01fb2b-c2c9-46a0-ade4-38b2d59eb9af",
+    "name": "Kalewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5eb2a8fe-aeb7-428e-9b29-ee32ba72858e"
+    }
+  },
+  {
+    "uuid": "07517aae-4206-4460-a91e-ebb6bdb37738",
+    "name": "Ghutewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5eb2a8fe-aeb7-428e-9b29-ee32ba72858e"
+    }
+  },
+  {
+    "uuid": "d23f2816-113a-4a23-a2a5-1dd3be8ed9e8",
+    "name": "Bhalewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5eb2a8fe-aeb7-428e-9b29-ee32ba72858e"
+    }
+  },
+  {
+    "uuid": "9fe9d12d-f62a-4962-a529-4fda99b032f1",
+    "name": "Adwadi Varchi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "cd943efd-8a0d-47af-9d9a-e2bcc42db4e6"
+    }
+  },
+  {
+    "uuid": "f0042654-afa1-408b-bdb2-05b9b6299cd0",
+    "name": "Adwadi Madhali",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "cd943efd-8a0d-47af-9d9a-e2bcc42db4e6"
+    }
+  },
+  {
+    "uuid": "e4e3e2f9-1474-4a73-8927-d9f0072b245a",
+    "name": "Adwadi Khalachi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "cd943efd-8a0d-47af-9d9a-e2bcc42db4e6"
+    }
+  },
+  {
+    "uuid": "7e753eb2-6f7c-4ebb-a0db-029f1db55f3b",
+    "name": "Hivare",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b213cf26-7b0a-44d9-af41-eb67acb66037"
+    }
+  },
+  {
+    "uuid": "0ddee29d-7e31-4ff3-9172-7a2626624369",
+    "name": "Vaghdarawadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b213cf26-7b0a-44d9-af41-eb67acb66037"
+    }
+  },
+  {
+    "uuid": "071ad33f-3682-4ad6-a7a5-0a37af56bb31",
+    "name": "Pimpale",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5df33764-12f4-4d74-975e-46c14d71d41c"
+    }
+  },
+  {
+    "uuid": "cb856281-5b16-44a2-a829-40e7bd4792e5",
+    "name": "Tamkadwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5df33764-12f4-4d74-975e-46c14d71d41c"
+    }
+  },
+  {
+    "uuid": "3bd8f456-032e-4c98-863b-b7e5b04b884d",
+    "name": "Ashapur",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e1fd0d3b-fff9-43ed-b257-636957cdf151"
+    }
+  },
+  {
+    "uuid": "4ca5838b-183e-4374-9b90-00fd749ff705",
+    "name": "Padali",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b8b06ddc-a44e-4449-8a85-5558d94ffffa"
+    }
+  },
+  {
+    "uuid": "bfe55404-f36a-4f23-93be-5c94ef0b0d77",
+    "name": "Bogirwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "b8b06ddc-a44e-4449-8a85-5558d94ffffa"
+    }
+  },
+  {
+    "uuid": "3d7b7124-9af4-4176-8dd3-225a17a29d84",
+    "name": "Dubere",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "532ebec1-cf6b-428c-abc9-23da7fa12c3b"
+    }
+  },
+  {
+    "uuid": "1d09de81-3585-4e6b-ab88-07967e985edf",
+    "name": "Dholi Mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "532ebec1-cf6b-428c-abc9-23da7fa12c3b"
+    }
+  },
+  {
+    "uuid": "4378d240-c090-436e-a0fc-14ecedcb469a",
+    "name": "Vaje Mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "532ebec1-cf6b-428c-abc9-23da7fa12c3b"
+    }
+  },
+  {
+    "uuid": "9de2640d-bc2d-423c-82c0-3d0ec9e6c0e2",
+    "name": "Mandlik mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "532ebec1-cf6b-428c-abc9-23da7fa12c3b"
+    }
+  },
+  {
+    "uuid": "7378d345-b0d4-4097-8f0a-11f0d25269fa",
+    "name": "Krishnagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e0eb1c29-cbc1-49e4-a53e-a302b5b191bf"
+    }
+  },
+  {
+    "uuid": "84fd3dbe-b0fe-46e0-854b-8e50e5af5f8e",
+    "name": "Aatkawade",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "4971702a-0e48-4719-afa9-fc96eb556ed0"
+    }
+  },
+  {
+    "uuid": "6078a4dc-9aba-4304-884d-e31359741a4c",
+    "name": "Manegaon",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1ffa1a36-c0a6-4ca6-920a-332f653ace78"
+    }
+  },
+  {
+    "uuid": "43a813af-49fb-4887-9a41-c5a8106e972a",
+    "name": "Dattawadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1ffa1a36-c0a6-4ca6-920a-332f653ace78"
+    }
+  },
+  {
+    "uuid": "ab315b20-abf4-43fe-a27a-2886800da43c",
+    "name": "Kardak Mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1ffa1a36-c0a6-4ca6-920a-332f653ace78"
+    }
+  },
+  {
+    "uuid": "525fdc98-03c6-44f0-913d-d5dd12c5750d",
+    "name": "Bhagat Mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1ffa1a36-c0a6-4ca6-920a-332f653ace78"
+    }
+  },
+  {
+    "uuid": "3e83794e-5940-4cc6-b640-8f9da7f2767d",
+    "name": "Parit mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1ffa1a36-c0a6-4ca6-920a-332f653ace78"
+    }
+  },
+  {
+    "uuid": "4b63e846-b0a0-4cbf-89f0-7b204b2e0e34",
+    "name": "Aamdar mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1ffa1a36-c0a6-4ca6-920a-332f653ace78"
+    }
+  },
+  {
+    "uuid": "e1cd649c-6cbb-4ab1-bc07-e95ae318185d",
+    "name": "Dhondvirnagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c91e596e-cf47-4fd2-9e96-2b39003469cb"
+    }
+  },
+  {
+    "uuid": "a0c1d0a6-917c-47fa-a2fb-1ad654bd4067",
+    "name": "Padwal mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c91e596e-cf47-4fd2-9e96-2b39003469cb"
+    }
+  },
+  {
+    "uuid": "1bb50daa-64c3-4aee-a26c-b744a08c61ee",
+    "name": "Gurewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "caa488f7-ed7c-4f76-b43c-7932168e7a13"
+    }
+  },
+  {
+    "uuid": "2dca4f65-b6dd-4428-bf13-e91cd0da6503",
+    "name": "Patole",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f204e0b6-d480-49a7-b71d-9a98cd5a3be1"
+    }
+  },
+  {
+    "uuid": "5f3b3a65-7295-4571-8d57-864380442309",
+    "name": "Khatalewasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f204e0b6-d480-49a7-b71d-9a98cd5a3be1"
+    }
+  },
+  {
+    "uuid": "24aef641-cc67-47c7-8e1e-a9fdafca6ddb",
+    "name": "Ramnagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "8479f34a-6c8f-44c2-9302-91c4363de229"
+    }
+  },
+  {
+    "uuid": "88778e9d-b406-4418-9113-08f63bdc6f89",
+    "name": "Gonde",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "273feb21-b80e-4ff4-9b36-20baa26d7521"
+    }
+  },
+  {
+    "uuid": "30408a27-f7f7-46ba-83c4-2bb50da55cbe",
+    "name": "Shambhodev mala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "273feb21-b80e-4ff4-9b36-20baa26d7521"
+    }
+  },
+  {
+    "uuid": "2d73681f-384e-4bb1-bb18-29621b0d6248",
+    "name": "Khalwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "273feb21-b80e-4ff4-9b36-20baa26d7521"
+    }
+  },
+  {
+    "uuid": "b619fbad-5bf2-4c2e-9afc-d4379984edf5",
+    "name": "Birobawadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "273feb21-b80e-4ff4-9b36-20baa26d7521"
+    }
+  },
+  {
+    "uuid": "f1b0415c-70d4-4744-9e42-e942427133da",
+    "name": "Nimonmla",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5f5c5540-db27-4b29-871e-9842cc3f2e48"
+    }
+  },
+  {
+    "uuid": "333e7ded-7102-4820-ad51-d4fbaefb03f3",
+    "name": "Khlwadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5f5c5540-db27-4b29-871e-9842cc3f2e48"
+    }
+  },
+  {
+    "uuid": "d533d84b-2299-42a2-8276-fb8727208a79",
+    "name": "Andnager",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5f5c5540-db27-4b29-871e-9842cc3f2e48"
+    }
+  },
+  {
+    "uuid": "13083c4a-1e8b-41b6-9fbb-862a3d53149a",
+    "name": "Valmiknager",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5f5c5540-db27-4b29-871e-9842cc3f2e48"
+    }
+  },
+  {
+    "uuid": "0d360245-acd7-4556-ae95-e1636f076e5c",
+    "name": "Wavigaon",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5f5c5540-db27-4b29-871e-9842cc3f2e48"
+    }
+  },
+  {
+    "uuid": "b4def58a-4b59-4ef9-a177-50a5dae80439",
+    "name": "Mitsageregaon",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "086f7ae1-a7ab-4972-9276-8641726004c2"
+    }
+  },
+  {
+    "uuid": "a067f47a-2fb3-458d-a07b-00c70b51236a",
+    "name": "Mitsageremala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "086f7ae1-a7ab-4972-9276-8641726004c2"
+    }
+  },
+  {
+    "uuid": "bfa09ab1-dbe4-4289-aa61-6a1396b90f6d",
+    "name": "Ashapuri",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e1fd0d3b-fff9-43ed-b257-636957cdf151"
+    }
+  },
+  {
+    "uuid": "f4c3e2c3-d672-417d-ba6a-0d00a033627c",
+    "name": "Vllhewadi",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "e1fd0d3b-fff9-43ed-b257-636957cdf151"
+    }
+  },
+  {
+    "uuid": "eec58d4e-48de-4ea4-9848-c8598f317776",
+    "name": "Shivajinagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "1ee34e16-ac30-4438-9dc1-666d43c81bb3"
+    }
+  },
+  {
+    "uuid": "46cfd318-9f62-420f-97fa-776699583d73",
+    "name": "Fulenagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "fc6972f5-ef48-4e73-bb18-b61fcd947208"
+    }
+  },
+  {
+    "uuid": "fb1b34a8-21e7-4d0e-8ddf-7b98fd6eabac",
+    "name": "Dushingpur",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "4b4b54b4-695d-4928-b582-c0aaf48db76f"
+    }
+  },
+  {
+    "uuid": "a45ceced-21cf-4387-b625-46d562a61533",
+    "name": "Mldhone",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "4b4b54b4-695d-4928-b582-c0aaf48db76f"
+    }
+  },
+  {
+    "uuid": "33755acc-2718-4acd-8f48-44b9eac3f9f7",
+    "name": "Pathare Bk.",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "8ae96bb2-8fcd-4d0e-83c1-62c0526269fb"
+    }
+  },
+  {
+    "uuid": "8c4033b0-3ba7-4d9a-a36c-983d885f13f5",
+    "name": "Nrodewasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "8ae96bb2-8fcd-4d0e-83c1-62c0526269fb"
+    }
+  },
+  {
+    "uuid": "7b2d5e01-1bde-46ce-aa65-8cbd7ec3fd34",
+    "name": "Pathregoan",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "17c6c119-0d38-4611-8e98-bfe648f16ff1"
+    }
+  },
+  {
+    "uuid": "b38bad61-92dd-45d6-a680-5d407a04dab0",
+    "name": "Kadamvasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "17c6c119-0d38-4611-8e98-bfe648f16ff1"
+    }
+  },
+  {
+    "uuid": "abe28093-d810-4411-8bf3-382bf4dfc09b",
+    "name": "Dighewasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "17c6c119-0d38-4611-8e98-bfe648f16ff1"
+    }
+  },
+  {
+    "uuid": "7c571ee4-3356-4712-b1f7-7d18c5592115",
+    "name": "Waregaon",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "2b1882e9-e10b-4051-95ff-64745be25698"
+    }
+  },
+  {
+    "uuid": "8c80a01f-8f61-4e7e-8169-1e6036e9c6a0",
+    "name": "Sayale 1",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "8743e432-e93f-450b-a9bf-708ccaa3a394"
+    }
+  },
+  {
+    "uuid": "2e3cd7b1-9451-47ea-9b8b-964893d74d66",
+    "name": "Sayale 2",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "8743e432-e93f-450b-a9bf-708ccaa3a394"
+    }
+  },
+  {
+    "uuid": "111f024f-6ff8-473d-ad0f-34769e33f589",
+    "name": "Mirgaon",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "fd3aa8e2-8cf1-4ab6-a080-aae3b5cef1f6"
+    }
+  },
+  {
+    "uuid": "4936b59d-d6a7-4dc8-a9b6-00a1aeddef6c",
+    "name": "Kolgaonmala",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "10fb23d6-0a93-41ff-84ef-d907ba9511d5"
+    }
+  },
+  {
+    "uuid": "8f8abf79-7376-4ef7-9200-4d29a5cabec8",
+    "name": "Kolgaonbangla",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "10fb23d6-0a93-41ff-84ef-d907ba9511d5"
+    }
+  },
+  {
+    "uuid": "2a0c9f36-7375-44e3-aaae-688fb1fcc29f",
+    "name": "Yashwantnagar",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "5d2652e7-8b49-45d3-b7fc-ea3d402d4a62"
+    }
+  },
+  {
+    "uuid": "ab0946cc-f736-47c0-a4ad-62d716eb75db",
+    "name": "Pangari Bk",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7e0176d4-fac2-4ace-a182-f0f8e2d2b5e4"
+    }
+  },
+  {
+    "uuid": "c95ed60f-c40c-49f2-b456-f1bc7dd20d91",
+    "name": "Devpurrod",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7e0176d4-fac2-4ace-a182-f0f8e2d2b5e4"
+    }
+  },
+  {
+    "uuid": "020531f0-aef6-43e9-9f1f-4ebd2584170d",
+    "name": "Nirgudegalli",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "7e0176d4-fac2-4ace-a182-f0f8e2d2b5e4"
+    }
+  },
+  {
+    "uuid": "03c190d0-70a8-4222-8573-9c087862fb75",
+    "name": "Pangari Kh.",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "105376a1-29fe-4ace-9afc-10f115764935"
+    }
+  },
+  {
+    "uuid": "363f2664-4aa4-4fd8-b9d4-125e2f2453dc",
+    "name": "Bhokani",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f016ee8c-f44c-4a77-8567-0e1c26fea081"
+    }
+  },
+  {
+    "uuid": "8c496531-995e-4364-95d4-e71cb191a47e",
+    "name": "Mhskewasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "bfd7b573-c88a-4330-a2dc-1fa52ef91317"
+    }
+  },
+  {
+    "uuid": "467cbedb-7e9f-4b1a-87fe-172ffbb5ba78",
+    "name": "Andnager",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "bfd7b573-c88a-4330-a2dc-1fa52ef91317"
+    }
+  },
+  {
+    "uuid": "2c491736-5190-4d15-9722-52b71300d9c4",
+    "name": "Marhai Bk",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "bfd7b573-c88a-4330-a2dc-1fa52ef91317"
+    }
+  },
+  {
+    "uuid": "24c80680-9876-4aa2-8afe-435d71f6b62d",
+    "name": "Marhal Kh.",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "237776ec-d911-47fd-9dfc-f45e9f3a5979"
+    }
+  },
+  {
+    "uuid": "9472ecdf-9adf-4303-a427-cb2627080f30",
+    "name": "Gulabpur",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "f22765bf-7f38-4c1f-9374-c22db11f223d"
+    }
+  },
+  {
+    "uuid": "fc28bd3b-97fd-44ad-a178-6199439eb096",
+    "name": "Suregaon",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d8bd4083-6c90-4799-9256-922e4477fb6d"
+    }
+  },
+  {
+    "uuid": "0f144a7e-fa5f-4505-8e05-71229bd8c63c",
+    "name": "Nirhale",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "c5314de0-915a-47c9-be3c-291c17639de4"
+    }
+  },
+  {
+    "uuid": "968c0f5b-5b31-42d8-a2b3-a3cf3a17a0af",
+    "name": "Fattepur",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d9f6ab71-c916-4257-80ec-a2ac2292f15e"
+    }
+  },
+  {
+    "uuid": "672db5e3-2f6a-4f6f-8ce0-26027e169878",
+    "name": "Jadhvvasti",
+    "type": "Wadi/Vasti",
+    "level": 0.9,
+    "parent": {
+      "uuid": "d9f6ab71-c916-4257-80ec-a2ac2292f15e"
+    }
+  }
+]

@@ -1,0 +1,569 @@
+[
+  {
+    "uuid": "9627750f-c9dc-44c5-bc9e-83bdcdbeaa43",
+    "name": "Ambe",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "86670b0c-2570-498c-8c61-51a4612f6464"
+    }
+  },
+  {
+    "uuid": "6fd2075c-6008-4fd2-bc0e-c8b57a39436d",
+    "name": "Mhasgan",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "86670b0c-2570-498c-8c61-51a4612f6464"
+    }
+  },
+  {
+    "uuid": "dccd9f2b-13a3-4a1e-8ee9-5059fe0baf9e",
+    "name": "Virmal",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "86670b0c-2570-498c-8c61-51a4612f6464"
+    }
+  },
+  {
+    "uuid": "7437746f-ba6f-4deb-9008-103e722c523c",
+    "name": "Bhuvan",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "ea21389e-7b4d-4043-9e0c-3a57e3713d08"
+    }
+  },
+  {
+    "uuid": "60358f08-5904-4a13-a6f3-fbaa696ae949",
+    "name": "Tondwal",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "ea21389e-7b4d-4043-9e0c-3a57e3713d08"
+    }
+  },
+  {
+    "uuid": "da94ba2c-fd28-4888-9b76-b25f82f1990d",
+    "name": "Ranvihir",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "ea21389e-7b4d-4043-9e0c-3a57e3713d08"
+    }
+  },
+  {
+    "uuid": "52ee4aaf-2b02-4cf8-b8a8-068cb2416002",
+    "name": "Jogmodi",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "46fab248-82ff-4610-ab66-e28c0e9a2630"
+    }
+  },
+  {
+    "uuid": "939ec53e-db68-4114-a5d1-0d5c55bc5456",
+    "name": "Kupurli Kh",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "46fab248-82ff-4610-ab66-e28c0e9a2630"
+    }
+  },
+  {
+    "uuid": "140940d4-96d4-4f40-88b9-3a327f8cd0fb",
+    "name": "Tirde",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "46fab248-82ff-4610-ab66-e28c0e9a2630"
+    }
+  },
+  {
+    "uuid": "7883e6c4-57b4-432b-8608-eecafbf98807",
+    "name": "Umbarpada Surgana",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "46fab248-82ff-4610-ab66-e28c0e9a2630"
+    }
+  },
+  {
+    "uuid": "1e27920e-6dab-4545-87d3-12057852d012",
+    "name": "Karanjali",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "600a34a0-01c0-4eb0-b127-c68745d80606"
+    }
+  },
+  {
+    "uuid": "3e85baf4-46c1-4d38-8f61-44d548d196ff",
+    "name": "Borvat",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "600a34a0-01c0-4eb0-b127-c68745d80606"
+    }
+  },
+  {
+    "uuid": "b7efcfb2-6305-41a3-9cc7-e46acbcfac94",
+    "name": "Nirgude",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "600a34a0-01c0-4eb0-b127-c68745d80606"
+    }
+  },
+  {
+    "uuid": "bc4bf125-2b96-427c-b48d-008f2306ef46",
+    "name": "Shinde",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "600a34a0-01c0-4eb0-b127-c68745d80606"
+    }
+  },
+  {
+    "uuid": "dbc6c5b3-9c8a-4227-9f3e-1b10c7846fbd",
+    "name": "Ustale",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "600a34a0-01c0-4eb0-b127-c68745d80606"
+    }
+  },
+  {
+    "uuid": "2efef639-9196-4d5a-aa0a-bbcfa6ccc71a",
+    "name": "Kohor",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "5b4503e2-5a0b-41a0-89b1-0fc296491998"
+    }
+  },
+  {
+    "uuid": "cc3f763e-c95a-4713-9673-e1515253cc0e",
+    "name": "Bhaygon",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "5b4503e2-5a0b-41a0-89b1-0fc296491998"
+    }
+  },
+  {
+    "uuid": "0a64a2cc-2651-453b-8ab6-e20d8b0877d9",
+    "name": "Donawade",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "5b4503e2-5a0b-41a0-89b1-0fc296491998"
+    }
+  },
+  {
+    "uuid": "91fe2312-b1c5-49ea-8f62-dacfb08477b1",
+    "name": "Mankapur",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "5b4503e2-5a0b-41a0-89b1-0fc296491998"
+    }
+  },
+  {
+    "uuid": "c06809d8-2a31-46d8-8732-b2d4659ec140",
+    "name": "Kulwandi",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "11adfb93-e00e-466c-8426-adb4a976dd24"
+    }
+  },
+  {
+    "uuid": "d0c849ab-2c0f-4cd5-94cd-aaa091a66379",
+    "name": "Palsi",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "11adfb93-e00e-466c-8426-adb4a976dd24"
+    }
+  },
+  {
+    "uuid": "7d382855-9e20-4422-9828-b3c21fb3a75e",
+    "name": "Pate",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "11adfb93-e00e-466c-8426-adb4a976dd24"
+    }
+  },
+  {
+    "uuid": "8be2694d-0bb4-4c53-96ba-a207f09da354",
+    "name": "Nachlondi",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "11adfb93-e00e-466c-8426-adb4a976dd24"
+    }
+  },
+  {
+    "uuid": "72410ded-70ab-48d2-96b8-a90191d217b1",
+    "name": "Kumbhale",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "64fac466-581c-4eea-9814-c9db6c3c3275"
+    }
+  },
+  {
+    "uuid": "def10177-3392-4ea5-9896-9526568061e1",
+    "name": "Peint 1",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "64fac466-581c-4eea-9814-c9db6c3c3275"
+    }
+  },
+  {
+    "uuid": "04d6c799-f463-4ea7-bf76-bac7312545cc",
+    "name": "Peint 2",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "64fac466-581c-4eea-9814-c9db6c3c3275"
+    }
+  },
+  {
+    "uuid": "15a46bc9-2c7a-4819-9f85-31f7f2b282bd",
+    "name": "Dhondmal",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "64fac466-581c-4eea-9814-c9db6c3c3275"
+    }
+  },
+  {
+    "uuid": "fa8c7eb6-8fd9-4e6c-a990-b6db65ac9d52",
+    "name": "Badgi",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "64fac466-581c-4eea-9814-c9db6c3c3275"
+    }
+  },
+  {
+    "uuid": "61001441-579c-4026-8d24-7b56eebc513c",
+    "name": "Hatrundi",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "64fac466-581c-4eea-9814-c9db6c3c3275"
+    }
+  },
+  {
+    "uuid": "de123848-1a2c-4a95-b6cd-3f8413f1c18d",
+    "name": "Dapur",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "ceee1eff-587e-4cda-93e0-8652e21ad646"
+    }
+  },
+  {
+    "uuid": "a47041eb-c677-43d5-8ee8-34b12980428c",
+    "name": "Dodi Bk.",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "ceee1eff-587e-4cda-93e0-8652e21ad646"
+    }
+  },
+  {
+    "uuid": "6a841037-f194-405e-a1fa-369dfd031ed9",
+    "name": "Nandurshingote",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "ceee1eff-587e-4cda-93e0-8652e21ad646"
+    }
+  },
+  {
+    "uuid": "5ca1120a-92b1-4c6d-8bad-58250ed841da",
+    "name": "Chass",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "ceee1eff-587e-4cda-93e0-8652e21ad646"
+    }
+  },
+  {
+    "uuid": "1f93cb0c-817d-4130-b20a-a4d45c56468c",
+    "name": "Chapadgaon",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "ceee1eff-587e-4cda-93e0-8652e21ad646"
+    }
+  },
+  {
+    "uuid": "22da7783-f006-4ccf-bca1-17cbc0bb59c5",
+    "name": "Devpur",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "92e4509a-2ea1-4a23-a737-6c22e4c3eff9"
+    }
+  },
+  {
+    "uuid": "718036f7-3817-43da-ab9c-8921fa7ff0b8",
+    "name": "Shaha",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "92e4509a-2ea1-4a23-a737-6c22e4c3eff9"
+    }
+  },
+  {
+    "uuid": "3cd0ec88-e739-46cf-a5a5-63f3698968b5",
+    "name": "Panchale",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "92e4509a-2ea1-4a23-a737-6c22e4c3eff9"
+    }
+  },
+  {
+    "uuid": "5ed378e1-1434-4070-b09f-c90d83923b36",
+    "name": "Somthane",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "92e4509a-2ea1-4a23-a737-6c22e4c3eff9"
+    }
+  },
+  {
+    "uuid": "e5131f57-3ca7-44c3-8538-9e82c35959b4",
+    "name": "Wadangali",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "92e4509a-2ea1-4a23-a737-6c22e4c3eff9"
+    }
+  },
+  {
+    "uuid": "28f93ccd-af9b-408d-831b-ae8b740342c4",
+    "name": "Datali",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "92e4509a-2ea1-4a23-a737-6c22e4c3eff9"
+    }
+  },
+  {
+    "uuid": "f858a66b-f4d8-4241-9e82-da182018632f",
+    "name": "Naygaon",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "bffd47c9-a69a-4f36-a446-a1f912a7be27"
+    }
+  },
+  {
+    "uuid": "35ed6f45-99f0-475f-bc1f-5bc8118b42b9",
+    "name": "Nimgaonsinnar",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "bffd47c9-a69a-4f36-a446-a1f912a7be27"
+    }
+  },
+  {
+    "uuid": "fb70e9f7-c3d2-4d2e-8621-1a9daa9723f2",
+    "name": "Baragao pimpari",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "bffd47c9-a69a-4f36-a446-a1f912a7be27"
+    }
+  },
+  {
+    "uuid": "269d0412-cd81-460d-bdd3-1ea4f5f43e84",
+    "name": "Kundewadi",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "bffd47c9-a69a-4f36-a446-a1f912a7be27"
+    }
+  },
+  {
+    "uuid": "35fd4659-b703-4936-8547-d2a318535436",
+    "name": "Chincholi",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "bffd47c9-a69a-4f36-a446-a1f912a7be27"
+    }
+  },
+  {
+    "uuid": "c4d640e2-e205-4f78-847d-07ad22eb6f4a",
+    "name": "Bharmhanwade",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "bffd47c9-a69a-4f36-a446-a1f912a7be27"
+    }
+  },
+  {
+    "uuid": "1ee59c5a-30f4-4cdd-88a5-e74c6f3a63ac",
+    "name": "Pandhurli",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "2f3dbe93-521e-4e03-884c-4a714486b671"
+    }
+  },
+  {
+    "uuid": "6100a89e-ab82-4fa5-98e2-ee85df17b8bd",
+    "name": "Wadgaonpingala",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "2f3dbe93-521e-4e03-884c-4a714486b671"
+    }
+  },
+  {
+    "uuid": "48325a72-6895-4234-adf4-fec2ccb11cc8",
+    "name": "Shivade",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "2f3dbe93-521e-4e03-884c-4a714486b671"
+    }
+  },
+  {
+    "uuid": "12aa8daa-95e5-4e14-a51e-bd2ca9366950",
+    "name": "Sonambe",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "2f3dbe93-521e-4e03-884c-4a714486b671"
+    }
+  },
+  {
+    "uuid": "a1953711-1c8e-42e0-b7e3-e8e82ce81f53",
+    "name": "Konambe",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "2f3dbe93-521e-4e03-884c-4a714486b671"
+    }
+  },
+  {
+    "uuid": "5b64134f-4ec0-43fd-af93-a6073a90f888",
+    "name": "Paste",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "2f3dbe93-521e-4e03-884c-4a714486b671"
+    }
+  },
+  {
+    "uuid": "a0835f95-1416-4c51-9821-1444cfe73e01",
+    "name": "Thangaon",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "5f02141b-6feb-4eb2-9f8d-0f3f56d36216"
+    }
+  },
+  {
+    "uuid": "b756eb9e-a246-4765-8011-66ff5bbae029",
+    "name": "Hivare",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "5f02141b-6feb-4eb2-9f8d-0f3f56d36216"
+    }
+  },
+  {
+    "uuid": "39ce0ee9-a402-4e65-9fd0-eb8dfb61eaaf",
+    "name": "Dubere",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "5f02141b-6feb-4eb2-9f8d-0f3f56d36216"
+    }
+  },
+  {
+    "uuid": "69d1e3d6-94bb-4d4b-9fb5-c9e532a36594",
+    "name": "Manegaon",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "5f02141b-6feb-4eb2-9f8d-0f3f56d36216"
+    }
+  },
+  {
+    "uuid": "59a2b1aa-6eee-41f7-b952-f876003ad62e",
+    "name": "Patole",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "5f02141b-6feb-4eb2-9f8d-0f3f56d36216"
+    }
+  },
+  {
+    "uuid": "fcf0328f-2219-41d6-8a6c-f7be584b5783",
+    "name": "Wavi 1",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "95b4b18e-b25a-40b7-b1e7-69ad43353ca8"
+    }
+  },
+  {
+    "uuid": "1b2821eb-7bbe-46f4-8a76-661f9f74d08a",
+    "name": "Wavi 2",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "95b4b18e-b25a-40b7-b1e7-69ad43353ca8"
+    }
+  },
+  {
+    "uuid": "9f0f509f-fa18-456b-a70f-2a802fb3cdbe",
+    "name": "Pathare Bk.",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "95b4b18e-b25a-40b7-b1e7-69ad43353ca8"
+    }
+  },
+  {
+    "uuid": "9280bd3c-6ee3-4df8-a7ee-51251a384e4b",
+    "name": "Mirgaon",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "95b4b18e-b25a-40b7-b1e7-69ad43353ca8"
+    }
+  },
+  {
+    "uuid": "73cb1f7b-7dc8-4b3a-9b25-fb10d4549b52",
+    "name": "Pangari Bk.",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "95b4b18e-b25a-40b7-b1e7-69ad43353ca8"
+    }
+  },
+  {
+    "uuid": "26807172-c335-4e44-9806-630c23ca1244",
+    "name": "Marhal Bk.",
+    "type": "Subcenter",
+    "level": 2.3,
+    "parent": {
+      "uuid": "95b4b18e-b25a-40b7-b1e7-69ad43353ca8"
+    }
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "uuid": "86670b0c-2570-498c-8c61-51a4612f6464",
+    "name": "Ambe",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "77c38f94-c718-4964-a732-0ef468ade8ce"
+    }
+  },
+  {
+    "uuid": "ea21389e-7b4d-4043-9e0c-3a57e3713d08",
+    "name": "Bhuvan",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "77c38f94-c718-4964-a732-0ef468ade8ce"
+    }
+  },
+  {
+    "uuid": "46fab248-82ff-4610-ab66-e28c0e9a2630",
+    "name": "Jogmodi",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "77c38f94-c718-4964-a732-0ef468ade8ce"
+    }
+  },
+  {
+    "uuid": "600a34a0-01c0-4eb0-b127-c68745d80606",
+    "name": "Karanjali",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "77c38f94-c718-4964-a732-0ef468ade8ce"
+    }
+  },
+  {
+    "uuid": "5b4503e2-5a0b-41a0-89b1-0fc296491998",
+    "name": "Kohor",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "77c38f94-c718-4964-a732-0ef468ade8ce"
+    }
+  },
+  {
+    "uuid": "11adfb93-e00e-466c-8426-adb4a976dd24",
+    "name": "Kulwandi",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "77c38f94-c718-4964-a732-0ef468ade8ce"
+    }
+  },
+  {
+    "uuid": "64fac466-581c-4eea-9814-c9db6c3c3275",
+    "name": "Kumbhale",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "77c38f94-c718-4964-a732-0ef468ade8ce"
+    }
+  },
+  {
+    "uuid": "ceee1eff-587e-4cda-93e0-8652e21ad646",
+    "name": "Dapur",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "5a75b1fc-ee51-41bf-9274-2b88faa265f7"
+    }
+  },
+  {
+    "uuid": "92e4509a-2ea1-4a23-a737-6c22e4c3eff9",
+    "name": "Devpur",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "5a75b1fc-ee51-41bf-9274-2b88faa265f7"
+    }
+  },
+  {
+    "uuid": "bffd47c9-a69a-4f36-a446-a1f912a7be27",
+    "name": "Naygaon",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "5a75b1fc-ee51-41bf-9274-2b88faa265f7"
+    }
+  },
+  {
+    "uuid": "2f3dbe93-521e-4e03-884c-4a714486b671",
+    "name": "Pandhurli",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "5a75b1fc-ee51-41bf-9274-2b88faa265f7"
+    }
+  },
+  {
+    "uuid": "5f02141b-6feb-4eb2-9f8d-0f3f56d36216",
+    "name": "Thangaon",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "5a75b1fc-ee51-41bf-9274-2b88faa265f7"
+    }
+  },
+  {
+    "uuid": "95b4b18e-b25a-40b7-b1e7-69ad43353ca8",
+    "name": "Wavi",
+    "type": "PHC",
+    "level": 2.6,
+    "parent": {
+      "uuid": "5a75b1fc-ee51-41bf-9274-2b88faa265f7"
+    }
+  }
+]
