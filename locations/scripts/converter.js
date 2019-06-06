@@ -1,6 +1,14 @@
 const uuidv4 = require('uuid/v4');
 const fs = require('fs');
 
+if ('not required any more') {
+    console.log('This file is checked-in into git only for reference.');
+    console.log('There is no need to run this script unless new locations are provided.');
+    console.log('In that case comment out or remove the existing `writeFile() function calls`');
+    console.log('And process only the new files');
+    process.exit(1);
+}
+
 const newLocation = (details, level, parents) => {
     const location = {
         uuid: uuidv4(),
