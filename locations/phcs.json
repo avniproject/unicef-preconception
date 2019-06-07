@@ -1,0 +1,132 @@
+[
+  {
+    "uuid": "70e0b1de-ff03-4822-a799-0fb1df432ff4",
+    "name": "Ambe",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Peint.Ambe",
+    "parent": {
+      "uuid": "f7a614af-fc2a-45c9-84e8-9d7042cc2368"
+    }
+  },
+  {
+    "uuid": "3adfeea1-ddca-4f4a-ab6d-d838bb50c5c5",
+    "name": "Bhuvan",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Peint.Bhuvan",
+    "parent": {
+      "uuid": "f7a614af-fc2a-45c9-84e8-9d7042cc2368"
+    }
+  },
+  {
+    "uuid": "8d565cf7-a2fa-4085-a472-bc977c715b8e",
+    "name": "Jogmodi",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Peint.Jogmodi",
+    "parent": {
+      "uuid": "f7a614af-fc2a-45c9-84e8-9d7042cc2368"
+    }
+  },
+  {
+    "uuid": "4a9a608c-8b83-431b-aeff-8dd27266d971",
+    "name": "Karanjali",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Peint.Karanjali",
+    "parent": {
+      "uuid": "f7a614af-fc2a-45c9-84e8-9d7042cc2368"
+    }
+  },
+  {
+    "uuid": "bf92735a-23e2-4d73-bbe5-c0722687515a",
+    "name": "Kohor",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Peint.Kohor",
+    "parent": {
+      "uuid": "f7a614af-fc2a-45c9-84e8-9d7042cc2368"
+    }
+  },
+  {
+    "uuid": "eb2a2945-3e34-4ec3-a4d0-11d260b6518e",
+    "name": "Kulwandi",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Peint.Kulwandi",
+    "parent": {
+      "uuid": "f7a614af-fc2a-45c9-84e8-9d7042cc2368"
+    }
+  },
+  {
+    "uuid": "00b85cb1-7e63-4253-a2b8-3c92da4f9eeb",
+    "name": "Kumbhale",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Peint.Kumbhale",
+    "parent": {
+      "uuid": "f7a614af-fc2a-45c9-84e8-9d7042cc2368"
+    }
+  },
+  {
+    "uuid": "90bfdff5-3839-4115-a7a5-a5812ce66e22",
+    "name": "Dapur",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Sinnar.Dapur",
+    "parent": {
+      "uuid": "a651191d-623a-4312-b783-882c1e146355"
+    }
+  },
+  {
+    "uuid": "fa611b81-c82a-4d13-84b4-be755d6c33ea",
+    "name": "Devpur",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Sinnar.Devpur",
+    "parent": {
+      "uuid": "a651191d-623a-4312-b783-882c1e146355"
+    }
+  },
+  {
+    "uuid": "3eba9c6a-7e6b-492c-885d-53bd3168e2fc",
+    "name": "Naygaon",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Sinnar.Naygaon",
+    "parent": {
+      "uuid": "a651191d-623a-4312-b783-882c1e146355"
+    }
+  },
+  {
+    "uuid": "3b2d3ac3-1731-4613-9e75-c2b14b7a5554",
+    "name": "Pandhurli",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Sinnar.Pandhurli",
+    "parent": {
+      "uuid": "a651191d-623a-4312-b783-882c1e146355"
+    }
+  },
+  {
+    "uuid": "2d32aedf-3cbf-41ef-b9ca-4358aa5ae6b7",
+    "name": "Thangaon",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Sinnar.Thangaon",
+    "parent": {
+      "uuid": "a651191d-623a-4312-b783-882c1e146355"
+    }
+  },
+  {
+    "uuid": "36fe63c1-4293-4201-b9c7-d21c13616e98",
+    "name": "Wavi",
+    "type": "phc",
+    "level": 2.6,
+    "nameLineage": "Sinnar.Wavi",
+    "parent": {
+      "uuid": "a651191d-623a-4312-b783-882c1e146355"
+    }
+  }
+]

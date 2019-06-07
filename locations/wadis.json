@@ -1,0 +1,4552 @@
+[
+  {
+    "uuid": "42b6619f-0802-4e75-bf7f-c9624967f16b",
+    "name": "Savari pada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Ambe.Ambe.Savari pada",
+    "parent": {
+      "uuid": "5334f9d9-ea46-444c-a91a-09837d8c80a7"
+    }
+  },
+  {
+    "uuid": "5130c915-36d8-4bd7-88e0-52b847eb8c9d",
+    "name": "Ukhalimal",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Ambe.Ambe.Ukhalimal",
+    "parent": {
+      "uuid": "5334f9d9-ea46-444c-a91a-09837d8c80a7"
+    }
+  },
+  {
+    "uuid": "99378485-4309-4571-abf4-aabd0f2cd0f4",
+    "name": "Chaukada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Ambe.Gandole.Chaukada",
+    "parent": {
+      "uuid": "0511b8a1-efe5-45ee-8ba8-fd2f6460c7a2"
+    }
+  },
+  {
+    "uuid": "fc93dc95-9b18-4589-87d0-9d5776812c2c",
+    "name": "Vadapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Ambe.Gandole.Vadapada",
+    "parent": {
+      "uuid": "0511b8a1-efe5-45ee-8ba8-fd2f6460c7a2"
+    }
+  },
+  {
+    "uuid": "11f5b910-91a6-4593-8982-5e3fa99f8516",
+    "name": "Holmari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Ambe.Gandole.Holmari",
+    "parent": {
+      "uuid": "0511b8a1-efe5-45ee-8ba8-fd2f6460c7a2"
+    }
+  },
+  {
+    "uuid": "484347b9-d8c2-48ed-a82e-845f7610988e",
+    "name": "Mohadand",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Ambe.Mohadand.Mohadand",
+    "parent": {
+      "uuid": "9da2b7c7-553b-4441-bab3-4386a35256d2"
+    }
+  },
+  {
+    "uuid": "738c3ad6-3ce2-4c39-908b-b46fdf0ad153",
+    "name": "Shivshet",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Ambe.Shivshet.Shivshet",
+    "parent": {
+      "uuid": "b57f9b78-3cbf-4157-811d-21ef3011f9c7"
+    }
+  },
+  {
+    "uuid": "123c8b1e-c389-4fe9-aa47-2fa75611b366",
+    "name": "Jamabulpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Mhasgan.Mhasgan.Jamabulpada",
+    "parent": {
+      "uuid": "baf522ee-65a1-4e2d-8b2f-82da705f59b4"
+    }
+  },
+  {
+    "uuid": "458da2c1-0252-46d9-8d74-29ec4d548b4f",
+    "name": "Kalune",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Mhasgan.Kalune.Kalune",
+    "parent": {
+      "uuid": "0f425553-dfa3-4d2e-a3f9-9061a0ce743c"
+    }
+  },
+  {
+    "uuid": "46e41c8e-58ae-48a2-9fb0-d94aa4cd02c0",
+    "name": "Nishankhadak",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Mhasgan.Kakadpada.Nishankhadak",
+    "parent": {
+      "uuid": "e75414fc-b81e-4f35-a203-d5c4466a2b26"
+    }
+  },
+  {
+    "uuid": "46fadd05-397c-4943-9fba-5407ae09aeaa",
+    "name": "Vakharpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Mhasgan.Malegaon.Vakharpada",
+    "parent": {
+      "uuid": "912a4abb-e638-4c41-80a7-9a441e623fa9"
+    }
+  },
+  {
+    "uuid": "7ad0f7be-97bb-4721-b503-2d38c7286bde",
+    "name": "Dukkarbhuji",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Mhasgan.Malegaon.Dukkarbhuji",
+    "parent": {
+      "uuid": "912a4abb-e638-4c41-80a7-9a441e623fa9"
+    }
+  },
+  {
+    "uuid": "68613e65-f71e-497a-b636-e08f3f879d6c",
+    "name": "Asdanpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Mhasgan.Malegaon.Asdanpada",
+    "parent": {
+      "uuid": "912a4abb-e638-4c41-80a7-9a441e623fa9"
+    }
+  },
+  {
+    "uuid": "b92bd905-35e9-4f00-8951-d23d836512a5",
+    "name": "Umbarpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Mhasgan.Malegaon.Umbarpada",
+    "parent": {
+      "uuid": "912a4abb-e638-4c41-80a7-9a441e623fa9"
+    }
+  },
+  {
+    "uuid": "9e1d5ccd-85f7-4307-a9d0-26b460f3ffad",
+    "name": "Maharvihir",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Mhasgan.Malegaon.Maharvihir",
+    "parent": {
+      "uuid": "912a4abb-e638-4c41-80a7-9a441e623fa9"
+    }
+  },
+  {
+    "uuid": "85815dd5-8749-4b69-aa7f-a7d746453fc0",
+    "name": "Kalambari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Mhasgan.Kalambari.Kalambari",
+    "parent": {
+      "uuid": "a0095008-40b3-47a8-a9f1-39ce15a3bf37"
+    }
+  },
+  {
+    "uuid": "95977efb-a3e1-4b11-90f2-fc015f943332",
+    "name": "Amdongra",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Mhasgan.Amdongra.Amdongra",
+    "parent": {
+      "uuid": "7d92147c-4f9b-4d2b-aa28-0bbc0ef8e1e6"
+    }
+  },
+  {
+    "uuid": "639bea81-a4e4-4761-8d3c-14ad3a4f1454",
+    "name": "Dabdari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Virmal.Virmal.Dabdari",
+    "parent": {
+      "uuid": "4d657e5e-b338-4012-a56b-aba3f27e1b2a"
+    }
+  },
+  {
+    "uuid": "085138d6-27fa-4b74-8e56-e39837e04584",
+    "name": "Ranpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Virmal.Pahuchibari.Ranpada",
+    "parent": {
+      "uuid": "7e29993e-94f1-404e-aaab-886737585c45"
+    }
+  },
+  {
+    "uuid": "d67636af-3910-4ecd-af56-b65ef1ba8dea",
+    "name": "Karanj Khed",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Virmal.Karanj Khed.Karanj Khed",
+    "parent": {
+      "uuid": "b14ab5cc-66a1-4320-a061-72a425a3f740"
+    }
+  },
+  {
+    "uuid": "90202536-efd0-41aa-9e6c-95a7d9fc734f",
+    "name": "Toranmal",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Virmal.Toranmal.Toranmal",
+    "parent": {
+      "uuid": "4943941a-6e4e-4702-b14d-3d88703fc859"
+    }
+  },
+  {
+    "uuid": "3290b215-d7b1-4932-80dc-e53a3d7c5357",
+    "name": "Diksal",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Ambe.Virmal.Diksal.Diksal",
+    "parent": {
+      "uuid": "2262b425-a037-4e1b-8e8d-9e5afb6d3411"
+    }
+  },
+  {
+    "uuid": "024ac6d2-c297-4fd9-b06d-22547b4a6eb2",
+    "name": "Adgoan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Bhuvan.Adgoan.Adgoan",
+    "parent": {
+      "uuid": "4b083f07-4a9f-4a67-8a20-787175308be7"
+    }
+  },
+  {
+    "uuid": "f6e00e7e-8574-42d5-abad-621271aceb63",
+    "name": "Ambapani",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Bhuvan.Ambapani.Ambapani",
+    "parent": {
+      "uuid": "8b1b9f02-652d-40f7-9129-49b735f34fd3"
+    }
+  },
+  {
+    "uuid": "ba9e67af-d911-4b91-81ca-993f3efae18d",
+    "name": "Bhuvan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Bhuvan.Bhuvan.Bhuvan",
+    "parent": {
+      "uuid": "187830f3-6725-42b8-b21b-5534d658aa6f"
+    }
+  },
+  {
+    "uuid": "190e7709-7272-4282-89c8-554313de68c4",
+    "name": "Borpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Bhuvan.Borpada.Borpada",
+    "parent": {
+      "uuid": "4c63fc41-2071-493f-a08f-9b0d4186eb3b"
+    }
+  },
+  {
+    "uuid": "fcbedb5b-ed67-427d-9681-e1c8aab405ab",
+    "name": "Bilkas",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Bhuvan.Bilkas.Bilkas",
+    "parent": {
+      "uuid": "13228361-ea8e-468e-ab36-57b0ae4bd318"
+    }
+  },
+  {
+    "uuid": "9ac30cb3-c244-4aa5-bec6-ffc2aa21c77f",
+    "name": "Khamshet",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Bhuvan.Dhanpada.Khamshet",
+    "parent": {
+      "uuid": "e137776d-590a-4655-b31c-33f4ec83da4c"
+    }
+  },
+  {
+    "uuid": "9841c2d0-9194-44e0-9b7a-df7dd66a5e90",
+    "name": "Borpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Bhuvan.Dhanpada.Borpada",
+    "parent": {
+      "uuid": "e137776d-590a-4655-b31c-33f4ec83da4c"
+    }
+  },
+  {
+    "uuid": "c27788ff-a68b-44cb-b364-e8ad30cdef9a",
+    "name": "Hanumant Pada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Bhuvan.Hanumant Pada.Hanumant Pada",
+    "parent": {
+      "uuid": "b76676df-8aa3-49ba-9b47-1bb21a73302f"
+    }
+  },
+  {
+    "uuid": "6308ede2-6d51-4b72-b138-058415335c0b",
+    "name": "Shingadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Bhuvan.Khadki.Shingadi",
+    "parent": {
+      "uuid": "2539e0c5-ddea-43f4-aabc-20455b5ee487"
+    }
+  },
+  {
+    "uuid": "9cb6bacd-4b17-4ba4-a892-6605544f5f97",
+    "name": "Khamshet",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Bhuvan.Khamshet.Khamshet",
+    "parent": {
+      "uuid": "18608def-b2e6-499a-802e-09e830144e0c"
+    }
+  },
+  {
+    "uuid": "4f1822ec-b319-4aeb-ba3f-693fb7dfb799",
+    "name": "Umbarpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Bhuvan.Umbarpada.Umbarpada",
+    "parent": {
+      "uuid": "55f5f4c8-2e2d-49c5-a6df-0c65e539f192"
+    }
+  },
+  {
+    "uuid": "cbcf5c34-276b-45f5-94f9-e4c01dc111d9",
+    "name": "Mahalachapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Tondwal.Andhrute.Mahalachapada",
+    "parent": {
+      "uuid": "a782f294-ddc3-4f6c-9c17-fb840d4b3b57"
+    }
+  },
+  {
+    "uuid": "b63f99a3-a3ba-44df-b2aa-09e745478284",
+    "name": "Vaitakpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Tondwal.Andhrute.Vaitakpada",
+    "parent": {
+      "uuid": "a782f294-ddc3-4f6c-9c17-fb840d4b3b57"
+    }
+  },
+  {
+    "uuid": "64f00003-c9d0-48d4-b27d-78e0b43c323e",
+    "name": "Pimpalpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Tondwal.Kasatvihir.Pimpalpada",
+    "parent": {
+      "uuid": "5380ff18-2e28-447f-82cc-caa580d07070"
+    }
+  },
+  {
+    "uuid": "e19efe5a-9f03-4fd2-86af-82e98e4b360e",
+    "name": "Chaphyacha pada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Tondwal.Tondwal.Chaphyacha pada",
+    "parent": {
+      "uuid": "0eed26f0-3c02-4a3b-93b6-99f2e83b7360"
+    }
+  },
+  {
+    "uuid": "f1917f94-413e-468f-8d13-4fae809e363e",
+    "name": "Shetmal",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Tondwal.Kahandolpada.Shetmal",
+    "parent": {
+      "uuid": "f6b882c8-2c3b-4aa5-9ae2-5436c9240b24"
+    }
+  },
+  {
+    "uuid": "9e606cb2-0ef1-4c02-bc41-2a1f8f6436cc",
+    "name": "Pondyachamal",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Tondwal.Kahandolpada.Pondyachamal",
+    "parent": {
+      "uuid": "f6b882c8-2c3b-4aa5-9ae2-5436c9240b24"
+    }
+  },
+  {
+    "uuid": "9554c324-aefe-48fb-b043-5cfaecb56145",
+    "name": "Devalapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Tondwal.Kahandolpada.Devalapada",
+    "parent": {
+      "uuid": "f6b882c8-2c3b-4aa5-9ae2-5436c9240b24"
+    }
+  },
+  {
+    "uuid": "0255633f-088b-4a6d-abe7-777b465362e3",
+    "name": "Shitmal",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Tondwal.Kahandolpada.Shitmal",
+    "parent": {
+      "uuid": "f6b882c8-2c3b-4aa5-9ae2-5436c9240b24"
+    }
+  },
+  {
+    "uuid": "9001f3da-0c2d-47a1-a801-10d3e040286a",
+    "name": "Bodarmal",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Tondwal.Umrad.Bodarmal",
+    "parent": {
+      "uuid": "4983900a-1131-4b28-84d4-2cf6e2d465f3"
+    }
+  },
+  {
+    "uuid": "740924e0-93c2-4276-9243-3490c039ea6f",
+    "name": "Ranvihir",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Ranvihir.Ranvihir.Ranvihir",
+    "parent": {
+      "uuid": "2deb73e3-73b3-4178-9c01-6f46ee56c323"
+    }
+  },
+  {
+    "uuid": "f70337a7-8da9-445e-9eb1-8dcc41249b47",
+    "name": "Belpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Ranvihir.Belpada.Belpada",
+    "parent": {
+      "uuid": "05d5c22d-02eb-42f0-9282-eec42a842031"
+    }
+  },
+  {
+    "uuid": "b3ced883-dac7-4312-a1eb-edc8ad562983",
+    "name": "Gaidhond",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Ranvihir.Gaidhond.Gaidhond",
+    "parent": {
+      "uuid": "2b142c12-39f9-46d4-90c6-5d824d6494a7"
+    }
+  },
+  {
+    "uuid": "85760226-e61c-4301-b562-76a5412c3c90",
+    "name": "Garmal",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Ranvihir.Garmal.Garmal",
+    "parent": {
+      "uuid": "504b6d89-5056-4d84-a58c-33c42d03e49b"
+    }
+  },
+  {
+    "uuid": "177c7a0b-ba1d-4a21-88b6-ae30585c2e1f",
+    "name": "Kalampada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Ranvihir.Kalampada.Kalampada",
+    "parent": {
+      "uuid": "e3beb6f1-0c2b-4d05-8c29-9adedc7b1e7f"
+    }
+  },
+  {
+    "uuid": "012b6c8a-00e6-4796-8562-197f11a765aa",
+    "name": "Kelvihir",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Ranvihir.Kelvihir.Kelvihir",
+    "parent": {
+      "uuid": "95adaa53-ce0e-46a9-99c2-3495c4b5814d"
+    }
+  },
+  {
+    "uuid": "645eb8c4-0189-4200-8851-4f582b2ab2cb",
+    "name": "Lalhali",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Ranvihir.Lalhali.Lalhali",
+    "parent": {
+      "uuid": "8f9091f9-6851-429b-afc4-7dfbbcd4b9d0"
+    }
+  },
+  {
+    "uuid": "6ef85037-febd-406c-b742-2785b9b3cd04",
+    "name": "Sadadpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Bhuvan.Ranvihir.Sadadpada.Sadadpada",
+    "parent": {
+      "uuid": "2f7912eb-8324-4771-ab75-f9baf603d2ba"
+    }
+  },
+  {
+    "uuid": "0e87bf83-a1b8-4967-8d48-c909c3b8e9c0",
+    "name": "Bhitdar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Jogmodi.Jogmodi.Bhitdar",
+    "parent": {
+      "uuid": "bdfae09c-9801-45b7-91a2-3f51e782ecfb"
+    }
+  },
+  {
+    "uuid": "12fb989d-19e3-46f6-a005-232733f942e5",
+    "name": "Baravpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Jogmodi.Harangaon.Baravpada",
+    "parent": {
+      "uuid": "653a0dda-88f2-4ab3-89ef-b93e71aa7e54"
+    }
+  },
+  {
+    "uuid": "7ae569fe-b5f8-4f43-ac04-6349d35799cd",
+    "name": "Nadakdari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Jogmodi.Asarbari.Nadakdari",
+    "parent": {
+      "uuid": "11fbab0e-dd52-4a89-944d-d1a6954e9d94"
+    }
+  },
+  {
+    "uuid": "df53d667-6ca1-428a-861d-be533cb9c2d8",
+    "name": "Pimpalpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Jogmodi.Pimpalpada.Pimpalpada",
+    "parent": {
+      "uuid": "2fcb16da-0c90-47bb-b30c-29e9182b6063"
+    }
+  },
+  {
+    "uuid": "be11d94b-cee0-432a-8119-608daa606e35",
+    "name": "Kudalipada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Jogmodi.Mendpada.Kudalipada",
+    "parent": {
+      "uuid": "ff77f3d5-1c9c-4cd1-ba9a-c5e1cb2e23a7"
+    }
+  },
+  {
+    "uuid": "79ecbae4-fd1d-4e5e-aeb0-701c8019a4c4",
+    "name": "Vadbari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Jogmodi.Vadbari.Vadbari",
+    "parent": {
+      "uuid": "2b8204f7-3906-4f58-a377-85b56efeb1ca"
+    }
+  },
+  {
+    "uuid": "359c9790-37df-420a-9dca-306538be87c5",
+    "name": "Kapurli Kh",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Kupurli Kh.Kapurli Kh.Kapurli Kh",
+    "parent": {
+      "uuid": "8b60778c-74c5-4ad0-9b06-9d21431036f1"
+    }
+  },
+  {
+    "uuid": "9c3a09d4-5adb-4b03-ac25-e5671026d5bc",
+    "name": "Domkhadak",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Kupurli Kh.Domkhadak.Domkhadak",
+    "parent": {
+      "uuid": "b946f520-b60a-4dd6-b933-0c78473a401e"
+    }
+  },
+  {
+    "uuid": "0e44c6da-2808-46a8-addb-2b7cf1fa6b2e",
+    "name": "Dabhadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Kupurli Kh.Dabhadi.Dabhadi",
+    "parent": {
+      "uuid": "ab642268-4126-425a-8838-fde3c1e87181"
+    }
+  },
+  {
+    "uuid": "d383f0b4-eacb-46a4-a7ac-e30ddeac15d3",
+    "name": "Tirde",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Tirde.Tirde.Tirde",
+    "parent": {
+      "uuid": "008797db-3b4c-48fb-9829-f7d29a1a6028"
+    }
+  },
+  {
+    "uuid": "9ac2eadc-ce2f-4707-b4a1-f6a5269a8dbf",
+    "name": "Khirkade",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Tirde.Khirkade.Khirkade",
+    "parent": {
+      "uuid": "3da0faf0-5d8a-4950-b9ae-82b14b9d508d"
+    }
+  },
+  {
+    "uuid": "5facab60-f4d1-4c60-80cf-003e910243be",
+    "name": "Phanaspada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Tirde.Kupurli Bk.Phanaspada",
+    "parent": {
+      "uuid": "0679d4ab-71ae-4ae8-92dc-29607db803ef"
+    }
+  },
+  {
+    "uuid": "6b051964-590e-4c3e-9fc0-77f867848456",
+    "name": "Bagachapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Tirde.Kupurli Bk.Bagachapada",
+    "parent": {
+      "uuid": "0679d4ab-71ae-4ae8-92dc-29607db803ef"
+    }
+  },
+  {
+    "uuid": "76861540-e110-4857-9a59-9a53fb36a4bc",
+    "name": "Panghurnepada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Tirde.Mohapada.Panghurnepada",
+    "parent": {
+      "uuid": "c21b53d0-3d1b-4589-bf9a-979099547bc6"
+    }
+  },
+  {
+    "uuid": "3a3d998a-48c7-4c49-bef0-e34348fc363c",
+    "name": "Tungarpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Umbarpada Surgana.Umbarpada Surgana.Tungarpada",
+    "parent": {
+      "uuid": "5ab05258-7474-4ce8-b465-89aeddd7df03"
+    }
+  },
+  {
+    "uuid": "fb88dc22-1bc3-4102-8aec-3ec6ed624ddc",
+    "name": "Seharipada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Umbarpada Surgana.Umbarpada Surgana.Seharipada",
+    "parent": {
+      "uuid": "5ab05258-7474-4ce8-b465-89aeddd7df03"
+    }
+  },
+  {
+    "uuid": "e62d1b6d-d2e1-4026-85c0-bcb78e211109",
+    "name": "Mohalipada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Umbarpada Surgana.Umbarpada Surgana.Mohalipada",
+    "parent": {
+      "uuid": "5ab05258-7474-4ce8-b465-89aeddd7df03"
+    }
+  },
+  {
+    "uuid": "29d8a3c3-489d-431e-9a51-3215bacbd5f1",
+    "name": "Sadadpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Umbarpada Surgana.Sadadpada.Sadadpada",
+    "parent": {
+      "uuid": "537c5f4f-23b6-4c7f-a9c3-a65dffdef7d4"
+    }
+  },
+  {
+    "uuid": "ac092f99-5788-42ca-a1ed-d1cc15045cfd",
+    "name": "Ghotpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Umbarpada Surgana.Kapurne.Ghotpada",
+    "parent": {
+      "uuid": "9b789c4d-d5c7-4383-9e70-b789181bdef2"
+    }
+  },
+  {
+    "uuid": "1cfd0810-ad78-4e6f-adf7-4f048ccae512",
+    "name": "Bhatvihir",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Umbarpada Surgana.Bhatvihir.Bhatvihir",
+    "parent": {
+      "uuid": "502306a9-6b77-4d9f-b6b5-6e16dc5ec795"
+    }
+  },
+  {
+    "uuid": "656beb06-b3db-4895-8695-990e195005f2",
+    "name": "Navapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Umbarpada Surgana.Ambas.Navapada",
+    "parent": {
+      "uuid": "515d880d-6649-49f6-81d6-bd00b07f5ada"
+    }
+  },
+  {
+    "uuid": "9c3072c9-76b4-4ffd-8edd-070255cb5aed",
+    "name": "Chikhali",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Umbarpada Surgana.Chikhali.Chikhali",
+    "parent": {
+      "uuid": "fc09ded1-367d-4522-b6ed-8b537cca29d1"
+    }
+  },
+  {
+    "uuid": "271302ae-e5cf-4176-b114-f7e1764371dc",
+    "name": "Hachanpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Umbarpada Surgana.Ghuhadsaka.Hachanpada",
+    "parent": {
+      "uuid": "eb79553d-2f94-46be-a3ca-278a9f86ff86"
+    }
+  },
+  {
+    "uuid": "99e60017-1eca-440a-9f27-cd42613e5bef",
+    "name": "Borda",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Jogmodi.Umbarpada Surgana.Borda.Borda",
+    "parent": {
+      "uuid": "e67c52bd-e6cf-4bb7-9cf0-3e51abe54c03"
+    }
+  },
+  {
+    "uuid": "1004ebfc-81f4-4d28-917e-052a75874277",
+    "name": "Gawandpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Karanjali.Karanjali.Gawandpada",
+    "parent": {
+      "uuid": "35d83f60-d2db-4b40-804a-6ddb2538d487"
+    }
+  },
+  {
+    "uuid": "f15a54ab-b3ca-4a40-a692-66fffe7e24a8",
+    "name": "Pawarpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Karanjali.Karanjali.Pawarpada",
+    "parent": {
+      "uuid": "35d83f60-d2db-4b40-804a-6ddb2538d487"
+    }
+  },
+  {
+    "uuid": "2d40a62a-f120-471e-b609-83423f9ade63",
+    "name": "Hanambari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Karanjali.Kumbharbari.Hanambari",
+    "parent": {
+      "uuid": "e01466a6-0a53-4d7a-a1cd-844cbd7c8c9d"
+    }
+  },
+  {
+    "uuid": "bc36aeed-5c65-4254-a8c0-2e04c5ebe12c",
+    "name": "Jambvihir",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Borvat.Borvat.Jambvihir",
+    "parent": {
+      "uuid": "98683b5e-c989-48d4-bed5-b336f702e904"
+    }
+  },
+  {
+    "uuid": "4df349e0-71de-4b44-8c35-120ed9d44750",
+    "name": "Patli",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Borvat.Borvat.Patli",
+    "parent": {
+      "uuid": "98683b5e-c989-48d4-bed5-b336f702e904"
+    }
+  },
+  {
+    "uuid": "cba5bdd6-6f44-4e24-bd57-4590f3384031",
+    "name": "Umbarpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Borvat.Umbarpada.Umbarpada",
+    "parent": {
+      "uuid": "b94bee2d-d821-425c-8f9e-884ee8d441ac"
+    }
+  },
+  {
+    "uuid": "b89015c2-d136-42cc-9ae6-115322a06345",
+    "name": "Mangone",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Borvat.Mangone.Mangone",
+    "parent": {
+      "uuid": "a8994228-b813-43ba-b299-2805a0bce24e"
+    }
+  },
+  {
+    "uuid": "c1a2a97b-ee06-422e-af6a-a0640f4aea2b",
+    "name": "Ubhidhond",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Borvat.Ubhidhond.Ubhidhond",
+    "parent": {
+      "uuid": "b73eecd8-4d28-428d-91f3-8f6caba5287e"
+    }
+  },
+  {
+    "uuid": "56e544f9-8468-46f9-ab3b-82f4cd4772a2",
+    "name": "Nirgude",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Nirgude.Nirgude.Nirgude",
+    "parent": {
+      "uuid": "051939ee-1a38-442e-9336-e9dd26160153"
+    }
+  },
+  {
+    "uuid": "0d3fdc78-b68d-47ac-984b-ff2643ae30a5",
+    "name": "Devgaon",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Nirgude.Devgaon.Devgaon",
+    "parent": {
+      "uuid": "654e322b-afb5-45a5-a505-5509b362b55b"
+    }
+  },
+  {
+    "uuid": "19eeaa47-e7ea-45c3-bec4-d21505483158",
+    "name": "Devalapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Nirgude.Gonde.Devalapada",
+    "parent": {
+      "uuid": "0cc94b1e-dff2-4bae-869a-753fae9e62e0"
+    }
+  },
+  {
+    "uuid": "ba3ebf84-917d-42c0-8eb3-540aaf67205f",
+    "name": "Mathanche aavan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Nirgude.Gonde.Mathanche aavan",
+    "parent": {
+      "uuid": "0cc94b1e-dff2-4bae-869a-753fae9e62e0"
+    }
+  },
+  {
+    "uuid": "1bfb18d6-cf43-4307-a3ad-ab7793671298",
+    "name": "Hattipada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Shinde.Shinde.Hattipada",
+    "parent": {
+      "uuid": "546df84d-cb16-4e84-91e0-348c558785d6"
+    }
+  },
+  {
+    "uuid": "b5671f75-d812-4d2a-b826-805c0cd858ba",
+    "name": "Dhabyachapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Shinde.Dhabyachapada.Dhabyachapada",
+    "parent": {
+      "uuid": "354964f0-f87f-4667-8469-1d548ad91318"
+    }
+  },
+  {
+    "uuid": "907b6d57-100f-4ff0-a697-d0aab137433f",
+    "name": "Gangodbari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Shinde.Gangodbari.Gangodbari",
+    "parent": {
+      "uuid": "5f7ec604-9d7b-4c2d-960e-f8177f58199b"
+    }
+  },
+  {
+    "uuid": "077b433a-96aa-4ddc-8bb7-2a4d946214f4",
+    "name": "Tilbhat",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Shinde.Tilbhat.Tilbhat",
+    "parent": {
+      "uuid": "0e02fb28-9f50-49e3-b7bd-1f8871886c47"
+    }
+  },
+  {
+    "uuid": "8831a1ee-7715-4004-aec7-54d3d425aea9",
+    "name": "Sambarpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Shinde.Sambarpada.Sambarpada",
+    "parent": {
+      "uuid": "e918cc37-28c3-4767-a79e-246992ece4c3"
+    }
+  },
+  {
+    "uuid": "5fb5e97d-034d-4970-9c2e-edd388e9b31b",
+    "name": "Sawalghat",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Shinde.Sawalghat.Sawalghat",
+    "parent": {
+      "uuid": "c0a29ea0-f8a2-4450-aed6-1f7b5a3edacb"
+    }
+  },
+  {
+    "uuid": "24c7e943-d1a2-47c2-a8fe-e1ccb515ce57",
+    "name": "Phanaspada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Ustale.Ustale.Phanaspada",
+    "parent": {
+      "uuid": "ed5ed087-8409-484b-bee2-1591814138e3"
+    }
+  },
+  {
+    "uuid": "9a3173b6-9b0f-46c2-91c6-3db989da1afd",
+    "name": "Nimonipada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Ustale.Ustale.Nimonipada",
+    "parent": {
+      "uuid": "ed5ed087-8409-484b-bee2-1591814138e3"
+    }
+  },
+  {
+    "uuid": "793543be-ae4d-4ee5-829e-896cfc687f04",
+    "name": "Vadpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Ustale.Ustale.Vadpada",
+    "parent": {
+      "uuid": "ed5ed087-8409-484b-bee2-1591814138e3"
+    }
+  },
+  {
+    "uuid": "aacfd0d7-ab8b-49a3-937c-ee43db31a6c5",
+    "name": "Kelpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Ustale.Ustale.Kelpada",
+    "parent": {
+      "uuid": "ed5ed087-8409-484b-bee2-1591814138e3"
+    }
+  },
+  {
+    "uuid": "d7275e25-a517-43e6-a1a2-4861edb1caf9",
+    "name": "Mhasanvihir",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Ustale.Ustale.Mhasanvihir",
+    "parent": {
+      "uuid": "ed5ed087-8409-484b-bee2-1591814138e3"
+    }
+  },
+  {
+    "uuid": "3b95273a-9550-45d7-ab56-9891395dfc45",
+    "name": "Payripada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Ustale.Ustale.Payripada",
+    "parent": {
+      "uuid": "ed5ed087-8409-484b-bee2-1591814138e3"
+    }
+  },
+  {
+    "uuid": "35a8ba25-a805-43bb-af8c-b78cbee4e8b4",
+    "name": "Gaddune",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Ustale.Ustale.Gaddune",
+    "parent": {
+      "uuid": "ed5ed087-8409-484b-bee2-1591814138e3"
+    }
+  },
+  {
+    "uuid": "ece9f0f9-f463-4ef7-8d2c-ee16b8e112b4",
+    "name": "Bhorhapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Ustale.Hnumanpada.Bhorhapada",
+    "parent": {
+      "uuid": "be4c0743-d384-4aa8-86a1-5a6cbea01e77"
+    }
+  },
+  {
+    "uuid": "1fcb94d1-3e09-49c2-9143-58516c54bc52",
+    "name": "Hedpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Ustale.Ekdara.Hedpada",
+    "parent": {
+      "uuid": "3f1ce583-f354-47c5-b228-a6a954d10989"
+    }
+  },
+  {
+    "uuid": "1a0e80e6-6614-410a-9faf-7924cbe700e6",
+    "name": "Bardpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Ustale.Kotambi.Bardpada",
+    "parent": {
+      "uuid": "2c8b6f99-4b3e-4757-be64-3fa0ee44be0e"
+    }
+  },
+  {
+    "uuid": "9d8b33a9-f912-410a-a888-96d743ba3c64",
+    "name": "Behedmal",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Ustale.Behedmal.Behedmal",
+    "parent": {
+      "uuid": "2063a224-4ecd-4bf8-b0dc-a91b87fa02cb"
+    }
+  },
+  {
+    "uuid": "25d32afe-5bb7-4f09-8711-3583304ab252",
+    "name": "Jambhulmal",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Karanjali.Ustale.Jambhulmal.Jambhulmal",
+    "parent": {
+      "uuid": "95ab7b60-a7b4-4e5c-8b00-e628594c01c5"
+    }
+  },
+  {
+    "uuid": "240c8c5a-d662-4011-9b0c-ead49b61834f",
+    "name": "Borwanpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Kohor.Kohor.Borwanpada",
+    "parent": {
+      "uuid": "a952598c-351b-4aac-8fa4-dc6943cdaa5a"
+    }
+  },
+  {
+    "uuid": "1fb74327-ef5a-4929-ada3-10bae4831dba",
+    "name": "Lingavne",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Kohor.Lingavne.Lingavne",
+    "parent": {
+      "uuid": "3fbaf4c5-eccc-44d6-8f7c-0098e6df36d1"
+    }
+  },
+  {
+    "uuid": "cfd88785-87be-47b9-a067-e712974bc2bb",
+    "name": "Hanumannager",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Kohor.Hanumannager.Hanumannager",
+    "parent": {
+      "uuid": "ae2e5f3e-0879-4fb1-a524-122600720fdb"
+    }
+  },
+  {
+    "uuid": "14645b39-9a24-4259-afad-3a55b64c5b41",
+    "name": "Ruipetha",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Kohor.Ruipetha.Ruipetha",
+    "parent": {
+      "uuid": "a4512477-c31f-4ad3-968f-132ebe49bd51"
+    }
+  },
+  {
+    "uuid": "e4888e1d-cacd-4322-89b8-3bf0f3bc179c",
+    "name": "Chaphyacha pada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Bhaygon.Bhaygaon.Chaphyacha pada",
+    "parent": {
+      "uuid": "25b069d1-d3d1-427f-8464-d4aadf8f21e8"
+    }
+  },
+  {
+    "uuid": "1908b17f-f9b0-4be7-ba0d-0ca26a18e55c",
+    "name": "Nadicha pada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Bhaygon.Bhaygaon.Nadicha pada",
+    "parent": {
+      "uuid": "25b069d1-d3d1-427f-8464-d4aadf8f21e8"
+    }
+  },
+  {
+    "uuid": "0cd85100-d54f-4e75-a01a-3ac28cc84dfc",
+    "name": "Aad BK",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Bhaygon.Aad BK.Aad BK",
+    "parent": {
+      "uuid": "30e6d6d6-bd10-477a-aaf7-f0b3643ced56"
+    }
+  },
+  {
+    "uuid": "25d9d1e2-39b0-402f-b10f-9f4fb5e4f482",
+    "name": "Aad KH",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Bhaygon.Aad KH.Aad KH",
+    "parent": {
+      "uuid": "9bc9e755-d7f4-45f6-af1a-af80816bd343"
+    }
+  },
+  {
+    "uuid": "d122e690-61b1-4ba4-89ef-6c79c8720edc",
+    "name": "Khironipada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Bhaygon.Dolharmal.Khironipada",
+    "parent": {
+      "uuid": "379fee73-3c75-4c80-99af-8463fa7b64dc"
+    }
+  },
+  {
+    "uuid": "0c6be4a1-7166-4dda-9059-2b1be8d2daa4",
+    "name": "Donawade",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Donawade.Donawade.Donawade",
+    "parent": {
+      "uuid": "2f533ae6-ac65-413c-8b5f-d92ab19dcbad"
+    }
+  },
+  {
+    "uuid": "39530f93-4bb0-4075-ad24-ab834444ca9e",
+    "name": "Dhulgat",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Donawade.Dhulgat.Dhulgat",
+    "parent": {
+      "uuid": "0bd32a09-2d15-4e0e-8cb4-a51293e53727"
+    }
+  },
+  {
+    "uuid": "f0d40180-d13a-4b1d-a399-e572490d4b2e",
+    "name": "Umardahad",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Donawade.Umardahad.Umardahad",
+    "parent": {
+      "uuid": "c6f2b330-a696-4894-aebd-1cd73b1e65b7"
+    }
+  },
+  {
+    "uuid": "147c8650-4868-48a8-a26e-05de28925e83",
+    "name": "Waghyachibari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Donawade.Waghyachibari.Waghyachibari",
+    "parent": {
+      "uuid": "8276f525-06b1-4967-87ed-748d401d17b8"
+    }
+  },
+  {
+    "uuid": "08d1f6e4-35db-4856-8fcb-c1ef2dd5fee2",
+    "name": "Mankapur",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Mankapur.Mankapur.Mankapur",
+    "parent": {
+      "uuid": "3a8218cc-40a5-446f-b826-59ae62766747"
+    }
+  },
+  {
+    "uuid": "cb2be923-12f0-4d45-9ff5-34a00722364b",
+    "name": "Chirapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Mankapur.Dongarshet.Chirapada",
+    "parent": {
+      "uuid": "1359af49-ead6-4e64-be89-d0a67c48b4f1"
+    }
+  },
+  {
+    "uuid": "e6c312d5-c238-4c80-9e95-cabe74c07f72",
+    "name": "Mohapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Mankapur.Dongarshet.Mohapada",
+    "parent": {
+      "uuid": "1359af49-ead6-4e64-be89-d0a67c48b4f1"
+    }
+  },
+  {
+    "uuid": "d8b21427-eb16-43d5-911a-6409e07edce7",
+    "name": "Karanjpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Mankapur.Ghotvihir.Karanjpada",
+    "parent": {
+      "uuid": "839535c9-f9cc-41a3-a35f-d531a8226548"
+    }
+  },
+  {
+    "uuid": "585df29a-9664-44df-856d-9ef6b428b39d",
+    "name": "Ghosali",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Mankapur.Pimpalvati.Ghosali",
+    "parent": {
+      "uuid": "2c0a2d8a-9594-4ac1-8ca1-b7d065518440"
+    }
+  },
+  {
+    "uuid": "0633d401-6a69-4f57-b38c-c43b734d0aac",
+    "name": "Raitale",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Mankapur.Raitale.Raitale",
+    "parent": {
+      "uuid": "3370f0c3-5039-4b79-a48a-4a0051860f29"
+    }
+  },
+  {
+    "uuid": "5b4b5bd2-8305-4a75-867b-cae5eb68ac1c",
+    "name": "Tandalachibari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kohor.Mankapur.Shingdari.Tandalachibari",
+    "parent": {
+      "uuid": "cc11b324-6731-4253-b661-b1bbc56a41fa"
+    }
+  },
+  {
+    "uuid": "812db1eb-4ed2-46b4-b9ed-7acad131e293",
+    "name": "Kharadipada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Kulwandi.Kulwandi.Kharadipada",
+    "parent": {
+      "uuid": "0f0a26d5-6700-42b4-94a3-8a7ac5c274d5"
+    }
+  },
+  {
+    "uuid": "97b0175d-46a4-42f3-b303-47525f9b37e4",
+    "name": "Kadawarhapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Kulwandi.Kulwandi.Kadawarhapada",
+    "parent": {
+      "uuid": "0f0a26d5-6700-42b4-94a3-8a7ac5c274d5"
+    }
+  },
+  {
+    "uuid": "6d3ee2e9-086d-45bd-be2c-0d103e5b7665",
+    "name": "Sasune",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Kulwandi.Sasune.Sasune",
+    "parent": {
+      "uuid": "d1d16567-4fe4-4916-8174-f00f39336c42"
+    }
+  },
+  {
+    "uuid": "d578e15a-72a5-4b72-bce3-60eb5eb945c6",
+    "name": "Amlon",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Kulwandi.Amlon.Amlon",
+    "parent": {
+      "uuid": "11f3b00c-cb1e-4492-8e70-e1318e7ce4f5"
+    }
+  },
+  {
+    "uuid": "449766e9-5360-4868-afaf-47cc96ead1c7",
+    "name": "Savarichapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Kulwandi.Abhite.Savarichapada",
+    "parent": {
+      "uuid": "bd162070-bf75-4d9c-8073-d87d1f34adb5"
+    }
+  },
+  {
+    "uuid": "c595aaa9-d783-45aa-9f1d-1f9c9fd55203",
+    "name": "Palsi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Palsi.Palsi.Palsi",
+    "parent": {
+      "uuid": "722d4f6c-0d2b-4ae4-94b1-e51599528ab1"
+    }
+  },
+  {
+    "uuid": "4901daf3-8748-4661-bad8-7be1e51c8acf",
+    "name": "Hattipada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Palsi.Ghanshet.Hattipada",
+    "parent": {
+      "uuid": "fc85947b-c68d-435e-9279-31d1916b2050"
+    }
+  },
+  {
+    "uuid": "e66cc1c0-013b-4202-94f1-e1ab88a0f7e5",
+    "name": "Nimonipada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Palsi.Ghanshet.Nimonipada",
+    "parent": {
+      "uuid": "fc85947b-c68d-435e-9279-31d1916b2050"
+    }
+  },
+  {
+    "uuid": "ede91f3c-38e0-4c45-be1f-469ff0b333a4",
+    "name": "Khokaripada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Palsi.Gawandh.Khokaripada",
+    "parent": {
+      "uuid": "23ca83a0-5b82-4e58-a614-b92e7322f4af"
+    }
+  },
+  {
+    "uuid": "195bad54-1b07-4ffc-8d10-97149ffe868b",
+    "name": "Bardapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Palsi.Bardapada.Bardapada",
+    "parent": {
+      "uuid": "2fe42d7e-3b72-4521-8bdf-bc41f6764e53"
+    }
+  },
+  {
+    "uuid": "a3207675-792f-43a3-b0cf-5093c6b22c6f",
+    "name": "Phanaspada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Palsi.Shevkhandi.Phanaspada",
+    "parent": {
+      "uuid": "1fb411a4-5a1d-479a-9084-219d27fa5676"
+    }
+  },
+  {
+    "uuid": "24d0f33c-e162-425b-93de-2424450857a5",
+    "name": "Khotarepada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Palsi.Shevkhandi.Khotarepada",
+    "parent": {
+      "uuid": "1fb411a4-5a1d-479a-9084-219d27fa5676"
+    }
+  },
+  {
+    "uuid": "221f8b32-9621-41aa-97bd-72264833c0a9",
+    "name": "Pate",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Pate.Pate.Pate",
+    "parent": {
+      "uuid": "a3d46817-b3b3-4555-a241-c3fc404d6cef"
+    }
+  },
+  {
+    "uuid": "52a38881-af82-42b0-93df-f0c889ef257c",
+    "name": "Phanaspada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Pate.Phanaspada.Phanaspada",
+    "parent": {
+      "uuid": "61071a3a-2f9f-42a2-84b3-4d62e837d2ef"
+    }
+  },
+  {
+    "uuid": "42c005b1-f1fb-4c4f-a93c-3d7eb9b2f56d",
+    "name": "Cholmukh",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Pate.Cholmukh.Cholmukh",
+    "parent": {
+      "uuid": "daf274d9-6f72-4042-83bc-73cf426caab2"
+    }
+  },
+  {
+    "uuid": "549999b6-fb0e-4f27-836b-dcad72a0eabf",
+    "name": "Abyachapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Pate.Murumati.Abyachapada",
+    "parent": {
+      "uuid": "27a38fce-35e3-4dd8-be4f-58f476ecb187"
+    }
+  },
+  {
+    "uuid": "f18a63c4-d142-4bbb-a0b9-df55a6a22515",
+    "name": "Dhamanchond",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Pate.Murumati.Dhamanchond",
+    "parent": {
+      "uuid": "27a38fce-35e3-4dd8-be4f-58f476ecb187"
+    }
+  },
+  {
+    "uuid": "a5971aca-3376-4654-835e-855759515fe4",
+    "name": "Chinchapada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Nachlondi.Chinchapada",
+    "parent": {
+      "uuid": "fda1dd3f-5f64-408e-8380-d6e2f310f8e3"
+    }
+  },
+  {
+    "uuid": "db202751-24ab-4a00-bf3d-f445da0475b7",
+    "name": "Bondarmal",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Nachlondi.Bondarmal",
+    "parent": {
+      "uuid": "fda1dd3f-5f64-408e-8380-d6e2f310f8e3"
+    }
+  },
+  {
+    "uuid": "5c336d2b-2933-4eb5-a8e1-1b24db244686",
+    "name": "Nimpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Nachlondi.Nimpada",
+    "parent": {
+      "uuid": "fda1dd3f-5f64-408e-8380-d6e2f310f8e3"
+    }
+  },
+  {
+    "uuid": "d1234fd0-764e-480a-ad2f-7355b68337ce",
+    "name": "Payarpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Payarpada.Payarpada",
+    "parent": {
+      "uuid": "6463464c-badd-48de-85af-76eeac4e4681"
+    }
+  },
+  {
+    "uuid": "b4049a87-a7b7-42e6-9e08-a3124e1b355b",
+    "name": "Hanumantpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Homepada.Hanumantpada",
+    "parent": {
+      "uuid": "2f8f4a74-51e2-4207-8c61-8a9724b4e74c"
+    }
+  },
+  {
+    "uuid": "29dcdc0d-a882-4b12-afd6-391d9e1ffb81",
+    "name": "Phanaspada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Homepada.Phanaspada",
+    "parent": {
+      "uuid": "2f8f4a74-51e2-4207-8c61-8a9724b4e74c"
+    }
+  },
+  {
+    "uuid": "60d725b1-345c-4c70-ac53-a3b81e85452f",
+    "name": "Devichamal",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Devichamal.Devichamal",
+    "parent": {
+      "uuid": "acf76d7a-b747-451a-8f72-4bfe991a70e8"
+    }
+  },
+  {
+    "uuid": "22b7493f-73e9-47cd-9d09-31caeb0bbd01",
+    "name": "Karvalpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Chikadipada.Karvalpada",
+    "parent": {
+      "uuid": "5dd62479-f1c9-4aca-a966-ba1668413c2c"
+    }
+  },
+  {
+    "uuid": "398afc0f-35e6-41a8-84e9-65832c96ce66",
+    "name": "Kolushti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Chikadipada.Kolushti",
+    "parent": {
+      "uuid": "5dd62479-f1c9-4aca-a966-ba1668413c2c"
+    }
+  },
+  {
+    "uuid": "93f90099-1a8f-4b79-87b1-71c90113faa5",
+    "name": "Kelbari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Wadpada.Kelbari",
+    "parent": {
+      "uuid": "c490b4d4-86be-423c-8fd5-3459b8bfd1c3"
+    }
+  },
+  {
+    "uuid": "cb3741be-c59c-42e9-8252-6c8f56cb136b",
+    "name": "Wajwad",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Wajwad.Wajwad",
+    "parent": {
+      "uuid": "8648dad9-8f0d-413a-86c7-074a82d1d995"
+    }
+  },
+  {
+    "uuid": "c3acf46a-b7ce-4af1-b3a4-a661e14b66b1",
+    "name": "Kharpadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Kharpadi.Kharpadi",
+    "parent": {
+      "uuid": "8d36d86d-a1cf-414a-867f-581bb2cdfc09"
+    }
+  },
+  {
+    "uuid": "e496a96c-0493-486a-b77e-c892112d894e",
+    "name": "Phanaspada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kulwandi.Nachlondi.Phanaspada.Phanaspada",
+    "parent": {
+      "uuid": "7bf2005c-7dcf-4211-b2b8-b7970f0097b9"
+    }
+  },
+  {
+    "uuid": "12a4fd9d-301e-4309-8d77-7540f5ee5f77",
+    "name": "Khadaki",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Kumbhale.Kumbhale.Khadaki",
+    "parent": {
+      "uuid": "093d8be3-86e9-4fe3-9969-396c15d8a976"
+    }
+  },
+  {
+    "uuid": "2b4bf2db-de79-4238-ac52-407ca4563ca1",
+    "name": "Mohpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Kumbhale.Kumbhale.Mohpada",
+    "parent": {
+      "uuid": "093d8be3-86e9-4fe3-9969-396c15d8a976"
+    }
+  },
+  {
+    "uuid": "018121d3-0229-4994-9144-44b0fc67f21b",
+    "name": "Borichibari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Kumbhale.Borichibari.Borichibari",
+    "parent": {
+      "uuid": "01a93ace-d25f-4b02-a4bf-80535f529ccf"
+    }
+  },
+  {
+    "uuid": "2d8bf26b-5a4a-48e3-9991-f7aa80b54f2b",
+    "name": "Golaspada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Kumbhale.Derapada.Golaspada",
+    "parent": {
+      "uuid": "7d4b7101-cf37-4472-85d8-375914144e8f"
+    }
+  },
+  {
+    "uuid": "3a46e64c-5305-430a-80f7-cdb5bf6b9161",
+    "name": "Kayre",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Kumbhale.Kayre.Kayre",
+    "parent": {
+      "uuid": "433a9c49-ed3c-4d50-8d3c-a5b625bbbd8b"
+    }
+  },
+  {
+    "uuid": "5424ad43-19b1-4678-b6e7-031c3ed86f46",
+    "name": "Zari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Kumbhale.Savarna.Zari",
+    "parent": {
+      "uuid": "62551e10-5781-4377-94f6-732c141625d5"
+    }
+  },
+  {
+    "uuid": "73ca8c35-0e7b-4aad-a162-4d3350c46529",
+    "name": "Behadpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Kumbhale.Savarna.Behadpada",
+    "parent": {
+      "uuid": "62551e10-5781-4377-94f6-732c141625d5"
+    }
+  },
+  {
+    "uuid": "8a033158-572c-4d4e-8783-f37fc7cf23bc",
+    "name": "Rajbari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Kumbhale.Rajbari.Rajbari",
+    "parent": {
+      "uuid": "a0dc1091-3eca-45b7-94c9-db2a9fffe55b"
+    }
+  },
+  {
+    "uuid": "eafe175a-0bd3-47db-8727-56dc5dd0ef43",
+    "name": "Nalshet",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Kumbhale.Nalshet.Nalshet",
+    "parent": {
+      "uuid": "33acfcf4-6505-47a8-a303-d77228ccf757"
+    }
+  },
+  {
+    "uuid": "6f636caf-79f7-45a2-8509-30e4f2d06176",
+    "name": "Bordingpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 1.Peint.Bordingpada",
+    "parent": {
+      "uuid": "e83f0c73-3512-46ba-8734-f164b84edfbd"
+    }
+  },
+  {
+    "uuid": "d1dfc4ef-2079-4626-a182-f49a490de62d",
+    "name": "Kashtichiaali",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 1.Peint.Kashtichiaali",
+    "parent": {
+      "uuid": "e83f0c73-3512-46ba-8734-f164b84edfbd"
+    }
+  },
+  {
+    "uuid": "8b9354f8-c728-47dd-9bb0-75ea3549fc76",
+    "name": "Balsadroad",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 1.Peint.Balsadroad",
+    "parent": {
+      "uuid": "e83f0c73-3512-46ba-8734-f164b84edfbd"
+    }
+  },
+  {
+    "uuid": "64097626-6a42-4358-8911-d81fbd625ba2",
+    "name": "Pimpalachiaali",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 1.Peint.Pimpalachiaali",
+    "parent": {
+      "uuid": "e83f0c73-3512-46ba-8734-f164b84edfbd"
+    }
+  },
+  {
+    "uuid": "8b7c1ddc-88c0-43ed-9b70-3cfd4a11b10d",
+    "name": "Kavalbari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 1.Wangani.Kavalbari",
+    "parent": {
+      "uuid": "9c15a680-d16b-4616-af7b-b02b6eaa8672"
+    }
+  },
+  {
+    "uuid": "4b4c7856-d01a-4937-9e2a-0791e9935f6d",
+    "name": "Bharuna",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 1.Wangani.Bharuna",
+    "parent": {
+      "uuid": "9c15a680-d16b-4616-af7b-b02b6eaa8672"
+    }
+  },
+  {
+    "uuid": "656f4ff5-45b8-483b-aa83-e9421ea5370e",
+    "name": "Bhatadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 1.Wangani.Bhatadi",
+    "parent": {
+      "uuid": "9c15a680-d16b-4616-af7b-b02b6eaa8672"
+    }
+  },
+  {
+    "uuid": "a49d0abd-73e8-4e17-abd3-051c7504c19a",
+    "name": "Saptashringinagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 2.Peint.Saptashringinagar",
+    "parent": {
+      "uuid": "acf9425c-545f-4fbc-9171-57354c4cf537"
+    }
+  },
+  {
+    "uuid": "1955de7d-42ea-40e9-b90a-084541848c23",
+    "name": "Sulbhanagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 2.Peint.Sulbhanagar",
+    "parent": {
+      "uuid": "acf9425c-545f-4fbc-9171-57354c4cf537"
+    }
+  },
+  {
+    "uuid": "f2b09f6a-58a3-4339-beeb-8f34fe8efbb0",
+    "name": "Bajarpeth",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 2.Peint.Bajarpeth",
+    "parent": {
+      "uuid": "acf9425c-545f-4fbc-9171-57354c4cf537"
+    }
+  },
+  {
+    "uuid": "807bf1a9-9731-426d-b50d-be427cea6ea9",
+    "name": "Rajwada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 2.Peint.Rajwada",
+    "parent": {
+      "uuid": "acf9425c-545f-4fbc-9171-57354c4cf537"
+    }
+  },
+  {
+    "uuid": "7e0c3eb9-2749-4627-9c8f-5aa4f97bd5a7",
+    "name": "Navanagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 2.Peint.Navanagar",
+    "parent": {
+      "uuid": "acf9425c-545f-4fbc-9171-57354c4cf537"
+    }
+  },
+  {
+    "uuid": "f383cc4c-db50-4f1e-992f-ca2cacc901e0",
+    "name": "Hattipda",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 2.Peint.Hattipda",
+    "parent": {
+      "uuid": "acf9425c-545f-4fbc-9171-57354c4cf537"
+    }
+  },
+  {
+    "uuid": "f65152fc-6e5a-402f-99d7-bb0e0e80016e",
+    "name": "Mandarpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 2.Khokartale.Mandarpada",
+    "parent": {
+      "uuid": "0461affe-808d-44d7-bd82-ea34aef2cda1"
+    }
+  },
+  {
+    "uuid": "eecff208-4c9a-4a02-bb52-56c4f849f07b",
+    "name": "Dagalevasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Peint 2.Khokartale.Dagalevasti",
+    "parent": {
+      "uuid": "0461affe-808d-44d7-bd82-ea34aef2cda1"
+    }
+  },
+  {
+    "uuid": "87d725fd-ddda-4ce6-9c10-fb9c638c3f88",
+    "name": "Gadharpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Dhondmal.Dhondmal.Gadharpada",
+    "parent": {
+      "uuid": "3805546a-71f5-4ecc-81f2-ad0f3aab438b"
+    }
+  },
+  {
+    "uuid": "5f669366-a85b-4dc7-ae2c-03e68b554076",
+    "name": "Jadhavpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Dhondmal.Dhondmal.Jadhavpada",
+    "parent": {
+      "uuid": "3805546a-71f5-4ecc-81f2-ad0f3aab438b"
+    }
+  },
+  {
+    "uuid": "ef8900d1-53ab-44e2-ba1c-c1d540c65065",
+    "name": "Kapurzira",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Dhondmal.Dhondmal.Kapurzira",
+    "parent": {
+      "uuid": "3805546a-71f5-4ecc-81f2-ad0f3aab438b"
+    }
+  },
+  {
+    "uuid": "a0dabd93-56b5-4212-a75d-776bddb26d46",
+    "name": "Shanidevpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Dhondmal.Dhondmal.Shanidevpada",
+    "parent": {
+      "uuid": "3805546a-71f5-4ecc-81f2-ad0f3aab438b"
+    }
+  },
+  {
+    "uuid": "e4fc07cb-e139-4b43-9210-5ad6091309c9",
+    "name": "Ambapur",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Dhondmal.Ambapur.Ambapur",
+    "parent": {
+      "uuid": "4cf4ad2a-c4da-4d92-9b27-7effe4afaa35"
+    }
+  },
+  {
+    "uuid": "cf90d4dc-3646-45a0-9ec7-be578b402e50",
+    "name": "Khambale",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Dhondmal.Khambale.Khambale",
+    "parent": {
+      "uuid": "5d3e249b-501b-4a2b-aa06-49589f5247f1"
+    }
+  },
+  {
+    "uuid": "a8f6db89-d49d-4342-b446-2f50c40a4a42",
+    "name": "Badgi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Badgi.Badgi.Badgi",
+    "parent": {
+      "uuid": "49bedefb-60a5-4837-b9c9-4cc2d07473ae"
+    }
+  },
+  {
+    "uuid": "ccfcdde0-4097-43fa-b69a-47d7e3e295ee",
+    "name": "Kengpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Badgi.Jale.Kengpada",
+    "parent": {
+      "uuid": "e3e78fbe-376d-41a4-b869-b7f488123ad2"
+    }
+  },
+  {
+    "uuid": "66c5fef4-bead-41ec-969c-b35132ec0d10",
+    "name": "Zadipada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Badgi.Jale.Zadipada",
+    "parent": {
+      "uuid": "e3e78fbe-376d-41a4-b869-b7f488123ad2"
+    }
+  },
+  {
+    "uuid": "929f6cfc-783f-411d-ad7f-3448084a10e3",
+    "name": "Shiral",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Badgi.Shiral.Shiral",
+    "parent": {
+      "uuid": "5903fe35-6585-4c46-9e4e-dde0588ea5af"
+    }
+  },
+  {
+    "uuid": "eb957e80-d73f-4a70-820e-3520eef7f7f6",
+    "name": "Palishi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Badgi.Palishi.Palishi",
+    "parent": {
+      "uuid": "70ddfa23-2968-4f0e-8b45-ae58e9b21750"
+    }
+  },
+  {
+    "uuid": "84d33ba7-20b1-45d2-9c8c-f0e4bbb4834f",
+    "name": "Kahandolpada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Hatrundi.Hatrundi.Kahandolpada",
+    "parent": {
+      "uuid": "69b7bc5c-e499-459e-a7bf-deea4c991ce0"
+    }
+  },
+  {
+    "uuid": "ec0c10c9-4b64-4cfb-9e96-eb4009c2dff8",
+    "name": "Nimonipada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Hatrundi.Hatrundi.Nimonipada",
+    "parent": {
+      "uuid": "69b7bc5c-e499-459e-a7bf-deea4c991ce0"
+    }
+  },
+  {
+    "uuid": "fa76c120-602e-4806-848b-69085062d360",
+    "name": "Patalipad",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Hatrundi.Hatrundi.Patalipad",
+    "parent": {
+      "uuid": "69b7bc5c-e499-459e-a7bf-deea4c991ce0"
+    }
+  },
+  {
+    "uuid": "4761de97-b7c0-42f8-a47b-09676216d296",
+    "name": "Satputepada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Hatrundi.Hatrundi.Satputepada",
+    "parent": {
+      "uuid": "69b7bc5c-e499-459e-a7bf-deea4c991ce0"
+    }
+  },
+  {
+    "uuid": "1bcf66c8-d53b-40d7-b279-c8146111e861",
+    "name": "Junothi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Hatrundi.Junothi.Junothi",
+    "parent": {
+      "uuid": "553c495f-6a9e-4eac-a4ba-e8c62b55c1bd"
+    }
+  },
+  {
+    "uuid": "6571ed9b-fa32-4173-a187-ca746f416649",
+    "name": "Jamle",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Peint.Kumbhale.Hatrundi.Jamle.Jamle",
+    "parent": {
+      "uuid": "22aeb89c-1223-488d-b139-41c9c518c2a4"
+    }
+  },
+  {
+    "uuid": "3f109d5d-3dad-42db-8eea-a2deeb036cc0",
+    "name": "Gawthan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dapur.Dapur.Gawthan",
+    "parent": {
+      "uuid": "af8de0ba-c477-4cc7-9d70-422fa077e517"
+    }
+  },
+  {
+    "uuid": "eba54581-91f3-4bff-bfd9-aa8e0d605c6b",
+    "name": "Telmatha",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dapur.Dapur.Telmatha",
+    "parent": {
+      "uuid": "af8de0ba-c477-4cc7-9d70-422fa077e517"
+    }
+  },
+  {
+    "uuid": "a0b86c53-efa8-4c7c-b039-e16f16af969c",
+    "name": "Karawandra",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dapur.Dapur.Karawandra",
+    "parent": {
+      "uuid": "af8de0ba-c477-4cc7-9d70-422fa077e517"
+    }
+  },
+  {
+    "uuid": "bef63e99-c879-4158-84ce-54f05028c712",
+    "name": "Neherwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dapur.Dapur.Neherwadi",
+    "parent": {
+      "uuid": "af8de0ba-c477-4cc7-9d70-422fa077e517"
+    }
+  },
+  {
+    "uuid": "b582eb6b-7c02-4eff-86f2-df652fb4ab23",
+    "name": "Begewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dapur.Shivajinagar.Begewadi",
+    "parent": {
+      "uuid": "3c3375ac-4442-4441-94fd-d790e00a5a5e"
+    }
+  },
+  {
+    "uuid": "e7f3dd24-43ea-4179-ba6f-f064d422ce7a",
+    "name": "Sabalewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dapur.Shivajinagar.Sabalewadi",
+    "parent": {
+      "uuid": "3c3375ac-4442-4441-94fd-d790e00a5a5e"
+    }
+  },
+  {
+    "uuid": "0763b16f-2b97-4f76-bedc-1b4a60adfa11",
+    "name": "Shingewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dapur.Shivajinagar.Shingewadi",
+    "parent": {
+      "uuid": "3c3375ac-4442-4441-94fd-d790e00a5a5e"
+    }
+  },
+  {
+    "uuid": "19ab630c-73a6-4736-bb18-f280f8e84538",
+    "name": "Khurdewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dapur.Shivajinagar.Khurdewadi",
+    "parent": {
+      "uuid": "3c3375ac-4442-4441-94fd-d790e00a5a5e"
+    }
+  },
+  {
+    "uuid": "c2e41e6e-18dd-4989-9426-23109f331fc6",
+    "name": "Palawewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dapur.Dattanagar.Palawewadi",
+    "parent": {
+      "uuid": "44de9a40-a772-454f-a80a-477b444e7ce0"
+    }
+  },
+  {
+    "uuid": "19aed6fa-30d6-472d-8213-54242b1a6b58",
+    "name": "Ramoshewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dapur.Dattanagar.Ramoshewadi",
+    "parent": {
+      "uuid": "44de9a40-a772-454f-a80a-477b444e7ce0"
+    }
+  },
+  {
+    "uuid": "077e9f17-bf06-4bce-b545-6b4913261346",
+    "name": "Barbatewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dapur.Dattanagar.Barbatewadi",
+    "parent": {
+      "uuid": "44de9a40-a772-454f-a80a-477b444e7ce0"
+    }
+  },
+  {
+    "uuid": "191700c5-8eb7-42e4-819a-9d060dbbd7c5",
+    "name": "Gawthan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dodi Bk..Dodi Bk..Gawthan",
+    "parent": {
+      "uuid": "62b3430d-7596-45e5-835f-a81afaca2b4d"
+    }
+  },
+  {
+    "uuid": "da0c2a2f-167d-407c-be65-36184494fb0b",
+    "name": "Kedarwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dodi Bk..Dodi Bk..Kedarwadi",
+    "parent": {
+      "uuid": "62b3430d-7596-45e5-835f-a81afaca2b4d"
+    }
+  },
+  {
+    "uuid": "98114711-69ba-48b1-817e-164ecb5b7286",
+    "name": "Dattawadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dodi Bk..Dodi Bk..Dattawadi",
+    "parent": {
+      "uuid": "62b3430d-7596-45e5-835f-a81afaca2b4d"
+    }
+  },
+  {
+    "uuid": "77d37505-e2f1-4209-bb86-f8a25b5b3b91",
+    "name": "Mhalobavasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dodi Bk..Dodi Bk..Mhalobavasti",
+    "parent": {
+      "uuid": "62b3430d-7596-45e5-835f-a81afaca2b4d"
+    }
+  },
+  {
+    "uuid": "814b29ea-1552-47d7-85ad-41bd71837c73",
+    "name": "Gawthan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dodi Bk..Dodi Kh..Gawthan",
+    "parent": {
+      "uuid": "98e95c61-6103-404c-9a17-b53b0eef4eb2"
+    }
+  },
+  {
+    "uuid": "8490dd5f-392f-42ae-b8fd-f8f6fda5c78f",
+    "name": "Ramoshewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dodi Bk..Dodi Kh..Ramoshewadi",
+    "parent": {
+      "uuid": "98e95c61-6103-404c-9a17-b53b0eef4eb2"
+    }
+  },
+  {
+    "uuid": "135ebf29-c224-48b8-8882-b5112783851d",
+    "name": "Gawthan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dodi Bk..Khambale.Gawthan",
+    "parent": {
+      "uuid": "ba623356-8a16-44eb-9c33-1fb1553892fa"
+    }
+  },
+  {
+    "uuid": "b93738ee-6238-4dd1-80b0-c85b875548ea",
+    "name": "Tekadevasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dodi Bk..Khambale.Tekadevasti",
+    "parent": {
+      "uuid": "ba623356-8a16-44eb-9c33-1fb1553892fa"
+    }
+  },
+  {
+    "uuid": "6658dd09-3210-41d9-955c-65de6743c6ca",
+    "name": "Wakchaurevasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dodi Bk..Khambale.Wakchaurevasti",
+    "parent": {
+      "uuid": "ba623356-8a16-44eb-9c33-1fb1553892fa"
+    }
+  },
+  {
+    "uuid": "06ca84a4-7b9c-411b-91b3-41b6c5ef5cd4",
+    "name": "Andhalevasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dodi Bk..Khambale.Andhalevasti",
+    "parent": {
+      "uuid": "ba623356-8a16-44eb-9c33-1fb1553892fa"
+    }
+  },
+  {
+    "uuid": "9d39cbd3-5bd7-4dcf-949a-7239c3f183e4",
+    "name": "Jibhacha mla",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Dodi Bk..Khambale.Jibhacha mla",
+    "parent": {
+      "uuid": "ba623356-8a16-44eb-9c33-1fb1553892fa"
+    }
+  },
+  {
+    "uuid": "4087dd13-71e2-49b6-ac71-cf5ca45e70b6",
+    "name": "Gawthan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Nandurshingote.Nandurshingote.Gawthan",
+    "parent": {
+      "uuid": "6bc5c90f-666f-49f2-9f95-12ccac385065"
+    }
+  },
+  {
+    "uuid": "47372a8f-6af3-4099-979a-703910b3c9b7",
+    "name": "Bogadewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Nandurshingote.Nandurshingote.Bogadewadi",
+    "parent": {
+      "uuid": "6bc5c90f-666f-49f2-9f95-12ccac385065"
+    }
+  },
+  {
+    "uuid": "a605c04f-7908-4276-beb8-c031c099c113",
+    "name": "Eklavyanagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Nandurshingote.Nandurshingote.Eklavyanagar",
+    "parent": {
+      "uuid": "6bc5c90f-666f-49f2-9f95-12ccac385065"
+    }
+  },
+  {
+    "uuid": "778146bb-4a13-4394-ae83-98e2beb35e07",
+    "name": "Gawthan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Nandurshingote.Kankori.Gawthan",
+    "parent": {
+      "uuid": "36323161-5e63-460f-962e-7e29ecfe7420"
+    }
+  },
+  {
+    "uuid": "0516c00c-4e9e-43d9-816a-4abde18e7c2d",
+    "name": "Maalvasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Nandurshingote.Kankori.Maalvasti",
+    "parent": {
+      "uuid": "36323161-5e63-460f-962e-7e29ecfe7420"
+    }
+  },
+  {
+    "uuid": "175bc399-4037-484f-9eca-bba1589784b8",
+    "name": "Gawthan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Nandurshingote.Manori.Gawthan",
+    "parent": {
+      "uuid": "efa257f6-e809-4029-b26f-19c8f0ccfe68"
+    }
+  },
+  {
+    "uuid": "0d21a1f7-6b72-47c5-b9a9-b809c0178e8b",
+    "name": "Sangalewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Nandurshingote.Manori.Sangalewadi",
+    "parent": {
+      "uuid": "efa257f6-e809-4029-b26f-19c8f0ccfe68"
+    }
+  },
+  {
+    "uuid": "b21a2f56-38d0-4a5b-b87c-3e237350c3cd",
+    "name": "Gawthan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Chass.Gawthan",
+    "parent": {
+      "uuid": "207ace45-310a-4ded-b322-e24877b890b8"
+    }
+  },
+  {
+    "uuid": "0b45f81b-174b-43b3-bf74-bb9242414e01",
+    "name": "Banawate vasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Chass.Banawate vasti",
+    "parent": {
+      "uuid": "207ace45-310a-4ded-b322-e24877b890b8"
+    }
+  },
+  {
+    "uuid": "80b43812-0f28-4132-8f44-04755b52f3d6",
+    "name": "Karawandara",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Chass.Karawandara",
+    "parent": {
+      "uuid": "207ace45-310a-4ded-b322-e24877b890b8"
+    }
+  },
+  {
+    "uuid": "3b123cd1-6a19-4411-ac2b-4d1e83f0ca77",
+    "name": "Kamaluchi wadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Chass.Kamaluchi wadi",
+    "parent": {
+      "uuid": "207ace45-310a-4ded-b322-e24877b890b8"
+    }
+  },
+  {
+    "uuid": "3327cda3-7354-4925-b45a-1e56695201e9",
+    "name": "Ramwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Chass.Ramwadi",
+    "parent": {
+      "uuid": "207ace45-310a-4ded-b322-e24877b890b8"
+    }
+  },
+  {
+    "uuid": "c434fd1a-1ce8-4b39-af4a-ce1a71cadd30",
+    "name": "Saradwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Kasarwadi.Saradwadi",
+    "parent": {
+      "uuid": "12ca44a9-6ab3-4fa8-9a06-6af8791ec8e1"
+    }
+  },
+  {
+    "uuid": "ae294795-a249-472b-b844-0452d745115d",
+    "name": "Ganeshkhind",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Kasarwadi.Ganeshkhind",
+    "parent": {
+      "uuid": "12ca44a9-6ab3-4fa8-9a06-6af8791ec8e1"
+    }
+  },
+  {
+    "uuid": "20e372f2-4ba9-4ee2-a673-f4d618ad0302",
+    "name": "Madhevasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Kasarwadi.Madhevasti",
+    "parent": {
+      "uuid": "12ca44a9-6ab3-4fa8-9a06-6af8791ec8e1"
+    }
+  },
+  {
+    "uuid": "77d350b3-f106-4b4f-892b-17337aab4064",
+    "name": "Ghugevasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Kasarwadi.Ghugevasti",
+    "parent": {
+      "uuid": "12ca44a9-6ab3-4fa8-9a06-6af8791ec8e1"
+    }
+  },
+  {
+    "uuid": "ecc71e56-18f4-4460-8387-57bbda44acfe",
+    "name": "Kadalwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Kasarwadi.Kadalwadi",
+    "parent": {
+      "uuid": "12ca44a9-6ab3-4fa8-9a06-6af8791ec8e1"
+    }
+  },
+  {
+    "uuid": "02cb48a0-0d11-46e9-8e09-68d31a0f74cc",
+    "name": "Gawthan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Nalwadi.Gawthan",
+    "parent": {
+      "uuid": "f6556a25-814b-4c72-9a82-bb443d11330c"
+    }
+  },
+  {
+    "uuid": "242566c5-39d7-4323-8a67-901ef412187d",
+    "name": "Junawanevasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Nalwadi.Junawanevasti",
+    "parent": {
+      "uuid": "f6556a25-814b-4c72-9a82-bb443d11330c"
+    }
+  },
+  {
+    "uuid": "f1fd46c3-936d-4121-8903-26bab32013b5",
+    "name": "Pandharevasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chass.Nalwadi.Pandharevasti",
+    "parent": {
+      "uuid": "f6556a25-814b-4c72-9a82-bb443d11330c"
+    }
+  },
+  {
+    "uuid": "742d67ef-85f5-4244-b580-5510334aa0a0",
+    "name": "Gawthan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chapadgaon.Chapadgaon.Gawthan",
+    "parent": {
+      "uuid": "ac304054-0a42-4604-b1c0-471404d7d222"
+    }
+  },
+  {
+    "uuid": "a30d2e18-2f82-415d-90a6-91a478400a59",
+    "name": "Patildara",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chapadgaon.Chapadgaon.Patildara",
+    "parent": {
+      "uuid": "ac304054-0a42-4604-b1c0-471404d7d222"
+    }
+  },
+  {
+    "uuid": "814ed2ef-6efa-41b2-9da0-6f644bdcf97e",
+    "name": "Kalamkhadakwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chapadgaon.Chapadgaon.Kalamkhadakwadi",
+    "parent": {
+      "uuid": "ac304054-0a42-4604-b1c0-471404d7d222"
+    }
+  },
+  {
+    "uuid": "49a462b4-25d3-4208-9e09-f4aab68c1a57",
+    "name": "Gawthan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chapadgaon.Sonewadi.Gawthan",
+    "parent": {
+      "uuid": "8c705dfc-c2b8-4c7d-aa6c-504ae1a4e15d"
+    }
+  },
+  {
+    "uuid": "a3beecac-a3d8-4510-8cb5-64b2a3bc39bd",
+    "name": "Sheri",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chapadgaon.Sonewadi.Sheri",
+    "parent": {
+      "uuid": "8c705dfc-c2b8-4c7d-aa6c-504ae1a4e15d"
+    }
+  },
+  {
+    "uuid": "15ad803e-66b2-4c46-bab3-20a081952270",
+    "name": "Khadyachiwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chapadgaon.Sonewadi.Khadyachiwadi",
+    "parent": {
+      "uuid": "8c705dfc-c2b8-4c7d-aa6c-504ae1a4e15d"
+    }
+  },
+  {
+    "uuid": "819ac081-9e56-46aa-959b-52751aee000a",
+    "name": "Kagdara",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chapadgaon.Sonewadi.Kagdara",
+    "parent": {
+      "uuid": "8c705dfc-c2b8-4c7d-aa6c-504ae1a4e15d"
+    }
+  },
+  {
+    "uuid": "5764393d-60d0-42dd-be34-07a1e9479372",
+    "name": "Gawthan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chapadgaon.Dhulwad.Gawthan",
+    "parent": {
+      "uuid": "4d7a0b58-65e0-4dab-b3ae-530e27029b61"
+    }
+  },
+  {
+    "uuid": "7a742060-ff75-4a2e-9ab3-acf642806667",
+    "name": "Ramoshewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chapadgaon.Dhulwad.Ramoshewadi",
+    "parent": {
+      "uuid": "4d7a0b58-65e0-4dab-b3ae-530e27029b61"
+    }
+  },
+  {
+    "uuid": "3e2b7f40-c1bd-43a6-b7be-9fb0d141562d",
+    "name": "Janbhalivasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chapadgaon.Dhulwad.Janbhalivasti",
+    "parent": {
+      "uuid": "4d7a0b58-65e0-4dab-b3ae-530e27029b61"
+    }
+  },
+  {
+    "uuid": "eebf73b4-8707-4b07-9110-e90416860607",
+    "name": "Ramoshewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Dapur.Chapadgaon.Bhojapur (Ramoshewadi).Ramoshewadi",
+    "parent": {
+      "uuid": "6ab5e169-a4af-4311-8973-7f47b1608e88"
+    }
+  },
+  {
+    "uuid": "c3f4d6e8-771c-443f-9b59-40d91b17b2e3",
+    "name": "Damber",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Devpur.Devpur.Damber",
+    "parent": {
+      "uuid": "151cd945-cd3f-43a4-bf6d-bbc83386993e"
+    }
+  },
+  {
+    "uuid": "592be5b9-19df-42de-9157-edbce1abe336",
+    "name": "Naikwasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Devpur.Devpur.Naikwasti",
+    "parent": {
+      "uuid": "151cd945-cd3f-43a4-bf6d-bbc83386993e"
+    }
+  },
+  {
+    "uuid": "abf0d8e0-5568-4be7-bb09-582bee156d6b",
+    "name": "Nimgaonpati",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Devpur.Devpur.Nimgaonpati",
+    "parent": {
+      "uuid": "151cd945-cd3f-43a4-bf6d-bbc83386993e"
+    }
+  },
+  {
+    "uuid": "98c96146-946e-4e7a-a962-d87b91dc3e74",
+    "name": "Narode wasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Devpur.Devpur.Narode wasti",
+    "parent": {
+      "uuid": "151cd945-cd3f-43a4-bf6d-bbc83386993e"
+    }
+  },
+  {
+    "uuid": "ab693b1b-5c48-40e3-ad28-517bb6c78f86",
+    "name": "Walekar wasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Devpur.Dharangaon.Walekar wasti",
+    "parent": {
+      "uuid": "be210a20-de6d-4427-96e8-057bcba58617"
+    }
+  },
+  {
+    "uuid": "daa2dca8-36d5-443f-b317-13b507977b2e",
+    "name": "Kalewasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Devpur.Dharangaon.Kalewasti",
+    "parent": {
+      "uuid": "be210a20-de6d-4427-96e8-057bcba58617"
+    }
+  },
+  {
+    "uuid": "74f990ef-bb35-44db-9086-e5ff5a710821",
+    "name": "kharatwasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Devpur.Fardapur.kharatwasti",
+    "parent": {
+      "uuid": "15eb13f6-09fc-4a3c-977f-ef996aaf9f07"
+    }
+  },
+  {
+    "uuid": "c6b13d50-4baa-4eea-abb3-8ed3ed133037",
+    "name": "Devpur road",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Devpur.Nimgaon Devpur.Devpur road",
+    "parent": {
+      "uuid": "dc9e3a52-5e27-4bd9-b46c-fba3fa2b6872"
+    }
+  },
+  {
+    "uuid": "ee17c288-9ce5-4022-8fdd-8591dd55717f",
+    "name": "Dhangarwasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Shaha.Shaha.Dhangarwasti",
+    "parent": {
+      "uuid": "08c389af-000e-4854-8dfe-57d46425349d"
+    }
+  },
+  {
+    "uuid": "5f99b08a-0a67-4df0-9993-1c2306887ffb",
+    "name": "Gayran",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Shaha.Shaha.Gayran",
+    "parent": {
+      "uuid": "08c389af-000e-4854-8dfe-57d46425349d"
+    }
+  },
+  {
+    "uuid": "7fe90d57-e955-4032-bf15-8f366729b670",
+    "name": "Galandewasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Shaha.Shaha.Galandewasti",
+    "parent": {
+      "uuid": "08c389af-000e-4854-8dfe-57d46425349d"
+    }
+  },
+  {
+    "uuid": "de2ee325-4560-4246-94e3-9a652bc02567",
+    "name": "Karwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Shaha.Karwadi.Karwadi",
+    "parent": {
+      "uuid": "cbe4c961-7077-40fb-a7e7-bc94f3495d90"
+    }
+  },
+  {
+    "uuid": "aa7a12ed-f851-4916-b27a-84fe864e0af3",
+    "name": "Pawarwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Shaha.Rampur.Pawarwadi",
+    "parent": {
+      "uuid": "4eb106a7-adcd-4060-b723-6e5059249516"
+    }
+  },
+  {
+    "uuid": "4639f4e3-dec5-4962-ad9d-77985c92ae47",
+    "name": "Bhillawadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Shaha.Bharatpur.Bhillawadi",
+    "parent": {
+      "uuid": "50df3263-a4e4-4f7f-92b3-7d94815e860d"
+    }
+  },
+  {
+    "uuid": "8cdac83c-38df-4008-96a3-962b71dfb6d6",
+    "name": "Kolapewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Shaha.Lashumanpur.Kolapewadi",
+    "parent": {
+      "uuid": "6ef95cae-4353-4647-99dd-24e9f8631716"
+    }
+  },
+  {
+    "uuid": "82aa6c28-27d5-490b-afce-995ad06a6102",
+    "name": "Dattanagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Panchale.Panchale.Dattanagar",
+    "parent": {
+      "uuid": "6f5b659b-43d4-41da-bf05-2641c846b311"
+    }
+  },
+  {
+    "uuid": "a5c1680f-91a2-4470-b168-4001a41640f8",
+    "name": "Dambernala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Panchale.Panchale.Dambernala",
+    "parent": {
+      "uuid": "6f5b659b-43d4-41da-bf05-2641c846b311"
+    }
+  },
+  {
+    "uuid": "41782bea-777b-45f7-abb7-9f0b6374a221",
+    "name": "Thoratwasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Panchale.Panchale.Thoratwasti",
+    "parent": {
+      "uuid": "6f5b659b-43d4-41da-bf05-2641c846b311"
+    }
+  },
+  {
+    "uuid": "b5a3b0dd-a4ed-4af9-9dda-e44ff169e94f",
+    "name": "Bhillawadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Panchale.Pimpalgaon.Bhillawadi",
+    "parent": {
+      "uuid": "784f7fee-b118-4817-8e3b-77db1e9fa07a"
+    }
+  },
+  {
+    "uuid": "20665eff-3b69-4967-bea6-21856dea9341",
+    "name": "Kankusewasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Panchale.Shrirampur.Kankusewasti",
+    "parent": {
+      "uuid": "0dc48a0f-fedf-4cc3-bdec-41078ca5361e"
+    }
+  },
+  {
+    "uuid": "fee1b65d-59b9-4540-af39-b5ee1f4d0c71",
+    "name": "Bhillawadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Panchale.Dahiwadi.Bhillawadi",
+    "parent": {
+      "uuid": "44414292-54d5-47c8-a0fa-ae94cf9a9129"
+    }
+  },
+  {
+    "uuid": "2f70ab3a-6e9e-4d19-9c8a-efe123a05380",
+    "name": "Mahajanpur",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Panchale.Dahiwadi.Mahajanpur",
+    "parent": {
+      "uuid": "44414292-54d5-47c8-a0fa-ae94cf9a9129"
+    }
+  },
+  {
+    "uuid": "07627841-209b-4f3e-9239-c0dc5ddcf3b8",
+    "name": "Gadewasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Panchale.Dahiwadi.Gadewasti",
+    "parent": {
+      "uuid": "44414292-54d5-47c8-a0fa-ae94cf9a9129"
+    }
+  },
+  {
+    "uuid": "a6d8d212-10eb-4ec8-b35d-633525bbbcae",
+    "name": "Jagdalewasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Panchale.Dahiwadi.Jagdalewasti",
+    "parent": {
+      "uuid": "44414292-54d5-47c8-a0fa-ae94cf9a9129"
+    }
+  },
+  {
+    "uuid": "099fd694-205c-4bb9-b39b-0db14d95d38e",
+    "name": "Bhillahari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Panchale.Ujani.Bhillahari",
+    "parent": {
+      "uuid": "f7fea1d0-f870-4da3-87f2-11e403235b3b"
+    }
+  },
+  {
+    "uuid": "55dbe94d-dcc0-4389-af26-173241efd06e",
+    "name": "Bhillahari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Panchale.Mahajanpur.Bhillahari",
+    "parent": {
+      "uuid": "bb8a1d34-e51f-4d81-9383-6e6745d9303d"
+    }
+  },
+  {
+    "uuid": "704467bf-0034-4d5d-9e28-e662801895f8",
+    "name": "Beldarwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Somthane.Somthane.Beldarwadi",
+    "parent": {
+      "uuid": "140fbc8b-c346-4eb6-a0c5-189b8c6f494f"
+    }
+  },
+  {
+    "uuid": "917d8047-f5fa-4db0-8fb7-d93d0d66775c",
+    "name": "Achanaknagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Somthane.Somthane.Achanaknagar",
+    "parent": {
+      "uuid": "140fbc8b-c346-4eb6-a0c5-189b8c6f494f"
+    }
+  },
+  {
+    "uuid": "ecab0d79-3d73-429f-8ee2-525f3c9184bd",
+    "name": "Kadamnagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Somthane.Somthane.Kadamnagar",
+    "parent": {
+      "uuid": "140fbc8b-c346-4eb6-a0c5-189b8c6f494f"
+    }
+  },
+  {
+    "uuid": "74b6199f-aa55-41ec-b2cc-e9b1ccad049a",
+    "name": "Dattawadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Somthane.Sangavi.Dattawadi",
+    "parent": {
+      "uuid": "01344b94-97cb-44a3-8900-c0aad182c3e0"
+    }
+  },
+  {
+    "uuid": "b73486ec-6da2-44c9-a4c5-38d7fb7fd339",
+    "name": "Chimaniroad",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Somthane.Sangavi.Chimaniroad",
+    "parent": {
+      "uuid": "01344b94-97cb-44a3-8900-c0aad182c3e0"
+    }
+  },
+  {
+    "uuid": "7219e1a5-d904-46bb-b657-1d21737d2530",
+    "name": "Bhowada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Somthane.Mendhi.Bhowada",
+    "parent": {
+      "uuid": "dee72a24-60da-4938-b0a0-f391da5acefb"
+    }
+  },
+  {
+    "uuid": "26bd7d7e-2ff0-4505-a015-0ec6b7bddea9",
+    "name": "Chondhipul",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Somthane.Chondi.Chondhipul",
+    "parent": {
+      "uuid": "e8d38a9f-8a6d-4b3b-85ca-78411c39d2d7"
+    }
+  },
+  {
+    "uuid": "3f755a3c-9aae-4957-85fc-1ef2ba55a7d3",
+    "name": "Bhillahati",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Wadangali.Bhillahati",
+    "parent": {
+      "uuid": "c8548176-de49-4394-9be5-c34de71df738"
+    }
+  },
+  {
+    "uuid": "e492b3d7-92f2-4ba7-ad1c-7c4c88846092",
+    "name": "Bajajnagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Wadangali.Bajajnagar",
+    "parent": {
+      "uuid": "c8548176-de49-4394-9be5-c34de71df738"
+    }
+  },
+  {
+    "uuid": "463ad004-4fc0-4e2e-b092-d1fd09952418",
+    "name": "Aganmala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Kirtangali.Aganmala",
+    "parent": {
+      "uuid": "f6fd0f9c-08e5-4922-93cd-288a7b9f3d8f"
+    }
+  },
+  {
+    "uuid": "446d78ba-0963-4874-b1f3-46cd71a88b29",
+    "name": "Chinchechamala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Kirtangali.Chinchechamala",
+    "parent": {
+      "uuid": "f6fd0f9c-08e5-4922-93cd-288a7b9f3d8f"
+    }
+  },
+  {
+    "uuid": "62a4b0b0-ec8e-43a5-bba1-8bcd4e44df16",
+    "name": "Kasarinala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Kirtangali.Kasarinala",
+    "parent": {
+      "uuid": "f6fd0f9c-08e5-4922-93cd-288a7b9f3d8f"
+    }
+  },
+  {
+    "uuid": "7885cd29-c558-4ae9-b0ea-f49d7b89c06e",
+    "name": "Vitbhattiwasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Eklahare.Vitbhattiwasti",
+    "parent": {
+      "uuid": "c90aa073-34d4-48fc-8414-d90c2ec620f2"
+    }
+  },
+  {
+    "uuid": "b06d85e0-0965-4bfc-ab3e-8682cfe9e7bd",
+    "name": "Nimgaonroad",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Eklahare.Nimgaonroad",
+    "parent": {
+      "uuid": "c90aa073-34d4-48fc-8414-d90c2ec620f2"
+    }
+  },
+  {
+    "uuid": "8889b7dd-021e-490c-a019-b8d5084228d5",
+    "name": "Khangalemala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Eklahare.Khangalemala",
+    "parent": {
+      "uuid": "c90aa073-34d4-48fc-8414-d90c2ec620f2"
+    }
+  },
+  {
+    "uuid": "ce33f4bb-aaa7-4a83-b85b-933a19837e6a",
+    "name": "Shivajimala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Khadangali.Shivajimala",
+    "parent": {
+      "uuid": "2af04d9d-25a2-45f2-ac95-28aaa817aacb"
+    }
+  },
+  {
+    "uuid": "157ca76e-819c-461d-9eb2-59e453147f2a",
+    "name": "Dattanagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Khadangali.Dattanagar",
+    "parent": {
+      "uuid": "2af04d9d-25a2-45f2-ac95-28aaa817aacb"
+    }
+  },
+  {
+    "uuid": "b7121646-bad6-460e-99cc-00f0e6f5ef49",
+    "name": "Wastishala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Khadangali.Wastishala",
+    "parent": {
+      "uuid": "2af04d9d-25a2-45f2-ac95-28aaa817aacb"
+    }
+  },
+  {
+    "uuid": "c2f7d4d8-a6e6-4147-9f74-11ac06dba5bf",
+    "name": "Dhulewasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Komalwadi.Dhulewasti",
+    "parent": {
+      "uuid": "a16094d6-7dd3-4893-8b93-aa73c3c2b81e"
+    }
+  },
+  {
+    "uuid": "248870c4-187d-4896-a699-997f58638d42",
+    "name": "Mamaswadiroad",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Wadangali.Komalwadi.Mamaswadiroad",
+    "parent": {
+      "uuid": "a16094d6-7dd3-4893-8b93-aa73c3c2b81e"
+    }
+  },
+  {
+    "uuid": "70a66923-b14b-481e-802c-610726135f06",
+    "name": "Jayogeshwarnagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Datali.Datali.Jayogeshwarnagar",
+    "parent": {
+      "uuid": "5c8680d7-9e9d-4547-a012-75f514afdd47"
+    }
+  },
+  {
+    "uuid": "6e16d59f-71b5-401b-8c86-1bef8fcd8237",
+    "name": "Swamisamarth",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Datali.Datali.Swamisamarth",
+    "parent": {
+      "uuid": "5c8680d7-9e9d-4547-a012-75f514afdd47"
+    }
+  },
+  {
+    "uuid": "c30239ae-2f1e-49d6-9d71-f2d27768622b",
+    "name": "Sayaadwasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Datali.Datali.Sayaadwasti",
+    "parent": {
+      "uuid": "5c8680d7-9e9d-4547-a012-75f514afdd47"
+    }
+  },
+  {
+    "uuid": "e7f3106f-d3c1-443a-8a5c-245edf4d45f6",
+    "name": "Avhad vasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Datali.Kedarpur.Avhad vasti",
+    "parent": {
+      "uuid": "d60d037f-a262-44a6-961a-25c3974809a9"
+    }
+  },
+  {
+    "uuid": "81ac0808-11d1-4336-814e-b71440c92da6",
+    "name": "Shahapur",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Datali.Shahapur.Shahapur",
+    "parent": {
+      "uuid": "967a704c-dd30-4f82-9d73-e60a3e145c43"
+    }
+  },
+  {
+    "uuid": "1de67c7b-6378-4e80-b38e-c6fcb7bd9012",
+    "name": "Devpur road",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Datali.Khopadi Bk..Devpur road",
+    "parent": {
+      "uuid": "04bc1c44-585b-4dc0-9666-e68690f0649d"
+    }
+  },
+  {
+    "uuid": "2327341e-7aac-475e-aa7b-92df1daa9747",
+    "name": "Dattamandir",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Datali.Khopadi Kh..Dattamandir",
+    "parent": {
+      "uuid": "e68e208f-7f8d-4352-b003-3ccdc91ed48a"
+    }
+  },
+  {
+    "uuid": "512bb91a-5484-462c-b790-d541edadb156",
+    "name": "Khalwegaon",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Datali.Musalgaon.Khalwegaon",
+    "parent": {
+      "uuid": "92e82527-0004-450b-aaef-ff79fd471660"
+    }
+  },
+  {
+    "uuid": "18b75a28-141c-46f2-b724-8618090f3b81",
+    "name": "Madhalegaon",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Datali.Musalgaon.Madhalegaon",
+    "parent": {
+      "uuid": "92e82527-0004-450b-aaef-ff79fd471660"
+    }
+  },
+  {
+    "uuid": "1dafa035-2ec8-4a56-afdd-586606bfe493",
+    "name": "Patilmala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Datali.Musalgaon.Patilmala",
+    "parent": {
+      "uuid": "92e82527-0004-450b-aaef-ff79fd471660"
+    }
+  },
+  {
+    "uuid": "6aee410a-dfa4-40fe-b38a-db97dd103e8c",
+    "name": "Laxminagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Devpur.Datali.Musalgaon.Laxminagar",
+    "parent": {
+      "uuid": "92e82527-0004-450b-aaef-ff79fd471660"
+    }
+  },
+  {
+    "uuid": "219be810-eb0c-41e3-a3de-c918d8defa1f",
+    "name": "Naygaon",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Naygaon.Naygaon.Naygaon",
+    "parent": {
+      "uuid": "bd4e8bb9-51c2-4d5a-a046-78011ddea97a"
+    }
+  },
+  {
+    "uuid": "1dbf0043-4f52-409d-a3f9-46033923dd75",
+    "name": "Chawhan mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Naygaon.Naygaon.Chawhan mala",
+    "parent": {
+      "uuid": "bd4e8bb9-51c2-4d5a-a046-78011ddea97a"
+    }
+  },
+  {
+    "uuid": "ded16904-62ee-4e7a-ace7-fe59b3ca357a",
+    "name": "Pansare mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Naygaon.Jaygaon.Pansare mala",
+    "parent": {
+      "uuid": "97f60964-a495-40ee-afca-3a085b8bf7a7"
+    }
+  },
+  {
+    "uuid": "383e6b84-e310-4390-9632-a9795811f5c4",
+    "name": "Mahadev Wasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Naygaon.Deshwandi.Mahadev Wasti",
+    "parent": {
+      "uuid": "c886e1f7-2225-4304-b3a8-ed275ff627cd"
+    }
+  },
+  {
+    "uuid": "325af8ae-9f9a-4a85-8f23-d5232f0fc467",
+    "name": "Sanapwasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Nimgaonsinnar.Nimgaonsinnar.Sanapwasti",
+    "parent": {
+      "uuid": "fbbc837c-5c42-46f3-afda-aa0e223c5027"
+    }
+  },
+  {
+    "uuid": "acac0d9d-d82b-4048-b961-f1c342c8aece",
+    "name": "Dagadwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Nimgaonsinnar.Gulwanch.Dagadwadi",
+    "parent": {
+      "uuid": "2a29f569-c88c-4f16-bdce-8edd014556f4"
+    }
+  },
+  {
+    "uuid": "bb6d7864-0124-4657-a3da-c4e17de21d53",
+    "name": "Komalwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Nimgaonsinnar.Kepanagar.Komalwadi",
+    "parent": {
+      "uuid": "d3c4b4d6-b77b-4fbb-bb57-85f89ccef495"
+    }
+  },
+  {
+    "uuid": "ae7e7b5b-bf00-40f4-bae2-f7500f936fe4",
+    "name": "Ghangalwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Nimgaonsinnar.Hivargaon.Ghangalwadi",
+    "parent": {
+      "uuid": "192d032f-1768-44ef-b755-675a42d03b7b"
+    }
+  },
+  {
+    "uuid": "0eb822d6-ba3a-43b7-988c-6eb2094e064e",
+    "name": "Rokadoba mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Baragao pimpari.Baragaonpimpari.Rokadoba mala",
+    "parent": {
+      "uuid": "481f95a5-058c-485e-80e9-336ab1a8c4cd"
+    }
+  },
+  {
+    "uuid": "6e126af6-d3c2-47c3-b712-9bc775ca0191",
+    "name": "Dattamandir",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Baragao pimpari.Baragaonpimpari.Dattamandir",
+    "parent": {
+      "uuid": "481f95a5-058c-485e-80e9-336ab1a8c4cd"
+    }
+  },
+  {
+    "uuid": "5f8d2caf-74da-4b2c-a21b-571fd3382561",
+    "name": "Dhangarwasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Baragao pimpari.Sundarpur.Dhangarwasti",
+    "parent": {
+      "uuid": "3a6668cb-50aa-4ef4-8ca4-fd3e599f37c7"
+    }
+  },
+  {
+    "uuid": "0d6422ba-b23b-4b99-8521-17e4abbdad50",
+    "name": "Patpimpari",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Baragao pimpari.Patpimpari.Patpimpari",
+    "parent": {
+      "uuid": "07a7d92a-9b54-435b-ad34-ded352612449"
+    }
+  },
+  {
+    "uuid": "42c0d04e-10b4-43e9-8be7-15e882b5a8a2",
+    "name": "Kundewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Kundewadi.Kundewadi.Kundewadi",
+    "parent": {
+      "uuid": "9a61d99c-35b9-4430-82ef-89f36f42e9bc"
+    }
+  },
+  {
+    "uuid": "fdcb08fb-2b66-414c-ae12-7ba41bb41310",
+    "name": "Kundewadi Mauje",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Kundewadi.Kundewadi Mauje.Kundewadi Mauje",
+    "parent": {
+      "uuid": "eeba5a35-e730-4838-be3c-ba4d181d61e9"
+    }
+  },
+  {
+    "uuid": "7616ab53-25a8-4442-90d5-3b87507effb0",
+    "name": "Lonarwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Kundewadi.Shashrinagar (Lonarwadi).Lonarwadi",
+    "parent": {
+      "uuid": "415242fd-2a87-477b-95d8-5cdd65a4448f"
+    }
+  },
+  {
+    "uuid": "5e064ff3-3a52-4392-bc3e-5adf446ab20a",
+    "name": "Bhatwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Kundewadi.Bhatwadi.Bhatwadi",
+    "parent": {
+      "uuid": "80ec3e5b-fd98-4375-add1-b70a4f37c164"
+    }
+  },
+  {
+    "uuid": "2290fcd5-359a-49c3-9073-3bcbf7082d7c",
+    "name": "Mul maparwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Kundewadi.Maparwadi.Mul maparwadi",
+    "parent": {
+      "uuid": "972a1036-ad7b-4bc0-b4aa-ca9b1634af8d"
+    }
+  },
+  {
+    "uuid": "f3fa9323-5fd8-448a-9a63-cf12d36a43ef",
+    "name": "Khadicrasher",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Chincholi.Chincholi.Khadicrasher",
+    "parent": {
+      "uuid": "23ea11c7-6542-4d2a-99cb-8b08f7b07617"
+    }
+  },
+  {
+    "uuid": "2467ad53-a4ce-4638-a2fe-30050b2a31ea",
+    "name": "Holgirwasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Chincholi.Moh.Holgirwasti",
+    "parent": {
+      "uuid": "8fe50035-8d90-4b6e-a39d-c4ae81e84a8c"
+    }
+  },
+  {
+    "uuid": "981547f0-9ecb-44ce-9231-337b7a42b8c6",
+    "name": "Khadicrasher",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Chincholi.Mohadari.Khadicrasher",
+    "parent": {
+      "uuid": "759588ec-782d-4b0b-8261-7b7574e049f8"
+    }
+  },
+  {
+    "uuid": "5a4ab960-8033-4b2a-8a40-4f7562411b9c",
+    "name": "MIDC",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Chincholi.Malegaon.MIDC",
+    "parent": {
+      "uuid": "e0b3c096-539d-41f0-abb5-9285fd55275a"
+    }
+  },
+  {
+    "uuid": "8875cdb9-b634-49fc-8e37-e38c3acc7a0a",
+    "name": "Bharmhanwade",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Bharmhanwade.Bharmhanwade.Bharmhanwade",
+    "parent": {
+      "uuid": "6d3e6864-9d5f-4ca5-b2f6-8c006e2e67d0"
+    }
+  },
+  {
+    "uuid": "cd0bb010-7542-44cf-a58d-cf42b3421c93",
+    "name": "Dhabawasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Bharmhanwade.Wadzire.Dhabawasti",
+    "parent": {
+      "uuid": "bfa250ba-b708-48da-9adf-bbd88631763d"
+    }
+  },
+  {
+    "uuid": "7a2ad215-7f5e-437f-b0ec-ad1bdfe52cf6",
+    "name": "Dattamandir",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Bharmhanwade.Songiri.Dattamandir",
+    "parent": {
+      "uuid": "696c7c06-5ce6-4bd7-93a2-70ef709cd7e3"
+    }
+  },
+  {
+    "uuid": "618a2b3d-1c63-4fb7-8430-91c00b3cee45",
+    "name": "Jogaltembhi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Naygaon.Bharmhanwade.Jogaltembhi.Jogaltembhi",
+    "parent": {
+      "uuid": "e4c38db7-29a9-4bc7-9039-08f15431a1b9"
+    }
+  },
+  {
+    "uuid": "d932882f-84e9-4da6-91ff-0a5abd95b4d8",
+    "name": "Rajwada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Pandhurli.Pandhurli.Rajwada",
+    "parent": {
+      "uuid": "63b4039e-d276-41e9-a314-6a84bd232e31"
+    }
+  },
+  {
+    "uuid": "e859570f-8864-4d8b-8030-417b2d5b199e",
+    "name": "Waje mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Pandhurli.Pandhurli.Waje mala",
+    "parent": {
+      "uuid": "63b4039e-d276-41e9-a314-6a84bd232e31"
+    }
+  },
+  {
+    "uuid": "11864c9b-836d-43ff-9705-4ea7f15045d1",
+    "name": "Bhillhati",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Pandhurli.Pandhurli.Bhillhati",
+    "parent": {
+      "uuid": "63b4039e-d276-41e9-a314-6a84bd232e31"
+    }
+  },
+  {
+    "uuid": "0bbd2e81-c182-4675-a1f6-0d090eb4b72b",
+    "name": "Thakurwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Pandhurli.Sawatamalinagar.Thakurwadi",
+    "parent": {
+      "uuid": "fd40229d-5d19-4dcc-9e4e-debe45e5f543"
+    }
+  },
+  {
+    "uuid": "0355beb1-03bd-4d7f-83ca-ac96ba86c0a1",
+    "name": "Amrai mla",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Pandhurli.Belu.Amrai mla",
+    "parent": {
+      "uuid": "e77a3cd8-def1-48b7-8350-aa9f959eef89"
+    }
+  },
+  {
+    "uuid": "e5059089-f818-4078-9e51-47309cf34159",
+    "name": "Wagh mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Pandhurli.Agaskhind.Wagh mala",
+    "parent": {
+      "uuid": "560bdc69-9818-4966-adb8-10bad427783d"
+    }
+  },
+  {
+    "uuid": "1093799a-8147-486e-aac1-3f7bf14dff54",
+    "name": "Bhillhatti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Pandhurli.Agaskhind.Bhillhatti",
+    "parent": {
+      "uuid": "560bdc69-9818-4966-adb8-10bad427783d"
+    }
+  },
+  {
+    "uuid": "0c4f6433-e5d6-4972-9059-5f5f391554c7",
+    "name": "Rajwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Pandhurli.Agaskhind.Rajwadi",
+    "parent": {
+      "uuid": "560bdc69-9818-4966-adb8-10bad427783d"
+    }
+  },
+  {
+    "uuid": "a3e369e1-96b4-4bcc-ab93-13bc34e889e3",
+    "name": "Muthal mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Wadgaonpingala.Wadgaon Pingala.Muthal mala",
+    "parent": {
+      "uuid": "385a9168-d7c5-4607-a6ef-894f2689223a"
+    }
+  },
+  {
+    "uuid": "4fc86a63-c6a0-40ab-82c2-8648392f2422",
+    "name": "Vinchu mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Wadgaonpingala.Wadgaon Pingala.Vinchu mala",
+    "parent": {
+      "uuid": "385a9168-d7c5-4607-a6ef-894f2689223a"
+    }
+  },
+  {
+    "uuid": "47da9559-1545-4569-b383-26a87335289a",
+    "name": "Bhavdev wadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Wadgaonpingala.Vinchur Dalawi.Bhavdev wadi",
+    "parent": {
+      "uuid": "04c348bd-f814-49a8-a20a-af8ff754322c"
+    }
+  },
+  {
+    "uuid": "d5c0dc4f-661e-436c-9974-58c8ff8bfe20",
+    "name": "Chandre mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Wadgaonpingala.Vinchur Dalawi.Chandre mala",
+    "parent": {
+      "uuid": "04c348bd-f814-49a8-a20a-af8ff754322c"
+    }
+  },
+  {
+    "uuid": "e0fb805f-2271-470d-a953-7da49ebec03b",
+    "name": "Tasdara",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Shivade.Shivade.Tasdara",
+    "parent": {
+      "uuid": "2aaec468-8b22-4a15-b3b7-6c2c68d03419"
+    }
+  },
+  {
+    "uuid": "ba5075ec-cdd4-4f6a-bf26-3502b13ffcf1",
+    "name": "Baldara",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Shivade.Shivade.Baldara",
+    "parent": {
+      "uuid": "2aaec468-8b22-4a15-b3b7-6c2c68d03419"
+    }
+  },
+  {
+    "uuid": "629f074a-3251-4437-91c5-48d29a2da4ee",
+    "name": "Bhilhati",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Shivade.Shivade.Bhilhati",
+    "parent": {
+      "uuid": "2aaec468-8b22-4a15-b3b7-6c2c68d03419"
+    }
+  },
+  {
+    "uuid": "c13fdcb8-c276-459b-8f6c-f8a30fb09538",
+    "name": "Kavte vasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Shivade.Borkhind.Kavte vasti",
+    "parent": {
+      "uuid": "a5cf2d35-a3b2-4740-be00-7905c639cd5b"
+    }
+  },
+  {
+    "uuid": "8a3d2d34-1d04-4f15-914d-7e800164eb81",
+    "name": "Katode vasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Shivade.Borkhind.Katode vasti",
+    "parent": {
+      "uuid": "a5cf2d35-a3b2-4740-be00-7905c639cd5b"
+    }
+  },
+  {
+    "uuid": "fe950c00-1ad0-412d-a948-84663b33bc35",
+    "name": "Mhasal wadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Shivade.Ghorwad.Mhasal wadi",
+    "parent": {
+      "uuid": "f9ae9948-63d5-4666-96bd-b98271badb96"
+    }
+  },
+  {
+    "uuid": "0772763b-a0c8-4e0e-b666-4136f23ae6c0",
+    "name": "Ghorvad khind",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Shivade.Ghorwad.Ghorvad khind",
+    "parent": {
+      "uuid": "f9ae9948-63d5-4666-96bd-b98271badb96"
+    }
+  },
+  {
+    "uuid": "fe899a1f-581f-4eff-a232-9dfa31150f5a",
+    "name": "Bend wadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Sonambe.Sonambe.Bend wadi",
+    "parent": {
+      "uuid": "1725767c-d557-4f90-890a-d17e323d0fca"
+    }
+  },
+  {
+    "uuid": "a9591a6d-bb05-4a02-b00e-cf314d8f241d",
+    "name": "Bodke mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Sonambe.Sonambe.Bodke mala",
+    "parent": {
+      "uuid": "1725767c-d557-4f90-890a-d17e323d0fca"
+    }
+  },
+  {
+    "uuid": "988c19e8-a9cc-4f7d-aeb1-2746ae08e619",
+    "name": "Chika vasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Sonambe.Sonambe.Chika vasti",
+    "parent": {
+      "uuid": "1725767c-d557-4f90-890a-d17e323d0fca"
+    }
+  },
+  {
+    "uuid": "ca1c6c18-56ff-4ad0-8fe0-09931fd5c979",
+    "name": "Kalunge mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Sonambe.Sonari.Kalunge mala",
+    "parent": {
+      "uuid": "6bc0d524-afd5-44da-8f90-7ad21045f64e"
+    }
+  },
+  {
+    "uuid": "fa83bcdc-835c-4816-85c5-4f366a6e6178",
+    "name": "Shinde mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Sonambe.Sonari.Shinde mala",
+    "parent": {
+      "uuid": "6bc0d524-afd5-44da-8f90-7ad21045f64e"
+    }
+  },
+  {
+    "uuid": "de41b21e-6766-4e8f-aa72-df29a5b6338a",
+    "name": "Sabarwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Sonambe.Jayprakashnagar.Sabarwadi",
+    "parent": {
+      "uuid": "b928acc1-352d-4c6c-8ae7-2e89ac703164"
+    }
+  },
+  {
+    "uuid": "d201e41e-ddeb-4bc0-8947-cdd49fffd39f",
+    "name": "Gav",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Sonambe.Harsule.Gav",
+    "parent": {
+      "uuid": "22ee0fa8-7522-4e73-b3bb-a62e0ae5411e"
+    }
+  },
+  {
+    "uuid": "c65bcc68-7ec3-46ee-80c1-c7035a037804",
+    "name": "Harsulemale",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Sonambe.Harsule.Harsulemale",
+    "parent": {
+      "uuid": "22ee0fa8-7522-4e73-b3bb-a62e0ae5411e"
+    }
+  },
+  {
+    "uuid": "27db67c7-e20f-4b76-b0c1-c60a794a0d87",
+    "name": "Dawre mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Konambe.Konambe.Dawre mala",
+    "parent": {
+      "uuid": "589d7058-1df7-4ca4-b6bf-36a43e6c02de"
+    }
+  },
+  {
+    "uuid": "6b1dcb60-c8cd-49d7-aef3-088b7040d23b",
+    "name": "Thakurwadi wagh dara",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Konambe.Konambe.Thakurwadi wagh dara",
+    "parent": {
+      "uuid": "589d7058-1df7-4ca4-b6bf-36a43e6c02de"
+    }
+  },
+  {
+    "uuid": "f626ef17-7dc9-4f82-bfc4-c802876702cb",
+    "name": "Borichi pain",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Konambe.Konambe.Borichi pain",
+    "parent": {
+      "uuid": "589d7058-1df7-4ca4-b6bf-36a43e6c02de"
+    }
+  },
+  {
+    "uuid": "dc43e23d-0fef-493b-b1e6-f622815a4f45",
+    "name": "Khetade vasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Konambe.Dhondbar.Khetade vasti",
+    "parent": {
+      "uuid": "4c7c75d9-72c5-48dc-80a1-81dd5356f713"
+    }
+  },
+  {
+    "uuid": "a74d32b0-ab31-48ae-a7e9-72887aeb44f5",
+    "name": "Kavte vasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Konambe.Dhondbar.Kavte vasti",
+    "parent": {
+      "uuid": "4c7c75d9-72c5-48dc-80a1-81dd5356f713"
+    }
+  },
+  {
+    "uuid": "2d10a2bb-0059-4532-a47b-8a199b29ec0d",
+    "name": "Madage vasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Konambe.Dhondbar.Madage vasti",
+    "parent": {
+      "uuid": "4c7c75d9-72c5-48dc-80a1-81dd5356f713"
+    }
+  },
+  {
+    "uuid": "df17207a-4175-4891-bbff-23b3d8773108",
+    "name": "Aundhe wadi gavdha",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Konambe.Aundewadi.Aundhe wadi gavdha",
+    "parent": {
+      "uuid": "e89c69da-da68-4af9-a502-09b3cbcaac8c"
+    }
+  },
+  {
+    "uuid": "e7e28d30-917a-4903-b430-6be13be4b588",
+    "name": "Gadhav male",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Konambe.Aundewadi.Gadhav male",
+    "parent": {
+      "uuid": "e89c69da-da68-4af9-a502-09b3cbcaac8c"
+    }
+  },
+  {
+    "uuid": "20d1e324-3293-4acd-994f-61f15a62ce53",
+    "name": "Kajikhori",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Paste.Kajikhori",
+    "parent": {
+      "uuid": "91272b12-c4de-4168-91e2-2f85148bae22"
+    }
+  },
+  {
+    "uuid": "309d1187-7935-4b05-9659-b7e0090274c9",
+    "name": "Chiman khori",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Paste.Chiman khori",
+    "parent": {
+      "uuid": "91272b12-c4de-4168-91e2-2f85148bae22"
+    }
+  },
+  {
+    "uuid": "801c9d67-2d15-4317-8155-c99352edfe3c",
+    "name": "Rajwada",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Paste.Rajwada",
+    "parent": {
+      "uuid": "91272b12-c4de-4168-91e2-2f85148bae22"
+    }
+  },
+  {
+    "uuid": "7454da5a-4812-432b-b86a-1fe7d916975a",
+    "name": "Bhilahati",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Paste.Bhilahati",
+    "parent": {
+      "uuid": "91272b12-c4de-4168-91e2-2f85148bae22"
+    }
+  },
+  {
+    "uuid": "11242ecb-8593-4830-9cc5-d855ee3693ad",
+    "name": "Bhilahati",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Jamgaon.Bhilahati",
+    "parent": {
+      "uuid": "45c7f5ee-a961-437f-9d01-04b9a2a571d0"
+    }
+  },
+  {
+    "uuid": "589c41f9-0f76-474b-a1a8-f92b7fbfd15a",
+    "name": "Rajwada ghatakadil male",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Jamgaon.Rajwada ghatakadil male",
+    "parent": {
+      "uuid": "45c7f5ee-a961-437f-9d01-04b9a2a571d0"
+    }
+  },
+  {
+    "uuid": "4d093021-5cee-41f3-9b4e-788e8bc0da70",
+    "name": "Gav",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Chandrapur.Gav",
+    "parent": {
+      "uuid": "3a33a522-de24-4095-895a-5af22bba3004"
+    }
+  },
+  {
+    "uuid": "2b39a9a2-45e0-45f6-a44a-536e6416adcc",
+    "name": "Chandrapurmale",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Chandrapur.Chandrapurmale",
+    "parent": {
+      "uuid": "3a33a522-de24-4095-895a-5af22bba3004"
+    }
+  },
+  {
+    "uuid": "b173fe78-d9c5-4e00-bb8a-35fb56ac624c",
+    "name": "Gav",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Khaprale.Gav",
+    "parent": {
+      "uuid": "5756a1c1-6ed8-4d46-82c2-967cf6778a17"
+    }
+  },
+  {
+    "uuid": "5c3c002a-b221-4da5-a7c7-e65351a23a3e",
+    "name": "Male",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Khaprale.Male",
+    "parent": {
+      "uuid": "5756a1c1-6ed8-4d46-82c2-967cf6778a17"
+    }
+  },
+  {
+    "uuid": "edb5e453-8dda-43cc-ade0-ed4f64df2c4d",
+    "name": "Pangar wadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Saradwadi.Pangar wadi",
+    "parent": {
+      "uuid": "4065cf6f-57b0-476c-a71f-c34c39603b74"
+    }
+  },
+  {
+    "uuid": "7b83b957-1822-49b9-a3d4-1b5c18c0dd02",
+    "name": "Zagade mla",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Saradwadi.Zagade mla",
+    "parent": {
+      "uuid": "4065cf6f-57b0-476c-a71f-c34c39603b74"
+    }
+  },
+  {
+    "uuid": "340a2eb1-4730-4c30-9eab-5fded5ca1d3c",
+    "name": "Avhad vasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Wadgaonsinnar.Avhad vasti",
+    "parent": {
+      "uuid": "44125bd4-9c55-4a98-9161-ac167e4daf73"
+    }
+  },
+  {
+    "uuid": "dd17b866-30cc-41c5-93fc-43dde2476111",
+    "name": "Shinde mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Wadgaonsinnar.Shinde mala",
+    "parent": {
+      "uuid": "44125bd4-9c55-4a98-9161-ac167e4daf73"
+    }
+  },
+  {
+    "uuid": "0fcb5404-5fb4-42b9-bb1b-fefeb4e97921",
+    "name": "Lokhndwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Pandhurli.Paste.Wadgaonsinnar.Lokhndwadi",
+    "parent": {
+      "uuid": "44125bd4-9c55-4a98-9161-ac167e4daf73"
+    }
+  },
+  {
+    "uuid": "b6847d77-c3db-4b99-a3c1-b836a641b9b9",
+    "name": "Thangaon",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Thangaon.Thangaon.Thangaon",
+    "parent": {
+      "uuid": "ca4ff0a8-e016-4cf9-a434-8ad143067b13"
+    }
+  },
+  {
+    "uuid": "b6438fac-da22-410f-b42e-0bd30cdb96f3",
+    "name": "Kalewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Thangaon.Thangaon.Kalewadi",
+    "parent": {
+      "uuid": "ca4ff0a8-e016-4cf9-a434-8ad143067b13"
+    }
+  },
+  {
+    "uuid": "0fce1ecf-3eba-4764-b8c6-7766500aae2d",
+    "name": "Ghutewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Thangaon.Thangaon.Ghutewadi",
+    "parent": {
+      "uuid": "ca4ff0a8-e016-4cf9-a434-8ad143067b13"
+    }
+  },
+  {
+    "uuid": "75c388e4-82a2-43e6-a324-4b348ab8a77f",
+    "name": "Bhalewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Thangaon.Thangaon.Bhalewadi",
+    "parent": {
+      "uuid": "ca4ff0a8-e016-4cf9-a434-8ad143067b13"
+    }
+  },
+  {
+    "uuid": "164035f4-511d-4c02-981d-60a9ccf0f703",
+    "name": "Adwadi Varchi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Thangaon.Adwadi.Adwadi Varchi",
+    "parent": {
+      "uuid": "7b02db15-87d1-4b04-a5b6-e7da2fa2138a"
+    }
+  },
+  {
+    "uuid": "9b7a5c99-77e2-4b55-865a-13007191ea5d",
+    "name": "Adwadi Madhali",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Thangaon.Adwadi.Adwadi Madhali",
+    "parent": {
+      "uuid": "7b02db15-87d1-4b04-a5b6-e7da2fa2138a"
+    }
+  },
+  {
+    "uuid": "3563f1ef-da0a-47e8-a32e-5f8dc3cf29c3",
+    "name": "Adwadi Khalachi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Thangaon.Adwadi.Adwadi Khalachi",
+    "parent": {
+      "uuid": "7b02db15-87d1-4b04-a5b6-e7da2fa2138a"
+    }
+  },
+  {
+    "uuid": "fbc8b93c-9261-495b-a72a-939254463e4d",
+    "name": "Hivare",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Hivare.Hivare.Hivare",
+    "parent": {
+      "uuid": "37a78859-2e3f-4a59-83da-18b34718d90c"
+    }
+  },
+  {
+    "uuid": "2cb16dcd-68a2-4d78-8a58-09da6ca59c5a",
+    "name": "Vaghdarawadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Hivare.Hivare.Vaghdarawadi",
+    "parent": {
+      "uuid": "37a78859-2e3f-4a59-83da-18b34718d90c"
+    }
+  },
+  {
+    "uuid": "1776cad1-eee1-498d-a31b-4c9caa5df9ff",
+    "name": "Pimpale",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Hivare.Pimpale.Pimpale",
+    "parent": {
+      "uuid": "21fe5da7-1abd-41bd-adae-b3bb2d753ccc"
+    }
+  },
+  {
+    "uuid": "f30c730d-61e3-4c1f-86d3-a2fb1be2601f",
+    "name": "Tamkadwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Hivare.Pimpale.Tamkadwadi",
+    "parent": {
+      "uuid": "21fe5da7-1abd-41bd-adae-b3bb2d753ccc"
+    }
+  },
+  {
+    "uuid": "8ff91136-f44a-4f04-a086-06db5eb28929",
+    "name": "Ashapur",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Hivare.Ashapur.Ashapur",
+    "parent": {
+      "uuid": "5b50dcf0-4ef5-4efd-9996-020ad2176219"
+    }
+  },
+  {
+    "uuid": "7ca64799-c993-4cb4-be52-aa27e8718f1c",
+    "name": "Padali",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Hivare.Padali.Padali",
+    "parent": {
+      "uuid": "b53a997a-6dc8-4ea4-9e5f-9e71665d781b"
+    }
+  },
+  {
+    "uuid": "1f1ea957-a2aa-4835-a72d-5f9731f7b7d2",
+    "name": "Bogirwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Hivare.Padali.Bogirwadi",
+    "parent": {
+      "uuid": "b53a997a-6dc8-4ea4-9e5f-9e71665d781b"
+    }
+  },
+  {
+    "uuid": "b59ca6e6-7592-4d3f-abd4-ff8f46014c71",
+    "name": "Dubere",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Dubere.Dubere.Dubere",
+    "parent": {
+      "uuid": "abbf99bc-3fb8-4fa6-b884-520fdae46622"
+    }
+  },
+  {
+    "uuid": "93ede6d6-129f-4728-a2ed-44663232361b",
+    "name": "Dholi Mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Dubere.Dubere.Dholi Mala",
+    "parent": {
+      "uuid": "abbf99bc-3fb8-4fa6-b884-520fdae46622"
+    }
+  },
+  {
+    "uuid": "f28d2f06-bc37-42df-9367-294412bfa0b6",
+    "name": "Vaje Mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Dubere.Dubere.Vaje Mala",
+    "parent": {
+      "uuid": "abbf99bc-3fb8-4fa6-b884-520fdae46622"
+    }
+  },
+  {
+    "uuid": "70c741d7-cc59-4bfd-a83e-8638bdc8ddbc",
+    "name": "Mandlik mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Dubere.Dubere.Mandlik mala",
+    "parent": {
+      "uuid": "abbf99bc-3fb8-4fa6-b884-520fdae46622"
+    }
+  },
+  {
+    "uuid": "47118b92-a262-4705-a517-c2e91adc401c",
+    "name": "Krishnagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Dubere.Krishnagar.Krishnagar",
+    "parent": {
+      "uuid": "5931512e-fc8e-4f95-9fc6-479ad1f3bca2"
+    }
+  },
+  {
+    "uuid": "44c6e785-b2d4-4a26-b919-4d37d2f2365a",
+    "name": "Aatkawade",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Dubere.Aatkawade.Aatkawade",
+    "parent": {
+      "uuid": "15206cc9-ef0b-4dc7-b3e5-a74559ddec41"
+    }
+  },
+  {
+    "uuid": "4addf6cc-920d-4d8d-a1fd-d11705fd921e",
+    "name": "Manegaon",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Manegaon.Manegaon.Manegaon",
+    "parent": {
+      "uuid": "f1e05d52-c4d6-4dfa-85ab-9bc5bf295529"
+    }
+  },
+  {
+    "uuid": "4bbee162-f8fd-4b72-bc6d-abf01616e460",
+    "name": "Dattawadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Manegaon.Manegaon.Dattawadi",
+    "parent": {
+      "uuid": "f1e05d52-c4d6-4dfa-85ab-9bc5bf295529"
+    }
+  },
+  {
+    "uuid": "4c30c2b1-a89b-4490-923c-e0bed4be621c",
+    "name": "Kardak Mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Manegaon.Manegaon.Kardak Mala",
+    "parent": {
+      "uuid": "f1e05d52-c4d6-4dfa-85ab-9bc5bf295529"
+    }
+  },
+  {
+    "uuid": "be469b85-22a0-42db-a5c8-d88f218df089",
+    "name": "Bhagat Mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Manegaon.Manegaon.Bhagat Mala",
+    "parent": {
+      "uuid": "f1e05d52-c4d6-4dfa-85ab-9bc5bf295529"
+    }
+  },
+  {
+    "uuid": "7101329f-7fce-4a1b-a9ac-d2884ee8f907",
+    "name": "Parit mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Manegaon.Manegaon.Parit mala",
+    "parent": {
+      "uuid": "f1e05d52-c4d6-4dfa-85ab-9bc5bf295529"
+    }
+  },
+  {
+    "uuid": "9208e9d7-44ec-4fb8-b636-076ca78db2f1",
+    "name": "Aamdar mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Manegaon.Manegaon.Aamdar mala",
+    "parent": {
+      "uuid": "f1e05d52-c4d6-4dfa-85ab-9bc5bf295529"
+    }
+  },
+  {
+    "uuid": "47dfc314-13b5-4579-981c-56d939f6f961",
+    "name": "Dhondvirnagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Manegaon.Dhondvirnagar.Dhondvirnagar",
+    "parent": {
+      "uuid": "b75056d6-56a1-48d5-a9cb-7e1713f7b09d"
+    }
+  },
+  {
+    "uuid": "41baf62b-cc35-4856-a157-d755deac2159",
+    "name": "Padwal mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Manegaon.Dhondvirnagar.Padwal mala",
+    "parent": {
+      "uuid": "b75056d6-56a1-48d5-a9cb-7e1713f7b09d"
+    }
+  },
+  {
+    "uuid": "d690468c-9329-4879-804c-41ea06a14458",
+    "name": "Gurewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Manegaon.Gurewadi.Gurewadi",
+    "parent": {
+      "uuid": "0861ff7c-9bef-49d4-94eb-7b9306ab2f27"
+    }
+  },
+  {
+    "uuid": "454ee380-3188-4258-bb89-cdc8f74d27ba",
+    "name": "Patole",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Patole.Patole.Patole",
+    "parent": {
+      "uuid": "accb9ba1-5d4b-45fc-ad15-89b149004086"
+    }
+  },
+  {
+    "uuid": "438421c7-dec6-49b0-84a8-c5b445585add",
+    "name": "Khatalewasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Patole.Patole.Khatalewasti",
+    "parent": {
+      "uuid": "accb9ba1-5d4b-45fc-ad15-89b149004086"
+    }
+  },
+  {
+    "uuid": "36378eca-1791-40e3-b3db-224c65d64a89",
+    "name": "Ramnagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Patole.Ramnagar.Ramnagar",
+    "parent": {
+      "uuid": "a28cb44f-3b39-413f-badc-32001d1efd26"
+    }
+  },
+  {
+    "uuid": "b5f2c829-d039-409a-b421-332d5136dae7",
+    "name": "Gonde",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Patole.Gonde.Gonde",
+    "parent": {
+      "uuid": "793af6cf-a51e-4000-82af-e281ab943ea7"
+    }
+  },
+  {
+    "uuid": "4fcbd5ad-1b00-4e57-a408-2951c260c3e6",
+    "name": "Shambhodev mala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Patole.Gonde.Shambhodev mala",
+    "parent": {
+      "uuid": "793af6cf-a51e-4000-82af-e281ab943ea7"
+    }
+  },
+  {
+    "uuid": "7823083e-f53c-4415-92a2-7475df63935e",
+    "name": "Khalwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Patole.Gonde.Khalwadi",
+    "parent": {
+      "uuid": "793af6cf-a51e-4000-82af-e281ab943ea7"
+    }
+  },
+  {
+    "uuid": "a9f82ed0-5e64-45ea-bd63-c1667e73a127",
+    "name": "Birobawadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Thangaon.Patole.Gonde.Birobawadi",
+    "parent": {
+      "uuid": "793af6cf-a51e-4000-82af-e281ab943ea7"
+    }
+  },
+  {
+    "uuid": "a55c6f0d-95da-45e3-b165-c15f827bcff8",
+    "name": "Nimonmla",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 1.Wavi.Nimonmla",
+    "parent": {
+      "uuid": "22abb1e8-0528-46ff-b881-094d9be4c4df"
+    }
+  },
+  {
+    "uuid": "50ab517d-05e4-4b2b-856b-e9c7b15f9e70",
+    "name": "Khlwadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 1.Wavi.Khlwadi",
+    "parent": {
+      "uuid": "22abb1e8-0528-46ff-b881-094d9be4c4df"
+    }
+  },
+  {
+    "uuid": "09b0c5d4-28c5-4afb-8571-045ea2a48ef8",
+    "name": "Andnager",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 1.Wavi.Andnager",
+    "parent": {
+      "uuid": "22abb1e8-0528-46ff-b881-094d9be4c4df"
+    }
+  },
+  {
+    "uuid": "78a267dc-c021-4b86-b2c5-c17439344aae",
+    "name": "Valmiknager",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 1.Wavi.Valmiknager",
+    "parent": {
+      "uuid": "22abb1e8-0528-46ff-b881-094d9be4c4df"
+    }
+  },
+  {
+    "uuid": "6953cd11-b0ad-439f-bb3d-9404a2ee4860",
+    "name": "Wavigaon",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 1.Wavi.Wavigaon",
+    "parent": {
+      "uuid": "22abb1e8-0528-46ff-b881-094d9be4c4df"
+    }
+  },
+  {
+    "uuid": "c782b4ea-1e1a-44a6-9ac0-8c94a51f7182",
+    "name": "Mitsageregaon",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 1.Mithsagare.Mitsageregaon",
+    "parent": {
+      "uuid": "b9b8f902-3394-456b-87f1-a3cdf3ec5398"
+    }
+  },
+  {
+    "uuid": "86e9feb1-4a47-4f5b-86b3-5759f5125864",
+    "name": "Mitsageremala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 1.Mithsagare.Mitsageremala",
+    "parent": {
+      "uuid": "b9b8f902-3394-456b-87f1-a3cdf3ec5398"
+    }
+  },
+  {
+    "uuid": "e723f3e2-f1a5-43c5-9740-548f3db5ee72",
+    "name": "Ashapuri",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 2.Ashapur.Ashapuri",
+    "parent": {
+      "uuid": "08be7747-65ce-4e64-b217-6f186526ff28"
+    }
+  },
+  {
+    "uuid": "6b9f752e-ebe0-41fb-8028-91696f8ed048",
+    "name": "Vllhewadi",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 2.Ashapur.Vllhewadi",
+    "parent": {
+      "uuid": "08be7747-65ce-4e64-b217-6f186526ff28"
+    }
+  },
+  {
+    "uuid": "32bcae7c-243a-40bf-b292-28c4fa02d349",
+    "name": "Shivajinagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 2.Shivajinagar.Shivajinagar",
+    "parent": {
+      "uuid": "802493af-b918-40c5-a5aa-0aff55725e25"
+    }
+  },
+  {
+    "uuid": "9d4b7f44-85b2-45d3-9354-523b35f4a809",
+    "name": "Fulenagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 2.Fulenagar.Fulenagar",
+    "parent": {
+      "uuid": "b8be3d5a-b332-41ec-b679-f19ec1dff7b0"
+    }
+  },
+  {
+    "uuid": "bf90ec75-5646-4837-b1b5-afaaf7ea230d",
+    "name": "Dushingpur",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 2.Dushingpur.Dushingpur",
+    "parent": {
+      "uuid": "8fb11896-cf42-4383-ae15-6dcffe9ec7db"
+    }
+  },
+  {
+    "uuid": "b87f6216-83d9-4230-8584-eb9add959b20",
+    "name": "Mldhone",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Wavi 2.Dushingpur.Mldhone",
+    "parent": {
+      "uuid": "8fb11896-cf42-4383-ae15-6dcffe9ec7db"
+    }
+  },
+  {
+    "uuid": "baba48ef-e197-43a7-9ede-3d8f3b07e8e3",
+    "name": "Pathare Bk.",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pathare Bk..Pathare Bk..Pathare Bk.",
+    "parent": {
+      "uuid": "80de6f33-34b0-401d-a396-7f499e7c29b9"
+    }
+  },
+  {
+    "uuid": "791631f9-2b51-4d23-9e73-e26df66cd4cc",
+    "name": "Nrodewasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pathare Bk..Pathare Bk..Nrodewasti",
+    "parent": {
+      "uuid": "80de6f33-34b0-401d-a396-7f499e7c29b9"
+    }
+  },
+  {
+    "uuid": "17d41b61-e07e-448a-b721-afc2e8e11e55",
+    "name": "Pathregoan",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pathare Bk..Pathare Kh..Pathregoan",
+    "parent": {
+      "uuid": "9d1e5c52-7a06-4bfa-9a2d-2bde077f98db"
+    }
+  },
+  {
+    "uuid": "44db659b-48b4-4c54-9297-2a135f10ab16",
+    "name": "Kadamvasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pathare Bk..Pathare Kh..Kadamvasti",
+    "parent": {
+      "uuid": "9d1e5c52-7a06-4bfa-9a2d-2bde077f98db"
+    }
+  },
+  {
+    "uuid": "c48d27a5-8cd5-4ccd-88b7-04b9c4575364",
+    "name": "Dighewasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pathare Bk..Pathare Kh..Dighewasti",
+    "parent": {
+      "uuid": "9d1e5c52-7a06-4bfa-9a2d-2bde077f98db"
+    }
+  },
+  {
+    "uuid": "97db948d-f624-464b-a0ea-c52d13ab8de0",
+    "name": "Waregaon",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pathare Bk..Waregaon.Waregaon",
+    "parent": {
+      "uuid": "8c98e39d-d295-499c-8f6a-d9b0618ec29d"
+    }
+  },
+  {
+    "uuid": "75e5b693-ec23-434f-95a7-3264dad04bdb",
+    "name": "Sayale 1",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pathare Bk..Sayale.Sayale 1",
+    "parent": {
+      "uuid": "8fe5bd4f-10ca-467b-9423-4f8ed48a9113"
+    }
+  },
+  {
+    "uuid": "8230ede3-bec1-4075-a913-3e7465941f71",
+    "name": "Sayale 2",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pathare Bk..Sayale.Sayale 2",
+    "parent": {
+      "uuid": "8fe5bd4f-10ca-467b-9423-4f8ed48a9113"
+    }
+  },
+  {
+    "uuid": "b5bc5271-33ef-480d-86e6-fe6e23740511",
+    "name": "Mirgaon",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Mirgaon.Mirgaon.Mirgaon",
+    "parent": {
+      "uuid": "d4470519-cd64-411d-b4a3-cf14d50ccb2d"
+    }
+  },
+  {
+    "uuid": "a7ebd022-ddcb-4248-8f35-cbedaad705fc",
+    "name": "Kolgaonmala",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Mirgaon.Kolgaonmala.Kolgaonmala",
+    "parent": {
+      "uuid": "5a571d0b-b52b-4946-986d-8b64ef9dd5de"
+    }
+  },
+  {
+    "uuid": "546df694-e98e-4a14-b2d9-8e1206266848",
+    "name": "Kolgaonbangla",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Mirgaon.Kolgaonmala.Kolgaonbangla",
+    "parent": {
+      "uuid": "5a571d0b-b52b-4946-986d-8b64ef9dd5de"
+    }
+  },
+  {
+    "uuid": "f4173fb0-f529-4124-bfb6-a5e0495c1f72",
+    "name": "Yashwantnagar",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Mirgaon.Yashwantnagar.Yashwantnagar",
+    "parent": {
+      "uuid": "ff159b0e-13ef-4492-b730-c71b9b0e4250"
+    }
+  },
+  {
+    "uuid": "b5a21043-b3fe-4d4d-bf77-98e084332d98",
+    "name": "Pangari Bk",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pangari Bk..Pangari Bk..Pangari Bk",
+    "parent": {
+      "uuid": "a0048a76-6e9f-493b-a7f4-6763361a6070"
+    }
+  },
+  {
+    "uuid": "8f869b0d-5a43-4e13-9860-a3f6d24970e5",
+    "name": "Devpurrod",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pangari Bk..Pangari Bk..Devpurrod",
+    "parent": {
+      "uuid": "a0048a76-6e9f-493b-a7f4-6763361a6070"
+    }
+  },
+  {
+    "uuid": "6ba13403-4748-422d-98b0-ea9e4311118a",
+    "name": "Nirgudegalli",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pangari Bk..Pangari Bk..Nirgudegalli",
+    "parent": {
+      "uuid": "a0048a76-6e9f-493b-a7f4-6763361a6070"
+    }
+  },
+  {
+    "uuid": "6b2e3a44-4947-4037-b499-efd08d3aa058",
+    "name": "Pangari Kh.",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pangari Bk..Pangari Kh..Pangari Kh.",
+    "parent": {
+      "uuid": "dea910eb-ad08-4daa-bd9b-683b42cde1e9"
+    }
+  },
+  {
+    "uuid": "d4fe14ac-a249-4f57-9410-97ce8adfbd1e",
+    "name": "Bhokani",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Pangari Bk..Bhokani.Bhokani",
+    "parent": {
+      "uuid": "ae39f2c3-b956-476a-a05d-b4a65ca2b41a"
+    }
+  },
+  {
+    "uuid": "45e498e4-c840-4218-a5e4-c3e75bee33a0",
+    "name": "Mhskewasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Marhal Bk..Marhal Bk..Mhskewasti",
+    "parent": {
+      "uuid": "793f0572-8585-423a-9a0f-88ba1caf3937"
+    }
+  },
+  {
+    "uuid": "bc4a1f80-8a94-4f60-970f-ba6bc1000e5e",
+    "name": "Andnager",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Marhal Bk..Marhal Bk..Andnager",
+    "parent": {
+      "uuid": "793f0572-8585-423a-9a0f-88ba1caf3937"
+    }
+  },
+  {
+    "uuid": "f85c8231-30fb-4ece-9a43-4c8767d4ff1a",
+    "name": "Marhai Bk",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Marhal Bk..Marhal Bk..Marhai Bk",
+    "parent": {
+      "uuid": "793f0572-8585-423a-9a0f-88ba1caf3937"
+    }
+  },
+  {
+    "uuid": "d1a5e6c7-6418-41be-9e27-ac53a78544e4",
+    "name": "Marhal Kh.",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Marhal Bk..Marhal Kh..Marhal Kh.",
+    "parent": {
+      "uuid": "f82a8f9d-2367-4963-a62a-399ff0bed9c4"
+    }
+  },
+  {
+    "uuid": "d087b218-5b2c-4aeb-8667-4bf94d9b25b7",
+    "name": "Gulabpur",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Marhal Bk..Gulabpur.Gulabpur",
+    "parent": {
+      "uuid": "739d942b-d217-443a-9a91-4ef13d5ac9f4"
+    }
+  },
+  {
+    "uuid": "984e6154-76e5-419a-886c-f112edc04609",
+    "name": "Suregaon",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Marhal Bk..Suregaon.Suregaon",
+    "parent": {
+      "uuid": "5c6e7f2f-5082-4f4a-8997-e476d7ebeb27"
+    }
+  },
+  {
+    "uuid": "d7697b6f-0ecb-4f49-85c1-832b18d3c6f7",
+    "name": "Nirhale",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Marhal Bk..Nirhale.Nirhale",
+    "parent": {
+      "uuid": "511a19ce-c740-4eaf-9c6f-67f354d85085"
+    }
+  },
+  {
+    "uuid": "dc7f1a13-a9cd-4895-85cd-01d512e1e1d7",
+    "name": "Fattepur",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Marhal Bk..Fattepur.Fattepur",
+    "parent": {
+      "uuid": "78d8425e-c620-4af7-b6cf-6c7638a28772"
+    }
+  },
+  {
+    "uuid": "36c899da-078a-409d-9d50-9ca096289029",
+    "name": "Jadhvvasti",
+    "type": "wadi",
+    "level": 0.9,
+    "nameLineage": "Sinnar.Wavi.Marhal Bk..Fattepur.Jadhvvasti",
+    "parent": {
+      "uuid": "78d8425e-c620-4af7-b6cf-6c7638a28772"
+    }
+  }
+]

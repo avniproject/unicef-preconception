@@ -38,7 +38,11 @@ module.exports = IDI.configure({
             "./exit/exitFormConcepts.json"
         ],
         "locations": [
-            "./locations.json",
+            "locations/blocks.json",
+            "locations/phcs.json",
+            "locations/subcenters.json",
+            "locations/villages.json",
+            "locations/wadis.json",
         ],
         "programs": ["./programs.json"],
         "encounterTypes": ["./encounterTypes.json"],
