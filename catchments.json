@@ -1,18 +1,20 @@
 {
-    "organisation": "UNICEF Preconception Nashik",
-    "catchments": [
-      {
-        "name": "1",
-        "uuid": "145e5bc0-150c-486e-95b7-061e0266d5b6",
-        "type": "Area",
-        "locations": [
+  "organisation": "UNICEF Preconception Nashik",
+  "catchments": [
+    {
+      "name": "1",
+      "uuid": "145e5bc0-150c-486e-95b7-061e0266d5b6",
+      "type": "Area",
+      "locations": [
         {
-          "uuid": "fae64c9f-93db-4b68-b2e2-9209160a5ec1",
-          "comment": "Sinur"
+          "uuid": "f7a614af-fc2a-45c9-84e8-9d7042cc2368",
+          "comment": "Peint"
+        },
+        {
+          "uuid": "a651191d-623a-4312-b783-882c1e146355",
+          "comment": "Sinnar"
         }
       ]
-      }
-    ]
-
+    }
+  ]
 }
-  
