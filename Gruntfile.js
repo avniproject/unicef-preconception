@@ -3,9 +3,7 @@ const IDI = require('openchs-idi');
 const secrets = require('../secrets.json');
 
 module.exports = IDI.configure({
-    "name": "unicef",
     "chs-admin": "admin",
-    "org-name": "UNICEF",
     "org-admin": "admin@unicef",
     "secrets": secrets,
     "files": {
