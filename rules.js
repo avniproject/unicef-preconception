@@ -7,5 +7,6 @@ module.exports = _.merge({},
     require('./monthlyMonitoring/MonthlyMonitoringHandler'),
     require('./outcome/OutcomeFormHandler'),
     require('./exit/ExitFormHandler'),
-    require('./cancel/PreconceptionCancelFormHandler')
+    require('./cancel/PreconceptionCancelFormHandler'),
+    require('./shared/visitScheduler'),
 );

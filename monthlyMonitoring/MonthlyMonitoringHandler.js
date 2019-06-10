@@ -264,42 +264,16 @@ class MonthlyMonitoringHandler {
             .or.whenItem(this.getObservationValueFromEntireEnrolment(programEncounter,"VDRL test Result")).containsAnyAnswerConceptName("Positive")
             .or.whenItem(this.getObservationValueFromEntireEnrolment(programEncounter,"RTI Symptoms")).is.yes
             .or.whenItem(this.getObservationValueFromEntireEnrolment(programEncounter,"TSH")).is.greaterThan(10)
-            .or.whenItem(this.getObservationValueFromEntireEnrolment(programEncounter,"Any other illness")).is.yes;    
-            // .or.whenItem(this.getObservationValueFromEntireEnrolment(programEncounter,"Blood group")).containsAnyAnswerConceptName("AB-", "O-", "A-", "B-")
-            // .and.whenItem(this.getObservationValueFromEntireEnrolment(programEncounter,"Husband blood group"))
-            // .containsAnyAnswerConceptName("AB+", "O+", "A+", "B+");    
-         return statusBuilder.build();
+            .or.whenItem(this.getObservationValueFromEntireEnrolment(programEncounter,"Any other illness")).is.yes;
+        // .or.whenItem(this.getObservationValueFromEntireEnrolment(programEncounter,"Blood group")).containsAnyAnswerConceptName("AB-", "O-", "A-", "B-")
+        // .and.whenItem(this.getObservationValueFromEntireEnrolment(programEncounter,"Husband blood group"))
+        // .containsAnyAnswerConceptName("AB+", "O+", "A+", "B+");
+        return statusBuilder.build();
     }
 
 
 }
 
-
-const NextMonthlyVisitRule = RuleFactory("3462178e-94e5-43d9-bc17-6cddad05c265", "VisitSchedule");
-
-@NextMonthlyVisitRule("170329a6-80be-44d3-bfc8-eaff182752ef", "NextMonthlyFollowupVisits", 10.0)
-class NextMonthlyFollowupVisits {
-    static exec(programEncounter, visitSchedule = [], scheduleConfig) {
-        // let scheduleBuilder = RuleHelper.createProgramEncounterVisitScheduleBuilder(programEncounter, visitSchedule);
-        // let followupDate = programEncounter.getObservationReadableValue('Next monthly Visit Date');
-        // let visitNumber ,currentVisitNumber = 1;
-        // 
-        // // = fetchVisitNumber(followupDate,1);//currentVisitNumber
-
-        // if(followupDate.getMonth() == moment(programEncounter.encounterDateTime).getMonth())
-        //     visitNumber = currentVisitNumber;
-        // else 
-        //     visitNumber =  currentVisitNumber +1;
-
-        // let visitName = 'Monthly Visit '+visitNumber;
-       
-        // if(!visitNumber> 24  &&  !_.isNil(followupDate)) {
-        //     RuleHelper.addSchedule(scheduleBuilder, visitName, 'Monthly Monitoring', followupDate, 0);
-        // }
-        // return scheduleBuilder.getAllUnique("encounterType");
-    }
-
-    
+export {
+    MonthlyMonitoringHandler
 }
-
-module.exports = {MonthlyMonitoringHandler,NextMonthlyFollowupVisits};
