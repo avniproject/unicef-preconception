@@ -191,7 +191,7 @@ class MonthlyMonitoringHandler {
 
      @WithStatusBuilder
      nextMonthlyVisitDate([], statusBuilder) {
-         statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
+         statusBuilder.show().when.not.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
       }
 
     @WithStatusBuilder
