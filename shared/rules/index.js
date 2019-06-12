@@ -9,4 +9,5 @@ module.exports = _.merge({},
     require('../../exit/ExitFormHandler'),
     require('../../cancel/PreconceptionCancelFormHandler'),
     require('./visitScheduler'),
+    require('../../baseline/programSummary'),
 );
