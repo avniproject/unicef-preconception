@@ -21,10 +21,10 @@ module.exports = IDI.configure({
             "./cancel/preconceptionCancelForm.json",
             "./exit/exitForm.json"
         ],
-        "formMappings": ["./formMappings.json"],
+        "formMappings": ["./shared/formMappings.json"],
         "formDeletions": [],
         "formAdditions": [],
-        "catchments": ["./catchments.json"],
+        "catchments": ["./shared/catchments.json"],
         "checklistDetails": [],
         "concepts": [
             "./registration/registrationConcepts.json",
@@ -42,20 +42,18 @@ module.exports = IDI.configure({
             "locations/villages.json",
             "locations/wadis.json",
         ],
-        "programs": ["./programs.json"],
-        "encounterTypes": ["./encounterTypes.json"],
+        "programs": ["./shared/programs.json"],
+        "encounterTypes": ["./shared/encounterTypes.json"],
         "operationalEncounterTypes": ["./operationalModules/operationalEncounterTypes.json"],
         "operationalPrograms": ["./operationalModules/operationalPrograms.json"],
-        "operationalSubjectTypes": ["operationalSubjectTypes.json"],
+        "operationalSubjectTypes": ["./operationalModules/operationalSubjectTypes.json"],
         "users": {
             "dev": ["./users/dev-users.json"],
             "staging": ["./users/staging-users.json"],
         },
         "rules": [
-            "./rules.js",
+            "./shared/rules.js",
         ],
-        "organisationSql": [
-            /* "create_organisation.sql"*/
-        ]
+        "organisationSql": [],
     }
 }, rulesConfigInfra);

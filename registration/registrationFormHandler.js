@@ -1,11 +1,10 @@
-import lib from '../lib';
-const _ = require("lodash");
 import {
     StatusBuilderAnnotationFactory, 
     RuleFactory,  
     FormElementsStatusHelper,
     complicationsBuilder as ComplicationsBuilder
 } from 'rules-config/rules';
+import lib from '../shared/lib';
 
 const WithRegistrationStatusBuilder = StatusBuilderAnnotationFactory('individual', 'formElement');
 const RegistrationViewFilter = RuleFactory("173abccc-2c3e-451e-a77e-524b28c4a224", "ViewFilter");

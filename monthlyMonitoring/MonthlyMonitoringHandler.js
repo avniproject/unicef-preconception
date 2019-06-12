@@ -3,8 +3,7 @@ import {
     RuleFactory,  
     FormElementsStatusHelper
 } from 'rules-config/rules';
-import moment from 'moment';
-const RuleHelper = require('../general/RuleHelper');
+import RuleHelper from "../shared/RuleHelper";
 
 const filter = RuleFactory('3462178e-94e5-43d9-bc17-6cddad05c265', 'ViewFilter');
 const WithStatusBuilder = StatusBuilderAnnotationFactory('programEncounter', 'formElement');

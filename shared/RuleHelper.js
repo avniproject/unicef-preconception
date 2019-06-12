@@ -1,6 +1,6 @@
 import {FormElementStatusBuilder, FormElementStatus, VisitScheduleBuilder} from 'rules-config/rules';
-import lib from '../lib';
 import moment from 'moment';
+import lib from './lib';
 
 const addSchedule = (builder, visitSchedule) => {
     if (moment().isSameOrBefore(visitSchedule.maxDate, 'day')) {

@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import moment from 'moment';
 import {RuleFactory} from 'rules-config/rules';
-import RuleHelper from "../general/RuleHelper";
+import RuleHelper from "./RuleHelper";
 
 const visit1Date = ({programEnrolment}) => {
     return moment(programEnrolment.enrolmentDateTime).startOf('month').add(2, 'months').toDate();

@@ -4,8 +4,7 @@ import {
     FormElementsStatusHelper,
     complicationsBuilder as ComplicationsBuilder
 } from 'rules-config/rules';
-import lib from '../lib';
-const RuleHelper = require('../general/RuleHelper');
+import RuleHelper from "../shared/RuleHelper";
 
 const filter = RuleFactory('6d83cdef-02dc-4f9f-bc8a-9e3375fb2ded', 'ViewFilter');
 const WithStatusBuilder = StatusBuilderAnnotationFactory('programEnrolment', 'formElement');

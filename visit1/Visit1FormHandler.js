@@ -4,8 +4,7 @@ import {
     FormElementsStatusHelper,
     complicationsBuilder as ComplicationsBuilder
 } from 'rules-config/rules';
-
-const RuleHelper = require('../general/RuleHelper');
+import RuleHelper from "../shared/RuleHelper";
 
 const filter = RuleFactory('744f0d21-267f-4705-a0a8-32a78e513c03', 'ViewFilter');
 const visit1Decision = RuleFactory("744f0d21-267f-4705-a0a8-32a78e513c03", "Decision");
