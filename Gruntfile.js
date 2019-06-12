@@ -52,7 +52,7 @@ module.exports = IDI.configure({
             "staging": ["./users/staging-users.json"],
         },
         "rules": [
-            "./shared/rules.js",
+            "./shared/rules/index.js",
         ],
         "organisationSql": [],
     }

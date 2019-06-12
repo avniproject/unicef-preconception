@@ -24,6 +24,6 @@
     "openchs-health-modules": "0.0.2",
     "openchs-idi": "github:openchs/openchs-idi#a05bfbd6acf55bcc878023e154c96d9ac72e61d9",
     "openchs-models": "0.0.2",
-    "rules-config": "github:openchs/rules-config#68b0da32c98fb599d19b7266f78a2ec3eb10e29c"
+    "rules-config": "github:openchs/rules-config#1a917a43b68d998783a70ef026be11f2d700efe8"
   }
 }

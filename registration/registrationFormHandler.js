@@ -4,7 +4,7 @@ import {
     FormElementsStatusHelper,
     complicationsBuilder as ComplicationsBuilder
 } from 'rules-config/rules';
-import lib from '../shared/lib';
+import lib from '../shared/rules/lib';
 
 const WithRegistrationStatusBuilder = StatusBuilderAnnotationFactory('individual', 'formElement');
 const RegistrationViewFilter = RuleFactory("173abccc-2c3e-451e-a77e-524b28c4a224", "ViewFilter");
