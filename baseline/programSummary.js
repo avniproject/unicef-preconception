@@ -1,9 +1,9 @@
-import {ProgramRule} from 'rules-config/rules';
-import _ from 'lodash';
+import {complicationsBuilder as ComplicationsBuilder, ProgramRule} from 'rules-config/rules';
 
-const LOW_BMI = '1faa1253-e4dd-48f1-aea2-c231390f9530';
-const HIGH_BMI = 'f58ed8eb-1873-4cea-aab2-09cb8b48ada2';
-const isBMI = uuid => [LOW_BMI, HIGH_BMI].includes(uuid);
+const has = 'containsAnyAnswerConceptName',
+    inEnrolment = 'valueInEnrolment',
+    latest = 'latestValueInAllEncounters',
+    inEntireEnrolment = 'valueInEntireEnrolment';
 
 @ProgramRule({
     name: 'Preconception program summary',
@@ -13,23 +13,57 @@ const isBMI = uuid => [LOW_BMI, HIGH_BMI].includes(uuid);
     metadata: {}
 })
 class ProgramSummary {
-    static ifBMIKeepLatest(risk, index, allRisks) {
-        return !isBMI(risk) || index === _.findLastIndex(allRisks, isBMI);
-    }
+    static getHighRisks(programEnrolment) {
+        const builder = new ComplicationsBuilder({
+            programEnrolment: programEnrolment,
+            individual: programEnrolment.individual,
+            complicationsConcept: 'High Risk Conditions'
+        });
 
-    static getHighRisks(programEnrolment, today) {
-        let vals = _([programEnrolment])
-            .concat(_.sortBy(programEnrolment.nonVoidedEncounters(), 'encounterDateTime'))
-            .map(it =>
-                _.concat([],
-                    it.getObservationValue("High Risk Mother"),
-                    it.getObservationValue("High Risk Woman"),
-                    it.getObservationValue("High Risk Conditions")))
-            .flatten()
-            .reject(_.isNil)
-            .filter(ProgramSummary.ifBMIKeepLatest)
-            .value();
-        return {};//name: 'High Risk Conditions', value: vals
+        const add = builder.addComplication.bind(builder);
+
+        add("Age < 20").when.ageInYears.is.lessThan(20);
+
+        add("Parity is 0 & age> 35").when[inEnrolment]("Parity").lessThan(1).and.when.ageInMonths.greaterThan(35);
+
+        add("Low BMI").when[latest]("BMI").lessThan(18.5);
+
+        add("High BMI").when[latest]("BMI").greaterThan(25);
+
+        add('Tobacco consumption').when[inEnrolment]('Tobacco consumption')[has]("Yes");
+
+        add('Alcohol consumption').when[inEnrolment]('Alcohol consumption')[has]("Yes");
+
+        add('Low Calorie intake').when[inEnrolment]('Calorie % RDA').lessThan(70);
+
+        add('Low Protein intake').when[inEnrolment]('Protein % RDA').lessThan(70);
+
+        add("Haemoglobin < 12").when[latest]("Preconception Hb").lessThan(12);
+
+        add("Rh Negative Blood Group").when[inEntireEnrolment]("Blood group")[has]("AB-", "O-", "A-", "B-")
+            .and.when[inEntireEnrolment]("Husband blood group")[has]("AB+", "O+", "A+", "B+");
+
+        add("Suffering from hypertension").when[inEntireEnrolment]("Preconception hypertension").is.yes;
+
+        add("Diabetes").when[inEntireEnrolment]("Preconception blood sugar ogt")[has]("Positive");
+
+        add('Sickle cell anaemia positive').when[inEntireEnrolment]('Sickle cell anaemia solubility test')[has]("Positive");
+
+        add('Sickle cell anaemia electrophoresis positive').when[inEntireEnrolment]('Sickle cell anaemia electrophoresis')[has]("Positive");
+
+        add('HIV positive').when[inEntireEnrolment]('HIV')[has]("Positive");
+
+        add('VDRL test Result positive').when[inEntireEnrolment]('VDRL test Result')[has]("Positive");
+
+        add('RTI Symptoms positive').when[latest]('RTI Symptoms')[has]("Positive");
+
+        add("TSH > 12").when[inEntireEnrolment]("TSH").greaterThan(12);
+
+        add('Other illness').when[latest]('Any other illness')[has]("Yes");
+
+        const complications = builder.getComplications();
+        complications.abnormal = true;
+        return complications;
     }
 
     static exec(programEnrolment, summaries, context, today) {
