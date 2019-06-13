@@ -1,6 +1,6 @@
 [
   {
-    "name":"Preconception Hb",
+    "name": "Preconception Hb",
     "uuid": "470551a0-69ad-49ef-81fd-663c13c1004e",
     "dataType": "Numeric",
     "lowAbsolute": 3,
@@ -41,7 +41,7 @@
     "highNormal": 200,
     "unit": "mm Hg"
   },
-   {
+  {
     "name": "Iron and folic acid",
     "uuid": "8d91a9a1-0f69-46c1-99e8-6510caad9d8f",
     "dataType": "Coded",
@@ -55,7 +55,7 @@
         "name": "No/ Not Given"
       },
       {
-        "uuid":"4d476011-7fc4-432b-98c0-9f6f1847cf39"
+        "uuid": "4d476011-7fc4-432b-98c0-9f6f1847cf39"
       }
     ]
   },
@@ -73,7 +73,7 @@
         "name": "No/ Not Given"
       },
       {
-        "uuid":"4d476011-7fc4-432b-98c0-9f6f1847cf39"
+        "uuid": "4d476011-7fc4-432b-98c0-9f6f1847cf39"
       }
     ]
   },
@@ -186,8 +186,8 @@
         "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
       }
     ]
-  },  
-   {
+  },
+  {
     "name": "Preconception blood sugar ogt",
     "uuid": "6ca0b2f7-1221-4ad6-a62d-64519894ae38",
     "dataType": "Coded",
@@ -200,7 +200,7 @@
       }
     ]
   },
-   {
+  {
     "name": "Diabetes treatment",
     "uuid": "e90bfb6e-b1cd-429e-a508-42f6f1834aa6",
     "dataType": "Coded",
@@ -386,10 +386,10 @@
     "uuid": "1a512b73-3c11-4a4e-8c6c-fb6f625121f2",
     "dataType": "Numeric",
     "lowNormal": 0.00,
-    "lowAbsolute" : 0.00,
-    "highAbsolute" : 50.00,
+    "lowAbsolute": 0.00,
+    "highAbsolute": 50.00,
     "highNormal": 50.00,
-    "abnormal":false
+    "abnormal": false
   },
   {
     "name": "TSH treatment",
@@ -499,6 +499,10 @@
     "name": "Sickle cell anaemia positive"
   },
   {
+    "uuid": "c48463e4-185a-42bd-ae43-bad962bf1aef",
+    "name": "Sickle cell anaemia electrophoresis positive"
+  },
+  {
     "uuid": "54988fda-f5bb-4919-8deb-1665a1557b63",
     "name": "HIV positive"
   },
@@ -509,11 +513,11 @@
   {
     "name": "RTI Symptoms positive",
     "uuid": "7265348b-218f-44f9-82c3-0e2d69f7169f"
-    },
-    {
+  },
+  {
     "name": "RTI Symptoms for Husband positive",
-    "uuid": "ce83ceaa-548c-4790-bd91-81b2d87861fd"   
-    },
+    "uuid": "ce83ceaa-548c-4790-bd91-81b2d87861fd"
+  },
   {
     "uuid": "616a35fd-255d-4f84-9430-6e3b18e3265e",
     "name": "VDRL test Result positive"
@@ -535,78 +539,81 @@
     "name": "High Risk Woman",
     "dataType": "Coded",
     "answers": [
-        {
-          "name": "Low BMI",
-          "uuid": "1faa1253-e4dd-48f1-aea2-c231390f9530",
-          "abnormal": true
-        },
-        {
-          "name": "High BMI",
-          "uuid": "f58ed8eb-1873-4cea-aab2-09cb8b48ada2",
-          "abnormal": true
-        },
-        {
-          "uuid": "7d286df0-5d52-461e-b2c1-c2ebe7b7e296",
-          "name": "Haemoglobin < 12",
-          "abnormal": true
-        },
-        {
-          "uuid": "77a50b5d-74c2-456a-9e59-a1809f67e789",
-          "name": "Suffering from hypertension",
-          "abnormal": true
-        },
-        {
-          "uuid": "0c3353c3-f4c9-4028-9cd0-bde9a317927b",
-          "name": "Rh Negative Blood Group",
-          "abnormal": true
-        },
-        {
-          "uuid": "dc4f771b-6dca-4fbd-a29a-0421ddda27c8",
-          "name": "Sickle cell anaemia positive",
-          "abnormal": true
-        },
-        {
-          "uuid": "54988fda-f5bb-4919-8deb-1665a1557b63",
-          "name": "HIV positive",
-          "abnormal": true
-        },
-        {
-          "uuid": "192ca80d-eac4-49b1-ad35-8f5a51622b51",
-          "name": "Husband's HIV positive",
-          "abnormal": true
-        },
-        {
-          "uuid": "616a35fd-255d-4f84-9430-6e3b18e3265e",
-          "name": "VDRL test Result positive",
-          "abnormal": true
-        },
-        {
-          "uuid": "c2824b0b-e398-4465-ac08-e173872eb8f2",
-          "name": "Husband's VDRL positive",
-          "abnormal": true
-        },
-        {
+      {
+        "name": "Low BMI",
+        "uuid": "1faa1253-e4dd-48f1-aea2-c231390f9530",
+        "abnormal": true
+      },
+      {
+        "name": "High BMI",
+        "uuid": "f58ed8eb-1873-4cea-aab2-09cb8b48ada2",
+        "abnormal": true
+      },
+      {
+        "uuid": "7d286df0-5d52-461e-b2c1-c2ebe7b7e296",
+        "name": "Haemoglobin < 12",
+        "abnormal": true
+      },
+      {
+        "uuid": "77a50b5d-74c2-456a-9e59-a1809f67e789",
+        "name": "Suffering from hypertension",
+        "abnormal": true
+      },
+      {
+        "uuid": "0c3353c3-f4c9-4028-9cd0-bde9a317927b",
+        "name": "Rh Negative Blood Group",
+        "abnormal": true
+      },
+      {
+        "uuid": "dc4f771b-6dca-4fbd-a29a-0421ddda27c8",
+        "name": "Sickle cell anaemia positive",
+        "abnormal": true
+      },
+      {
+        "uuid": "c48463e4-185a-42bd-ae43-bad962bf1aef",
+        "name": "Sickle cell anaemia electrophoresis positive",
+        "abnormal": true
+      },
+      {
+        "uuid": "54988fda-f5bb-4919-8deb-1665a1557b63",
+        "name": "HIV positive",
+        "abnormal": true
+      },
+      {
+        "uuid": "192ca80d-eac4-49b1-ad35-8f5a51622b51",
+        "name": "Husband's HIV positive",
+        "abnormal": true
+      },
+      {
+        "uuid": "616a35fd-255d-4f84-9430-6e3b18e3265e",
+        "name": "VDRL test Result positive",
+        "abnormal": true
+      },
+      {
+        "uuid": "c2824b0b-e398-4465-ac08-e173872eb8f2",
+        "name": "Husband's VDRL positive",
+        "abnormal": true
+      },
+      {
         "name": "RTI Symptoms positive",
         "uuid": "7265348b-218f-44f9-82c3-0e2d69f7169f",
         "abnormal": true
-        },
-        {
+      },
+      {
         "name": "RTI Symptoms for Husband positive",
         "uuid": "ce83ceaa-548c-4790-bd91-81b2d87861fd",
         "abnormal": true
-        },
-        {
-          "uuid": "28c393fa-64bb-47bd-9a09-36c6f687309b",
-          "name": "TSH > 12",
-          "abnormal": true
-        },
-        {
-          "uuid": "3a2bb599-c2bf-4412-ab58-ad9ab28b5fbc",
-          "name": "Other illness",
-          "abnormal": true
-        }
-      
-      ]   
+      },
+      {
+        "uuid": "28c393fa-64bb-47bd-9a09-36c6f687309b",
+        "name": "TSH > 12",
+        "abnormal": true
+      },
+      {
+        "uuid": "3a2bb599-c2bf-4412-ab58-ad9ab28b5fbc",
+        "name": "Other illness",
+        "abnormal": true
+      }
+    ]
   }
-
 ]
