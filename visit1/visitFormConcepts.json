@@ -335,10 +335,10 @@
     "dataType": "Coded",
     "answers": [
       {
-        "uuid": "479cd95a-54ef-4818-b84a-09b478fc68b8"
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
       },
       {
-        "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
       }
     ]
   },
@@ -361,10 +361,10 @@
     "dataType": "Coded",
     "answers": [
       {
-        "uuid": "479cd95a-54ef-4818-b84a-09b478fc68b8"
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
       },
       {
-        "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
       }
     ]
   },
@@ -604,8 +604,12 @@
           "uuid": "3a2bb599-c2bf-4412-ab58-ad9ab28b5fbc",
           "name": "Other illness",
           "abnormal": true
-        }
-      
+        },
+        {
+          "uuid": "674f348f-5075-4c85-8bc2-9edfdee27505",
+          "name": "Diabetes",
+          "abnormal": true
+        }      
       ]   
   }
 

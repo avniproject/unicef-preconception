@@ -110,19 +110,19 @@ class Visit1FormHandler {
     @WithStatusBuilder
     rtiTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("RTI Symptoms")
-        .containsAnyAnswerConceptName("Positive");
+        .containsAnyAnswerConceptName("Yes");
     }
 
     @WithStatusBuilder
     rtiSymptomsForHusband([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("RTI Symptoms")
-        .containsAnyAnswerConceptName("Positive");
+        .containsAnyAnswerConceptName("Yes");
     }
 
     @WithStatusBuilder
     rtiTreatmentForHusband([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("RTI Symptoms for Husband")
-        .containsAnyAnswerConceptName("Positive");
+        .containsAnyAnswerConceptName("Yes");
     }
 
     @WithStatusBuilder
@@ -137,7 +137,7 @@ class Visit1FormHandler {
 
     @WithStatusBuilder
     ifAnyOtherIllnessSpecify([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
+        statusBuilder.show().when.valueInEncounter("Any other illness").containsAnyAnswerConceptName("Yes");
     }
 
     @WithStatusBuilder
@@ -173,9 +173,9 @@ class Visit1FormHandler {
         .and.when.valueInEncounter("Husband blood group").containsAnyAnswerConceptName("AB+", "O+", "A+", "B+");
     }
    
-    @WithStatusBuilder
+    @WithStatusBuilder  
     preconceptionCounsellingForDiabetesTreatment([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter('HIV')
+        statusBuilder.show().when.valueInEncounter('Preconception blood sugar ogt')
         .containsAnyAnswerConceptName("Positive");
     }
     
@@ -201,13 +201,13 @@ class Visit1FormHandler {
     @WithStatusBuilder
     preconceptionCounsellingHerForRtiTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('RTI Symptoms')
-        .containsAnyAnswerConceptName("Positive");
+        .containsAnyAnswerConceptName("Yes");
     }
    
     @WithStatusBuilder
     preconceptionCounsellingHusbandForRtiTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('RTI Symptoms for Husband')
-        .containsAnyAnswerConceptName("Positive");
+        .containsAnyAnswerConceptName("Yes");
     }
     
     @WithStatusBuilder
@@ -269,11 +269,11 @@ class Visit1Decision {
             
         complicationsBuilder.addComplication('RTI Symptoms positive')
             .when.valueInEncounter('RTI Symptoms')
-            .containsAnyAnswerConceptName("Positive");
+            .containsAnyAnswerConceptName("Yes");
             
         complicationsBuilder.addComplication('RTI Symptoms for Husband positive')
             .when.valueInEncounter('RTI Symptoms for Husband')
-            .containsAnyAnswerConceptName("Positive");
+            .containsAnyAnswerConceptName("Yes");
 
         complicationsBuilder.addComplication("TSH > 12")
              .when.valueInEncounter("TSH").greaterThan(12);
@@ -281,6 +281,10 @@ class Visit1Decision {
         complicationsBuilder.addComplication('Other illness')
             .when.valueInEncounter('Any other illness')
             .containsAnyAnswerConceptName("Yes");
+
+        complicationsBuilder.addComplication('Diabetes')
+            .when.valueInEncounter('Preconception blood sugar ogt')
+            .containsAnyAnswerConceptName("Positive");
        
   
         return complicationsBuilder.getComplications();
