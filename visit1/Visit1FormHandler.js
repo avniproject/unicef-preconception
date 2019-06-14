@@ -137,7 +137,7 @@ class Visit1FormHandler {
 
     @WithStatusBuilder
     ifAnyOtherIllnessSpecify([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Any other illness").containsAnyAnswerConceptName("Yes");
+        statusBuilder.show().when.valueInEncounter("Any other illness").containsAnswerConceptName("Yes");
     }
 
     @WithStatusBuilder

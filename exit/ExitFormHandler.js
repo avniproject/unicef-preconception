@@ -5,13 +5,13 @@ import {
     FormElementStatusBuilder
 } from 'rules-config/rules';
 
-const ExitViewFilter = RuleFactory("c2efa6fd-32a4-49de-8d5a-c2bd3db43789", "ViewFilter");
+const PreconceptionExitViewFilter = RuleFactory("c2efa6fd-32a4-49de-8d5a-c2bd3db43789", "ViewFilter");
 
-@ExitViewFilter("8c6d6669-5a87-4539-bc2c-db200a54900c", "ExitFormHandler", 100.0, {})
-class ExitFormHandler {
+@PreconceptionExitViewFilter("8c6d6669-5a87-4539-bc2c-db200a54900c", "PreconceptionExitFormHandler", 100.0, {})
+class PreconceptionExitFormHandler {
     static exec(programEnrolment, formElementGroup, today) {
         return FormElementsStatusHelper
-        .getFormElementsStatuses(new ExitFormHandler(), programEnrolment, formElementGroup)
+        .getFormElementsStatuses(new PreconceptionExitFormHandler(), programEnrolment, formElementGroup)
     }
 
     _getStatusBuilder(programExit, formElement) {
@@ -43,4 +43,4 @@ class ExitFormHandler {
    
 }
 
-module.exports = {ExitFormHandler};
+module.exports = {PreconceptionExitFormHandler};

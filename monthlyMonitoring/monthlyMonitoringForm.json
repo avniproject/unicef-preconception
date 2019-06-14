@@ -18,7 +18,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 1,
-          "mandatory": false
+          "mandatory": true
         },
         {
           "name": "Cousel her to visit PHC/RH/CH for further investigations and treatment",
@@ -29,7 +29,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 2,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Diet advice to increase or increase weight respectively as per diet chart",
           "uuid": "d4336d75-5321-4bc1-a050-c30942c222e7",
@@ -39,7 +39,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 3,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her to quit tobacco consumption",
           "uuid": "db151e3f-494f-4219-970e-5167804da632",
@@ -49,7 +49,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 4,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her to quit alcohol consumption",
           "uuid": "5dea91d2-1b65-4583-bdd5-660f836b6db9",
@@ -59,7 +59,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 5,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her to increase whole cereals in diet",
           "uuid": "c2978ada-fa8c-48e1-aa95-61546f88396c",
@@ -69,7 +69,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 6,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her to increase proteins in diet",
           "uuid": "b556c207-1414-4976-9998-6518051bf6c0",
@@ -79,7 +79,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 7,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her for anaemia treatment",
           "uuid": "6cf01fd3-1a2e-4302-8a1d-86c1f7c4c921",
@@ -89,7 +89,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 8,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel woman to take Anti D injection",
           "uuid": "bd682d8d-6c44-4a27-b493-dbd01ff3469f",
@@ -99,7 +99,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 9,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her for hypertension treatment",
           "uuid": "816b7019-1055-49e1-b191-9381434072e4",
@@ -109,7 +109,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 10,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her for diabetes treatment",
           "uuid": "d4b738ce-c672-423c-a815-8f3c8dacd8fd",
@@ -119,7 +119,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 11,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her for sickle cell anaemia treatment",
           "uuid": "f4548eb4-c5f5-432a-bac6-e0dd2c47972b",
@@ -129,7 +129,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 12,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her for HIV treatment",
           "uuid": "c08819fb-cad5-45ca-b728-d80e81bfb64c",
@@ -139,7 +139,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 13,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her for VDRL infection treatment",
           "uuid": "4b242f15-e7f7-4c8d-a756-82448602d9d9",
@@ -149,7 +149,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 14,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her for RTI STI treatment",
           "uuid": "c13459dc-2f02-4126-8d7b-d61395fb86e2",
@@ -159,7 +159,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 15,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her for TSH treatment",
           "uuid": "94531384-8e43-49cc-ab94-aa266c57ab43",
@@ -169,7 +169,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 16,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counsel her for other illness treatment",
           "uuid": "fcf81023-a1d2-495c-b85f-e608fac7cfe9",
@@ -179,7 +179,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 17,
-          "mandatory": false
+          "mandatory": true
         },{
           "name": "Counselling of high risk factors",
           "uuid": "233129b1-e2a6-404a-8385-b9766b51682c",
@@ -328,12 +328,12 @@
           "mandatory": true
         },
         {
-          "name": "Specify",
+          "name": "If any other illness, specify",
           "uuid": "486b0696-540a-458f-bff2-25c25ef5d90a",
           "keyValues": [],
           "concept": {
-            "uuid": "d50896a7-b395-46c0-a976-f2b60fd645a6",
-            "name": "Specify"
+            "name": "If any other illness, specify",
+            "uuid": "69a49d42-4f23-4adb-85ab-7ca6f3c26056"
           },
           "displayOrder": 7,
           "mandatory": true

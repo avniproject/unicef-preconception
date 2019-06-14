@@ -57,14 +57,21 @@ class RuleHelper {
 
     static createBMIFormElementStatusEnrolment(height, weight, formElement) {
         let value;
-        // height = height && height.getValue();
         weight = weight && weight.getValue();
         if (Number.isFinite(weight) && Number.isFinite(height)) {
             value = lib.C.calculateBMI(weight, height);
         }
         return new FormElementStatus(formElement.uuid, true, value);
-    }
+    } 
 
+    static calculateBMIStatusBuiler(height, weight) {
+        let value;
+        weight = weight && weight.getValue();
+        if (Number.isFinite(weight) && Number.isFinite(height)) {
+            value = lib.C.calculateBMI(weight, height);
+        }
+        return value;
+    } 
 
     static createBMIFormElementStatus(height, weight, formElement) {
         let value;

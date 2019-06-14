@@ -119,9 +119,5 @@
     "uuid": "130f0152-a428-499f-b675-470faf7510a9",
     "name": "Next monthly Visit Date",
     "dataType": "Date"
-  },
-  {
-    "uuid": "d50896a7-b395-46c0-a976-f2b60fd645a6",
-    "name": "Specify"
   }
 ]
