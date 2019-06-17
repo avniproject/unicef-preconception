@@ -34,7 +34,7 @@ class Visit1FormHandler {
 
     @WithStatusBuilder
     folicAcid([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter('Preconception Hb').is.greaterThan(12);
+        statusBuilder.show().when.valueInEncounter('Preconception Hb').is.greaterThanOrEqualTo(12);
     }
 
     @WithStatusBuilder
