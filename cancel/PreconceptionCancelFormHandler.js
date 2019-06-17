@@ -1,5 +1,4 @@
 import { FormElementsStatusHelper, RuleFactory, StatusBuilderAnnotationFactory } from 'rules-config/rules';
-import _ from 'lodash';
 const filters = RuleFactory("52fe4628-ac8a-4d9a-aa96-967b3964be1c", "ViewFilter");
 const WithStatusBuilder = StatusBuilderAnnotationFactory('programEncounter', 'formElement');
 
@@ -11,8 +10,8 @@ class PreconceptionCancelFormHandler {
 
     @WithStatusBuilder    
     nextMonthlyVisitDate([], statusBuilder) {
-        statusBuilder.show().when.latestValueInPreviousEncounters("Last pregnancy outcome")
-        .containsAnyAnswerConceptName("Abortion","Still Birth");   
+        statusBuilder.show().when.valueInLastEncounter("Last pregnancy outcome",["Outcome"])
+        .not.containsAnswerConceptName("Live Birth");
     }
 }
 

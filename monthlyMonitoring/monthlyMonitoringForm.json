@@ -456,7 +456,7 @@
           "mandatory": true
         },
         {
-          "name": "Counsel her for other illness treatment",
+          "name": "Counsel for other illness treatment",
           "uuid": "4aee19c3-736c-4f9a-8ca8-91033e520b4e",
           "keyValues": [],
           "concept": {

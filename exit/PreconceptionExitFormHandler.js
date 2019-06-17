@@ -9,9 +9,9 @@ const PreconceptionExitViewFilter = RuleFactory("c2efa6fd-32a4-49de-8d5a-c2bd3db
 
 @PreconceptionExitViewFilter("8c6d6669-5a87-4539-bc2c-db200a54900c", "PreconceptionExitFormHandler", 100.0, {})
 class PreconceptionExitFormHandler {
-    static exec(programEnrolment, formElementGroup, today) {
+    static exec(programExit, formElementGroup, today) {
         return FormElementsStatusHelper
-        .getFormElementsStatuses(new PreconceptionExitFormHandler(), programEnrolment, formElementGroup)
+        .getFormElementsStatuses(new PreconceptionExitFormHandler(), programExit, formElementGroup)
     }
 
     _getStatusBuilder(programExit, formElement) {

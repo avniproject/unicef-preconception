@@ -12,6 +12,9 @@
       {
         "uuid": "797c7923-1993-49d9-b759-1706aae62ae9",
         "name": "Still Birth"
+      },
+      {
+        "uuid": "a032ffce-c9f5-46f8-b89d-f82d5e91fc45"
       }
     ]
   },
@@ -23,16 +26,6 @@
   {
     "uuid": "9f761154-38b0-426c-adf9-24fc99f6d5c8",
     "name": "Still Birth without Congenital Anomaly"
-  },
-  {
-    "name": "Last pregnancy outcome",
-    "uuid": "2d43aed4-4ede-4ef7-952c-07b3d6103588",
-    "dataType": "Coded",
-    "answers": [
-      {
-        "uuid": "a032ffce-c9f5-46f8-b89d-f82d5e91fc45"
-      }
-    ]
   },
   {
     "name": "Type of Still Birth",

@@ -13,10 +13,12 @@ const WithStatusBuilder = StatusBuilderAnnotationFactory('programEncounter', 'fo
 const visit1Date = ({programEnrolment}) => {
     return moment(programEnrolment.enrolmentDateTime).startOf('month').add(2, 'months').toDate();
 };
-const getVisitNumber  = (programEncounter) => {
+const getVisitNumber = (programEncounter) => {
    let getObservationReadableValue = programEncounter.isCancelled() ? 'findCancelEncounterObservationReadableValue' : 'getObservationReadableValue';
-   let followupDate = programEncounter[getObservationReadableValue]('Next monthly Visit Date');
+   let followupDate = programEncounter[getObservationReadableValue]('earliestDate');
+   console.log("visitnumber folloupdate,visit1Date(programEncounter)",followupDate,visit1Date(programEncounter));
    let visitNumber = Math.ceil(moment(followupDate).endOf('month').diff(visit1Date(programEncounter), 'months', true));
+   console.log("visitnumber",visitNumber);
    return visitNumber;
 };
 
@@ -138,10 +140,11 @@ class MonthlyMonitoringHandler {
 
     @WithStatusBuilder
     haemoglobin([programEncounter], statusBuilder) {
+        console.log("Hey visit number is.............",programEncounter,getVisitNumber(programEncounter));
         statusBuilder.show().when.valueInEncounter("UPT done if period missed").
         containsAnyAnswerConceptName("Positive")
         .and.whenItem(getVisitNumber(programEncounter)).equalsOneOf(4,7,10,13,16,19,22);
-        //4,7,10,13,16,19,22 every three months  equalsOneOf
+        //4,7,10,13,16,19,22 every three months  equalsOneOf   
     }
 
     @WithStatusBuilder
@@ -209,7 +212,7 @@ class MonthlyMonitoringHandler {
     } 
 
     @WithStatusBuilder
-    counselHerForOtherIllnessTreatment([], statusBuilder) {
+    counselForOtherIllnessTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
       } 
 
