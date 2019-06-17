@@ -29,11 +29,11 @@ class ProgramSummary {
             .reject(_.isNil)
             .filter(ProgramSummary.ifBMIKeepLatest)
             .value();
-        return {name: 'High Risk Conditions', value: vals};
+        return {};//name: 'High Risk Conditions', value: vals
     }
 
     static exec(programEnrolment, summaries, context, today) {
-        summaries.push(ProgramSummary.getHighRisks(programEnrolment, today));
+        summaries.push();//ProgramSummary.getHighRisks(programEnrolment, today)
         return summaries;
     }
 }
