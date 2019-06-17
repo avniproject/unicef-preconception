@@ -3,3 +3,6 @@ output/*
 deploy
 node_modules
 admin-user.json
+secrets.json
+
+package-lock.json
