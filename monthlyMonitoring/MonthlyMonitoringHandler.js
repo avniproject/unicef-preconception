@@ -1,17 +1,11 @@
 import {FormElementsStatusHelper, RuleFactory, StatusBuilderAnnotationFactory, WithName} from 'rules-config/rules';
-import moment from 'moment';
 import RuleHelper from "../shared/rules/RuleHelper";
 
 const filter = RuleFactory('3462178e-94e5-43d9-bc17-6cddad05c265', 'ViewFilter');
 const WithStatusBuilder = StatusBuilderAnnotationFactory('programEncounter', 'formElement');
-const visit1Date = ({programEnrolment}) => {
-    return moment(programEnrolment.enrolmentDateTime).startOf('month').add(2, 'months').toDate();
-};
+
 const getVisitNumber = (programEncounter) => {
-    let getObservationReadableValue = programEncounter.isCancelled() ? 'findCancelEncounterObservationReadableValue' : 'getObservationReadableValue';
-    let followupDate = programEncounter[getObservationReadableValue]('Next monthly Visit Date');
-    let visitNumber = Math.ceil(moment(followupDate).endOf('month').diff(visit1Date(programEncounter), 'months', true));
-    return visitNumber;
+    return +_.get(_.get(programEncounter, 'name', '').match(/\d+/g), 0);
 };
 
 @filter('5a5fcbfe-f3b3-4e69-8f5d-2855c373bb95', 'MonthlyMonitoringHandler', 100.0)
