@@ -67,7 +67,10 @@ class ProgramSummary {
     }
 
     static exec(programEnrolment, summaries, context, today) {
-        summaries.push(ProgramSummary.getHighRisks(programEnrolment, today));
+        let highRisks = ProgramSummary.getHighRisks(programEnrolment, today);
+        if (highRisks.value.length) {
+            summaries.push(highRisks);
+        }
         return summaries;
     }
 }
