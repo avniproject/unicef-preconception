@@ -8,11 +8,11 @@ const getVisitNumber = (programEncounter) => {
     return +_.get(_.get(programEncounter, 'name', '').match(/\d+/g), 0);
 };
 
-@filter('5a5fcbfe-f3b3-4e69-8f5d-2855c373bb95', 'MonthlyMonitoringHandler', 100.0)
-class MonthlyMonitoringHandler {
+@filter('5a5fcbfe-f3b3-4e69-8f5d-2855c373bb95', 'MonthlyMonitoringViewFilter', 100.0)
+class MonthlyMonitoringViewFilter {
     static exec(programEncounter, formElementGroup, today) {
         return FormElementsStatusHelper
-            .getFormElementsStatusesWithoutDefaults(new MonthlyMonitoringHandler(), programEncounter, formElementGroup, today);
+            .getFormElementsStatusesWithoutDefaults(new MonthlyMonitoringViewFilter(), programEncounter, formElementGroup, today);
     }
 
     getObservationValueFromEntireEnrolment(conceptName, programEncounter) {
@@ -299,4 +299,6 @@ class MonthlyMonitoringHandler {
     }
 }
 
-module.exports = {MonthlyMonitoringHandler};
+export {
+    MonthlyMonitoringViewFilter
+}
