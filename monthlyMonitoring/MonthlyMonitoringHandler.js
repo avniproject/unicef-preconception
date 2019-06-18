@@ -1,22 +1,17 @@
-import {
-    StatusBuilderAnnotationFactory, 
-    RuleFactory,  
-    FormElementsStatusHelper
-} from 'rules-config/rules';
+import {FormElementsStatusHelper, RuleFactory, StatusBuilderAnnotationFactory, WithName} from 'rules-config/rules';
 import moment from 'moment';
 import RuleHelper from "../shared/rules/RuleHelper";
 
 const filter = RuleFactory('3462178e-94e5-43d9-bc17-6cddad05c265', 'ViewFilter');
 const WithStatusBuilder = StatusBuilderAnnotationFactory('programEncounter', 'formElement');
-
 const visit1Date = ({programEnrolment}) => {
     return moment(programEnrolment.enrolmentDateTime).startOf('month').add(2, 'months').toDate();
 };
 const getVisitNumber = (programEncounter) => {
-   let getObservationReadableValue = programEncounter.isCancelled() ? 'findCancelEncounterObservationReadableValue' : 'getObservationReadableValue';
-   let followupDate = programEncounter[getObservationReadableValue]('Next monthly Visit Date');
-   let visitNumber = Math.ceil(moment(followupDate).endOf('month').diff(visit1Date(programEncounter), 'months', true));
-   return visitNumber; 
+    let getObservationReadableValue = programEncounter.isCancelled() ? 'findCancelEncounterObservationReadableValue' : 'getObservationReadableValue';
+    let followupDate = programEncounter[getObservationReadableValue]('Next monthly Visit Date');
+    let visitNumber = Math.ceil(moment(followupDate).endOf('month').diff(visit1Date(programEncounter), 'months', true));
+    return visitNumber;
 };
 
 @filter('5a5fcbfe-f3b3-4e69-8f5d-2855c373bb95', 'MonthlyMonitoringHandler', 100.0)
@@ -25,221 +20,147 @@ class MonthlyMonitoringHandler {
         return FormElementsStatusHelper
             .getFormElementsStatusesWithoutDefaults(new MonthlyMonitoringHandler(), programEncounter, formElementGroup, today);
     }
-    
-    getObservationValueFromEntireEnrolment(conceptName,programEncounter) {
+
+    getObservationValueFromEntireEnrolment(conceptName, programEncounter) {
         return programEncounter.programEnrolment.getObservationReadableValueInEntireEnrolment(conceptName, programEncounter);
     }
 
+    @WithName('Counsel her to delay pregnancy by using contraceptives')
     @WithStatusBuilder
-    bmi([programEncounter, formElement],statusBuilder) {
-        let height = this.getObservationValueFromEntireEnrolment("Preconception Height", programEncounter);
-        let weight = programEncounter.findObservation("Preconception Weight");    
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
-        statusBuilder.value(RuleHelper.calculateBMIStatusBuiler(height,weight));
-        return statusBuilder.build();
-     } 
-
-    @WithStatusBuilder
-    counselHerToDelayPregnancyByUsingContraceptives([], statusBuilder) {
+    _1([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInEntireEnrolment("Age").is.lessThan(20);
     }
 
+    @WithName('Cousel her to visit PHC/RH/CH for further investigations and treatment')
     @WithStatusBuilder
-    couselHerToVisitPhcRhChForFurtherInvestigationsAndTreatment([], statusBuilder) {
-        statusBuilder.show().when.latestValueInEntireEnrolment("Age").is.greaterThan(35);  
+    _2([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.latestValueInEntireEnrolment("Age").is.greaterThan(35)
+            .and.when.latestValueInEntireEnrolment('Gravida').is.lessThan(1);
     }
 
+    @WithName('Diet advice to increase or increase weight respectively as per diet chart')
     @WithStatusBuilder
-    dietAdviceToIncreaseOrIncreaseWeightRespectivelyAsPerDietChart([], statusBuilder) {
+    _3([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInEntireEnrolment("BMI").is.lessThan(18.5)
-        .or.when.latestValueInEntireEnrolment("BMI").is.greaterThan(25.0);   
+            .or.when.latestValueInEntireEnrolment("BMI").is.greaterThan(25.0);
     }
 
+    @WithName('Counsel her to quit tobacco consumption')
     @WithStatusBuilder
-    counselHerToQuitTobaccoConsumption([], statusBuilder) {
-        statusBuilder.show().when.latestValueInEntireEnrolment("Tobacco consumption")
-        .containsAnyAnswerConceptName("Yes");  
+    _4([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.latestValueInEntireEnrolment("Tobacco consumption").is.yes;
     }
 
+    @WithName('Counsel her to quit alcohol consumption')
     @WithStatusBuilder
-    counselHerToQuitAlcoholConsumption([], statusBuilder) {
+    _5([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInEntireEnrolment("Alcohol consumption").is.yes;
     }
-    
+
+    @WithName('Counsel her to increase whole cereals in diet')
     @WithStatusBuilder
-    counselHerToIncreaseWholeCerealsInDiet([], statusBuilder) {
+    _6([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInEntireEnrolment("Calorie % RDA").is.lessThan(70);
     }
 
+    @WithName('Counsel her to increase proteins in diet')
     @WithStatusBuilder
-    counselHerToIncreaseProteinsInDiet([programEncounter], statusBuilder) {
+    _7([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInEntireEnrolment("Protein % RDA").is.lessThan(70);
     }
 
+    @WithName('Counsel her for anaemia treatment')
     @WithStatusBuilder
-    counselHerForAnaemiaTreatment([], statusBuilder) {
-        statusBuilder.show().when.latestValueInPreviousEncounters("Preconception Hb").is.lessThan(12);
+    _8([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.latestValueInPreviousEncounters("Preconception Hb").is.lessThan(12)
+            .or.when.latestValueInPreviousEncounters("Sickle cell anaemia solubility test").containsAnyAnswerConceptName("Positive");
     }
 
-   
+    @WithName('Counsel woman to take Anti D injection')
     @WithStatusBuilder
-    counselHerForHypertensionTreatment([], statusBuilder) {
+    _9([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.latestValueInEntireEnrolment("Blood group").containsAnyAnswerConceptName("AB-", "O-", "A-", "B-")
+            .and.when.latestValueInEntireEnrolment("Husband blood group").containsAnyAnswerConceptName("AB+", "O+", "A+", "B+");
+    }
+
+    @WithName('Counsel her for hypertension treatment')
+    @WithStatusBuilder
+    _10([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInPreviousEncounters('Preconception hypertension').is.yes;
     }
 
-    @WithStatusBuilder  
-    counselHerForDiabetesTreatment([], statusBuilder) {
-        statusBuilder.show().when.latestValueInPreviousEncounters('Preconception blood sugar ogt')
-        .containsAnyAnswerConceptName("Positive");
-    }
-  
+    @WithName('Counsel her for diabetes treatment')
     @WithStatusBuilder
-    counselHerForSickleCellAnaemiaTreatment([], statusBuilder) {
+    _11([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.latestValueInPreviousEncounters('Preconception blood sugar ogt').containsAnyAnswerConceptName("Positive");
+    }
+
+    @WithName('Counsel her for sickle cell anaemia treatment')
+    @WithStatusBuilder
+    _12([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInPreviousEncounters("Sickle cell anaemia solubility test").containsAnyAnswerConceptName("Positive");
     }
 
+    @WithName('Counsel her for HIV treatment')
     @WithStatusBuilder
-    counselHerForHivTreatment([], statusBuilder) {
+    _13([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInPreviousEncounters("HIV").containsAnyAnswerConceptName("Positive");
     }
 
+    @WithName('Counsel her for VDRL infection treatment')
     @WithStatusBuilder
-    counselHerForVdrlInfectionTreatment([], statusBuilder) {
-        statusBuilder.show().when.latestValueInPreviousEncounters("VDRL test Result")
-        .containsAnyAnswerConceptName("Positive");
+    _14([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.latestValueInPreviousEncounters("VDRL test Result").containsAnyAnswerConceptName("Positive");
     }
 
+    @WithName('Counsel her for RTI STI treatment')
     @WithStatusBuilder
-    counselHerForRtiStiTreatment([], statusBuilder) {
+    _15([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInPreviousEncounters("RTI Symptoms").containsAnyAnswerConceptName("Yes");
     }
 
+    @WithName('Counsel her for TSH treatment')
     @WithStatusBuilder
-    counselHerForTshTreatment([], statusBuilder) {
+    _16([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInPreviousEncounters("TSH").is.greaterThan(10);
     }
 
+    @WithName('Counsel her for other illness treatment')
     @WithStatusBuilder
-    counselHerForOtherIllnessTreatment([], statusBuilder) {
+    _17([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInPreviousEncounters("Any other illness").containsAnyAnswerConceptName("Yes");
     }
 
+    @WithName('Counselling of high risk factors')
     @WithStatusBuilder
-    counselWomanToTakeAntiDInjection([programEncounter], statusBuilder) {
-        statusBuilder.show().when.latestValueInEntireEnrolment("Blood group").containsAnyAnswerConceptName("AB-", "O-", "A-", "B-")
-        .and.when.latestValueInEntireEnrolment("Husband blood group")
-        .containsAnyAnswerConceptName("AB+", "O+", "A+", "B+");
-    }
-    @WithStatusBuilder
-    uptDoneIfPeriodMissed([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Missed period").is.yes;
-    }
-
-    @WithStatusBuilder
-    haemoglobin([programEncounter], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed").
-        containsAnyAnswerConceptName("Positive")
-        .and.whenItem(getVisitNumber(programEncounter)).equalsOneOf(4,7,10,13,16,19,22);
-        //4,7,10,13,16,19,22 every three months  equalsOneOf   
-    }
-
-    @WithStatusBuilder
-    weight([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
-    }
-
-
-    @WithStatusBuilder
-    anyRtiSymptoms([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");  
-    }
-
-    @WithStatusBuilder
-    whetherRtiTreatmentTaken([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("RTI Symptoms").containsAnyAnswerConceptName("Yes");
-    }
-
-    @WithStatusBuilder
-    anyOtherIllness([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");    }
-    
-    @WithStatusBuilder
-    ifAnyOtherIllnessSpecify([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
-    }   
-    
-    @WithStatusBuilder
-    anyOtherIllnessTreatment([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
-    }
-
-    @WithStatusBuilder
-    dewormingTabletReceivedAlbendazole([programEncounter], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed")
-        .containsAnyAnswerConceptName("Positive")
-        .and.whenItem(getVisitNumber(programEncounter)).equalsOneOf(7,13,19);
-        // 7,13,19 every six months
-    }
-
-     @WithStatusBuilder
-     nextMonthlyVisitDate([], statusBuilder) {
-         statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive");
-      }
-
-    @WithStatusBuilder
-    ifaIronAndFolicAcid([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Preconception Hb").is.lessThan(12);
-    }
-
-    @WithStatusBuilder
-    fa([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Preconception Hb").is.greaterThan(12);
-    }
-    
-    @WithStatusBuilder
-    askHerToFollowDietAdvice([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("BMI").is.lessThan(18.5)
-        .or.when.valueInEncounter("BMI").is.greaterThan(25.0);
-    }
-
-    @WithStatusBuilder
-    counselHerForRtiTreatment([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Whether pregnancy continued").is.yes;
-    } 
-
-    @WithStatusBuilder
-    counselForOtherIllnessTreatment([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
-      } 
-
-    @WithStatusBuilder
-    counsellingOfHighRiskFactors([], statusBuilder) {
+    _18([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInEntireEnrolment("Age").is.lessThan(20)
-        .or.when.latestValueInEntireEnrolment("Age").is.greaterThan(35)
-         .or.when.latestValueInEntireEnrolment("BMI").is.lessThan(18.5)
-         .or.when.latestValueInEntireEnrolment("BMI").is.greaterThan(25.0)
-         .or.when.latestValueInEntireEnrolment("Tobacco consumption").is.yes
-         .or.when.latestValueInEntireEnrolment("Alcohol consumption").is.yes
-         .or.when.latestValueInEntireEnrolment("Calorie % RDA").is.lessThan(70)
-         .or.when.latestValueInEntireEnrolment("Protein % RDA").is.lessThan(70)
-         .or.when.latestValueInEntireEnrolment("Preconception hypertension").is.yes
-         .or.when.latestValueInEntireEnrolment("Preconception blood sugar ogt").containsAnyAnswerConceptName("Positive")
-         .or.when.latestValueInEntireEnrolment("Sickle cell anaemia solubility test").containsAnyAnswerConceptName("Positive")
-         .or.when.latestValueInEntireEnrolment("HIV").containsAnyAnswerConceptName("Positive")
-         .or.when.latestValueInEntireEnrolment("VDRL test Result").containsAnyAnswerConceptName("Positive")
-         .or.when.latestValueInEntireEnrolment("RTI Symptoms").is.yes
-         .or.when.latestValueInEntireEnrolment("TSH").is.greaterThan(10)
-         .or.when.latestValueInEntireEnrolment("Any other illness").is.yes ||
+            .or.when.latestValueInEntireEnrolment("Age").is.greaterThan(35)
+            .or.when.latestValueInEntireEnrolment("BMI").is.lessThan(18.5)
+            .or.when.latestValueInEntireEnrolment("BMI").is.greaterThan(25.0)
+            .or.when.latestValueInEntireEnrolment("Tobacco consumption").is.yes
+            .or.when.latestValueInEntireEnrolment("Alcohol consumption").is.yes
+            .or.when.latestValueInEntireEnrolment("Calorie % RDA").is.lessThan(70)
+            .or.when.latestValueInEntireEnrolment("Protein % RDA").is.lessThan(70)
+            .or.when.latestValueInEntireEnrolment("Preconception hypertension").is.yes
+            .or.when.latestValueInEntireEnrolment("Preconception blood sugar ogt").containsAnyAnswerConceptName("Positive")
+            .or.when.latestValueInEntireEnrolment("Sickle cell anaemia solubility test").containsAnyAnswerConceptName("Positive")
+            .or.when.latestValueInEntireEnrolment("HIV").containsAnyAnswerConceptName("Positive")
+            .or.when.latestValueInEntireEnrolment("VDRL test Result").containsAnyAnswerConceptName("Positive")
+            .or.when.latestValueInEntireEnrolment("RTI Symptoms").is.yes
+            .or.when.latestValueInEntireEnrolment("TSH").is.greaterThan(10)
+            .or.when.latestValueInEntireEnrolment("Any other illness").is.yes ||
         statusBuilder.show().when.latestValueInEntireEnrolment("Blood group")
-                    .containsAnyAnswerConceptName("AB-", "O-", "A-", "B-")
-                    .and.when.latestValueInEntireEnrolment("Husband blood group")
-                    .containsAnyAnswerConceptName("AB+", "O+", "A+", "B+");
+            .containsAnyAnswerConceptName("AB-", "O-", "A-", "B-")
+            .and.when.latestValueInEntireEnrolment("Husband blood group")
+            .containsAnyAnswerConceptName("AB+", "O+", "A+", "B+");
     }
 
+    @WithName('Advice followed')
     @WithStatusBuilder
-    adviceFollowed([], statusBuilder) {
-       statusBuilder.show().when.latestValueInEntireEnrolment("Age").is.lessThan(20)
-           .or.when.latestValueInEntireEnrolment("Age").is.greaterThan(35)
+    _19([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.latestValueInEntireEnrolment("Age").is.lessThan(20)
+            .or.when.latestValueInEntireEnrolment("Age").is.greaterThan(35)
             .or.when.latestValueInEntireEnrolment("BMI").is.lessThan(18.5)
             .or.when.latestValueInEntireEnrolment("BMI").is.greaterThan(25.0)
             .or.when.latestValueInEntireEnrolment("Tobacco consumption").is.yes
@@ -248,8 +169,9 @@ class MonthlyMonitoringHandler {
             .or.when.latestValueInEntireEnrolment("Protein % RDA").is.lessThan(70);
     }
 
+    @WithName('Treatment of high risk illnesses')
     @WithStatusBuilder
-    treatmentOfHighRiskIllnesses([], statusBuilder) {     
+    _20([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.latestValueInPreviousEncounters("Preconception Hb").is.lessThan(12)
             .or.when.latestValueInEntireEnrolment("Preconception hypertension").is.yes
             .or.when.latestValueInEntireEnrolment("Preconception blood sugar ogt").containsAnyAnswerConceptName("Positive")
@@ -260,10 +182,128 @@ class MonthlyMonitoringHandler {
             .or.when.latestValueInEntireEnrolment("TSH").is.greaterThan(10)
             .or.when.latestValueInEntireEnrolment("Any other illness").is.yes ||
         statusBuilder.show().when.latestValueInEntireEnrolment("Blood group").containsAnyAnswerConceptName("AB-", "O-", "A-", "B-")
-             .and.when.latestValueInEntireEnrolment("Husband blood group")
-             .containsAnyAnswerConceptName("AB+", "O+", "A+", "B+");
-       
+            .and.when.latestValueInEntireEnrolment("Husband blood group")
+            .containsAnyAnswerConceptName("AB+", "O+", "A+", "B+");
+    }
+
+    @WithName('Missed period')
+    @WithStatusBuilder
+    _21([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().whenItem(true).is.truthy;
+    }
+
+    @WithName('UPT done if period missed')
+    @WithStatusBuilder
+    _22([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Missed period").is.yes;
+    }
+
+    @WithName('Haemoglobin')
+    @WithStatusBuilder
+    _23([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive")
+            .and.whenItem(getVisitNumber(programEncounter)).equalsOneOf(4, 7, 10, 13, 16, 19, 22);
+        //4,7,10,13,16,19,22 every three months  equalsOneOf
+    }
+
+    @WithName('Weight')
+    @WithStatusBuilder
+    _24([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
+    }
+
+    @WithName('BMI')
+    @WithStatusBuilder
+    _25([programEncounter, formElement], statusBuilder) {
+        let height = this.getObservationValueFromEntireEnrolment("Preconception Height", programEncounter);
+        let weight = programEncounter.findObservation("Preconception Weight");
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
+        statusBuilder.value(RuleHelper.calculateBMIStatusBuiler(height, weight));
+        return statusBuilder.build();
+    }
+
+    @WithName('Any RTI Symptoms')
+    @WithStatusBuilder
+    _26([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
+    }
+
+    @WithName('Whether RTI Treatment taken')
+    @WithStatusBuilder
+    _27([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("RTI Symptoms").containsAnyAnswerConceptName("Yes");
+    }
+
+    @WithName('Any other illness')
+    @WithStatusBuilder
+    _28([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
+    }
+
+    @WithName('If any other illness, specify')
+    @WithStatusBuilder
+    _29([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
+    }
+
+    @WithName('Any other illness treatment')
+    @WithStatusBuilder
+    _30([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
+    }
+
+    @WithName('Deworming tablet received- Albendazole')
+    @WithStatusBuilder
+    _31([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed")
+            .containsAnyAnswerConceptName("Positive")
+            .and.whenItem(getVisitNumber(programEncounter)).equalsOneOf(7, 13, 19);
+        // 7,13,19 every six months
+    }
+
+    @WithName('IFA - Iron and Folic Acid')
+    @WithStatusBuilder
+    _32([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Preconception Hb").is.lessThan(12);
+    }
+
+    @WithName('FA')
+    @WithStatusBuilder
+    _33([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Preconception Hb").is.greaterThan(12);
+    }
+
+    @WithName('Next monthly Visit Date')
+    @WithStatusBuilder
+    _34([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive");
+    }
+
+    @WithName('Counsel her for anaemia treatment')
+    @WithStatusBuilder
+    _35([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Preconception Hb").is.lessThan(12);
+    }
+
+    @WithName('Ask her to follow diet advice')
+    @WithStatusBuilder
+    _36([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("BMI").is.lessThan(18.5)
+            .or.when.valueInEncounter("BMI").is.greaterThan(25.0);
+    }
+
+    @WithName('Counsel her for RTI treatment')
+    @WithStatusBuilder
+    _37([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().whenItem(true).is.truthy;
+        // statusBuilder.show().when.valueInEncounter("Whether pregnancy continued").is.yes;
+    }
+
+    @WithName('Counsel for other illness treatment')
+    @WithStatusBuilder
+    _38([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
     }
 }
 
-module.exports =  {MonthlyMonitoringHandler};
+module.exports = {MonthlyMonitoringHandler};

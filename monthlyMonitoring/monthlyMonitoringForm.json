@@ -7,7 +7,7 @@
       "uuid": "40608963-a16c-46ab-91dd-8cae50448f7d",
       "name": "High risk woman (For last followup)",
       "display": "High risk woman (For last followup)",
-      "displayOrder":1 ,
+      "displayOrder": 1,
       "formElements": [
         {
           "name": "Counsel her to delay pregnancy by using contraceptives",
@@ -30,7 +30,8 @@
           },
           "displayOrder": 2,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Diet advice to increase or increase weight respectively as per diet chart",
           "uuid": "d4336d75-5321-4bc1-a050-c30942c222e7",
           "keyValues": [],
@@ -40,7 +41,8 @@
           },
           "displayOrder": 3,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her to quit tobacco consumption",
           "uuid": "db151e3f-494f-4219-970e-5167804da632",
           "keyValues": [],
@@ -50,7 +52,8 @@
           },
           "displayOrder": 4,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her to quit alcohol consumption",
           "uuid": "5dea91d2-1b65-4583-bdd5-660f836b6db9",
           "keyValues": [],
@@ -60,7 +63,8 @@
           },
           "displayOrder": 5,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her to increase whole cereals in diet",
           "uuid": "c2978ada-fa8c-48e1-aa95-61546f88396c",
           "keyValues": [],
@@ -70,7 +74,8 @@
           },
           "displayOrder": 6,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her to increase proteins in diet",
           "uuid": "b556c207-1414-4976-9998-6518051bf6c0",
           "keyValues": [],
@@ -80,7 +85,8 @@
           },
           "displayOrder": 7,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her for anaemia treatment",
           "uuid": "6cf01fd3-1a2e-4302-8a1d-86c1f7c4c921",
           "keyValues": [],
@@ -90,7 +96,8 @@
           },
           "displayOrder": 8,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel woman to take Anti D injection",
           "uuid": "bd682d8d-6c44-4a27-b493-dbd01ff3469f",
           "keyValues": [],
@@ -100,7 +107,8 @@
           },
           "displayOrder": 9,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her for hypertension treatment",
           "uuid": "816b7019-1055-49e1-b191-9381434072e4",
           "keyValues": [],
@@ -110,7 +118,8 @@
           },
           "displayOrder": 10,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her for diabetes treatment",
           "uuid": "d4b738ce-c672-423c-a815-8f3c8dacd8fd",
           "keyValues": [],
@@ -120,7 +129,8 @@
           },
           "displayOrder": 11,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her for sickle cell anaemia treatment",
           "uuid": "f4548eb4-c5f5-432a-bac6-e0dd2c47972b",
           "keyValues": [],
@@ -130,7 +140,8 @@
           },
           "displayOrder": 12,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her for HIV treatment",
           "uuid": "c08819fb-cad5-45ca-b728-d80e81bfb64c",
           "keyValues": [],
@@ -140,7 +151,8 @@
           },
           "displayOrder": 13,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her for VDRL infection treatment",
           "uuid": "4b242f15-e7f7-4c8d-a756-82448602d9d9",
           "keyValues": [],
@@ -150,7 +162,8 @@
           },
           "displayOrder": 14,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her for RTI STI treatment",
           "uuid": "c13459dc-2f02-4126-8d7b-d61395fb86e2",
           "keyValues": [],
@@ -160,7 +173,8 @@
           },
           "displayOrder": 15,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her for TSH treatment",
           "uuid": "94531384-8e43-49cc-ab94-aa266c57ab43",
           "keyValues": [],
@@ -170,7 +184,8 @@
           },
           "displayOrder": 16,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counsel her for other illness treatment",
           "uuid": "fcf81023-a1d2-495c-b85f-e608fac7cfe9",
           "keyValues": [],
@@ -180,7 +195,8 @@
           },
           "displayOrder": 17,
           "mandatory": false
-        },{
+        },
+        {
           "name": "Counselling of high risk factors",
           "uuid": "233129b1-e2a6-404a-8385-b9766b51682c",
           "keyValues": [],
@@ -191,7 +207,8 @@
           },
           "displayOrder": 18,
           "mandatory": true
-        },{
+        },
+        {
           "name": "Advice followed",
           "uuid": "f54776d0-5974-4a47-a64b-80620573c372",
           "keyValues": [],
@@ -202,7 +219,8 @@
           },
           "displayOrder": 19,
           "mandatory": true
-        },{
+        },
+        {
           "name": "Treatment of high risk illnesses",
           "uuid": "154a8f11-f469-4e00-851d-df027f5c4b9d",
           "keyValues": [],
@@ -243,9 +261,9 @@
             "name": "UPT done if period missed",
             "uuid": "f475f6c0-d99c-419d-ba58-a49c92bebcef"
           },
-          "displayOrder": 2 ,
+          "displayOrder": 2,
           "mandatory": true
-        }       
+        }
       ]
     },
     {
@@ -259,7 +277,7 @@
           "uuid": "b09d87ca-e74f-4437-9803-09a9d993a548",
           "keyValues": [],
           "concept": {
-            "name":"Preconception Hb",
+            "name": "Preconception Hb",
             "uuid": "470551a0-69ad-49ef-81fd-663c13c1004e"
           },
           "displayOrder": 1,
@@ -274,7 +292,7 @@
             "uuid": "902100eb-e799-41b9-be73-3844952bcdc7"
           },
           "displayOrder": 2,
-          "mandatory":false 
+          "mandatory": false
         },
         {
           "name": "BMI",
@@ -283,7 +301,7 @@
             {
               "key": "editable",
               "value": false
-              }
+            }
           ],
           "concept": {
             "uuid": "7ac0d759-c50d-4971-88e0-84274224c839"
@@ -306,13 +324,13 @@
         {
           "name": "Whether RTI Treatment taken",
           "uuid": "e8854635-40c7-4708-b165-09674bf0b24b",
-          "keyValues": [],  
+          "keyValues": [],
           "type": "SingleSelect",
           "concept": {
             "name": "RTI Treatment",
             "uuid": "e732012f-1896-4ecb-b01f-70d91d096830"
           },
-          "displayOrder":5 ,
+          "displayOrder": 5,
           "mandatory": true
         },
         {
@@ -324,7 +342,7 @@
             "name": "Any other illness",
             "uuid": "e14149e2-4d8e-4eb3-aed2-2ee835b80b66"
           },
-          "displayOrder":6 ,
+          "displayOrder": 6,
           "mandatory": true
         },
         {
@@ -349,7 +367,7 @@
           },
           "displayOrder": 8,
           "mandatory": true
-        }  
+        }
       ]
     },
     {
@@ -465,7 +483,7 @@
           },
           "displayOrder": 4,
           "mandatory": true
-        }        
+        }
       ]
     }
   ]
