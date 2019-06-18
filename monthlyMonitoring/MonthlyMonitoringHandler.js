@@ -289,8 +289,7 @@ class MonthlyMonitoringHandler {
     @WithName('Counsel her for RTI treatment')
     @WithStatusBuilder
     _37([programEncounter, formElement], statusBuilder) {
-        statusBuilder.show().whenItem(true).is.truthy;
-        // statusBuilder.show().when.valueInEncounter("Whether pregnancy continued").is.yes;
+        statusBuilder.show().when.valueInEncounter("RTI Symptoms").is.yes;
     }
 
     @WithName('Counsel for other illness treatment')
