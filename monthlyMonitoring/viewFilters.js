@@ -195,7 +195,7 @@ class MonthlyMonitoringViewFilter {
     @WithName('Haemoglobin')
     @WithStatusBuilder
     _23([programEncounter, formElement], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive")
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive")
             .and.whenItem(getVisitNumber(programEncounter)).equalsOneOf(4, 7, 10, 13, 16, 19, 22);
         //4,7,10,13,16,19,22 every three months  equalsOneOf
     }
@@ -203,7 +203,7 @@ class MonthlyMonitoringViewFilter {
     @WithName('Weight')
     @WithStatusBuilder
     _24([programEncounter, formElement], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive");
     }
 
     @WithName('BMI')
@@ -211,7 +211,7 @@ class MonthlyMonitoringViewFilter {
     _25([programEncounter, formElement], statusBuilder) {
         let height = this.getObservationValueFromEntireEnrolment("Preconception Height", programEncounter);
         let weight = programEncounter.findObservation("Preconception Weight");
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive");
         statusBuilder.value(RuleHelper.calculateBMIStatusBuiler(height, weight));
         return statusBuilder.build();
     }
@@ -219,7 +219,7 @@ class MonthlyMonitoringViewFilter {
     @WithName('Any RTI Symptoms')
     @WithStatusBuilder
     _26([programEncounter, formElement], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive");
     }
 
     @WithName('Whether RTI Treatment taken')
@@ -231,7 +231,7 @@ class MonthlyMonitoringViewFilter {
     @WithName('Any other illness')
     @WithStatusBuilder
     _28([programEncounter, formElement], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive");
     }
 
     @WithName('If any other illness, specify')
@@ -249,8 +249,7 @@ class MonthlyMonitoringViewFilter {
     @WithName('Deworming tablet received- Albendazole')
     @WithStatusBuilder
     _31([programEncounter, formElement], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed")
-            .containsAnyAnswerConceptName("Positive")
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive")
             .and.whenItem(getVisitNumber(programEncounter)).equalsOneOf(7, 13, 19);
         // 7,13,19 every six months
     }
