@@ -67,7 +67,9 @@ class ProgramSummary {
     }
 
     static exec(programEnrolment, summaries, context, today) {
-        let highRisks = ProgramSummary.getHighRisks(programEnrolment, today);
+        const highRisks = ProgramSummary.getHighRisks(programEnrolment, today);
+        const conceptService = context.get('conceptService');
+        highRisks.value = highRisks.value.map((name)=> conceptService.conceptFor(name).uuid);
         if (highRisks.value.length) {
             summaries.push(highRisks);
         }
