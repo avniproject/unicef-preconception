@@ -448,7 +448,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Ask her to follow diet advice",
@@ -460,7 +460,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Counsel her for RTI treatment",
@@ -471,7 +471,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 3,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Counsel for other illness treatment",
@@ -482,7 +482,7 @@
             "comment": "Placeholder for counselling form element"
           },
           "displayOrder": 4,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     }
