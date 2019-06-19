@@ -1,4 +1,4 @@
-import {FormElementsStatusHelper, RuleFactory, StatusBuilderAnnotationFactory, WithName} from 'rules-config/rules';
+import {FormElementStatusBuilder,lib,FormElementsStatusHelper, RuleFactory, StatusBuilderAnnotationFactory, WithName} from 'rules-config/rules';
 import RuleHelper from "../shared/rules/RuleHelper";
 
 const filter = RuleFactory('3462178e-94e5-43d9-bc17-6cddad05c265', 'ViewFilter');
@@ -195,9 +195,10 @@ class MonthlyMonitoringViewFilter {
     @WithName('Haemoglobin')
     @WithStatusBuilder
     _23([programEncounter, formElement], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive")
-            .and.whenItem(getVisitNumber(programEncounter)).equalsOneOf(4, 7, 10, 13, 16, 19, 22);
-        //4,7,10,13,16,19,22 every three months  equalsOneOf
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive");
+        const status = statusBuilder.build();
+        status.visibility = status.visibility && [4, 7, 10, 13, 16, 19, 22].includes(getVisitNumber(programEncounter));
+        return status;
     }
 
     @WithName('Weight')
@@ -249,9 +250,10 @@ class MonthlyMonitoringViewFilter {
     @WithName('Deworming tablet received- Albendazole')
     @WithStatusBuilder
     _31([programEncounter, formElement], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive")
-            .and.whenItem(getVisitNumber(programEncounter)).equalsOneOf(7, 13, 19);
-        // 7,13,19 every six months
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive");
+        const status = statusBuilder.build();
+        status.visibility = status.visibility && [7, 13, 19].includes(getVisitNumber(programEncounter));
+        return status;
     }
 
     @WithName('IFA - Iron and Folic Acid')
