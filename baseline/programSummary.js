@@ -55,7 +55,7 @@ class ProgramSummary {
 
         add('VDRL test Result positive').when[inEntireEnrolment]('VDRL test Result')[has]("Positive");
 
-        add('RTI Symptoms positive').when[latest]('RTI Symptoms')[has]("Positive");
+        add('RTI Symptoms positive').when[latest]('RTI Symptoms').is.yes;
 
         add("TSH > 12").when[inEntireEnrolment]("TSH").greaterThan(12);
 
