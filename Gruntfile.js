@@ -51,6 +51,7 @@ module.exports = IDI.configure({
         "users": {
             "dev": ["./users/dev-users.json"],
             "staging": ["./users/staging-users.json"],
+            "uat": ["./users/uat-users.json"],
         },
         "rules": [
             "./shared/rules/index.js",
