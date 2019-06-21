@@ -22,7 +22,7 @@
   "devDependencies": {
     "csvtojson": "2.0.8",
     "openchs-health-modules": "0.0.2",
-    "openchs-idi": "github:openchs/openchs-idi#a05bfbd6acf55bcc878023e154c96d9ac72e61d9",
+    "openchs-idi": "github:openchs/openchs-idi#e1582800c59811c02e9f4519498dd053dffc4a53",
     "openchs-models": "0.0.2",
     "rules-config": "github:openchs/rules-config#45e1b241b5d5ee1106633ea475c9515263b8ce4a"
   }

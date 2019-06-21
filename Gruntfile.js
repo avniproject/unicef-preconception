@@ -1,16 +1,17 @@
 const rulesConfigInfra = require('rules-config/infra');
 const IDI = require('openchs-idi');
-const secrets = require('../secrets.json');
 
 module.exports = IDI.configure({
     "chs-admin": "admin",
     "org-admin": "admin@unicef",
-    "secrets": secrets,
+    //Do not update the following line. Create a secrets file in the parent directory
+    "secrets": '../secrets.json',
     "files": {
         "adminUsers": {
             // "prod": [],
             "dev": ["./users/dev-admin-user.json"],
             "staging": ["./users/dev-admin-user.json"],
+            "uat": ["./users/dev-admin-user.json"],
         },
         "forms": [
             "./registration/registrationForm.json",
