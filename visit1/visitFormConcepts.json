@@ -14,7 +14,7 @@
     "uuid": "7da7f02a-74ba-4da1-9e56-d5121f77e185",
     "dataType": "Numeric",
     "lowNormal": 0,
-    "highNormal": 500,
+    "highNormal": 139,
     "unit": "mg/dl"
   },
   {
@@ -29,16 +29,20 @@
     "name": "Blood pressure systolic",
     "uuid": "a903ed61-a9ce-40f1-abc6-e49d91066051",
     "dataType": "Numeric",
-    "lowNormal": 40,
-    "highNormal": 500,
+    "lowAbsolute": 20,
+    "lowNormal": 90,
+    "highNormal": 140,
+    "highAbsolute": 190,
     "unit": "mm Hg"
   },
   {
     "name": "Blood pressure diastolic",
     "uuid": "9e1792f3-1111-4ecd-9821-5ed22a3a6d2c",
     "dataType": "Numeric",
-    "lowNormal": 40,
-    "highNormal": 200,
+    "lowAbsolute": 10,
+    "lowNormal": 50,
+    "highNormal": 90,
+    "highAbsolute": 120,
     "unit": "mm Hg"
   },
   {

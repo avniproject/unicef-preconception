@@ -11,4 +11,5 @@ module.exports = _.merge({},
     require('../../cancel/PreconceptionCancelFormHandler'),
     require('./visitScheduler'),
     require('../../baseline/programSummary'),
+    require('./PreconceptionFormHandler'),
 );

@@ -1,6 +1,6 @@
 const rulesConfigInfra = require('rules-config/infra');
 const IDI = require('openchs-idi');
-const secrets = require('./secrets.json');
+const secrets = require('../secrets.json');
 
 module.exports = IDI.configure({
     "chs-admin": "admin",
