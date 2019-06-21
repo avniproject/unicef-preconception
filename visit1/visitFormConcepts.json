@@ -13,8 +13,10 @@
     "name": "Preconception blood sugar random",
     "uuid": "7da7f02a-74ba-4da1-9e56-d5121f77e185",
     "dataType": "Numeric",
-    "lowNormal": 0,
-    "highNormal": 139,
+    "lowAbsolute": 0,
+    "lowNormal": 50,
+    "highNormal": 140,
+    "highAbsolute": 500,
     "unit": "mg/dl"
   },
   {
@@ -389,10 +391,10 @@
     "name": "TSH",
     "uuid": "1a512b73-3c11-4a4e-8c6c-fb6f625121f2",
     "dataType": "Numeric",
-    "lowNormal": 0.00,
+    "lowNormal": 0.50,
     "lowAbsolute": 0.00,
     "highAbsolute": 50.00,
-    "highNormal": 50.00,
+    "highNormal": 10.00,
     "abnormal": false
   },
   {
