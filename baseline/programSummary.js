@@ -1,5 +1,5 @@
 import {complicationsBuilder as ComplicationsBuilder, ProgramRule} from 'rules-config/rules';
-
+import moment from 'moment'
 const has = 'containsAnyAnswerConceptName',
     inEnrolment = 'valueInEnrolment',
     latest = 'latestValueInAllEncounters',
@@ -40,7 +40,7 @@ class ProgramSummary {
 
         add("Haemoglobin < 12").when[latest]("Preconception Hb").lessThan(12);
 
-        add("Rh Negative Blood Group").when[inEntireEnrolment]("Blood group")[has]("AB-", "O-", "A-", "B-")
+        add("Woman is Rh negative and husband is Rh positive").when[inEntireEnrolment]("Blood group")[has]("AB-", "O-", "A-", "B-")
             .and.when[inEntireEnrolment]("Husband blood group")[has]("AB+", "O+", "A+", "B+");
 
         add("Suffering from hypertension").when[inEntireEnrolment]("Preconception hypertension").is.yes;
@@ -69,9 +69,17 @@ class ProgramSummary {
     static exec(programEnrolment, summaries, context, today) {
         const highRisks = ProgramSummary.getHighRisks(programEnrolment, today);
         const conceptService = context.get('conceptService');
-        highRisks.value = highRisks.value.map((name)=> conceptService.conceptFor(name).uuid);
+        highRisks.value = highRisks.value.map((name) => conceptService.conceptFor(name).uuid);
         if (highRisks.value.length) {
             summaries.push(highRisks);
+        }
+        const lmp = programEnrolment.findLatestObservationInEntireEnrolment("Last menstrual period");
+        if (!_.isNil(lmp)) {
+            summaries.push({name: 'Last menstrual period', value: lmp.getValue()});
+        }
+        const edd = programEnrolment.findLatestObservationInEntireEnrolment("Estimated Date of Delivery");
+        if (!_.isNil(edd)) {
+            summaries.push({name: 'Estimated Date of Delivery', value: edd.getValue()});
         }
         return summaries;
     }

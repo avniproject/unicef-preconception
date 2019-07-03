@@ -1,291 +1,301 @@
-[   
+[
   {
     "name": "Age < 20",
     "uuid": "556ecf51-c2a1-4075-b706-4a47c3595ba7",
     "dataType": "NA"
   },
   {
-      "name": "Wish to conceive",
-      "uuid": "2fcaca8b-d075-4bf3-bc05-92eb4cdf98fb",
-      "dataType": "Coded",
-      "answers": [
-        {
-            "name": "Yes",
-            "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-        },
-        {
-            "name": "No",
-            "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-        }
-      ]
-    },  
-    {
-      "name": "Bauddha",
-      "uuid": "e15162d7-c340-4106-92f2-97ba6e5d3833",
-      "dataType": "NA"
-    },
-    {
-      "name": "Religion",
-      "uuid": "c922c13c-1fa2-42dd-a7e8-d234b0324870",
-      "dataType": "Coded",
-      "answers": [
-        {
-          "name": "Hindu",
-          "uuid": "5f1f8a86-478b-4e7b-ae5e-ac7b207e65b8"
-        },
-        {
-          "name": "Muslim",
-          "uuid": "2e41ff7c-13ad-4bb3-964a-29f098691a7d"
-        },
-        {
-          "name": "Bauddha",
-          "uuid": "e15162d7-c340-4106-92f2-97ba6e5d3833"
-        },
-        {
-          "name": "Christian",
-          "uuid": "48daa405-dcdb-4706-9dbd-a54562012331"
-        },
-        {
-          "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538"
-        }
-      ]
-    },      
-    {
-      "name": "Nuclear",
-      "uuid": "fa2bcb1f-f77f-4b72-8a19-f0674b67b324",
-      "dataType": "NA"
-    },
-    {
-      "name": "Joint",
-      "uuid": "1cce864c-b3a9-45a8-a9c6-8a280cc66dc7",
-      "dataType": "NA"
-    },   
+    "name": "Wish to conceive",
+    "uuid": "2fcaca8b-d075-4bf3-bc05-92eb4cdf98fb",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "name": "Yes",
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "name": "No",
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
   {
-      "name": "Family type",
-      "uuid": "2421c62c-751e-406d-9027-7aca3fe3ed37",
-      "dataType": "Coded",
-      "answers": [
-        {
-          "name": "Nuclear",
-          "uuid": "fa2bcb1f-f77f-4b72-8a19-f0674b67b324"
-        },
-        {
-          "name": "Joint",
-          "uuid": "1cce864c-b3a9-45a8-a9c6-8a280cc66dc7"
-        } ,
-        {
-          "name": "Other",
-          "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538"
-        }       
-      ]
-    },   
-         {
-        "name": "Cell Number",
-        "uuid": "86384d48-6897-438a-9cab-a803c21c2a2a",
-        "dataType": "Numeric"
+    "name": "Bauddha",
+    "uuid": "e15162d7-c340-4106-92f2-97ba6e5d3833",
+    "dataType": "NA"
+  },
+  {
+    "name": "Religion",
+    "uuid": "c922c13c-1fa2-42dd-a7e8-d234b0324870",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "name": "Hindu",
+        "uuid": "5f1f8a86-478b-4e7b-ae5e-ac7b207e65b8"
       },
       {
-        "name": "Total members in the family",
-        "uuid": "708d8355-91a5-4d18-a207-ec58e778f91e",
-        "dataType": "Numeric"
+        "name": "Muslim",
+        "uuid": "2e41ff7c-13ad-4bb3-964a-29f098691a7d"
       },
       {
-        "name": "Family Income (in Rs.)",
-        "uuid": "37ad1c37-6234-4308-98a7-075af289e610",
-        "dataType": "Numeric"
+        "name": "Bauddha",
+        "uuid": "e15162d7-c340-4106-92f2-97ba6e5d3833"
+      },
+      {
+        "name": "Christian",
+        "uuid": "48daa405-dcdb-4706-9dbd-a54562012331"
+      },
+      {
+        "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538"
+      }
+    ]
+  },
+  {
+    "name": "Nuclear",
+    "uuid": "fa2bcb1f-f77f-4b72-8a19-f0674b67b324",
+    "dataType": "NA"
+  },
+  {
+    "name": "Joint",
+    "uuid": "1cce864c-b3a9-45a8-a9c6-8a280cc66dc7",
+    "dataType": "NA"
+  },
+  {
+    "name": "Family type",
+    "uuid": "2421c62c-751e-406d-9027-7aca3fe3ed37",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "name": "Nuclear",
+        "uuid": "fa2bcb1f-f77f-4b72-8a19-f0674b67b324"
+      },
+      {
+        "name": "Joint",
+        "uuid": "1cce864c-b3a9-45a8-a9c6-8a280cc66dc7"
+      },
+      {
+        "name": "Other",
+        "uuid": "05ea583c-51d2-412d-ad00-06c432ffe538"
+      }
+    ]
+  },
+  {
+    "name": "Cell Number",
+    "uuid": "86384d48-6897-438a-9cab-a803c21c2a2a",
+    "dataType": "Numeric"
+  },
+  {
+    "name": "Total members in the family",
+    "uuid": "708d8355-91a5-4d18-a207-ec58e778f91e",
+    "dataType": "Numeric"
+  },
+  {
+    "name": "Family Income (in Rs.)",
+    "uuid": "37ad1c37-6234-4308-98a7-075af289e610",
+    "dataType": "Numeric"
+  },
+  {
+    "name": "Semi professional",
+    "uuid": "d76144ae-a6c5-4524-bab4-2e2cb01d17c9",
+    "dataType": "NA"
+  },
+  {
+    "name": "Clerical",
+    "uuid": "aaceb6ad-80c6-4fc1-8a95-36e4058c15fd",
+    "dataType": "NA"
+  },
+  {
+    "name": "Shop owner",
+    "uuid": "9c7f4424-2cc3-48dd-b76e-34686a4e2301",
+    "dataType": "NA"
+  },
+  {
+    "name": "Skilled worker",
+    "uuid": "8aef6fe2-ba39-4147-a665-b5dc741bc33d",
+    "dataType": "NA"
+  },
+  {
+    "name": "Semiskilled worker",
+    "uuid": "3ce0b6c7-4d6b-4ab2-a513-f58e36d1504d",
+    "dataType": "NA"
+  },
+  {
+    "name": "Unskilled worker",
+    "uuid": "033e8d7c-a8b0-4d42-8723-22e93ca24898",
+    "dataType": "NA"
+  },
+  {
+    "name": "Unemployed/ Household",
+    "uuid": "d3261b69-0712-4302-9283-34904faa9689",
+    "dataType": "NA"
+  },
+  {
+    "name": "Professionals",
+    "uuid": "0ce08352-ff89-4a0b-8758-3b4804981b95",
+    "dataType": "NA"
+  },
+  {
+    "name": "Occupation",
+    "uuid": "cd83afec-d147-42b2-bd50-0ca460dbd55f",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "name": "Professionals",
+        "uuid": "0ce08352-ff89-4a0b-8758-3b4804981b95"
       },
       {
         "name": "Semi professional",
-        "uuid": "d76144ae-a6c5-4524-bab4-2e2cb01d17c9",
-        "dataType": "NA"
+        "uuid": "d76144ae-a6c5-4524-bab4-2e2cb01d17c9"
       },
       {
         "name": "Clerical",
-        "uuid": "aaceb6ad-80c6-4fc1-8a95-36e4058c15fd",
-        "dataType": "NA"        
+        "uuid": "aaceb6ad-80c6-4fc1-8a95-36e4058c15fd"
       },
       {
         "name": "Shop owner",
-        "uuid": "9c7f4424-2cc3-48dd-b76e-34686a4e2301",
-        "dataType": "NA"        
+        "uuid": "9c7f4424-2cc3-48dd-b76e-34686a4e2301"
       },
-     
+      {
+        "name": "Farmer",
+        "uuid": "114c7f99-add9-492b-affc-f30265fdc433"
+      },
       {
         "name": "Skilled worker",
-        "uuid": "8aef6fe2-ba39-4147-a665-b5dc741bc33d",
-        "dataType": "NA"        
+        "uuid": "8aef6fe2-ba39-4147-a665-b5dc741bc33d"
       },
       {
         "name": "Semiskilled worker",
-        "uuid": "3ce0b6c7-4d6b-4ab2-a513-f58e36d1504d",
-        "dataType": "NA"
+        "uuid": "3ce0b6c7-4d6b-4ab2-a513-f58e36d1504d"
       },
       {
         "name": "Unskilled worker",
-        "uuid": "033e8d7c-a8b0-4d42-8723-22e93ca24898",
-        "dataType": "NA"
+        "uuid": "033e8d7c-a8b0-4d42-8723-22e93ca24898"
       },
       {
         "name": "Unemployed/ Household",
-        "uuid": "d3261b69-0712-4302-9283-34904faa9689",
-        "dataType": "NA"
+        "uuid": "d3261b69-0712-4302-9283-34904faa9689"
+      }
+    ]
+  },
+  {
+    "name": "Age at marriage",
+    "uuid": "986269ea-e6e6-4938-ba55-1febe578d805",
+    "dataType": "Numeric"
+  },
+  {
+    "name": "Consanguineous marriage",
+    "uuid": "2f7912a6-719e-47cc-99f1-f11131ebb2e0",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "name": "Yes",
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
       },
       {
-        "name": "Professionals",
-        "uuid": "0ce08352-ff89-4a0b-8758-3b4804981b95",
-        "dataType": "NA"
+        "name": "No",
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Post-graduate/professional degree",
+    "uuid": "33a0ff0e-db90-40cf-b33c-58aeb3129618",
+    "dataType": "NA"
+  },
+  {
+    "name": "Graduate degree",
+    "uuid": "702017b9-b611-4da7-be84-06ba73c2fdbd",
+    "dataType": "NA"
+  },
+  {
+    "name": "HSC (12th)/ITI",
+    "uuid": "b5cf65ce-f263-456b-92d6-fcd860db7035",
+    "dataType": "NA"
+  },
+  {
+    "name": "SSC (10th)",
+    "uuid": "fcd54f75-f492-4131-b0fb-68865a6eca30",
+    "dataType": "NA"
+  },
+  {
+    "name": "Seventh pass",
+    "uuid": "0788973d-003d-4cfb-a7a4-fea1c0458b62",
+    "dataType": "NA"
+  },
+  {
+    "name": "less than 7th",
+    "uuid": "6da6c49f-86b0-4bc9-a5db-1d166a6d201c",
+    "dataType": "NA"
+  },
+  {
+    "name": "Woman is Rh negative and husband is Rh positive",
+    "uuid": "66eea8c9-9112-4392-a543-2b99f35aa845"
+  },
+  {
+    "name": "Education Level",
+    "uuid": "b5c3cdfe-c0aa-4fae-8784-a576924e56e9",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "name": "Post-graduate/professional degree",
+        "uuid": "33a0ff0e-db90-40cf-b33c-58aeb3129618"
       },
       {
-        "name": "Occupation",
-        "uuid": "cd83afec-d147-42b2-bd50-0ca460dbd55f",
-        "dataType": "Coded",
-        "answers": [
-          {
-            "name": "Professionals",
-            "uuid": "0ce08352-ff89-4a0b-8758-3b4804981b95"
-          },
-          {
-            "name": "Semi professional",
-            "uuid": "d76144ae-a6c5-4524-bab4-2e2cb01d17c9"
-          },
-          {
-            "name": "Clerical",
-            "uuid": "aaceb6ad-80c6-4fc1-8a95-36e4058c15fd"
-          },
-          {
-            "name": "Shop owner",
-            "uuid": "9c7f4424-2cc3-48dd-b76e-34686a4e2301"
-          },
-          {
-            "name": "Farmer",
-            "uuid": "114c7f99-add9-492b-affc-f30265fdc433"
-          },
-          {
-            "name": "Skilled worker",
-            "uuid": "8aef6fe2-ba39-4147-a665-b5dc741bc33d"
-          },
-          {
-            "name": "Semiskilled worker",
-            "uuid": "3ce0b6c7-4d6b-4ab2-a513-f58e36d1504d"
-          },
-          {
-            "name": "Unskilled worker",
-            "uuid": "033e8d7c-a8b0-4d42-8723-22e93ca24898"
-          },
-          {
-            "name": "Unemployed/ Household",
-            "uuid": "d3261b69-0712-4302-9283-34904faa9689"
-          }
-        ]
-    },
-     {
-        "name": "Age at marriage",
-        "uuid": "986269ea-e6e6-4938-ba55-1febe578d805",
-        "dataType": "Numeric"
+        "name": "Graduate degree",
+        "uuid": "702017b9-b611-4da7-be84-06ba73c2fdbd"
+      },
+      {
+        "name": "HSC (12th)/ITI",
+        "uuid": "b5cf65ce-f263-456b-92d6-fcd860db7035"
+      },
+      {
+        "name": "SSC (10th)",
+        "uuid": "fcd54f75-f492-4131-b0fb-68865a6eca30"
+      },
+      {
+        "name": "Seventh pass",
+        "uuid": "0788973d-003d-4cfb-a7a4-fea1c0458b62"
+      },
+      {
+        "name": "less than 7th,",
+        "uuid": "6da6c49f-86b0-4bc9-a5db-1d166a6d201c"
+      },
+      {
+        "name": "Illiterate",
+        "uuid": "e7116c89-7fc5-406c-b2ab-c022fd84fb1a"
+      }
+    ]
+  },
+  {
+    "name": "High Risk Conditions",
+    "uuid": "f34f974b-47b0-424d-ae97-d479c80efa49",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "name": "Age < 20",
+        "uuid": "556ecf51-c2a1-4075-b706-4a47c3595ba7",
+        "abnormal": true
+      },
+      {
+        "name": "Age > 30",
+        "uuid": "9e66cbbd-3b24-4578-b423-6f3022298be6",
+        "abnormal": true
       },
       {
         "name": "Consanguineous marriage",
         "uuid": "2f7912a6-719e-47cc-99f1-f11131ebb2e0",
-        "dataType": "Coded",
-        "answers": [
-            {
-                "name": "Yes",
-                "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-            },
-            {
-                "name": "No",
-                "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-            }
-          ]
+        "abnormal": true
       },
       {
-        "name": "Post-graduate/professional degree",
-        "uuid": "33a0ff0e-db90-40cf-b33c-58aeb3129618",
-        "dataType": "NA"
-      },
-      {
-        "name": "Graduate degree",
-        "uuid": "702017b9-b611-4da7-be84-06ba73c2fdbd",
-        "dataType": "NA"
-      },
-      {
-        "name": "HSC (12th)/ITI",
-        "uuid": "b5cf65ce-f263-456b-92d6-fcd860db7035"    ,
-        "dataType": "NA"        
-      },
-      {
-        "name": "SSC (10th)",
-        "uuid": "fcd54f75-f492-4131-b0fb-68865a6eca30",
-        "dataType": "NA"
-      },
-      {
-        "name": "Seventh pass",
-        "uuid": "0788973d-003d-4cfb-a7a4-fea1c0458b62",
-        "dataType": "NA"        
-      },
-      {
-        "name": "less than 7th",
-        "uuid": "6da6c49f-86b0-4bc9-a5db-1d166a6d201c",
-        "dataType": "NA"        
-      },     
-      {
-        "name": "Education Level",
-        "uuid": "b5c3cdfe-c0aa-4fae-8784-a576924e56e9",
-        "dataType": "Coded",
-        "answers": [
-            {
-                "name": "Post-graduate/professional degree",
-                "uuid": "33a0ff0e-db90-40cf-b33c-58aeb3129618"             
-              },
-              {
-                "name": "Graduate degree",
-                "uuid": "702017b9-b611-4da7-be84-06ba73c2fdbd"               
-              },
-              {
-                "name": "HSC (12th)/ITI",
-                "uuid": "b5cf65ce-f263-456b-92d6-fcd860db7035"          
-             },
-              {
-                "name": "SSC (10th)",
-                "uuid": "fcd54f75-f492-4131-b0fb-68865a6eca30"
-              },
-              {
-                "name": "Seventh pass",
-                "uuid": "0788973d-003d-4cfb-a7a4-fea1c0458b62"
-              },
-              {
-                "name": "less than 7th,",
-                "uuid": "6da6c49f-86b0-4bc9-a5db-1d166a6d201c"
-              },
-              {
-                "name": "Illiterate",
-                "uuid": "e7116c89-7fc5-406c-b2ab-c022fd84fb1a"
-              }
-        ]
-      },
-      {
-        "name": "High Risk Conditions",
-        "uuid": "f34f974b-47b0-424d-ae97-d479c80efa49",
-        "dataType": "Coded",
-        "answers": [
-          {
-              "name": "Age < 20",
-              "uuid": "556ecf51-c2a1-4075-b706-4a47c3595ba7",
-              "abnormal": true
-           },
-            {
-              "name": "Age > 30",
-              "uuid": "9e66cbbd-3b24-4578-b423-6f3022298be6",
-              "abnormal": true
-            }  ,
-            {
-            "name": "Consanguineous marriage",
-            "uuid": "2f7912a6-719e-47cc-99f1-f11131ebb2e0",
-            "abnormal": true
-            }
-         
-        ]
-      }  
-         
-
-  ]
+        "uuid": "66eea8c9-9112-4392-a543-2b99f35aa845",
+        "name": "Woman is Rh negative and husband is Rh positive",
+        "abnormal": true
+      }
+    ]
+  },
+  {
+    "name": "Data Entry Operator Code",
+    "uuid": "defa9437-0c4a-4c49-bd7d-dfc38e6d57fd",
+    "dataType": "Text"
+  }
+]

@@ -1,6 +1,6 @@
 import {
-    StatusBuilderAnnotationFactory, 
-    RuleFactory,  
+    StatusBuilderAnnotationFactory,
+    RuleFactory,
     FormElementsStatusHelper,
     complicationsBuilder as ComplicationsBuilder
 } from 'rules-config/rules';
@@ -25,7 +25,7 @@ class Visit1FormHandler {
         let height = this.getObservationValueFromEntireEnrolment("Preconception Height", programEncounter);
         let weight = programEncounter.findObservation("Preconception Weight");
         return RuleHelper.createBMIFormElementStatusEnrolment(height, weight, formElement);
-    } 
+    }
 
     @WithStatusBuilder
     ironAndFolicAcid([], statusBuilder) {
@@ -40,25 +40,25 @@ class Visit1FormHandler {
     @WithStatusBuilder
     hypertensionTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('Preconception hypertension').is.yes;
-    }   
-   
+    }
+
     @WithStatusBuilder
     husbandsBloodGroup([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("Blood group")
             .containsAnyAnswerConceptName("AB-", "O-", "A-", "B-");
-    } 
-    
+    }
+
     @WithStatusBuilder
     sickleCellAnaemiaElectrophoresis([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('Sickle cell anaemia solubility test')
             .containsAnyAnswerConceptName("Positive");
-    } 
+    }
 
     @WithStatusBuilder
     sickleCellAnaemiaTreatment([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter('Sickle cell anaemia solubility test')
-            .containsAnyAnswerConceptName("Positive");
-    } 
+        statusBuilder.show().when.valueInEncounter('Sickle cell anaemia solubility test').containsAnyAnswerConceptName("Positive").and
+            .when.valueInEncounter("Sickle cell anaemia electrophoresis").containsAnyAnswerConceptName("Positive");
+    }
 
     @WithStatusBuilder
     bloodSugarLevelBslOralGlucoseToleranceOgtTest([], statusBuilder) {
@@ -69,7 +69,7 @@ class Visit1FormHandler {
     diabetesTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('Preconception blood sugar ogt')
             .containsAnyAnswerConceptName("Positive");
-    } 
+    }
 
     @WithStatusBuilder
     hivTreatmentTaken([], statusBuilder) {
@@ -129,7 +129,7 @@ class Visit1FormHandler {
     tshTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("TSH").greaterThan(10);
     }
-    
+
     @WithStatusBuilder
     anyOtherIllnessTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("Any other illness").is.yes;
@@ -150,7 +150,7 @@ class Visit1FormHandler {
     preconceptionDietAdvice([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('BMI').is.greaterThan(25).or.is.lessThan(18);
     }
-   
+
     @WithStatusBuilder
     preconceptionCounsellingForAnaemiaTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('Preconception Hb').is.lessThan(12);
@@ -161,61 +161,61 @@ class Visit1FormHandler {
         statusBuilder.show().when.valueInEncounter("Sickle cell anaemia solubility test")
         .containsAnyAnswerConceptName("Positive");
     }
-   
+
     @WithStatusBuilder
     preconceptionCounsellingForHypertensionTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("Preconception hypertension").is.yes;
     }
-   
+
     @WithStatusBuilder
     preconceptionCounsellingRegardingAntiDInjection([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("Blood group").containsAnyAnswerConceptName("AB-", "O-", "A-", "B-")
         .and.when.valueInEncounter("Husband blood group").containsAnyAnswerConceptName("AB+", "O+", "A+", "B+");
     }
-   
-    @WithStatusBuilder  
+
+    @WithStatusBuilder
     preconceptionCounsellingForDiabetesTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('Preconception blood sugar ogt')
         .containsAnyAnswerConceptName("Positive");
     }
-    
+
     @WithStatusBuilder
     preconceptionCounsellingHerForHivTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('HIV')
         .containsAnyAnswerConceptName("Positive");
     }
-   
+
     @WithStatusBuilder
     preconceptionCounsellingHusbandForHivTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('Husband hiv')
         .containsAnyAnswerConceptName("Positive");
     }
-    
+
     @WithStatusBuilder
     preconceptionCounsellingBothForVdrlInfectionTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('Husband Vdrl')
         .containsAnyAnswerConceptName("Positive").or.when.valueInEncounter('VDRL test Result')
         .containsAnyAnswerConceptName("Positive");
     }
-    
+
     @WithStatusBuilder
     preconceptionCounsellingHerForRtiTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('RTI Symptoms')
         .containsAnyAnswerConceptName("Yes");
     }
-   
+
     @WithStatusBuilder
     preconceptionCounsellingHusbandForRtiTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('RTI Symptoms for Husband')
         .containsAnyAnswerConceptName("Yes");
     }
-    
+
     @WithStatusBuilder
     preconceptionCounsellingForOtherIllnessTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('Any other illness')
         .containsAnyAnswerConceptName("Yes");
     }
-    
+
     @WithStatusBuilder
     preconceptionCounsellingForHypothyroidismTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("TSH").greaterThan(12);
@@ -236,21 +236,21 @@ class Visit1Decision {
 
         complicationsBuilder.addComplication("High BMI")
         .when.valueInEncounter("BMI").greaterThan(25);
- 
+
         complicationsBuilder.addComplication("Haemoglobin < 12")
             .when.valueInEncounter("Preconception Hb").lessThan(12);
 
         complicationsBuilder.addComplication("Suffering from hypertension")
             .when.valueInEncounter("Preconception hypertension").is.yes;
 
-        complicationsBuilder.addComplication("Rh Negative Blood Group")
+        complicationsBuilder.addComplication("Woman is Rh negative and husband is Rh positive")
             .when.valueInEncounter("Blood group").containsAnyAnswerConceptName("AB-", "O-", "A-", "B-")
             .and.when.valueInEncounter("Husband blood group").containsAnyAnswerConceptName("AB+", "O+", "A+", "B+");
-       
+
         complicationsBuilder.addComplication('Sickle cell anaemia positive')
             .when.valueInEncounter('Sickle cell anaemia solubility test')
             .containsAnyAnswerConceptName("Positive");
-            
+
         complicationsBuilder.addComplication('HIV positive')
             .when.valueInEncounter('HIV')
             .containsAnyAnswerConceptName("Positive");
@@ -266,18 +266,18 @@ class Visit1Decision {
         complicationsBuilder.addComplication("Husband's VDRL positive")
             .when.valueInEncounter('Husband Vdrl')
             .containsAnyAnswerConceptName("Positive");
-            
+
         complicationsBuilder.addComplication('RTI Symptoms positive')
             .when.valueInEncounter('RTI Symptoms')
             .containsAnyAnswerConceptName("Yes");
-            
+
         complicationsBuilder.addComplication('RTI Symptoms for Husband positive')
             .when.valueInEncounter('RTI Symptoms for Husband')
             .containsAnyAnswerConceptName("Yes");
 
         complicationsBuilder.addComplication("TSH > 12")
              .when.valueInEncounter("TSH").greaterThan(12);
- 
+
         complicationsBuilder.addComplication('Other illness')
             .when.valueInEncounter('Any other illness')
             .containsAnyAnswerConceptName("Yes");
@@ -285,8 +285,8 @@ class Visit1Decision {
         complicationsBuilder.addComplication('Diabetes')
             .when.valueInEncounter('Preconception blood sugar ogt')
             .containsAnyAnswerConceptName("Positive");
-       
-  
+
+
         return complicationsBuilder.getComplications();
     }
 

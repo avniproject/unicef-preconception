@@ -109,6 +109,17 @@
           "mandatory": true
         },
         {
+          "name": "Child alive till 28th day",
+          "uuid": "22144570-c1cf-4697-b273-77cd2a53ce05",
+          "keyValues": [],
+          "concept": {
+            "name": "Child alive till 28th day",
+            "uuid": "ef157e65-cf3c-4b12-934d-6bb5e8a04a6d"
+          },
+          "displayOrder":9.5 ,
+          "mandatory": true
+        },
+        {
           "name": "Neonatal death",
           "uuid": "633d9cff-e3ca-4c1e-bf02-6f2b763f42c2",
           "keyValues": [],

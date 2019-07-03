@@ -1,5 +1,13 @@
-import {FormElementStatusBuilder,lib,FormElementsStatusHelper, RuleFactory, StatusBuilderAnnotationFactory, WithName} from 'rules-config/rules';
+import {
+    FormElementStatusBuilder,
+    FormElementsStatusHelper,
+    RuleFactory,
+    StatusBuilderAnnotationFactory,
+    WithName
+} from 'rules-config/rules';
 import RuleHelper from "../shared/rules/RuleHelper";
+import lib from '../lib'
+import _ from 'lodash';
 
 const filter = RuleFactory('3462178e-94e5-43d9-bc17-6cddad05c265', 'ViewFilter');
 const WithStatusBuilder = StatusBuilderAnnotationFactory('programEncounter', 'formElement');
@@ -190,6 +198,24 @@ class MonthlyMonitoringViewFilter {
     @WithStatusBuilder
     _22([programEncounter, formElement], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("Missed period").is.yes;
+    }
+
+    @WithName('Last menstrual period')
+    @WithStatusBuilder
+    _221([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
+    }
+
+    @WithName('Estimated date of delivery')
+    @WithStatusBuilder
+    _222([programEncounter, formElement], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("UPT done if period missed").containsAnyAnswerConceptName("Positive");
+        const builder = statusBuilder.build();
+        let lmp = programEncounter.getObservationValue('Last menstrual period');
+        if (!_.isNil(lmp)) {
+            builder.value = lib.calculations.estimatedDateOfDelivery(programEncounter);
+        }
+        return builder;
     }
 
     @WithName('Haemoglobin')

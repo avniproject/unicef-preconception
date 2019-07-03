@@ -97,6 +97,23 @@
         "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
       },
       {
+        "uuid": "e9cd2edf-d831-407c-b162-3c4c256cb25d",
+        "name": "Partial"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Child alive till 28th day",
+    "uuid": "ef157e65-cf3c-4b12-934d-6bb5e8a04a6d",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
         "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
       }
     ]

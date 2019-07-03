@@ -263,6 +263,31 @@
           },
           "displayOrder": 2,
           "mandatory": true
+        },
+        {
+          "name": "Last menstrual period",
+          "uuid": "ba38c4a1-450f-47c1-8608-ef2089de7813",
+          "keyValues": [],
+          "concept": {
+            "uuid": "1cc6fd5d-1359-483e-a971-4bf36e34a72d",
+            "name": "Last menstrual period"
+          },
+          "displayOrder":3 ,
+          "mandatory": false
+        },
+        {
+          "name": "Estimated date of delivery",
+          "uuid": "b0df7c4d-ef07-4149-8171-afdb23793791",
+          "keyValues": [
+            {
+              "key": "editable",
+              "value": false
+            }
+          ],
+          "concept": {
+            "uuid": "dde911fa-15eb-4564-8deb-bba46e9d3744"
+          },
+          "displayOrder": 4
         }
       ]
     },

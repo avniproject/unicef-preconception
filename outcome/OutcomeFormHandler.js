@@ -50,10 +50,14 @@ class OutcomeFormHandler {
         statusBuilder.show().when.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Live Birth");
     } 
 
-    
+    @WithStatusBuilder
+    childAliveTill28thDay([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Follow-up of neonatal period").containsAnyAnswerConceptName("Yes", "Partial");
+    }
+
     @WithStatusBuilder
     neonatalDeath([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Follow-up of neonatal period").is.no;
+        statusBuilder.show().when.valueInEncounter("Child alive till 28th day").is.no;
     } 
 
     @WithStatusBuilder

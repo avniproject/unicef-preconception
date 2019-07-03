@@ -1,196 +1,209 @@
 {
-    "name": "Registration Form",
-    "uuid": "173abccc-2c3e-451e-a77e-524b28c4a224",
-    "formType": "IndividualProfile",
-    "formElementGroups": [
-      {
-        "uuid": "43912f63-7b9c-4e17-b8f0-e4a3eb6933db",
-        "name": "Details",
-        "display": "Details",
-        "displayOrder": 1,
-        "formElements": [
-          {
-            "name": "Do you want to conceive?",           
-            "uuid": "1f629866-ddee-4a01-b864-8fa271538eb9",
-            "type": "SingleSelect",
-            "keyValues": [],
-            "concept": {
-              "name": "Wish to conceive",
-              "uuid": "2fcaca8b-d075-4bf3-bc05-92eb4cdf98fb"
-            },
-            "displayOrder": 1,
-            "mandatory": true
+  "name": "Registration Form",
+  "uuid": "173abccc-2c3e-451e-a77e-524b28c4a224",
+  "formType": "IndividualProfile",
+  "formElementGroups": [
+    {
+      "uuid": "43912f63-7b9c-4e17-b8f0-e4a3eb6933db",
+      "name": "Details",
+      "display": "Details",
+      "displayOrder": 1,
+      "formElements": [
+        {
+          "name": "Do you want to conceive?",
+          "uuid": "1f629866-ddee-4a01-b864-8fa271538eb9",
+          "type": "SingleSelect",
+          "keyValues": [],
+          "concept": {
+            "name": "Wish to conceive",
+            "uuid": "2fcaca8b-d075-4bf3-bc05-92eb4cdf98fb"
           },
-          {
-            "name": "Religion",
-            "uuid": "06ad82b5-aa83-4bee-9208-8d1f48d5c91e",
-            "type": "SingleSelect",
-            "keyValues": [],
-            "concept": {
-              "uuid": "c922c13c-1fa2-42dd-a7e8-d234b0324870",
-              "comment": "Religion"
-            },
-            "displayOrder": 2,
-            "mandatory": true
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Religion",
+          "uuid": "06ad82b5-aa83-4bee-9208-8d1f48d5c91e",
+          "type": "SingleSelect",
+          "keyValues": [],
+          "concept": {
+            "uuid": "c922c13c-1fa2-42dd-a7e8-d234b0324870",
+            "comment": "Religion"
           },
-          {
-            "name": "Caste",
-            "uuid": "bb67227c-87d9-4e7c-b68e-bb27a0101221",
-            "type": "SingleSelect",
-            "concept": {
-              "uuid": "61ab6413-5c6a-4512-ab6e-7d5cd1439569",
-              "comment": "Caste"
-            },
-            "displayOrder": 3,
-            "mandatory": true
+          "displayOrder": 2,
+          "mandatory": true
+        },
+        {
+          "name": "Caste",
+          "uuid": "bb67227c-87d9-4e7c-b68e-bb27a0101221",
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "61ab6413-5c6a-4512-ab6e-7d5cd1439569",
+            "comment": "Caste"
           },
-          
-          {
-            "name": "What type of family do you stay in?",
-            "uuid": "3c002928-5998-4486-856d-0245e413fc84",
-            "keyValues": [],
-            "type": "SingleSelect",
-            "concept": {
-              "name": "Family type",              
-              "uuid": "2421c62c-751e-406d-9027-7aca3fe3ed37"
-            },
-            "displayOrder": 4,
-            "mandatory": true
+          "displayOrder": 3,
+          "mandatory": true
+        },
+        {
+          "name": "What type of family do you stay in?",
+          "uuid": "3c002928-5998-4486-856d-0245e413fc84",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Family type",
+            "uuid": "2421c62c-751e-406d-9027-7aca3fe3ed37"
           },
-          {
+          "displayOrder": 4,
+          "mandatory": true
+        },
+        {
+          "name": "Cell Number",
+          "uuid": "e4de1434-a311-40d2-94c8-29f2f116b12d",
+          "keyValues": [],
+          "dataType": "Numeric",
+          "concept": {
             "name": "Cell Number",
-            "uuid": "e4de1434-a311-40d2-94c8-29f2f116b12d",
-            "keyValues": [],
-            "dataType": "Numeric",
-            "concept": {
-              "name": "Cell Number",
-              "uuid": "86384d48-6897-438a-9cab-a803c21c2a2a"
-            },
-            "validFormat": {
-              "regex": "^[0-9]{10}$",
-              "descriptionKey": "Required10Digits"
-            },
-            "displayOrder": 5,
-            "mandatory": true
+            "uuid": "86384d48-6897-438a-9cab-a803c21c2a2a"
           },
-          {
+          "validFormat": {
+            "regex": "^[0-9]{10}$",
+            "descriptionKey": "Required10Digits"
+          },
+          "displayOrder": 5,
+          "mandatory": true
+        },
+        {
+          "name": "Total members in the family",
+          "uuid": "985e8d66-f7c0-45e8-a9f7-2f281edb3cc4",
+          "keyValues": [],
+          "dataType": "Numeric",
+          "concept": {
             "name": "Total members in the family",
-            "uuid": "985e8d66-f7c0-45e8-a9f7-2f281edb3cc4",
-            "keyValues": [],
-            "dataType": "Numeric",
-            "concept": {
-              "name": "Total members in the family",
-              "uuid": "708d8355-91a5-4d18-a207-ec58e778f91e"
-            },
-            "displayOrder": 6,
-            "mandatory": true
+            "uuid": "708d8355-91a5-4d18-a207-ec58e778f91e"
           },
-          {
+          "displayOrder": 6,
+          "mandatory": true
+        },
+        {
+          "name": "Family Income (in Rs.)",
+          "uuid": "10abc148-7bcd-416c-8092-17f54fef1fa1",
+          "keyValues": [],
+          "dataType": "Numeric",
+          "concept": {
             "name": "Family Income (in Rs.)",
-            "uuid": "10abc148-7bcd-416c-8092-17f54fef1fa1",
-            "keyValues": [],
-            "dataType": "Numeric",
-            "concept": {
-              "name": "Family Income (in Rs.)",
-              "uuid": "37ad1c37-6234-4308-98a7-075af289e610"
-            },
-            "displayOrder": 7,
-            "mandatory": true
+            "uuid": "37ad1c37-6234-4308-98a7-075af289e610"
           },
-          {
-            "name": "What is level of your education?",
-            "uuid": "0b7472e0-3b2b-451e-b090-636361a2de2d",
-            "keyValues": [],
-            "type": "SingleSelect",
-            "concept": {
-              "name": "Education Level",
-              "uuid": "b5c3cdfe-c0aa-4fae-8784-a576924e56e9"
-            },
-            "displayOrder": 8,
-            "mandatory": true
+          "displayOrder": 7,
+          "mandatory": true
+        },
+        {
+          "name": "What is level of your education?",
+          "uuid": "0b7472e0-3b2b-451e-b090-636361a2de2d",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Education Level",
+            "uuid": "b5c3cdfe-c0aa-4fae-8784-a576924e56e9"
           },
-          {
-            "name": "What is your occupation?",            
-            "uuid": "50f99f43-9326-404e-b278-0843462c9d7e",
-            "keyValues": [],
-            "type": "SingleSelect",
-            "concept": {
-              "name": "Occupation",
-              "uuid": "cd83afec-d147-42b2-bd50-0ca460dbd55f"
-            },
-            "displayOrder": 9,
-            "mandatory": true
+          "displayOrder": 8,
+          "mandatory": true
+        },
+        {
+          "name": "What is your occupation?",
+          "uuid": "50f99f43-9326-404e-b278-0843462c9d7e",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Occupation",
+            "uuid": "cd83afec-d147-42b2-bd50-0ca460dbd55f"
           },
-          {
-            "name": "What was your age at marriage?",
-            "uuid": "28609b74-71d7-48c8-aa3c-805288fe065f",
-            "keyValues": [],
-            "dataType": "Numeric",
-            "concept": {
-              "name": "Age at marriage",
-              "uuid": "986269ea-e6e6-4938-ba55-1febe578d805"
-            },
-            "displayOrder": 10,
-            "mandatory": true
+          "displayOrder": 9,
+          "mandatory": true
+        },
+        {
+          "name": "What was your age at marriage?",
+          "uuid": "28609b74-71d7-48c8-aa3c-805288fe065f",
+          "keyValues": [],
+          "dataType": "Numeric",
+          "concept": {
+            "name": "Age at marriage",
+            "uuid": "986269ea-e6e6-4938-ba55-1febe578d805"
           },
-          {
-            "name": "Did you marry within relation?",
-            "uuid": "d38d2ecb-cb62-4dff-970a-1af9b618e690",
-            "keyValues": [],
-            "type": "SingleSelect",
-            "concept": {
-              "name": "Consanguineous marriage",
-              "uuid": "2f7912a6-719e-47cc-99f1-f11131ebb2e0"
-            },
-            "displayOrder": 11,
-            "mandatory": true
-          }
-        ]
-      },
-      {
-        "uuid": "cdd27a69-715f-435f-ab65-a49cb4902584",
-        "name": "Counselling",
-        "display": "Counselling",
-        "displayOrder": 12,
-        "formElements": [
-          {
-            "name": "UNICEF Preconception counselling for consanguineous marriage",
-            "uuid": "058f7d78-352f-46a0-a868-490f04c6c380",
-            "keyValues": [],
-            "type": "SingleSelect",
-            "concept": {
-              "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
-              "comment": "Placeholder for counselling form element"
-            },
-            "displayOrder": 1,
-            "mandatory": false
+          "displayOrder": 10,
+          "mandatory": true
+        },
+        {
+          "name": "Did you marry within relation?",
+          "uuid": "d38d2ecb-cb62-4dff-970a-1af9b618e690",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Consanguineous marriage",
+            "uuid": "2f7912a6-719e-47cc-99f1-f11131ebb2e0"
           },
-          {
-            "name": "UNICEF Preconception counselling for age less than 20",
-            "uuid": "8973e7e1-fe69-42b7-8204-00f73fa91e38",
-            "keyValues": [],
-            "type": "SingleSelect",
-            "concept": {
-              "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
-              "comment": "Placeholder for counselling form element"
-             },
-            "displayOrder": 2,
-            "mandatory": false
+          "displayOrder": 11,
+          "mandatory": true
+        },
+        {
+          "name": "Data Entry Operator Code",
+          "uuid": "758af00c-7680-4799-9534-9f4f4006c7ba",
+          "keyValues": [],
+          "concept": {
+            "name": "Data Entry Operator Code",
+            "uuid": "defa9437-0c4a-4c49-bd7d-dfc38e6d57fd"
           },
-          {
-            "name": "UNICEF Preconception counselling for age greater than 30",
-            "uuid": "7b825712-3c33-4185-9f25-a58ce218a329",
-            "keyValues": [],
-            "type": "SingleSelect",
-            "concept": {
-              "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
-              "comment": "Placeholder for counselling form element"
-            },
-            "displayOrder": 3,
-            "mandatory": false
-          }
-        ]
-      }
-  
-    ]
-  }
+          "validFormat": {
+            "regex": "^[a-zA-Z0-9]*$",
+            "descriptionKey": "OnlyAlphaNumeric"
+          },
+          "displayOrder": 12,
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "uuid": "cdd27a69-715f-435f-ab65-a49cb4902584",
+      "name": "Counselling",
+      "display": "Counselling",
+      "displayOrder": 12,
+      "formElements": [
+        {
+          "name": "UNICEF Preconception counselling for consanguineous marriage",
+          "uuid": "058f7d78-352f-46a0-a868-490f04c6c380",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 1,
+          "mandatory": false
+        },
+        {
+          "name": "UNICEF Preconception counselling for age less than 20",
+          "uuid": "8973e7e1-fe69-42b7-8204-00f73fa91e38",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 2,
+          "mandatory": false
+        },
+        {
+          "name": "UNICEF Preconception counselling for age greater than 30",
+          "uuid": "7b825712-3c33-4185-9f25-a58ce218a329",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "uuid": "b4e5a662-97bf-4846-b9b7-9baeab4d89c4",
+            "comment": "Placeholder for counselling form element"
+          },
+          "displayOrder": 3,
+          "mandatory": false
+        }
+      ]
+    }
+  ]
+}

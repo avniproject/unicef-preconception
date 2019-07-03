@@ -625,7 +625,12 @@
           "uuid": "674f348f-5075-4c85-8bc2-9edfdee27505",
           "name": "Diabetes",
           "abnormal": true
-        }      
+        },
+      {
+        "uuid": "66eea8c9-9112-4392-a543-2b99f35aa845",
+        "name": "Woman is Rh negative and husband is Rh positive",
+        "abnormal": true
+      }
       ]   
   }
 ]
