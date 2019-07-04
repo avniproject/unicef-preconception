@@ -297,5 +297,20 @@
     "name": "Data Entry Operator Code",
     "uuid": "defa9437-0c4a-4c49-bd7d-dfc38e6d57fd",
     "dataType": "Text"
+  },
+  {
+    "name": "Husband Name",
+    "uuid": "0d5d6aa5-0c5e-4264-bd8b-65680fe41a55",
+    "dataType": "Text"
+  },
+  {
+    "name": "Age of Husband",
+    "uuid": "45d5671f-8ee4-4638-a776-0560994bf888",
+    "dataType": "Numeric"
+  },
+  {
+    "name": "Age of Husband at marriage",
+    "uuid": "164d266f-46e4-49c0-b0d5-c06ab413ec19",
+    "dataType": "Numeric"
   }
 ]

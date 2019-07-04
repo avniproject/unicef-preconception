@@ -145,6 +145,39 @@
           "mandatory": true
         },
         {
+          "name": "Name of Husband",
+          "uuid": "95f1ef8b-4926-4fbb-86d5-80fb53c59151",
+          "keyValues": [],
+          "concept": {
+            "name": "Husband Name",
+            "uuid": "0d5d6aa5-0c5e-4264-bd8b-65680fe41a55"
+          },
+          "displayOrder": 11.1,
+          "mandatory": true
+        },
+        {
+          "name": "Age of Husband",
+          "uuid": "c5c26f19-b9e1-4f45-ac64-c8e982c3ae7e",
+          "keyValues": [],
+          "concept": {
+            "name": "Age of Husband",
+            "uuid": "45d5671f-8ee4-4638-a776-0560994bf888"
+          },
+          "displayOrder": 11.2,
+          "mandatory": true
+        },
+        {
+          "name": "Age of Husband at marriage",
+          "uuid": "c3924b15-2be5-4806-9565-f7d4095f3346",
+          "keyValues": [],
+          "concept": {
+            "name": "Age of Husband at marriage",
+            "uuid": "164d266f-46e4-49c0-b0d5-c06ab413ec19"
+          },
+          "displayOrder": 11.3,
+          "mandatory": true
+        },
+        {
           "name": "Data Entry Operator Code",
           "uuid": "758af00c-7680-4799-9534-9f4f4006c7ba",
           "keyValues": [],

@@ -48,13 +48,28 @@
     "unit": "mm Hg"
   },
   {
+    "name": "Weekly",
+    "uuid": "d7d4bd7a-ce81-4167-8f20-c68290421f03"
+  },
+  {
+    "name": "As Prescribed",
+    "uuid": "77f7132b-81d8-475a-a7bb-af8400f17c27"
+  },
+  {
     "name": "Iron and folic acid",
     "uuid": "8d91a9a1-0f69-46c1-99e8-6510caad9d8f",
     "dataType": "Coded",
     "answers": [
       {
-        "uuid": "95ce02f2-5442-4d6b-98c9-fae37846ff9b",
-        "name": "Yes/ Given"
+        "name": "Weekly",
+        "uuid": "d7d4bd7a-ce81-4167-8f20-c68290421f03"
+      },
+      { "uuid": "ba04b615-f4af-4b5e-87aa-1ce70f28a1b1",
+        "name": "Daily"
+      },
+      {
+        "name": "As Prescribed",
+        "uuid": "77f7132b-81d8-475a-a7bb-af8400f17c27"
       },
       {
         "uuid": "e31feedc-c36a-4e93-ae2b-9094ba6b30e4",
@@ -632,5 +647,54 @@
         "abnormal": true
       }
       ]   
+  },
+  {
+    "name": "Number of Folic Acid Tablets given",
+    "uuid": "7afcfc69-a301-4ad3-b0f2-b251141f8033",
+    "dataType": "Numeric",
+    "lowNormal": 10,
+    "highNormal": 60
+  },
+  {
+    "name": "Done",
+    "uuid": "76c0de0a-8c5c-408c-b9c1-5e930c37becc"
+  },
+  {
+    "name": "Not Done",
+    "uuid": "96f0b45e-6b9b-4ba5-a260-3e3b88fbbbeb"
+  },
+  {
+    "name": "MO Examination",
+    "uuid": "e8f147d2-4b8b-4863-8e71-9922643beb96",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "name": "Done",
+        "uuid": "76c0de0a-8c5c-408c-b9c1-5e930c37becc"
+      },
+      {
+        "name": "Not Done",
+        "uuid": "96f0b45e-6b9b-4ba5-a260-3e3b88fbbbeb"
+      }
+    ]
+  },
+  {
+    "name": "Treatment taken",
+    "uuid": "f18d415a-18fa-4833-9ec3-d27bd7bf5750",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      },
+      {
+        "name": "NA",
+        "uuid": "4d476011-7fc4-432b-98c0-9f6f1847cf39"
+      }
+    ]
   }
+
+
 ]

@@ -38,6 +38,11 @@ class Visit1FormHandler {
     }
 
     @WithStatusBuilder
+    numberOfFolicAcidTabletsGiven([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter('Folic acid').containsAnswerConceptName("Yes/ Given")
+    }
+
+    @WithStatusBuilder
     hypertensionTreatment([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter('Preconception hypertension').is.yes;
     }

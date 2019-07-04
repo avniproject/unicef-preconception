@@ -272,7 +272,7 @@
             "uuid": "1cc6fd5d-1359-483e-a971-4bf36e34a72d",
             "name": "Last menstrual period"
           },
-          "displayOrder":3 ,
+          "displayOrder": 3,
           "mandatory": false
         },
         {
@@ -453,6 +453,38 @@
             "name": "Next monthly Visit Date"
           },
           "displayOrder": 1,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "d5e2f547-5b7b-42e0-bd9e-512a356b945b",
+      "name": "COUNSELLING",
+      "display": "COUNSELLING",
+      "displayOrder": 5.5,
+      "formElements": [
+        {
+          "name": "BCC-2- Documentary film",
+          "uuid": "8e833cbc-5963-46ee-8686-d81b11776fe4",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "BCC-2- Documentary film",
+            "uuid": "049ce3d6-84d3-4ffe-8317-e4418447d026"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "BCC-3- Voice and text messages",
+          "uuid": "281789b6-8623-40c8-9396-7d3780aa8df9",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "BCC-3- Voice and text messages",
+            "uuid": "2e6dde02-03f4-496a-85a2-1bad9d62bd4b"
+          },
+          "displayOrder": 2,
           "mandatory": true
         }
       ]

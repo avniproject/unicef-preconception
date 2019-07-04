@@ -70,6 +70,17 @@
           "mandatory": true
         },
         {
+          "name": "Number of Folic Acid Tablets given",
+          "uuid": "eda2cfea-524b-4e38-83ba-a65b1974732d",
+          "keyValues": [],
+          "concept": {
+            "name": "Number of Folic Acid Tablets given",
+            "uuid": "7afcfc69-a301-4ad3-b0f2-b251141f8033"
+          },
+          "displayOrder": 5.5,
+          "mandatory": true
+        },
+        {
           "name": "Blood pressure- Systolic",
           "uuid": "1f6ff494-4175-48de-b18e-a67e758c65c2",
           "keyValues": [],
@@ -468,6 +479,30 @@
           "mandatory": true
         },
         {
+          "name": "MO Examination",
+          "uuid": "1fefc219-e3bf-4a7f-9da2-6fe7ac455628",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "MO Examination",
+            "uuid": "e8f147d2-4b8b-4863-8e71-9922643beb96"
+          },
+          "displayOrder": 2.1,
+          "mandatory": true
+        },
+        {
+          "name": "Treatment taken",
+          "uuid": "74da9b85-5a62-418b-8391-753608ec0edb",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Treatment taken",
+            "uuid": "f18d415a-18fa-4833-9ec3-d27bd7bf5750"
+          },
+          "displayOrder": 2.2,
+          "mandatory": true
+        },
+        {
           "name": "Deworming tablet received- Albendazole",
           "uuid": "92a5056e-c2f0-493b-8b02-92389e5c05d8",
           "keyValues": [],
@@ -497,30 +532,6 @@
             "uuid": "5c434867-dddd-4d77-b7cb-91008084bcd0"
           },
           "displayOrder": 1,
-          "mandatory": false
-        },
-        {
-          "name": "BCC-2- Documentary film",
-          "uuid": "1185a260-91a9-4a8d-89f0-a64df0da94be",
-          "keyValues": [],
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Documentary film",
-            "uuid": "dc646457-2de9-45be-8a40-c25308c27460"
-          },
-          "displayOrder": 2,
-          "mandatory": false
-        },
-        {
-          "name": "BCC-3- Voice and text messages",
-          "uuid": "332ec82c-c586-47aa-9e6f-8f7d8c2fcaa6",
-          "keyValues": [],
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Voice and text messages",
-            "uuid": "edad8e40-41e7-4621-bc5a-8dea68152831"
-          },
-          "displayOrder": 3,
           "mandatory": false
         }
       ]

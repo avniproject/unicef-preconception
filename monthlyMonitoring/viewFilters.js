@@ -300,6 +300,22 @@ class MonthlyMonitoringViewFilter {
         statusBuilder.show().when.valueInEncounter("UPT done if period missed").not.containsAnyAnswerConceptName("Positive");
     }
 
+    @WithName("BCC-2- Documentary film")
+    @WithStatusBuilder
+    _341([programEncounter, formElement], statusBuilder) {
+        const status = statusBuilder.build();
+        status.visibility = programEncounter.programEnrolment.numberOfEncountersOfType(programEncounter.encounterType.name) === 3;
+        return status;
+    }
+
+    @WithName("BCC-3- Voice and text messages")
+    @WithStatusBuilder
+    _342([programEncounter, formElement], statusBuilder) {
+        const status = statusBuilder.build();
+        status.visibility = programEncounter.programEnrolment.numberOfEncountersOfType(programEncounter.encounterType.name) === 5;
+        return status;
+    }
+
     @WithName('Counsel her for anaemia treatment')
     @WithStatusBuilder
     _35([programEncounter, formElement], statusBuilder) {
