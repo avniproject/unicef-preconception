@@ -291,7 +291,7 @@ class MonthlyMonitoringViewFilter {
     @WithName('FA')
     @WithStatusBuilder
     _33([programEncounter, formElement], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Preconception Hb").is.greaterThan(12);
+        statusBuilder.show().when.valueInEncounter("Preconception Hb").is.greaterThanOrEqualTo(12);
     }
 
     @WithName('Next monthly Visit Date')
