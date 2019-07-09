@@ -31,7 +31,7 @@
             "comment": "Religion"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Caste",
@@ -42,7 +42,7 @@
             "comment": "Caste"
           },
           "displayOrder": 3,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "What type of family do you stay in?",
@@ -54,7 +54,7 @@
             "uuid": "2421c62c-751e-406d-9027-7aca3fe3ed37"
           },
           "displayOrder": 4,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Cell Number",
@@ -70,7 +70,7 @@
             "descriptionKey": "Required10Digits"
           },
           "displayOrder": 5,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Total members in the family",
@@ -82,7 +82,7 @@
             "uuid": "708d8355-91a5-4d18-a207-ec58e778f91e"
           },
           "displayOrder": 6,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Family Income (in Rs.)",
@@ -106,7 +106,7 @@
             "uuid": "b5c3cdfe-c0aa-4fae-8784-a576924e56e9"
           },
           "displayOrder": 8,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "What is your occupation?",
@@ -118,7 +118,7 @@
             "uuid": "cd83afec-d147-42b2-bd50-0ca460dbd55f"
           },
           "displayOrder": 9,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "What was your age at marriage?",
@@ -142,7 +142,7 @@
             "uuid": "2f7912a6-719e-47cc-99f1-f11131ebb2e0"
           },
           "displayOrder": 11,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Name of Husband",
@@ -153,7 +153,7 @@
             "uuid": "0d5d6aa5-0c5e-4264-bd8b-65680fe41a55"
           },
           "displayOrder": 11.1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Age of Husband",
@@ -164,7 +164,7 @@
             "uuid": "45d5671f-8ee4-4638-a776-0560994bf888"
           },
           "displayOrder": 11.2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Age of Husband at marriage",
@@ -175,7 +175,7 @@
             "uuid": "164d266f-46e4-49c0-b0d5-c06ab413ec19"
           },
           "displayOrder": 11.3,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Data Entry Operator Code",

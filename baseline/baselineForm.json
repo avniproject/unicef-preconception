@@ -68,7 +68,7 @@
             "regex": "^[0-9]$",
             "descriptionKey": "Required1Digit"
           },
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Total number of deliveries undergone",
@@ -83,7 +83,7 @@
             "descriptionKey": "Required1Digit"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Date of last pregnancy outcome",
@@ -94,7 +94,7 @@
             "uuid": "7e81ff1e-4d84-4900-9b05-c4d757dba73f"
           },
           "displayOrder": 3,
-          "mandatory": true
+          "mandatory": false
         },
  
         {
@@ -107,7 +107,7 @@
             "uuid": "2d43aed4-4ede-4ef7-952c-07b3d6103588"
           },
           "displayOrder": 4,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Live birth- birth weight in kg",
@@ -118,7 +118,7 @@
             "uuid": "99007f28-a4c2-484f-bf12-e2e9a5976be5"
           },
           "displayOrder": 5,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name":"In which month was the foetus aborted or child delivered?",
@@ -129,7 +129,7 @@
             "uuid": "c0b0a7d5-ca8f-4474-84d7-f9beafef7e09"
           },
           "displayOrder": 6,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Does child have or had congenital anomaly?",
@@ -141,7 +141,7 @@
             "uuid": "126e6174-875e-43bc-834c-aebc9044443d"
           },
           "displayOrder": 7,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     },
@@ -161,7 +161,7 @@
             "uuid": "84127cee-ae0a-4f22-ab0e-f21cd7742d9e"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "If yes, specify the type of tabacco",
@@ -173,7 +173,7 @@
             "uuid": "716ce33f-ccae-4192-8edc-0130fe43149b"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     },
@@ -193,7 +193,7 @@
             "uuid": "c15969af-d766-4e89-aa55-4c18c75d9236"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "If yes, specify the type of alochol",
@@ -205,7 +205,7 @@
             "uuid": "907a4369-ba5e-4220-a988-1e759f83b722"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     },
@@ -225,7 +225,7 @@
             "uuid": "d9786f0d-9a20-40c2-8374-0598c1b1f0af"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Average food quantity",
@@ -237,7 +237,7 @@
             "uuid": "b081b5c4-957e-46fa-8b9c-5a08ca375c0a"
           },
           "displayOrder":2 ,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Food groups",
@@ -249,7 +249,7 @@
             "uuid": "bd6b4e7a-5f82-4222-8a09-db405a715165"
           },
           "displayOrder":3,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Calorie intake",
@@ -260,7 +260,7 @@
             "uuid": "17492114-719c-4a3a-b948-2936d8f950e2"
           },
           "displayOrder": 4,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Calorie % RDA",
@@ -276,7 +276,7 @@
             "uuid": "4ecfbbd6-4e4b-492c-9462-2c317318ed80"
           },
           "displayOrder":5,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Protein intake",
@@ -287,7 +287,7 @@
             "uuid": "2b57306a-28b8-42f7-96bc-aa6290d473d3"
           },
           "displayOrder": 6,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Protein % RDA",
@@ -303,7 +303,7 @@
             "uuid": "d15f50bf-1415-471e-ad8f-cece27f9b446"
           },
           "displayOrder": 7,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     },

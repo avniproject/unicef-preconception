@@ -410,7 +410,7 @@
             "uuid": "a5b1ca59-7b79-4ebe-a0f4-1899b86b2d80"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "IFA - Iron and Folic Acid",
@@ -473,7 +473,7 @@
             "uuid": "049ce3d6-84d3-4ffe-8317-e4418447d026"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "BCC-3- Voice and text messages",
@@ -485,7 +485,7 @@
             "uuid": "2e6dde02-03f4-496a-85a2-1bad9d62bd4b"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     },

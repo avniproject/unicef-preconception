@@ -17,7 +17,7 @@
             "uuid": "902100eb-e799-41b9-be73-3844952bcdc7"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "BMI",
@@ -55,7 +55,7 @@
             "uuid": "8d91a9a1-0f69-46c1-99e8-6510caad9d8f"
           },
           "displayOrder": 4,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Folic Acid",
@@ -67,7 +67,7 @@
             "uuid": "99cde825-5bc7-4a8d-9394-954d27df7c6d"
           },
           "displayOrder": 5,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Number of Folic Acid Tablets given",
@@ -78,7 +78,7 @@
             "uuid": "7afcfc69-a301-4ad3-b0f2-b251141f8033"
           },
           "displayOrder": 5.5,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Blood pressure- Systolic",
@@ -89,7 +89,7 @@
             "uuid": "a903ed61-a9ce-40f1-abc6-e49d91066051"
           },
           "displayOrder": 6,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Blood pressure- Diastolic",
@@ -100,7 +100,7 @@
             "uuid": "9e1792f3-1111-4ecd-9821-5ed22a3a6d2c"
           },
           "displayOrder": 7,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Is woman suffering from Hypertension?(Diagnosed by MO)",
@@ -135,7 +135,7 @@
             "uuid": "3493c80a-8af5-40e6-b598-8385c4db2bd7"
           },
           "displayOrder": 10,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Husband's blood group",
@@ -147,7 +147,7 @@
             "uuid": "b4c1453b-35de-40bc-88a0-3a0c23e4edd2"
           },
           "displayOrder": 11,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     },
@@ -167,7 +167,7 @@
             "uuid": "3587fddb-bab9-4176-b723-d848f53f7a9b"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Sickle cell anaemia- electrophoresis",
@@ -179,7 +179,7 @@
             "uuid": "6a1ef950-86c1-447f-bcdf-fa2755383a92"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Sickle cell anaemia treatment",
@@ -210,7 +210,7 @@
             "uuid": "7da7f02a-74ba-4da1-9e56-d5121f77e185"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Blood Sugar Level (BSL)-Oral Glucose Tolerance  (OGT) Test",
@@ -222,7 +222,7 @@
             "uuid": "6ca0b2f7-1221-4ad6-a62d-64519894ae38"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Diabetes treatment",
@@ -254,7 +254,7 @@
             "uuid": "81621c54-b555-42ca-935f-c7d109434b24"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "HIV Treatment Taken",
@@ -266,7 +266,7 @@
             "uuid": "f5c8d428-04d4-452c-8ebe-d7b5ccfd32c6"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Husband's HIV",
@@ -278,7 +278,7 @@
             "uuid": "035d869a-9685-427d-82b7-5403d16effa3"
           },
           "displayOrder": 3,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "HIV Treatment for Husband",
@@ -290,7 +290,7 @@
             "uuid": "da3eedb4-703c-42be-acc4-ce29cc65aef9"
           },
           "displayOrder": 4,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     },
@@ -310,7 +310,7 @@
             "uuid": "8b78de52-c179-4ba9-90df-094e5df70198"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "VDRL Treatment",
@@ -322,7 +322,7 @@
             "uuid": "6a7b583e-21ec-4909-ac3f-965714beec3f"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Husband's VDRL",
@@ -334,7 +334,7 @@
             "uuid": "021aa7be-230c-4eea-b7f8-31da63b30e34"
           },
           "displayOrder": 3,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "VDRL Treatment for Husband",
@@ -346,7 +346,7 @@
             "uuid": "39155d20-1632-445c-adb1-45df02afcbe3"
           },
           "displayOrder": 4,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     },
@@ -366,7 +366,7 @@
             "uuid": "6191e403-24d6-4a63-b20f-1f22858336d7"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "RTI Treatment",
@@ -378,7 +378,7 @@
             "uuid": "e732012f-1896-4ecb-b01f-70d91d096830"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "RTI Symptoms for Husband",
@@ -390,7 +390,7 @@
             "uuid": "ade5064c-f21d-468f-817b-de4216e6a9a6"
           },
           "displayOrder": 3,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "RTI Treatment for Husband",
@@ -402,7 +402,7 @@
             "uuid": "80f2c5d1-3a04-48b7-825a-ae95e94c9aa1"
           },
           "displayOrder": 4,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     },
@@ -421,7 +421,7 @@
             "uuid": "1a512b73-3c11-4a4e-8c6c-fb6f625121f2"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "TSH treatment",
@@ -433,7 +433,7 @@
             "uuid": "4c21f917-0c8b-4547-9127-8c4c80df8254"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     },
@@ -488,7 +488,7 @@
             "uuid": "e8f147d2-4b8b-4863-8e71-9922643beb96"
           },
           "displayOrder": 2.1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Treatment taken",
@@ -500,7 +500,7 @@
             "uuid": "f18d415a-18fa-4833-9ec3-d27bd7bf5750"
           },
           "displayOrder": 2.2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Deworming tablet received- Albendazole",
@@ -512,7 +512,7 @@
             "uuid": "a5b1ca59-7b79-4ebe-a0f4-1899b86b2d80"
           },
           "displayOrder": 3,
-          "mandatory": true
+          "mandatory": false
         }
       ]
     },
