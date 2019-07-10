@@ -94,7 +94,7 @@
             "uuid": "37ad1c37-6234-4308-98a7-075af289e610"
           },
           "displayOrder": 7,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "What is level of your education?",
@@ -130,7 +130,7 @@
             "uuid": "986269ea-e6e6-4938-ba55-1febe578d805"
           },
           "displayOrder": 10,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Did you marry within relation?",
