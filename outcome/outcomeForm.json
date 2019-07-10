@@ -73,7 +73,7 @@
             "uuid": "18bf0f09-30e0-4bf3-8f7c-57c4067e559d"
           },
           "displayOrder":6,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Gestational age",
