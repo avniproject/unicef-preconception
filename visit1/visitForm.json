@@ -32,7 +32,7 @@
             "uuid": "7ac0d759-c50d-4971-88e0-84274224c839"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Haemoglobin",
@@ -112,7 +112,7 @@
             "uuid": "8b777063-a5c3-499c-b168-d92846165600"
           },
           "displayOrder": 8,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Hypertension treatment",
@@ -124,7 +124,7 @@
             "uuid": "9a5ca71b-738e-48ae-a77c-fa611948e344"
           },
           "displayOrder": 9,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Blood Group",
@@ -453,7 +453,7 @@
             "uuid": "e14149e2-4d8e-4eb3-aed2-2ee835b80b66"
           },
           "displayOrder": 1,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "If any other illness, specify",
@@ -464,7 +464,7 @@
             "uuid": "69a49d42-4f23-4adb-85ab-7ca6f3c26056"
           },
           "displayOrder": 1.2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "Any other illness treatment",
@@ -476,7 +476,7 @@
             "uuid": "2832937f-8558-4954-9359-6bf0eaed8714"
           },
           "displayOrder": 2,
-          "mandatory": true
+          "mandatory": false
         },
         {
           "name": "MO Examination",
