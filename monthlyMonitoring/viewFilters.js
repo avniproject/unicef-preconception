@@ -304,7 +304,8 @@ class MonthlyMonitoringViewFilter {
     @WithStatusBuilder
     _341([programEncounter, formElement], statusBuilder) {
         const status = statusBuilder.build();
-        status.visibility = programEncounter.programEnrolment.numberOfEncountersOfType(programEncounter.encounterType.name) === 3;
+        status.visibility = [3].includes(getVisitNumber(programEncounter));
+        // programEncounter.programEnrolment.numberOfEncountersOfType(programEncounter.encounterType.name) === 3;
         return status;
     }
 
@@ -312,7 +313,8 @@ class MonthlyMonitoringViewFilter {
     @WithStatusBuilder
     _342([programEncounter, formElement], statusBuilder) {
         const status = statusBuilder.build();
-        status.visibility = programEncounter.programEnrolment.numberOfEncountersOfType(programEncounter.encounterType.name) === 5;
+        status.visibility = [5].includes(getVisitNumber(programEncounter));
+        //  programEncounter.programEnrolment.numberOfEncountersOfType(programEncounter.encounterType.name) === 5;
         return status;
     }
 
