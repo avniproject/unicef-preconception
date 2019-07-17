@@ -410,7 +410,7 @@
             "uuid": "a5b1ca59-7b79-4ebe-a0f4-1899b86b2d80"
           },
           "displayOrder": 1,
-          "mandatory": false
+          "mandatory": true
         },
         {
           "name": "IFA - Iron and Folic Acid",
