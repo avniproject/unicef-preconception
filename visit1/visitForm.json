@@ -533,32 +533,6 @@
           },
           "displayOrder": 1,
           "mandatory": false
-        },
-        {
-          "name": "BCC-2- Documentary film",
-          "uuid": "1185a260-91a9-4a8d-89f0-a64df0da94be",
-          "keyValues": [],
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Documentary film",
-            "uuid": "dc646457-2de9-45be-8a40-c25308c27460"
-          },
-          "displayOrder": 2,
-          "mandatory": false,
-          "voided": true
-        },
-        {
-          "name": "BCC-3- Voice and text messages",
-          "uuid": "332ec82c-c586-47aa-9e6f-8f7d8c2fcaa6",
-          "keyValues": [],
-          "type": "SingleSelect",
-          "concept": {
-            "name": "Voice and text messages",
-            "uuid": "edad8e40-41e7-4621-bc5a-8dea68152831"
-          },
-          "displayOrder": 3,
-          "mandatory": false,
-          "voided": true
         }
       ]
     },
