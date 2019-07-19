@@ -42,6 +42,7 @@ module.exports = IDI.configure({
             "locations/subcenters.json",
             "locations/villages.json",
             "locations/wadis.json",
+            "locations/unknownWadis.json",
         ],
         "programs": ["./shared/programs.json"],
         "encounterTypes": ["./shared/encounterTypes.json"],

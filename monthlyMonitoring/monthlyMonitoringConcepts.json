@@ -8,10 +8,6 @@
     "name": "No/ Not given for each high risk criteria"
   },
   {
-    "uuid": "63c8ee7e-e878-4da3-aa0d-24b7a890563d",
-    "name": "Not done"
-  },
-  {
     "uuid": "e9cd2edf-d831-407c-b162-3c4c256cb25d",
     "name": "Partial"
   },
@@ -127,8 +123,8 @@
         "uuid": "ad1f0481-a8ed-411a-ac00-d0435a670269"
       },
       {
-        "uuid": "63c8ee7e-e878-4da3-aa0d-24b7a890563d",
-        "name": "Not done"
+        "name": "Not Done",
+        "uuid": "96f0b45e-6b9b-4ba5-a260-3e3b88fbbbeb"
       },
       {
         "uuid": "4d476011-7fc4-432b-98c0-9f6f1847cf39"
@@ -170,6 +166,10 @@
       {
         "uuid": "d33cf16c-28d7-44ce-9db9-6b6af44ff449",
         "name": "Information not collected"
+      },
+      {
+        "name": "NA",
+        "uuid": "4d476011-7fc4-432b-98c0-9f6f1847cf39"
       }
     ]
   },
@@ -204,6 +204,10 @@
       {
         "uuid": "d33cf16c-28d7-44ce-9db9-6b6af44ff449",
         "name": "Information not collected"
+      },
+      {
+        "name": "NA",
+        "uuid": "4d476011-7fc4-432b-98c0-9f6f1847cf39"
       }
     ]
   },
