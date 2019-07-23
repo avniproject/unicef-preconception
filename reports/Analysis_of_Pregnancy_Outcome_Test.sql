@@ -151,3 +151,76 @@ select create_program_encounter('49fad06d-48ee-4305-a74a-e69c68a9fb8f', 'e668be3
 ----------------------------------------------------------------------------------------------------
 -- Verify still birth count = 0 and Live Birth = 1
 ----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+-- 3. Check Early neonatal death/Late neonatal death shows up on the report.
+--    Given an individual who has a pregnancy outcome of live birth and neonatal death, the Early/Late neonatal death count should increase by 1.
+----------------------------------------------------------------------------------------------------
+-- Create an individual. Note that there are a lot of optional fields that have been left blank.
+
+select
+  create_individual('bdaef009-9c13-4e6b-af1b-c62187e1ebe5',
+                    '458da2c1-0252-46d9-8d74-29ec4d548b4f', 'Meera', 'Jahan', 'precon-staging', null, '1993-02-16');
+
+-- Create program enrolment for this individual. Notice uuid of individual is same as what is provided before.
+select create_program_enrolment('aaecc01d-8ba5-42e3-a359-3378c8c8ea21', 'Preconception ',
+                                'bdaef009-9c13-4e6b-af1b-c62187e1ebe5', 'precon-staging');
+
+-- Create program encounter with late neonalat death
+select create_program_encounter('cc5bb74b-70fe-4aa7-a037-7b6eb5e6176e', 'aaecc01d-8ba5-42e3-a359-3378c8c8ea21',
+                                'precon-staging', 'Outcome', '{
+  "Last pregnancy outcome": "Live Birth",
+  "Follow-up of neonatal period": "Partial",
+  "Child aive till 28th day": "NO",
+  "Neonatal death": 12
+}');
+
+
+-- Create program encounter with early neonalat death
+select create_program_encounter('cc5bb74c-71fe-4aa7-a037-7b6eb5e6176e', 'aaecc01d-8ba5-42e3-a359-3378c8c8ea21',
+                                'precon-staging', 'Outcome', '{
+  "Last pregnancy outcome": "Live Birth",
+  "Follow-up of neonatal period": "YES",
+  "Child alive till 28th day": "NO",
+  "Neonatal death": 5
+}');
+
+----------------------------------------------------------------------------------------------------
+-- Verify neonatal death count = 1
+----------------------------------------------------------------------------------------------------
+
+-- 3.1. Ensure voided individuals don't show up
+update individual set is_voided = true where uuid = 'bdaef009-9c13-4e6b-af1b-c62187e1ebe5';
+
+----------------------------------------------------------------------------------------------------
+-- Verify neonatal death count = 0
+----------------------------------------------------------------------------------------------------
+-- 3.2. Ensure voided program enrolments don't show up
+update individual set is_voided = false where uuid = 'bdaef009-9c13-4e6b-af1b-c62187e1ebe5';
+
+update program_enrolment set is_voided = true where uuid = 'aaecc01d-8ba5-42e3-a359-3378c8c8ea21';
+
+
+----------------------------------------------------------------------------------------------------
+-- Verify neonatal death count = 0
+----------------------------------------------------------------------------------------------------
+-- 3.3. Pregnancy outcome not present when question is answered other than Still Birth
+update program_enrolment set is_voided = false where uuid = 'aaecc01d-8ba5-42e3-a359-3378c8c8ea21';
+
+select
+  create_individual('6c8262d3-d487-47e9-9c96-77dc41ea1bde',
+                    'f6e00e7e-8574-42d5-abad-621271aceb63', 'Jeevan', 'lastname', 'precon-staging', null, '1995-01-01');
+
+-- Create program enrolment for this individual. Notice uuid of individual is same as what is provided before.
+select create_program_enrolment('a3855a32-c918-4083-b852-9c3d6e43f3cf', 'Preconception ',
+                                '6c8262d3-d487-47e9-9c96-77dc41ea1bde', 'precon-staging');
+
+-- Create program encounter.
+select create_program_encounter('3db649d0-f97d-31fe-81d3-e7e9aa8bbb1b', 'a3855a32-c918-4083-b852-9c3d6e43f3cf',
+                                'precon-staging', 'Outcome', '{
+"Last pregnancy outcome": "Live Birth", 
+"Follow-up of neonatal period": "NO" 
+}');
+----------------------------------------------------------------------------------------------------
+-- Verify Early/Late neonatal death count = 0
+----------------------------------------------------------------------------------------------------
