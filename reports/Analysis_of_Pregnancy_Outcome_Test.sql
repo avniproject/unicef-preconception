@@ -81,7 +81,73 @@ select create_program_encounter('139f5e4b-568d-4da0-808b-0cd7ca496705', '1a057f2
                                 'precon-staging', 'Outcome', '{
   "Last pregnancy outcome": "Live birth and Still birth"
 }');
-
 ----------------------------------------------------------------------------------------------------
 -- Verify abortion count = 1
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+-- 2. Check if pregnancy outcome of still Birth shows up on the report.
+--    Given an individual who has a pregnancy outcome of Still birth, the still birth count should increase by 1.
+----------------------------------------------------------------------------------------------------
+-- Create an individual. Note that there are a lot of optional fields that have been left blank.
+
+select
+  create_individual('f9cea0b4-d034-4dbd-a37f-1a11a9ee5074',
+                    '024ac6d2-c297-4fd9-b06d-22547b4a6eb2', 'test', 'still birth', 'precon-staging', null, current_date);
+
+-- Create program enrolment for this individual. Notice uuid of individual is same as what is provided before.
+select create_program_enrolment('878f0884-6d40-4ee2-ab38-7ff157b7cd6a', 'Preconception ',
+                                'f9cea0b4-d034-4dbd-a37f-1a11a9ee5074', 'precon-staging');
+
+-- Create program encounter.
+select create_program_encounter('e41d8e54-49e5-4a5d-b1d9-6084fce8faf2', '878f0884-6d40-4ee2-ab38-7ff157b7cd6a',
+                                'precon-staging', 'Outcome', '{
+  "Last pregnancy outcome": "Still Birth"
+}');
+
+
+----------------------------------------------------------------------------------------------------
+-- Verify still birth count = 1
+----------------------------------------------------------------------------------------------------
+
+-- 2.1. Ensure voided individuals don't show up
+update individual set is_voided = true where uuid = 'f9cea0b4-d034-4dbd-a37f-1a11a9ee5074';
+
+----------------------------------------------------------------------------------------------------
+-- Verify still birth count = 0
+----------------------------------------------------------------------------------------------------
+-- 2.2. Ensure voided program enrolments don't show up
+update individual set is_voided = false where uuid = 'f9cea0b4-d034-4dbd-a37f-1a11a9ee5074';
+
+update program_enrolment set is_voided = true where uuid = '878f0884-6d40-4ee2-ab38-7ff157b7cd6a';
+
+----------------------------------------------------------------------------------------------------
+-- Verify still birth count = 0
+----------------------------------------------------------------------------------------------------
+-- 2.3. Ensure voided program enrolments don't show up
+update program_enrolment set is_voided = false where uuid = '878f0884-6d40-4ee2-ab38-7ff157b7cd6a';
+
+update program_encounter set is_voided = true where uuid = 'e41d8e54-49e5-4a5d-b1d9-6084fce8faf2';
+
+----------------------------------------------------------------------------------------------------
+-- Verify still birth count = 0
+----------------------------------------------------------------------------------------------------
+-- 2.4. Pregnancy outcome not present when question is answered other than Still Birth
+update program_encounter set is_voided = false where uuid = 'e41d8e54-49e5-4a5d-b1d9-6084fce8faf2';
+
+select
+  create_individual('53d9e24e-a6a9-4f8c-8586-adb6e27dd4bf',
+                    '024ac6d2-c297-4fd9-b06d-22547b4a6eb2', 'test', 'non-stillbirth', 'precon-staging', null, '1995-01-01');
+
+-- Create program enrolment for this individual. Notice uuid of individual is same as what is provided before.
+select create_program_enrolment('e668be3d-783a-4e65-bd8e-ed293c1cdddb', 'Preconception ',
+                                '53d9e24e-a6a9-4f8c-8586-adb6e27dd4bf', 'precon-staging');
+
+-- Create program encounter.
+select create_program_encounter('49fad06d-48ee-4305-a74a-e69c68a9fb8f', 'e668be3d-783a-4e65-bd8e-ed293c1cdddb',
+                                'precon-staging', 'Outcome', '{
+  "Last pregnancy outcome": "Live Birth"
+}');
+----------------------------------------------------------------------------------------------------
+-- Verify still birth count = 0 and Live Birth = 1
 ----------------------------------------------------------------------------------------------------
