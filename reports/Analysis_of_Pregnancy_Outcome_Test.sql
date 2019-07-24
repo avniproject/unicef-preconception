@@ -204,7 +204,7 @@ update program_enrolment set is_voided = true where uuid = 'aaecc01d-8ba5-42e3-a
 ----------------------------------------------------------------------------------------------------
 -- Verify neonatal death count = 0
 ----------------------------------------------------------------------------------------------------
--- 3.3. Pregnancy outcome not present when question is answered other than Still Birth
+-- 3.3. Pregnancy outcome is answered other than not neonatal death
 update program_enrolment set is_voided = false where uuid = 'aaecc01d-8ba5-42e3-a359-3378c8c8ea21';
 
 select
