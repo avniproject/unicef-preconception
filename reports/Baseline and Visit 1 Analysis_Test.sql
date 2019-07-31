@@ -1,8 +1,8 @@
 Set role unicef_preconception_nashik;
 
 ----------------------------------------------------------------------------------------------------
--- 4. Check Early neonatal death/Late neonatal death shows up on the report.
---    Given an individual who has a pregnancy outcome of live birth and neonatal death, the Early/Late neonatal death count should increase by 1.
+-- 1. Check Baseline and Visit 1 shows up on the report.
+--    Given an individual, is enrolled(baseline) and Visit 1 is done, count for bith Baseline and Visit 1 should increase by 1.
 ----------------------------------------------------------------------------------------------------
 
 
