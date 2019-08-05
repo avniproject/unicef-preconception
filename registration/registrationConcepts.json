@@ -90,9 +90,10 @@
     "dataType": "Numeric"
   },
   {
-    "name": "Family Income (in Rs.)",
+    "name": "Family Income",
     "uuid": "37ad1c37-6234-4308-98a7-075af289e610",
-    "dataType": "Numeric"
+    "dataType": "Numeric",
+    "unit": "Rs."
   },
   {
     "name": "Semi professional",

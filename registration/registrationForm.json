@@ -85,12 +85,12 @@
           "mandatory": false
         },
         {
-          "name": "Family Income (in Rs.)",
+          "name": "Family Income",
           "uuid": "10abc148-7bcd-416c-8092-17f54fef1fa1",
           "keyValues": [],
           "dataType": "Numeric",
           "concept": {
-            "name": "Family Income (in Rs.)",
+            "name": "Family Income",
             "uuid": "37ad1c37-6234-4308-98a7-075af289e610"
           },
           "displayOrder": 7,
