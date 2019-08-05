@@ -12,6 +12,7 @@ module.exports = IDI.configure({
             "dev": ["./users/dev-admin-user.json"],
             "staging": ["./users/dev-admin-user.json"],
             "uat": ["./users/dev-admin-user.json"],
+            "prerelease": ["./users/dev-admin-user.json"],
         },
         "forms": [
             "./registration/registrationForm.json",
@@ -53,6 +54,7 @@ module.exports = IDI.configure({
             "dev": ["./users/dev-users.json"],
             "staging": ["./users/staging-users.json"],
             "uat": ["./users/uat-users.json"],
+            "prerelease": ["./users/precon-users.json"]
         },
         "rules": [
             "./shared/rules/index.js",

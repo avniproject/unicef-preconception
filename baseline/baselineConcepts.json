@@ -88,7 +88,7 @@
     ]
   },
   {
-    "name": "Tobacco consumption",
+    "name": "Whether consumes tobacco",
     "uuid": "84127cee-ae0a-4f22-ab0e-f21cd7742d9e",
     "dataType": "Coded",
     "answers": [
@@ -152,7 +152,7 @@
     ]
   },
   {
-    "name": "Alcohol consumption",
+    "name": "Whether consumes alcohol",
     "uuid": "c15969af-d766-4e89-aa55-4c18c75d9236",
     "dataType": "Coded",
     "answers": [
@@ -389,12 +389,12 @@
           "abnormal": true
         },
         { 
-         "name": "Alcohol consumption",
+         "name": "Whether consumes alcohol",
          "uuid": "c15969af-d766-4e89-aa55-4c18c75d9236",
          "abnormal": true
         },
         {
-          "name": "Tobacco consumption",
+          "name": "Whether consumes tobacco",
           "uuid": "84127cee-ae0a-4f22-ab0e-f21cd7742d9e",
           "abnormal": true
         },

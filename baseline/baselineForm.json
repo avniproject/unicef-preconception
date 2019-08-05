@@ -157,7 +157,7 @@
           "keyValues": [],
           "type": "SingleSelect",
           "concept": {
-            "comment": "Tobacco consumption",
+            "comment": "Whether consumes tobacco",
             "uuid": "84127cee-ae0a-4f22-ab0e-f21cd7742d9e"
           },
           "displayOrder": 1,
@@ -189,7 +189,7 @@
           "keyValues": [],
           "type": "SingleSelect",
           "concept": {
-            "comment": "Alcohol consumption",
+            "comment": "Whether consumes alcohol",
             "uuid": "c15969af-d766-4e89-aa55-4c18c75d9236"
           },
           "displayOrder": 1,

@@ -50,13 +50,13 @@ class MonthlyMonitoringViewFilter {
     @WithName('Counsel her to quit tobacco consumption')
     @WithStatusBuilder
     _4([programEncounter, formElement], statusBuilder) {
-        statusBuilder.show().when.latestValueInEntireEnrolment("Tobacco consumption").is.yes;
+        statusBuilder.show().when.latestValueInEntireEnrolment("Whether consumes tobacco").is.yes;
     }
 
     @WithName('Counsel her to quit alcohol consumption')
     @WithStatusBuilder
     _5([programEncounter, formElement], statusBuilder) {
-        statusBuilder.show().when.latestValueInEntireEnrolment("Alcohol consumption").is.yes;
+        statusBuilder.show().when.latestValueInEntireEnrolment("Whether consumes alcohol").is.yes;
     }
 
     @WithName('Counsel her to increase whole cereals in diet')
@@ -140,8 +140,8 @@ class MonthlyMonitoringViewFilter {
             .or.when.latestValueInEntireEnrolment("Age").is.greaterThan(35)
             .or.when.latestValueInEntireEnrolment("BMI").is.lessThan(18.5)
             .or.when.latestValueInEntireEnrolment("BMI").is.greaterThan(25.0)
-            .or.when.latestValueInEntireEnrolment("Tobacco consumption").is.yes
-            .or.when.latestValueInEntireEnrolment("Alcohol consumption").is.yes
+            .or.when.latestValueInEntireEnrolment("Whether consumes tobacco").is.yes
+            .or.when.latestValueInEntireEnrolment("Whether consumes alcohol").is.yes
             .or.when.latestValueInEntireEnrolment("Calorie % RDA").is.lessThan(70)
             .or.when.latestValueInEntireEnrolment("Protein % RDA").is.lessThan(70)
             .or.when.latestValueInEntireEnrolment("Preconception hypertension").is.yes
@@ -165,8 +165,8 @@ class MonthlyMonitoringViewFilter {
             .or.when.latestValueInEntireEnrolment("Age").is.greaterThan(35)
             .or.when.latestValueInEntireEnrolment("BMI").is.lessThan(18.5)
             .or.when.latestValueInEntireEnrolment("BMI").is.greaterThan(25.0)
-            .or.when.latestValueInEntireEnrolment("Tobacco consumption").is.yes
-            .or.when.latestValueInEntireEnrolment("Alcohol consumption").is.yes
+            .or.when.latestValueInEntireEnrolment("Whether consumes tobacco").is.yes
+            .or.when.latestValueInEntireEnrolment("Whether consumes alcohol").is.yes
             .or.when.latestValueInEntireEnrolment("Calorie % RDA").is.lessThan(70)
             .or.when.latestValueInEntireEnrolment("Protein % RDA").is.lessThan(70);
     }

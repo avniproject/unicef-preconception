@@ -68,13 +68,13 @@ class BaselineFormHandler {
 
     @WithStatusBuilder
     ifYesSpecifyTheTypeOfAlochol([], statusBuilder) {
-        statusBuilder.show().when.valueInEnrolment('Alcohol consumption')
+        statusBuilder.show().when.valueInEnrolment('Whether consumes alcohol')
             .containsAnyAnswerConceptName('Yes');
     }
 
     @WithStatusBuilder
     ifYesSpecifyTheTypeOfTabacco([], statusBuilder) {
-        statusBuilder.show().when.valueInEnrolment('Tobacco consumption')
+        statusBuilder.show().when.valueInEnrolment('Whether consumes tobacco')
             .containsAnyAnswerConceptName('Yes');
     }
 
@@ -110,13 +110,13 @@ class BaselineFormHandler {
      
     @WithStatusBuilder
     preconceptionBaselineCounsellingForAlcoholConsumption([], statusBuilder) {
-        statusBuilder.show().when.valueInEnrolment('Alcohol consumption')
+        statusBuilder.show().when.valueInEnrolment('Whether consumes alcohol')
         .containsAnyAnswerConceptName("Yes");
     }
 
     @WithStatusBuilder
     preconceptionBaselineCounsellingForTobaccoConsumption([], statusBuilder) {
-        statusBuilder.show().when.valueInEnrolment('Tobacco consumption')
+        statusBuilder.show().when.valueInEnrolment('Whether consumes tobacco')
         .containsAnyAnswerConceptName("Yes");
     }
     
@@ -179,12 +179,12 @@ class BaselineDecision {
             .containsAnyAnswerConceptName("Yes");
 
             
-        complicationsBuilder.addComplication('Tobacco consumption')
-            .when.valueInEnrolment('Tobacco consumption')
+        complicationsBuilder.addComplication('Whether consumes tobacco')
+            .when.valueInEnrolment('Whether consumes tobacco')
             .containsAnyAnswerConceptName("Yes");
 
         complicationsBuilder.addComplication('Alcohol consumption')
-            .when.valueInEnrolment('Alcohol consumption')
+            .when.valueInEnrolment('Whether consumes alcohol')
             .containsAnyAnswerConceptName("Yes");
 
         complicationsBuilder.addComplication('Low Calorie intake')

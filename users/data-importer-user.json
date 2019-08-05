@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "6dc1c405-a2ff-488c-8401-82ca6a044789",
+    "name": "dataimporter@precon",
+    "password": "password",
+    "email": "openchssupport+unicef+test+1@samanvayfoundation.org",
+    "phoneNumber": "+919999999999",
+    "organisationUUID": "9f2f61e8-7559-4613-b490-f9b4f0eb5c03",
+    "catchmentUUID": "d757d6bc-130a-4f2a-97b0-24900e15513c",
+    "operatingIndividualScope": "ByCatchment",
+    "isAdmin": false,
+    "isOrgAdmin": false,
+    "settings": {
+      "trackLocation": false,
+      "locale": "en"
+    }
+  }
+]

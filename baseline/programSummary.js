@@ -30,9 +30,9 @@ class ProgramSummary {
 
         add("High BMI").when[latest]("BMI").greaterThan(25);
 
-        add('Tobacco consumption').when[inEnrolment]('Tobacco consumption')[has]("Yes");
+        add('Tobacco consumption').when[inEnrolment]('Whether consumes tobacco')[has]("Yes");
 
-        add('Alcohol consumption').when[inEnrolment]('Alcohol consumption')[has]("Yes");
+        add('Alcohol consumption').when[inEnrolment]('Whether consumes alcohol')[has]("Yes");
 
         add('Low Calorie intake').when[inEnrolment]('Calorie % RDA').lessThan(70);
 
