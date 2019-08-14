@@ -13,7 +13,8 @@ const filter = RuleFactory('3462178e-94e5-43d9-bc17-6cddad05c265', 'ViewFilter')
 const WithStatusBuilder = StatusBuilderAnnotationFactory('programEncounter', 'formElement');
 
 const getVisitNumber = (programEncounter) => {
-    return +_.get(_.get(programEncounter, 'name', '').match(/\d+/g), 0);
+    const visitNumber = (programEncounter.name || '').match(/\d+/g);
+    return _.defaultTo(+visitNumber, 0);
 };
 
 @filter('5a5fcbfe-f3b3-4e69-8f5d-2855c373bb95', 'MonthlyMonitoringViewFilter', 100.0)
