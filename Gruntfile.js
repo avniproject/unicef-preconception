@@ -51,7 +51,10 @@ module.exports = IDI.configure({
         "operationalPrograms": ["./operationalModules/operationalPrograms.json"],
         "operationalSubjectTypes": ["./operationalModules/operationalSubjectTypes.json"],
         "users": {
-            "dev": ["./users/dev-users.json"],
+            "dev": [
+                "./users/dev-users.json",
+                "./users/data-importer-user.json",
+            ],
             "staging": ["./users/staging-users.json"],
             "uat": ["./users/uat-users.json"],
             "prerelease": ["./users/precon-users.json"]
