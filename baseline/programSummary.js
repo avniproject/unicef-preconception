@@ -84,35 +84,49 @@ class ProgramSummary {
             summaries.push({name: 'Estimated Date of Delivery', value: edd.getValue()});
         }
 
-        const bmiTrends = _.chain(programEnrolment.getEncounters(true))
-            .sortBy("earliestVisitDateTime")
-            .map((encounter) => {
-                return {
-                    Date: encounter.encounterDateTime,
-                    Program: encounter.name,
-                    BMI: encounter.findLatestObservationInEntireEnrolment("BMI").getValue()
-                };
-            })
-        .value();
+        // const bmiTrends = _.chain(programEnrolment.getEncounters(true))
+        //     .sortBy("earliestVisitDateTime")
+        //     .map((encounter) => {
+        //         return {
+        //         Date: encounter.encounterDateTime,
+        //         Program: encounter.name,
+        //         BMI: encounter.findLatestObservationInEntireEnrolment("BMI").getValue()
+        //     };
+        // }).value();
 
-        if (!_.isNil(bmiTrends)) {      
-        summaries.push({name: 'BMI trends', value: JSON.stringify(bmiTrends)});
-        }        
+        // let bmiTrends = [];
+        // let encounters = programEnrolment.getEncounters(true);
+        // if(!_.isEmpty(encounters)){
+        //     _.chain(encounters)
+        //         .sortBy("earliestVisitDateTime")
+        //           .map(encounters)
+        //             .forEach((encounters) => {
+        //                 bmiTrends.push({
+        //                     Date: encounters.encounterDateTime,
+        //                     Program: encounters.name,
+        //                     BMI: (encounters.findObservationInEntireEnrolment("BMI"))
+        //                     })
+        //                 }).value();
+        //  }
+    
+        // if (!_.isNil(bmiTrends)) {      
+        // summaries.push({name: 'BMI trends', value: JSON.stringify(bmiTrends)});
+        // }        
 
-        const hbTrends = _.chain(programEnrolment.getEncounters(true))
-            .sortBy("earliestVisitDateTime")
-            .map((encounter) => {
-                return {
-                Date: encounter.encounterDateTime,
-                Program: encounter.name,
-                HB: encounter.findLatestObservationInEntireEnrolment("Preconception Hb").getValue()
-            };
-        })
-        .value();
+        // const hbTrends = _.chain(programEnrolment.getEncounters(true))
+        //     .sortBy("earliestVisitDateTime")
+        //     .map((encounter) => {
+        //         return {
+        //         Date: encounter.encounterDateTime,
+        //         Program: encounter.name,
+        //         HB: !_.isEmpty(encounter.findLatestObservationInEntireEnrolment("Preconception Hb").getValue())
+        //     };
+        // })
+        // .value();
         
-        if (!_.isNil(hbTrends)) {      
-        summaries.push({name: 'Hb trends', value: JSON.stringify(hbTrends)});
-        }
+        // if (!_.isNil(hbTrends)) {      
+        // summaries.push({name: 'Hb trends', value: JSON.stringify(hbTrends)});
+        // }
 
         return summaries;
     }
