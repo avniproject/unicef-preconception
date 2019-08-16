@@ -1,5 +1,7 @@
 import {complicationsBuilder as ComplicationsBuilder, ProgramRule} from 'rules-config/rules';
-import moment from 'moment'
+import moment from 'moment';
+import _ from "lodash";
+
 const has = 'containsAnyAnswerConceptName',
     inEnrolment = 'valueInEnrolment',
     latest = 'latestValueInAllEncounters',
@@ -81,6 +83,37 @@ class ProgramSummary {
         if (!_.isNil(edd)) {
             summaries.push({name: 'Estimated Date of Delivery', value: edd.getValue()});
         }
+
+        const bmiTrends = _.chain(programEnrolment.getEncounters(true))
+            .sortBy("earliestVisitDateTime")
+            .map((encounter) => {
+                return {
+                    Date: encounter.encounterDateTime,
+                    Program: encounter.name,
+                    BMI: encounter.findLatestObservationInEntireEnrolment("BMI").getValue()
+                };
+            })
+        .value();
+
+        if (!_.isNil(bmiTrends)) {      
+        summaries.push({name: 'BMI trends', value: JSON.stringify(bmiTrends)});
+        }        
+
+        const hbTrends = _.chain(programEnrolment.getEncounters(true))
+            .sortBy("earliestVisitDateTime")
+            .map((encounter) => {
+                return {
+                Date: encounter.encounterDateTime,
+                Program: encounter.name,
+                HB: encounter.findLatestObservationInEntireEnrolment("Preconception Hb").getValue()
+            };
+        })
+        .value();
+        
+        if (!_.isNil(hbTrends)) {      
+        summaries.push({name: 'Hb trends', value: JSON.stringify(hbTrends)});
+        }
+
         return summaries;
     }
 }
