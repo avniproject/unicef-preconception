@@ -3,12 +3,18 @@ const IDI = require('openchs-idi');
 
 module.exports = IDI.configure({
     "chs-admin": "admin",
-    "org-admin": "admin@unicef",
+    "org-admin": {
+        "dev": "admin@unicef",
+        "uat": "admin@unicef",
+        "staging": "admin@unicef",
+        "prerelease": "admin@unicef",
+        "prod": "admin@precon",
+    },
     //Do not update the following line. Create a secrets file in the parent directory
     "secrets": '../secrets.json',
     "files": {
         "adminUsers": {
-            // "prod": [],
+            // "prod": ["./prod-admin.json"],
             "dev": ["./users/dev-admin-user.json"],
             "staging": ["./users/dev-admin-user.json"],
             "uat": ["./users/dev-admin-user.json"],
@@ -26,7 +32,9 @@ module.exports = IDI.configure({
         "formMappings": ["./shared/formMappings.json"],
         "formDeletions": [],
         "formAdditions": [],
-        "catchments": ["./shared/catchments.json"],
+        "catchments": {
+            "dev": ["./shared/catchments.json"],
+        },
         "checklistDetails": [],
         "concepts": [
             "./registration/registrationConcepts.json",
