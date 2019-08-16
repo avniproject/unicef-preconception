@@ -17,7 +17,12 @@ class OutcomeFormHandler {
     @WithStatusBuilder
     abortion([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Abortion");
-    } 
+    }
+    
+    @WithStatusBuilder
+    gestationalAge([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Still Birth", "Live Birth", "Live birth and Still birth");
+    }
     
     @WithStatusBuilder
     numberOfBabies([], statusBuilder) {
