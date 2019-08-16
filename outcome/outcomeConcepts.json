@@ -46,7 +46,7 @@
     ]
   },
   {
-    "name": "Length",
+    "name": "Length of baby 1",
     "uuid": "18bf0f09-30e0-4bf3-8f7c-57c4067e559d",
     "dataType": "Numeric",
     "lowAbsolute": 10.00,
@@ -56,7 +56,7 @@
     "unit": "cm"
   },
   {
-    "name": "Preconception Outcome Weight",
+    "name": "Weight of baby 1",
     "uuid": "fa5e2794-ba56-4208-82be-d70862233954",
     "dataType": "Numeric",
     "lowAbsolute": 0,
@@ -66,17 +66,47 @@
     "unit": "gm"
   },
   {
-    "name": "Preconception Gestational age",
-    "uuid": "003a0e06-1f23-41a7-a228-0da38efb42f3",
+    "name": "Length of baby 2",
+    "uuid": "cca6b81c-2806-4724-81f7-fae5b93923e4",
     "dataType": "Numeric",
-    "lowAbsolute": 4,
-    "lowNormal": 4,
-    "highNormal": 10,
-    "highAbsolute":10,
-    "unit": "months"
+    "lowAbsolute": 10.00,
+    "lowNormal": 10.00,
+    "highNormal": 100.0,
+    "highAbsolute":100.0,
+    "unit": "cm"
   },
   {
-    "name": "Preconception Congenital anomaly",
+    "name": "Weight of baby 2",
+    "uuid": "77d2b5c3-b902-41e0-bc18-00ca233227a1",
+    "dataType": "Numeric",
+    "lowAbsolute": 0,
+    "highAbsolute": 5000,
+    "lowNormal": 0,
+    "highNormal": 5000,
+    "unit": "gm"
+  },
+  {
+    "name": "Length of baby 3",
+    "uuid": "2bec32c0-24b1-4d7e-9279-620703708e44",
+    "dataType": "Numeric",
+    "lowAbsolute": 10.00,
+    "lowNormal": 10.00,
+    "highNormal": 100.0,
+    "highAbsolute":100.0,
+    "unit": "cm"
+  },
+  {
+    "name": "Weight of baby 3",
+    "uuid": "6474be2f-23cb-4e02-8fa2-03e88072f9cc",
+    "dataType": "Numeric",
+    "lowAbsolute": 0,
+    "highAbsolute": 5000,
+    "lowNormal": 0,
+    "highNormal": 5000,
+    "unit": "gm"
+  },
+  {
+    "name": "Anomaly of baby 1",
     "uuid": "0762aa1a-26a7-439c-9cbc-07589cfd3942",
     "dataType": "Coded",
     "answers": [
@@ -87,6 +117,43 @@
         "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
       }
     ]
+  },
+  {
+    "name": "Anomaly of baby 2",
+    "uuid": "3acd8b29-f15b-47c9-bc5b-48c710cc9ddd",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "name": "Anomaly of baby 3",
+    "uuid": "9bed518e-f907-4649-bb5f-1a5068ed1a20",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+
+  {
+    "name": "Preconception Gestational age",
+    "uuid": "003a0e06-1f23-41a7-a228-0da38efb42f3",
+    "dataType": "Numeric",
+    "lowAbsolute": 4,
+    "lowNormal": 4,
+    "highNormal": 10,
+    "highAbsolute":10,
+    "unit": "months"
   },
   {
     "name": "Follow-up of neonatal period",
@@ -123,5 +190,136 @@
     "name": "Neonatal death",
     "dataType": "Numeric",
     "unit": "days"
+  },
+  {
+    "name": "Number of live births",
+    "uuid": "786a3263-3e2a-49d8-8969-430682ff1b25",
+    "dataType": "Numeric"
+  },
+  {
+    "name": "Number of still births",
+    "uuid": "1ca11a92-c9a4-4fc0-9ff1-85f3f8145963",
+    "dataType": "Numeric"
+  },
+  {
+    "name": "Gender of baby 1",
+    "uuid": "0696d0d9-65fa-4b42-bb0d-19343f3280ee",
+    "dataType": "Coded",
+    "voided": true,
+    "answers": [
+      {
+        "uuid": "7038d549-4a3b-4600-b856-f6f3d123fbd8"
+      },
+      {
+        "uuid": "09e1b06f-26be-4f7a-8121-5dba3a11b684"
+      },
+      {
+        "uuid": "d56700ea-fac8-4255-8403-7f8f3b755335"
+      }
+    ]
+  },
+  {
+    "name": "Gender of baby 2",
+    "uuid": "c4b0baff-8d9c-4cd2-a890-3b8c3e710cd2",
+    "dataType": "Coded",
+    "voided": true,
+    "answers": [
+      {
+        "uuid": "7038d549-4a3b-4600-b856-f6f3d123fbd8"
+      },
+      {
+        "uuid": "09e1b06f-26be-4f7a-8121-5dba3a11b684"
+      },
+      {
+        "uuid": "d56700ea-fac8-4255-8403-7f8f3b755335"
+      }
+    ]
+  },
+  {
+    "name": "Gender of baby 3",
+    "uuid": "8b7b8835-28ab-4724-809e-7217316ba9ae",
+    "dataType": "Coded",
+    "voided": true,
+    "answers": [
+      {
+        "uuid": "7038d549-4a3b-4600-b856-f6f3d123fbd8"
+      },
+      {
+        "uuid": "09e1b06f-26be-4f7a-8121-5dba3a11b684"
+      },
+      {
+        "uuid": "d56700ea-fac8-4255-8403-7f8f3b755335"
+      }
+    ]
+  },
+
+  {
+    "name": "Birth outcome of baby 1",
+    "uuid": "5274bb3f-b96e-4fe8-90e9-1fd54a118114",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "e3999b21-821c-4c6e-9953-156e70b9217c",
+        "name": "Live Birth"
+
+      },
+      {
+        "uuid": "797c7923-1993-49d9-b759-1706aae62ae9",
+        "name": "Still Birth"
+      }
+    ]
+  },
+  {
+    "name": "Birth outcome of baby 2",
+    "uuid": "0f65c20b-cc72-446d-abbb-20db48276a6d",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "e3999b21-821c-4c6e-9953-156e70b9217c",
+        "name": "Live Birth"
+
+      },
+      {
+        "uuid": "797c7923-1993-49d9-b759-1706aae62ae9",
+        "name": "Still Birth"
+      }
+    ]
+  },
+  {
+    "name": "Birth outcome of baby 3",
+    "uuid": "faabcab9-7e76-40a3-b965-f5d2181e9b96",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "e3999b21-821c-4c6e-9953-156e70b9217c",
+        "name": "Live Birth"
+
+      },
+      {
+        "uuid": "797c7923-1993-49d9-b759-1706aae62ae9",
+        "name": "Still Birth"
+      }
+    ]
+  },
+  {
+    "name": "Mother alive till 28th day",
+    "uuid": "4c992632-9376-4f84-a41e-bae506255f97",
+    "dataType": "Coded",
+    "answers": [
+      {
+        "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
+      },
+      {
+        "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
+      }
+    ]
+  },
+  {
+    "uuid": "c258d9f7-fb90-44c6-8e3e-8420869c7112",
+    "name": "Maternal death",
+    "dataType": "Numeric",
+    "unit": "days"
   }
+
+
 ]

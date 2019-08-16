@@ -32,6 +32,18 @@
           "mandatory": true
         },
         {
+          "name": "Gestational age",
+          "uuid": "61a3b75a-405d-4887-87f7-77b84108d067",
+          "keyValues": [],
+          "concept": {
+            "name": "Preconception Gestational age",
+            "uuid": "003a0e06-1f23-41a7-a228-0da38efb42f3"
+          },
+          "displayOrder": 3,
+          "mandatory": true
+        },
+
+        {
           "name": "Abortion",
           "uuid": "7195a31a-bbd0-4a69-bdfc-82465976a941",
           "keyValues": [],
@@ -39,7 +51,7 @@
             "name": "Type of Abortion",
             "uuid": "94e3ad45-ae52-41dc-a26a-27b4973cbd04"
           },
-          "displayOrder": 3,
+          "displayOrder": 4,
           "mandatory": true
         },
         {
@@ -50,53 +62,228 @@
             "name": "Type of Still Birth",
             "uuid": "b3e16e8b-a4d2-4627-a28d-de9b5db6e09e"
           },
-          "displayOrder": 4,
+          "displayOrder": 5,
+          "mandatory": true,
+          "voided": true
+        },
+        {
+          "name": "Number of babies",
+          "uuid": "9888ebce-d941-467c-8d26-5590f9599d48",
+          "keyValues": [],
+          "concept": {
+            "name": "Number of babies",
+            "uuid": "884cd2fb-1e50-4a2e-a9ae-2b90d4a78ede"
+          },
+          "displayOrder": 6,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "db2ce8aa-d87f-44e7-b43d-ee907739d942",
+      "name": "Details of baby 1",
+      "display": "Details of baby 1",
+      "displayOrder": 2,
+      "formElements": [
+        {
+          "name": "Birth outcome of baby 1",
+          "uuid": "bc4ddaa9-3962-4c9f-8281-8bac7733b704",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Birth outcome of baby 1",
+            "uuid": "5274bb3f-b96e-4fe8-90e9-1fd54a118114"
+          },
+          "displayOrder": 1,
           "mandatory": true
         },
         {
-          "name": "Weight",
+          "name": "Gender of baby 1",
+          "uuid": "11560c83-79a1-4b7a-aeb8-a640b7bec6e4",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Gender of baby 1",
+            "uuid": "0696d0d9-65fa-4b42-bb0d-19343f3280ee"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+
+        {
+          "name": "Weight of baby 1",
           "uuid": "ae5a0b6c-e4c6-4216-b017-b7e46b9b360b",
           "keyValues": [],
           "concept": {
-            "name": "Preconception Outcome Weight",
+            "name": "Preconception outcome weight of baby 1",
             "uuid": "fa5e2794-ba56-4208-82be-d70862233954"
           },
-          "displayOrder": 5,
+          "displayOrder": 3,
           "mandatory": true
         },
         {
-          "name": "Length",
+          "name": "Length of baby 1",
           "uuid": "6a83cb30-d73b-445e-a078-9178cf9b037e",
           "keyValues": [],
           "concept": {
-            "name": "Length",
+            "name": "Preconception outcome length of baby 1",
             "uuid": "18bf0f09-30e0-4bf3-8f7c-57c4067e559d"
           },
-          "displayOrder":6,
+          "displayOrder":4,
           "mandatory": false
         },
         {
-          "name": "Gestational age",
-          "uuid": "61a3b75a-405d-4887-87f7-77b84108d067",
-          "keyValues": [],
-          "concept": {
-            "name": "Preconception Gestational age",
-            "uuid": "003a0e06-1f23-41a7-a228-0da38efb42f3"
-          },
-          "displayOrder": 7,
-          "mandatory": true
-        },
-        {
-          "name": "Congenital anomaly",
+          "name": "Congenital anomaly of baby 1",
           "uuid": "c57e32b9-c475-45b4-ad48-14c0ab2f78f6",
           "keyValues": [],
           "concept": {
-            "name": "Preconception Congenital anomaly",
+            "name": "Preconception Congenital anomaly of baby 1",
             "uuid": "0762aa1a-26a7-439c-9cbc-07589cfd3942"
           },
-          "displayOrder": 8,
+          "displayOrder": 5,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "a7b205e1-5c0e-41f5-ad9a-11c473857b8f",
+      "name": "Details of baby 2",
+      "display": "Details of baby 2",
+      "displayOrder": 3,
+      "formElements": [
+        {
+          "name": "Birth outcome of baby 2",
+          "uuid": "da5ec154-2745-4193-a866-6536a4bb3d4c",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Birth outcome of baby 2",
+            "uuid": "0f65c20b-cc72-446d-abbb-20db48276a6d"
+
+          },
+          "displayOrder": 1,
           "mandatory": true
         },
+        {
+          "name": "Gender of baby 2",
+          "uuid": "7c178895-764b-48d5-b870-07da62028f2a",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Gender of baby 2",
+            "uuid": "c4b0baff-8d9c-4cd2-a890-3b8c3e710cd2"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+
+        {
+          "name": "Weight of baby 2",
+          "uuid": "aa97e7df-5a2f-4584-8b6f-b291de50b021",
+          "keyValues": [],
+          "concept": {
+            "name": "Preconception outcome weight of baby 2",
+            "uuid": "77d2b5c3-b902-41e0-bc18-00ca233227a1"
+          },
+          "displayOrder": 3,
+          "mandatory": true
+        },
+        {
+          "name": "Length of baby 2",
+          "uuid": "82151e6d-fe75-43b6-8164-aaa62c4efada",
+          "keyValues": [],
+          "concept": {
+            "name": "Preconception outcome length of baby 2",
+            "uuid": "cca6b81c-2806-4724-81f7-fae5b93923e4"
+          },
+          "displayOrder":4,
+          "mandatory": false
+        },
+        {
+          "name": "Congenital anomaly of baby 2",
+          "uuid": "5a5997f9-101e-4591-aa3a-11bfb591fa74",
+          "keyValues": [],
+          "concept": {
+            "name": "Preconception Congenital anomaly of baby 2",
+            "uuid": "3acd8b29-f15b-47c9-bc5b-48c710cc9ddd"
+          },
+          "displayOrder": 5,
+          "mandatory": true
+        }
+
+      ]
+    },
+    {
+      "uuid": "57b5eed7-8b64-4019-8140-698618964ab6",
+      "name": "Details of baby 3",
+      "display": "Details of baby 3",
+      "displayOrder": 4,
+      "formElements": [
+        {
+          "name": "Birth outcome of baby 3",
+          "uuid": "cd63a4d6-4ccb-4aa2-ac95-e1384d8afd27",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Birth outcome of baby 3",
+            "uuid": "faabcab9-7e76-40a3-b965-f5d2181e9b96"
+          },
+          "displayOrder": 1,
+          "mandatory": true
+        },
+        {
+          "name": "Gender of baby 3",
+          "uuid": "3f522210-3daa-4247-b85e-21ceedb55f3a",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Gender of baby 3",
+            "uuid": "8b7b8835-28ab-4724-809e-7217316ba9ae"
+          },
+          "displayOrder": 2,
+          "mandatory": true
+        },
+        {
+          "name": "Weight of baby 3",
+          "uuid": "e2984432-793a-4da3-8877-8929cca4d3a2",
+          "keyValues": [],
+          "concept": {
+            "name": "Preconception outcome weight of baby 3",
+            "uuid": "6474be2f-23cb-4e02-8fa2-03e88072f9cc"
+          },
+          "displayOrder": 3,
+          "mandatory": true
+        },
+        {
+          "name": "Length of baby 3",
+          "uuid": "f0c5435b-f2a0-461b-839c-9e4e3e46b147",
+          "keyValues": [],
+          "concept": {
+            "name": "Preconception outcome length of baby 3",
+            "uuid": "2bec32c0-24b1-4d7e-9279-620703708e44"
+          },
+          "displayOrder":4,
+          "mandatory": false
+        },
+        {
+          "name": "Congenital anomaly of baby 3",
+          "uuid": "c131cb24-9259-4f19-a967-f7832ab194b5",
+          "keyValues": [],
+          "concept": {
+            "name": "Preconception Congenital anomaly of baby 3",
+            "uuid": "9bed518e-f907-4649-bb5f-1a5068ed1a20"
+          },
+          "displayOrder": 5,
+          "mandatory": true
+        }
+      ]
+    },
+    {
+      "uuid": "f4f5a34b-1ea5-4018-a6d4-70ad5d0ca495",
+      "name": "Neonatal followup",
+      "display": "Neonatal followup",
+      "displayOrder": 5,
+      "formElements": [
         {
           "name": "Follow-up of neonatal period",
           "uuid": "4d786deb-1cdd-4d71-804d-4057ac441de4",
@@ -105,7 +292,7 @@
             "name": "Follow-up of neonatal period",
             "uuid": "2c58412f-c2d1-4fb8-a8ac-261c0fc5e441"
           },
-          "displayOrder": 9,
+          "displayOrder": 1,
           "mandatory": true
         },
         {
@@ -116,8 +303,8 @@
             "name": "Child alive till 28th day",
             "uuid": "ef157e65-cf3c-4b12-934d-6bb5e8a04a6d"
           },
-          "displayOrder":9.5 ,
-          "mandatory": true
+          "displayOrder":2 ,
+          "mandatory": false
         },
         {
           "name": "Neonatal death",
@@ -127,16 +314,40 @@
             "uuid": "2b74fc55-4484-4af4-86f7-d44af246b0e8",
             "name": "Neonatal death"
           },
-          "displayOrder": 10,
-          "mandatory": true
-        }    
+          "displayOrder": 3,
+          "mandatory": false
+        },
+        {
+          "name": "Mother alive till 28th day",
+          "uuid": "022f95d4-9dc4-4873-b41b-e90278c3a658",
+          "keyValues": [],
+          "type": "SingleSelect",
+          "concept": {
+            "name": "Mother alive till 28th day",
+            "uuid": "4c992632-9376-4f84-a41e-bae506255f97"
+          },
+          "displayOrder": 4,
+          "mandatory": false
+        },
+        {
+          "name": "Maternal death",
+          "uuid": "b0d1a587-8cb1-4081-a662-a1b5376d9065",
+          "keyValues": [],
+          "concept": {
+            "uuid": "c258d9f7-fb90-44c6-8e3e-8420869c7112",
+            "name": "Maternal death"
+          },
+          "displayOrder": 5,
+          "mandatory": false
+        }
       ]
     },
+
     {
       "uuid": "6cd92b99-c4b2-4580-9b71-de34b18cb754",
       "name": "FOLLOWUP DATE",
       "display": "FOLLOWUP DATE",
-      "displayOrder": 2,
+      "displayOrder": 6,
       "formElements": [
         {
           "name": "Next monthly Visit Date",

@@ -49,6 +49,10 @@
       {
         "name": "Early Neonatal death within first 24 Hours of birth",
         "uuid": "63c6e46e-77ea-44d7-bb46-ae4f16acb399"
+      },
+      {
+        "name": "Live birth and Still birth",
+        "uuid": "231982cb-bacc-4d8b-8ee7-be47bdd4d47e"
       }
     ]
   },

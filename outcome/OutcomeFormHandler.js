@@ -18,32 +18,89 @@ class OutcomeFormHandler {
     abortion([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Abortion");
     } 
-
-    @WithStatusBuilder
-    stillBirth([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Still Birth");
-    } 
-
-    @WithStatusBuilder
-    weight([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Live Birth");
-    } 
-
-    @WithStatusBuilder
-    length([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Live Birth");
-    } 
-
     
     @WithStatusBuilder
-    gestationalAge([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Live Birth");
+    numberOfBabies([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Still Birth", "Live Birth", "Live birth and Still birth");
+    }
+
+    @WithStatusBuilder
+    birthOutcomeOfBaby1([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(1)
+            .and.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Live birth and Still birth");
+    }
+
+    @WithStatusBuilder
+    genderOfBaby1([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(1);
+    }
+
+    @WithStatusBuilder
+    weightOfBaby1([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(1);
     } 
 
     @WithStatusBuilder
-    congenitalAnomaly([], statusBuilder) {
-        statusBuilder.show().when.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Live Birth");
+    lengthOfBaby1([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(1);
     } 
+
+    @WithStatusBuilder
+    congenitalAnomalyOfBaby1([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(1);
+    }
+
+    @WithStatusBuilder
+    birthOutcomeOfBaby2([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(2)
+            .and.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Live birth and Still birth");
+    }
+
+    @WithStatusBuilder
+    genderOfBaby2([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(2);
+    }
+
+    @WithStatusBuilder
+    weightOfBaby2([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(2);
+    }
+
+    @WithStatusBuilder
+    lengthOfBaby2([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(2);
+    }
+
+    @WithStatusBuilder
+    congenitalAnomalyOfBaby2([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(2);
+    }
+
+    @WithStatusBuilder
+    birthOutcomeOfBaby3([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(3)
+            .and.valueInEncounter("Last pregnancy outcome").containsAnyAnswerConceptName("Live birth and Still birth");
+    }
+
+    @WithStatusBuilder
+    genderOfBaby3([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(3);
+    }
+
+    @WithStatusBuilder
+    weightOfBaby3([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(3);
+    }
+
+    @WithStatusBuilder
+    lengthOfBaby3([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(3);
+    }
+
+    @WithStatusBuilder
+    congenitalAnomalyOfBaby3([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Number of babies").is.greaterThanOrEqualTo(3);
+    }
 
     @WithStatusBuilder
     followUpOfNeonatalPeriod([], statusBuilder) {
@@ -58,7 +115,17 @@ class OutcomeFormHandler {
     @WithStatusBuilder
     neonatalDeath([], statusBuilder) {
         statusBuilder.show().when.valueInEncounter("Child alive till 28th day").is.no;
-    } 
+    }
+
+    @WithStatusBuilder
+    motherAliveTill28thDay([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Follow-up of neonatal period").containsAnyAnswerConceptName("Yes", "Partial");
+    }
+
+    @WithStatusBuilder
+    maternalDeath([], statusBuilder) {
+        statusBuilder.show().when.valueInEncounter("Mother alive till 28th day").is.no;
+    }
 
     @WithStatusBuilder
     nextMonthlyVisitDate([], statusBuilder) {
@@ -68,7 +135,7 @@ class OutcomeFormHandler {
     
     @WithStatusBuilder
     eventPregnancyOutcome([], statusBuilder) {
-        statusBuilder.skipAnswers("Don't know","Live birth and Still birth", "Early Neonatal death within first 24 Hours of birth");
+        statusBuilder.skipAnswers("Don't know", "Early Neonatal death within first 24 Hours of birth");
     } 
 }
 
