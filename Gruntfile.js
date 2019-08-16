@@ -34,6 +34,9 @@ module.exports = IDI.configure({
         "formAdditions": [],
         "catchments": {
             "dev": ["./shared/catchments.json"],
+            "prod": [
+                // "../../data/precon-data/catchments-2019-08-16.json"
+            ],
         },
         "checklistDetails": [],
         "concepts": [
@@ -59,7 +62,10 @@ module.exports = IDI.configure({
             ],
             "staging": ["./users/staging-users.json"],
             "uat": ["./users/uat-users.json"],
-            "prerelease": ["./users/precon-users.json"]
+            "prerelease": ["./users/precon-users.json"],
+            "prod": [
+                // "../../data/precon-data/users-2019-08-16.json",
+            ]
         },
         "rules": [
             "./shared/rules/index.js",
