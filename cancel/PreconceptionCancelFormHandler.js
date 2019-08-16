@@ -9,9 +9,10 @@ class PreconceptionCancelFormHandler {
     }
 
     @WithStatusBuilder    
-    nextMonthlyVisitDate([], statusBuilder) {
+    nextMonthlyVisitDate([programEncounter], statusBuilder) {
         statusBuilder.show().when.valueInLastEncounter("Last pregnancy outcome",["Outcome"])
-        .not.containsAnswerConceptName("Live Birth");
+        .not.containsAnswerConceptName("Live Birth")
+        .or.whenItem(programEncounter.programEnrolment.isActive).is.not.truthy;
     }
 }
 
