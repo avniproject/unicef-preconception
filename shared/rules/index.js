@@ -12,4 +12,5 @@ module.exports = _.merge({},
     require('./visitScheduler'),
     require('../../baseline/programSummary'),
     require('./PreconceptionFormHandler'),
+    require('../../shared/rules/eligibilityCheck.js')
 );
