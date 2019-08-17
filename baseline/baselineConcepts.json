@@ -411,12 +411,12 @@
   },
    {
     "uuid": "51d652d9-3a98-4433-a546-b2ef670c06cf",
-    "name": "BMI trends",
+    "name": "BMI trend",
     "dataType":"Text" 
     },
     {
     "uuid": "e07f9188-58c1-479c-8134-d8d9b5819672",
-    "name": "Hb trends",
+    "name": "Hb trend",
     "dataType":"Text"
     },
     {

@@ -84,16 +84,16 @@ class ProgramSummary {
             summaries.push({name: 'Estimated Date of Delivery', value: edd.getValue()});
         }
 
-        let bmiTrends = [];
+        let bmiTrend = [];
 
-        bmiTrends.push({Date :programEnrolment.enrolmentDateTime,Program:programEnrolment.program.displayName
+        bmiTrend.push({Date :programEnrolment.enrolmentDateTime,Program:programEnrolment.program.displayName
             ,BMI:programEnrolment.findLatestObservationInEntireEnrolment("BMI").getValue()});
 
         _.chain(programEnrolment.getEncounters(true))
             .sortBy("earliestVisitDateTime")
             .map((encounter) => {
                 if(!_.isNil(encounter.encounterDateTime)){
-                    bmiTrends.push({
+                    bmiTrend.push({
                         Date: encounter.encounterDateTime,
                         Program: encounter.name,
                         BMI: encounter.findLatestObservationInEntireEnrolment("BMI").getValue()
@@ -101,16 +101,16 @@ class ProgramSummary {
             }
         }).value();
     
-        if (!_.isNil(bmiTrends) && !_.isEmpty(bmiTrends)) {      
-        summaries.push({name: 'BMI trends', value: JSON.stringify(bmiTrends)});
+        if (!_.isNil(bmiTrend) && !_.isEmpty(bmiTrend)) {      
+        summaries.push({name: 'BMI trend', value: JSON.stringify(bmiTrend)});
         }  
         
-        let hbTrends = [];
+        let hbTrend = [];
         _.chain(programEnrolment.getEncounters(true))
             .sortBy("earliestVisitDateTime")
             .map((encounter) => {
                 if(!_.isNil(encounter.encounterDateTime) && encounter.observationExistsInEntireEnrolment("Preconception Hb")){
-                hbTrends.push({
+                hbTrend.push({
                 Date: encounter.encounterDateTime,
                 Program: encounter.name,
                 HB: !_.isEmpty(encounter.findLatestObservationInEntireEnrolment("Preconception Hb").getValue())
@@ -120,8 +120,8 @@ class ProgramSummary {
         })
         .value();
         
-        if (!_.isNil(hbTrends) && !_.isEmpty(hbTrends)) {      
-        summaries.push({name: 'Hb trends', value: JSON.stringify(hbTrends)});
+        if (!_.isNil(hbTrend) && !_.isEmpty(hbTrend)) {      
+        summaries.push({name: 'Hb trend', value: JSON.stringify(hbTrend)});
         }
 
         return summaries;
