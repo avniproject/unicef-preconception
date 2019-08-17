@@ -86,18 +86,14 @@ class ProgramSummary {
 
         let bmiTrend = [];
 
-        bmiTrend.push({Date :programEnrolment.enrolmentDateTime,Program:programEnrolment.program.displayName
-            ,BMI:programEnrolment.getObservationReadableValue("BMI")});
+        if(programEnrolment.hasObservation("BMI"))
+        bmiTrend.push({BMI:programEnrolment.getObservationReadableValue("BMI")});
 
         _.chain(programEnrolment.getEncounters(true))
             .sortBy("earliestVisitDateTime")
             .map((encounter) => {
                 if(!_.isNil(encounter.encounterDateTime)){
-                    bmiTrend.push({
-                        Date: encounter.encounterDateTime,
-                        Program: encounter.name,
-                        BMI: encounter.getObservationReadableValue("BMI")
-                })
+                    bmiTrend.push({BMI: encounter.getObservationReadableValue("BMI")})
             }
         }).value();
     
@@ -109,14 +105,9 @@ class ProgramSummary {
         _.chain(programEnrolment.getEncounters(true))
             .sortBy("earliestVisitDateTime")
             .map((encounter) => {
-                if(!_.isNil(encounter.encounterDateTime) && encounter.observationExistsInEntireEnrolment("Preconception Hb")){
-                hbTrend.push({
-                Date: encounter.encounterDateTime,
-                Program: encounter.name,
-                HB: encounter.getObservationReadableValue("Preconception Hb")
-            });
-          }
-        
+                if(!_.isNil(encounter.encounterDateTime) &&  !_.isNil(encounter.getObservationReadableValue("Preconception Hb"))){
+                hbTrend.push({HB: encounter.getObservationReadableValue("Preconception Hb")});
+          }       
         })
         .value();
         
