@@ -36,6 +36,7 @@ module.exports = IDI.configure({
             "dev": ["./shared/catchments.json"],
             "prod": [
                 // "../../data/precon-data/catchments-2019-08-16.json"
+                // "../../data/precon-data/catchments-2019-08-17.json"
             ],
         },
         "checklistDetails": [],
@@ -71,6 +72,7 @@ module.exports = IDI.configure({
             "prerelease": ["./users/precon-users.json"],
             "prod": [
                 // "../../data/precon-data/users-2019-08-16.json",
+                // "../../data/precon-data/users-2019-08-17.json",
             ]
         },
         "rules": [
