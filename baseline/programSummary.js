@@ -87,7 +87,7 @@ class ProgramSummary {
         let bmiTrend = [];
 
         bmiTrend.push({Date :programEnrolment.enrolmentDateTime,Program:programEnrolment.program.displayName
-            ,BMI:programEnrolment.findLatestObservationInEntireEnrolment("BMI").getValue()});
+            ,BMI:programEnrolment.getObservationReadableValue("BMI")});
 
         _.chain(programEnrolment.getEncounters(true))
             .sortBy("earliestVisitDateTime")
@@ -96,7 +96,7 @@ class ProgramSummary {
                     bmiTrend.push({
                         Date: encounter.encounterDateTime,
                         Program: encounter.name,
-                        BMI: encounter.findLatestObservationInEntireEnrolment("BMI").getValue()
+                        BMI: encounter.getObservationReadableValue("BMI")
                 })
             }
         }).value();
@@ -113,7 +113,7 @@ class ProgramSummary {
                 hbTrend.push({
                 Date: encounter.encounterDateTime,
                 Program: encounter.name,
-                HB: encounter.findLatestObservationInEntireEnrolment("Preconception Hb").getValue()
+                HB: encounter.getObservationReadableValue("Preconception Hb")
             });
           }
         
