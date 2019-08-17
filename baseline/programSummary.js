@@ -84,49 +84,45 @@ class ProgramSummary {
             summaries.push({name: 'Estimated Date of Delivery', value: edd.getValue()});
         }
 
-        // const bmiTrends = _.chain(programEnrolment.getEncounters(true))
-        //     .sortBy("earliestVisitDateTime")
-        //     .map((encounter) => {
-        //         return {
-        //         Date: encounter.encounterDateTime,
-        //         Program: encounter.name,
-        //         BMI: encounter.findLatestObservationInEntireEnrolment("BMI").getValue()
-        //     };
-        // }).value();
+        let bmiTrends = [];
 
-        // let bmiTrends = [];
-        // let encounters = programEnrolment.getEncounters(true);
-        // if(!_.isEmpty(encounters)){
-        //     _.chain(encounters)
-        //         .sortBy("earliestVisitDateTime")
-        //           .map(encounters)
-        //             .forEach((encounters) => {
-        //                 bmiTrends.push({
-        //                     Date: encounters.encounterDateTime,
-        //                     Program: encounters.name,
-        //                     BMI: (encounters.findObservationInEntireEnrolment("BMI"))
-        //                     })
-        //                 }).value();
-        //  }
+        bmiTrends.push({Date :programEnrolment.enrolmentDateTime,Program:programEnrolment.program.displayName
+            ,BMI:programEnrolment.findLatestObservationInEntireEnrolment("BMI").getValue()});
+
+        _.chain(programEnrolment.getEncounters(true))
+            .sortBy("earliestVisitDateTime")
+            .map((encounter) => {
+                if(!_.isNil(encounter.encounterDateTime)){
+                    bmiTrends.push({
+                        Date: encounter.encounterDateTime,
+                        Program: encounter.name,
+                        BMI: encounter.findLatestObservationInEntireEnrolment("BMI").getValue()
+                })
+            }
+        }).value();
     
-        // if (!_.isNil(bmiTrends)) {      
-        // summaries.push({name: 'BMI trends', value: JSON.stringify(bmiTrends)});
-        // }        
-
-        // const hbTrends = _.chain(programEnrolment.getEncounters(true))
-        //     .sortBy("earliestVisitDateTime")
-        //     .map((encounter) => {
-        //         return {
-        //         Date: encounter.encounterDateTime,
-        //         Program: encounter.name,
-        //         HB: !_.isEmpty(encounter.findLatestObservationInEntireEnrolment("Preconception Hb").getValue())
-        //     };
-        // })
-        // .value();
+        if (!_.isNil(bmiTrends) && !_.isEmpty(bmiTrends)) {      
+        summaries.push({name: 'BMI trends', value: JSON.stringify(bmiTrends)});
+        }  
         
-        // if (!_.isNil(hbTrends)) {      
-        // summaries.push({name: 'Hb trends', value: JSON.stringify(hbTrends)});
-        // }
+        let hbTrends = [];
+        _.chain(programEnrolment.getEncounters(true))
+            .sortBy("earliestVisitDateTime")
+            .map((encounter) => {
+                if(!_.isNil(encounter.encounterDateTime) && encounter.observationExistsInEntireEnrolment("Preconception Hb")){
+                hbTrends.push({
+                Date: encounter.encounterDateTime,
+                Program: encounter.name,
+                HB: !_.isEmpty(encounter.findLatestObservationInEntireEnrolment("Preconception Hb").getValue())
+            });
+          }
+        
+        })
+        .value();
+        
+        if (!_.isNil(hbTrends) && !_.isEmpty(hbTrends)) {      
+        summaries.push({name: 'Hb trends', value: JSON.stringify(hbTrends)});
+        }
 
         return summaries;
     }

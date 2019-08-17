@@ -418,5 +418,13 @@
     "uuid": "e07f9188-58c1-479c-8134-d8d9b5819672",
     "name": "Hb trends",
     "dataType":"Text"
-    }   
+    },
+    {
+      "uuid": "ba6ed683-6fd3-4af1-9ca8-e3055fc283fa",
+      "name": "Alcohol consumption"
+      }   ,
+      {
+        "uuid": "f62402b1-7bbe-4413-af0a-c4efd095bc55",
+        "name": "Tobacco consumption"
+        }   
 ]
