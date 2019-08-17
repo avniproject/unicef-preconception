@@ -102,7 +102,7 @@ class ProgramSummary {
         }).value();
     
         if (!_.isNil(bmiTrend) && !_.isEmpty(bmiTrend)) {      
-        summaries.push({name: 'BMI trend', value: JSON.stringify(bmiTrend)});
+        summaries.push({name: 'BMI trend', value:  _.join((_.map(bmiTrend,"BMI")),'|')});
         }  
         
         let hbTrend = [];
@@ -113,7 +113,7 @@ class ProgramSummary {
                 hbTrend.push({
                 Date: encounter.encounterDateTime,
                 Program: encounter.name,
-                HB: !_.isEmpty(encounter.findLatestObservationInEntireEnrolment("Preconception Hb").getValue())
+                HB: encounter.findLatestObservationInEntireEnrolment("Preconception Hb").getValue()
             });
           }
         
@@ -121,7 +121,7 @@ class ProgramSummary {
         .value();
         
         if (!_.isNil(hbTrend) && !_.isEmpty(hbTrend)) {      
-        summaries.push({name: 'Hb trend', value: JSON.stringify(hbTrend)});
+        summaries.push({name: 'Hb trend', value:  _.join((_.map(hbTrend,"HB")),'|')});
         }
 
         return summaries;
