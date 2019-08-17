@@ -53,6 +53,10 @@
       {
         "name": "Live birth and Still birth",
         "uuid": "231982cb-bacc-4d8b-8ee7-be47bdd4d47e"
+      },
+      {
+        "name": "Don't know",
+        "uuid": "a032ffce-c9f5-46f8-b89d-f82d5e91fc45"
       }
     ]
   },
