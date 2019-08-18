@@ -1,11 +1,8 @@
 [
-    
-   {
-
+  {
     "name": "Date of last pregnancy outcome",
     "uuid": "7e81ff1e-4d84-4900-9b05-c4d757dba73f",
     "dataType": "Date"
-
   },
   {
     "name": "Preconception Height",
@@ -35,7 +32,6 @@
       {
         "uuid": "e3999b21-821c-4c6e-9953-156e70b9217c",
         "name": "Live Birth"
-
       },
       {
         "uuid": "797c7923-1993-49d9-b759-1706aae62ae9",
@@ -44,7 +40,6 @@
       {
         "name": "Abortion",
         "uuid": "03dddd29-c1bb-4231-a17b-55445e247e7d"
-
       },
       {
         "name": "Early Neonatal death within first 24 Hours of birth",
@@ -77,7 +72,7 @@
     "lowAbsolute": 2,
     "lowNormal": 2,
     "highNormal": 9,
-    "highAbsolute":9,
+    "highAbsolute": 9,
     "unit": "months"
   },
   {
@@ -87,11 +82,9 @@
     "answers": [
       {
         "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-
       },
       {
         "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-
       }
     ]
   },
@@ -102,15 +95,12 @@
     "answers": [
       {
         "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-
       },
       {
         "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-
       }
     ]
   },
-
   {
     "uuid": "b8c2e3a8-940d-4adc-a1af-de549abaf0f1",
     "name": "Smoking -cigarette/Bidi"
@@ -131,32 +121,31 @@
     "uuid": "379ca0eb-f4c3-4d0e-a8d8-070814ffd176",
     "name": "Indoor smoking by another family member"
   },
-
   {
     "name": "Type of tobacco consumption",
     "uuid": "716ce33f-ccae-4192-8edc-0130fe43149b",
     "dataType": "Coded",
     "answers": [
-        {
-            "uuid": "b8c2e3a8-940d-4adc-a1af-de549abaf0f1",
-            "name": "Smoking -cigarette/Bidi"
-          },
-          {
-            "uuid": "f1ea02fb-64a0-4d91-9f9d-5c303578eeed",
-            "name": "Guthka"
-          },
-          {
-            "uuid": "f10b296c-554b-4201-b733-4f64024d206b",
-            "name": "Snuff"
-          },
-          {
-            "uuid": "ac7e309d-11ad-4012-beeb-334e1d1379e5",
-            "name": "Mishri"
-          },
-          {
-            "uuid": "379ca0eb-f4c3-4d0e-a8d8-070814ffd176",
-            "name": "Indoor smoking by another family member"
-          }
+      {
+        "uuid": "b8c2e3a8-940d-4adc-a1af-de549abaf0f1",
+        "name": "Smoking -cigarette/Bidi"
+      },
+      {
+        "uuid": "f1ea02fb-64a0-4d91-9f9d-5c303578eeed",
+        "name": "Guthka"
+      },
+      {
+        "uuid": "f10b296c-554b-4201-b733-4f64024d206b",
+        "name": "Snuff"
+      },
+      {
+        "uuid": "ac7e309d-11ad-4012-beeb-334e1d1379e5",
+        "name": "Mishri"
+      },
+      {
+        "uuid": "379ca0eb-f4c3-4d0e-a8d8-070814ffd176",
+        "name": "Indoor smoking by another family member"
+      }
     ]
   },
   {
@@ -166,11 +155,9 @@
     "answers": [
       {
         "uuid": "04bb1773-c353-44a1-a68c-9b448e07ff70"
-
       },
       {
         "uuid": "e7b50c78-3d90-484d-a224-9887887780dc"
-
       }
     ]
   },
@@ -185,24 +172,24 @@
   {
     "uuid": "40adddd0-614b-419b-b38d-22e3ebc61ecd",
     "name": "Branded"
-  },  
+  },
   {
     "name": "Type of alcohol consumption",
     "uuid": "907a4369-ba5e-4220-a988-1e759f83b722",
     "dataType": "Coded",
     "answers": [
-        {
-            "uuid": "29dd354f-478c-4e26-861a-cf208e5bd5a1",
-            "name": "Country"
-          },
-          {
-            "uuid": "a3dc28b8-1744-48db-aa85-67e4f74adb73" ,
-            "name": "Tadi/ Madi"
-          },
-          {
-            "uuid": "40adddd0-614b-419b-b38d-22e3ebc61ecd",
-            "name": "Branded"
-          }
+      {
+        "uuid": "29dd354f-478c-4e26-861a-cf208e5bd5a1",
+        "name": "Country"
+      },
+      {
+        "uuid": "a3dc28b8-1744-48db-aa85-67e4f74adb73",
+        "name": "Tadi/ Madi"
+      },
+      {
+        "uuid": "40adddd0-614b-419b-b38d-22e3ebc61ecd",
+        "name": "Branded"
+      }
     ]
   },
   {
@@ -220,29 +207,28 @@
   {
     "uuid": "7c5e0c82-8150-4e3a-ad2b-e840b52317a6",
     "name": "Last"
-  }, 
-  
+  },
   {
     "name": "Meal consumption practice",
     "uuid": "d9786f0d-9a20-40c2-8374-0598c1b1f0af",
     "dataType": "Coded",
     "answers": [
-        {
-            "uuid": "2532c9a6-e19e-4232-9e0f-c89f15c4313f",
-            "name": "With husband"
-          },
-          {
-            "uuid": "54ccc670-4f92-464f-b9f1-1efc9cfd5eec",
-            "name": "With family members"
-          },
-          {
-            "uuid": "7b896115-c231-421c-8e52-84b31e15420c",
-            "name": "After men"
-          },
-          {
-            "uuid": "7c5e0c82-8150-4e3a-ad2b-e840b52317a6",
-            "name": "Last"
-          }
+      {
+        "uuid": "2532c9a6-e19e-4232-9e0f-c89f15c4313f",
+        "name": "With husband"
+      },
+      {
+        "uuid": "54ccc670-4f92-464f-b9f1-1efc9cfd5eec",
+        "name": "With family members"
+      },
+      {
+        "uuid": "7b896115-c231-421c-8e52-84b31e15420c",
+        "name": "After men"
+      },
+      {
+        "uuid": "7c5e0c82-8150-4e3a-ad2b-e840b52317a6",
+        "name": "Last"
+      }
     ]
   },
   {
@@ -260,28 +246,28 @@
   {
     "uuid": "ec5f386d-c3fe-4fd6-8ead-6d901ca927cf",
     "name": "Remaining"
-  },  
+  },
   {
     "name": "Average food quantity",
     "uuid": "b081b5c4-957e-46fa-8b9c-5a08ca375c0a",
     "dataType": "Coded",
     "answers": [
-        {
-            "uuid": "041f7d16-b169-41e2-9ed4-e28200ea920e",
-            "name": "Abundant"
-          },
-          {
-            "uuid": "9136fae7-db98-494b-b638-27f60ef49503",
-            "name": "Enough"
-          },
-          {
-            "uuid": "90309c38-2d30-4b28-a83f-c3e453d4f39d",
-            "name": "Lesser"
-          },
-          {
-            "uuid": "ec5f386d-c3fe-4fd6-8ead-6d901ca927cf",
-            "name": "Remaining"
-          }
+      {
+        "uuid": "041f7d16-b169-41e2-9ed4-e28200ea920e",
+        "name": "Abundant"
+      },
+      {
+        "uuid": "9136fae7-db98-494b-b638-27f60ef49503",
+        "name": "Enough"
+      },
+      {
+        "uuid": "90309c38-2d30-4b28-a83f-c3e453d4f39d",
+        "name": "Lesser"
+      },
+      {
+        "uuid": "ec5f386d-c3fe-4fd6-8ead-6d901ca927cf",
+        "name": "Remaining"
+      }
     ]
   },
   {
@@ -301,71 +287,65 @@
     "uuid": "bd6b4e7a-5f82-4222-8a09-db405a715165",
     "dataType": "Coded",
     "answers": [
-        {
-            "uuid": "2601a2e2-b9c7-4120-a3e3-7da7e1691e39",
-            "name": "Vegetarian"
-          },
-          {
-            "uuid": "bd41caec-2fed-49a2-bb77-8c0b3e8ca298",
-            "name": "Non-vegetarian (regular: at least twice a week)"
-          },
-          {
-            "uuid": "491741bb-6c30-4abd-a0b9-5c5747fb5217",
-            "name": "Sometimes non-vegetarian"
-          }
+      {
+        "uuid": "2601a2e2-b9c7-4120-a3e3-7da7e1691e39",
+        "name": "Vegetarian"
+      },
+      {
+        "uuid": "bd41caec-2fed-49a2-bb77-8c0b3e8ca298",
+        "name": "Non-vegetarian (regular: at least twice a week)"
+      },
+      {
+        "uuid": "491741bb-6c30-4abd-a0b9-5c5747fb5217",
+        "name": "Sometimes non-vegetarian"
+      }
     ]
   },
   {
     "uuid": "17492114-719c-4a3a-b948-2936d8f950e2",
     "name": "Calorie intake",
-    "dataType":"Numeric"
+    "dataType": "Numeric"
   },
   {
     "uuid": "4ecfbbd6-4e4b-492c-9462-2c317318ed80",
     "name": "Calorie % RDA",
-    "dataType":"Numeric"
+    "dataType": "Numeric"
   },
-  
   {
     "uuid": "2b57306a-28b8-42f7-96bc-aa6290d473d3",
     "name": "Protein intake",
-    "dataType":"Numeric"
+    "dataType": "Numeric"
   },
   {
     "uuid": "d15f50bf-1415-471e-ad8f-cece27f9b446",
     "name": "Protein % RDA",
-    "dataType":"Numeric"
+    "dataType": "Numeric"
   },
- 
   {
     "uuid": "47cd1912-8930-444f-95f5-39e326234fa7",
     "name": "Low Calorie intake",
-    "dataType":"NA"
-   
+    "dataType": "NA"
   },
   {
     "uuid": "33ca26f8-4ee2-4d2c-989d-96c04d752262",
     "name": "Low Protein intake",
-    "dataType":"NA"
-   
+    "dataType": "NA"
   },
-  
   {
     "uuid": "07ec8488-1f4d-426e-9588-172d6eaf2229",
     "name": "Parity > 4",
-    "dataType":"NA"
-   
+    "dataType": "NA"
   },
   {
     "uuid": "07ec8488-1f4d-426e-9588-172d6eaf2229",
     "name": "Parity is 0 & age> 35",
-    "dataType":"NA"   
+    "dataType": "NA"
   },
   {
     "uuid": "5dfda2d1-e897-465b-92bf-50f584868655",
     "name": "Last Outcome after March 2016",
-    "dataType":"NA"   
-  },  
+    "dataType": "NA"
+  },
   {
     "uuid": "5549b00c-d38a-4d9e-a5e4-2538c9feef72",
     "name": "High Risk Mother",
@@ -374,61 +354,53 @@
       {
         "uuid": "47cd1912-8930-444f-95f5-39e326234fa7",
         "name": "Low Calorie intake",
-        "abnormal":true
+        "abnormal": true
       },
       {
         "uuid": "33ca26f8-4ee2-4d2c-989d-96c04d752262",
         "name": "Low Protein intake",
-        "abnormal":true
+        "abnormal": true
       },
-        {
-          "uuid": "5dfda2d1-e897-465b-92bf-50f584868655",
-          "name": "Last Outcome after March 2016",
-          "abnormal": true
-        },
-        {
-          "name": "Low BMI",
-          "uuid": "1faa1253-e4dd-48f1-aea2-c231390f9530",
-          "abnormal": true
-        },
-        {
-          "name": "High BMI",
-          "uuid": "f58ed8eb-1873-4cea-aab2-09cb8b48ada2",
-          "abnormal": true
-        },
-        { 
-         "name": "Whether consumes alcohol",
-         "uuid": "c15969af-d766-4e89-aa55-4c18c75d9236",
-         "abnormal": true
-        },
-        {
-          "name": "Whether consumes tobacco",
-          "uuid": "84127cee-ae0a-4f22-ab0e-f21cd7742d9e",
-          "abnormal": true
-        },
-        {
-          "name": "Congenital anomalies",
-          "uuid": "126e6174-875e-43bc-834c-aebc9044443d",
-          "abnormal": true
-        }
-    ]   
+      {
+        "uuid": "5dfda2d1-e897-465b-92bf-50f584868655",
+        "name": "Last Outcome after March 2016",
+        "abnormal": true
+      },
+      {
+        "name": "Low BMI",
+        "uuid": "1faa1253-e4dd-48f1-aea2-c231390f9530",
+        "abnormal": true
+      },
+      {
+        "name": "High BMI",
+        "uuid": "f58ed8eb-1873-4cea-aab2-09cb8b48ada2",
+        "abnormal": true
+      },
+      {
+        "name": "Whether consumes alcohol",
+        "uuid": "c15969af-d766-4e89-aa55-4c18c75d9236",
+        "abnormal": true
+      },
+      {
+        "name": "Whether consumes tobacco",
+        "uuid": "84127cee-ae0a-4f22-ab0e-f21cd7742d9e",
+        "abnormal": true
+      },
+      {
+        "name": "Congenital anomalies",
+        "uuid": "126e6174-875e-43bc-834c-aebc9044443d",
+        "abnormal": true
+      }
+    ]
   },
-   {
+  {
     "uuid": "51d652d9-3a98-4433-a546-b2ef670c06cf",
     "name": "BMI trend",
-    "dataType":"Text" 
-    },
-    {
+    "dataType": "Text"
+  },
+  {
     "uuid": "e07f9188-58c1-479c-8134-d8d9b5819672",
     "name": "Hb trend",
-    "dataType":"Text"
-    },
-    {
-      "uuid": "ba6ed683-6fd3-4af1-9ca8-e3055fc283fa",
-      "name": "Alcohol consumption"
-      }   ,
-      {
-        "uuid": "f62402b1-7bbe-4413-af0a-c4efd095bc55",
-        "name": "Tobacco consumption"
-        }   
+    "dataType": "Text"
+  }
 ]

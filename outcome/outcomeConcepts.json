@@ -4,21 +4,6 @@
     "name": "Outcome Date",
     "dataType": "Date"
   },
-  {
-    "name": "Last pregnancy outcome",
-    "uuid": "2d43aed4-4ede-4ef7-952c-07b3d6103588",
-    "dataType": "Coded",
-    "answers": [
-      {
-        "uuid": "797c7923-1993-49d9-b759-1706aae62ae9",
-        "name": "Still Birth"
-      },
-      {
-        "uuid": "a032ffce-c9f5-46f8-b89d-f82d5e91fc45"
-      }
-    ]
-  },
-  
    {
     "uuid": "d3066e68-7b1c-4632-a4e7-1990799574d2",
     "name": "Still Birth with Congenital Anomaly"
