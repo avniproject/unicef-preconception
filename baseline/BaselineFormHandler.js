@@ -177,13 +177,12 @@ class BaselineDecision {
         complicationsBuilder.addComplication('Congenital anomalies')
             .when.valueInEnrolment('Congenital anomalies')
             .containsAnyAnswerConceptName("Yes");
-
             
         complicationsBuilder.addComplication('Whether consumes tobacco')
             .when.valueInEnrolment('Whether consumes tobacco')
             .containsAnyAnswerConceptName("Yes");
 
-        complicationsBuilder.addComplication('Alcohol consumption')
+        complicationsBuilder.addComplication('Whether consumes alcohol')
             .when.valueInEnrolment('Whether consumes alcohol')
             .containsAnyAnswerConceptName("Yes");
 

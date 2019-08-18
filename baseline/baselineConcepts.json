@@ -347,6 +347,14 @@
     "dataType": "NA"
   },
   {
+      "uuid": "ba6ed683-6fd3-4af1-9ca8-e3055fc283fa",
+      "name": "Alcohol consumption"
+      }   ,
+      {
+        "uuid": "f62402b1-7bbe-4413-af0a-c4efd095bc55",
+        "name": "Tobacco consumption"
+        } ,  
+  {
     "uuid": "5549b00c-d38a-4d9e-a5e4-2538c9feef72",
     "name": "High Risk Mother",
     "dataType": "Coded",
@@ -390,10 +398,16 @@
         "name": "Congenital anomalies",
         "uuid": "126e6174-875e-43bc-834c-aebc9044443d",
         "abnormal": true
-      }
+      },
+        {
+          "name": "Last pregnancy outcome",
+          "uuid": "2d43aed4-4ede-4ef7-952c-07b3d6103588",
+          "abnormal": true
+        }
     ]
   },
-  {
+  
+   {
     "uuid": "51d652d9-3a98-4433-a546-b2ef670c06cf",
     "name": "BMI trend",
     "dataType": "Text"
@@ -402,5 +416,5 @@
     "uuid": "e07f9188-58c1-479c-8134-d8d9b5819672",
     "name": "Hb trend",
     "dataType": "Text"
-  }
+  }  
 ]
