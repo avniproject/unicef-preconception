@@ -4,7 +4,7 @@ import {RuleFactory} from 'rules-config/rules';
 import RuleHelper from "./RuleHelper";
 
 const visit1Date = ({programEnrolment}) => {
-    return moment(programEnrolment.enrolmentDateTime).startOf('month').add(2, 'months').toDate();
+    return moment(programEnrolment.enrolmentDateTime).startOf('month').add(1, 'months').toDate();
 };
 const scheduleMonthlyMonitoring = (programEncounter, visitSchedule = [], scheduleConfig) => {
     let scheduleBuilder = RuleHelper.createProgramEncounterVisitScheduleBuilder(programEncounter, visitSchedule);
