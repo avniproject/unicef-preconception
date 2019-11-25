@@ -28,8 +28,25 @@ class MonthlyMonitoringEligibility {
     }
 }
 
+@EncounterEligibilityCheck({
+    name: 'OutcomeEligibility',
+    uuid: '31138cf2-adf7-48ba-8582-0da64aa339de',
+    encounterTypeUUID: 'bc03a02d-86c7-4d17-a0ee-44408fd1ed6d',
+    executionOrder: 100.0,
+    metadata: {}
+})
+
+class OutcomeEligibiliOutcomeEligibilityty {
+    static exec({individual}) {
+        const encounters = individual.enrolments[0].getEncountersOfType('Outcome');
+        return encounters && encounters.length < 1;
+    }
+}
+
+
 export {
     Visit1Eligibility,
-    MonthlyMonitoringEligibility
+    MonthlyMonitoringEligibility,
+    OutcomeEligibiliOutcomeEligibilityty
 };
 
