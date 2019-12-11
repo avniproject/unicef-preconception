@@ -414,9 +414,9 @@
     "name": "Pimpalpada",
     "type": "village",
     "level": 1,
-    "nameLineage": "Peint.Jogmodi.Jogmodi.Pimpalpada",
+    "nameLineage": "Peint.Jogmodi.Kupurli Kh.Pimpalpada",
     "parent": {
-      "uuid": "17c440bf-ebcb-4ea3-8cc6-7562cabf8be3"
+      "uuid": "9179b22f-80e9-4533-bc19-cf2b38d37021"
     }
   },
   {
@@ -424,9 +424,9 @@
     "name": "Mendpada",
     "type": "village",
     "level": 1,
-    "nameLineage": "Peint.Jogmodi.Jogmodi.Mendpada",
+    "nameLineage": "Peint.Jogmodi.Kupurli Kh.Mendpada",
     "parent": {
-      "uuid": "17c440bf-ebcb-4ea3-8cc6-7562cabf8be3"
+      "uuid": "9179b22f-80e9-4533-bc19-cf2b38d37021"
     }
   },
   {

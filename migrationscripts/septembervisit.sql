@@ -99,3 +99,22 @@ values
       (jsonb'{}',TIMESTAMPTZ'2019-08-23',TIMESTAMPTZ'2019-09-06',26689,uuid_generate_v4(),1,63,'Visit 13', 34, create_audit((select id from users where username = 'dataimporter@precon'))),
       (jsonb'{}',TIMESTAMPTZ'2019-08-23',TIMESTAMPTZ'2019-09-06',26063,uuid_generate_v4(),1,63,'Visit 13', 34, create_audit((select id from users where username = 'dataimporter@precon')))
 ;
+
+---one visit number is showing multiple times in the app.
+----changed name of of visit
+
+update program_encounter
+set name = case
+               when extract('month' from encounter_date_time)::INTEGER = 8 and
+                    extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 13'
+               when extract('month' from encounter_date_time)::INTEGER = 9 and
+                    extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 14'
+               when extract('month' from encounter_date_time)::INTEGER = 10 and
+                    extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 15'
+               when extract('month' from encounter_date_time)::INTEGER = 11 and
+                    extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 16'
+               when extract('month' from encounter_date_time)::INTEGER = 12 and
+                    extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 17'
+    end
+where encounter_type_id in (select id from encounter_type where name = 'Monthly Monitoring')
+  and encounter_date_time is not null;
