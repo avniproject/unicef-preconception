@@ -101,20 +101,27 @@ values
 ;
 
 ---one visit number is showing multiple times in the app.
-----changed name of of visit
 
-update program_encounter
-set name = case
-               when extract('month' from encounter_date_time)::INTEGER = 8 and
-                    extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 13'
-               when extract('month' from encounter_date_time)::INTEGER = 9 and
-                    extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 14'
-               when extract('month' from encounter_date_time)::INTEGER = 10 and
-                    extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 15'
-               when extract('month' from encounter_date_time)::INTEGER = 11 and
-                    extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 16'
-               when extract('month' from encounter_date_time)::INTEGER = 12 and
-                    extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 17'
-    end
-where encounter_type_id in (select id from encounter_type where name = 'Monthly Monitoring')
-  and encounter_date_time is not null;
+----change in the visit name as per the month
+with audits as (update program_encounter
+    set name = case
+                   when extract('month' from encounter_date_time)::INTEGER = 8 and
+                        extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 13'
+                   when extract('month' from encounter_date_time)::INTEGER = 9 and
+                        extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 14'
+                   when extract('month' from encounter_date_time)::INTEGER = 10 and
+                        extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 15'
+                   when extract('month' from encounter_date_time)::INTEGER = 11 and
+                        extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 16'
+                   when extract('month' from encounter_date_time)::INTEGER = 12 and
+                        extract('year' from encounter_date_time)::INTEGER = 2019 then 'Visit 17'
+                   else name
+        end
+    where encounter_type_id in (select id from encounter_type where name = 'Monthly Monitoring')
+        and encounter_date_time is not null
+        and extract('month' from encounter_date_time) in (8, 9, 10, 11, 12)
+        and extract('year' from encounter_date_time) = 2019
+    returning audit_id)
+update audit set last_modified_date_time = current_timestamp,
+                 last_modified_by_id = (select id from users where username = 'dataimporter@precon')
+where audit.id in (select audit_id from audits);
