@@ -56,14 +56,14 @@
     ]
   },
   {
-    "name": "Live birth weight in kg",
+    "name": "Live birth weight in gms",
     "uuid": "99007f28-a4c2-484f-bf12-e2e9a5976be5",
     "dataType": "Numeric",
-    "lowAbsolute": 1,
-    "lowNormal": 1,
-    "highNormal": 5,
-    "highAbsolute": 5,
-    "unit": "kg"
+    "lowAbsolute": 800,
+    "lowNormal": 800,
+    "highNormal": 5000,
+    "highAbsolute": 5000,
+    "unit": "gms"
   },
   {
     "name": "Gestational age in months for live/ Still birth/ abortion",

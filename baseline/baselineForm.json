@@ -46,7 +46,7 @@
           },
           "displayOrder": 3,
           "mandatory": true
-        }    
+        }
       ]
     },
     {
@@ -61,7 +61,7 @@
           "keyValues": [],
           "concept": {
             "comment": "Gravida",
-            "uuid": "dc2c23e9-19ad-471f-81d1-213069ccc975"            
+            "uuid": "dc2c23e9-19ad-471f-81d1-213069ccc975"
           },
           "displayOrder": 1,
           "validFormat": {
@@ -96,7 +96,7 @@
           "displayOrder": 3,
           "mandatory": false
         },
- 
+
         {
           "name": "Last pregnancy outcome",
           "uuid": "1b194195-37c7-4ffc-bed9-5d041cf70600",
@@ -110,11 +110,11 @@
           "mandatory": false
         },
         {
-          "name": "Live birth- birth weight in kg",
+          "name": "Live birth- birth weight in gms",
           "uuid": "3f041dd4-2bbf-4bca-925a-65a10621d708",
           "keyValues": [],
           "concept": {
-            "comment":"Live birth weight in kg",
+            "comment":"Live birth weight in gms",
             "uuid": "99007f28-a4c2-484f-bf12-e2e9a5976be5"
           },
           "displayOrder": 5,
