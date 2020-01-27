@@ -50,7 +50,7 @@ class BaselineFormHandler {
     }
 
     @WithStatusBuilder
-    liveBirthBirthWeightInKg([], statusBuilder) {
+    liveBirthBirthWeightInGms([], statusBuilder) {
         statusBuilder.show().when.valueInEnrolment('Last pregnancy outcome')
             .containsAnyAnswerConceptName('Live Birth');
     }
