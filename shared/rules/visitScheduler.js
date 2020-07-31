@@ -11,7 +11,7 @@ const scheduleMonthlyMonitoring = (programEncounter, visitSchedule = [], schedul
     let getObservationReadableValue = programEncounter.isCancelled() ? 'findCancelEncounterObservationReadableValue' : 'getObservationReadableValue';
     let followupDate = programEncounter[getObservationReadableValue]('Next monthly Visit Date');
     let visitNumber = Math.ceil(moment(followupDate).endOf('month').diff(visit1Date(programEncounter), 'months', true));
-    if (!_.isNil(followupDate) && visitNumber < 24) {
+    if (!_.isNil(followupDate) && visitNumber < 30) {
         RuleHelper.addSchedule(scheduleBuilder, 'Visit ' + visitNumber, 'Monthly Monitoring', followupDate, 14);
     }
     return scheduleBuilder.getAllUnique("encounterType");
